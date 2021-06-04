@@ -4,10 +4,12 @@
   "description": "Southeast Dreamin' home page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "css-build": "node-sass --output-style compressed --omit-source-map-url sass/main.scss css/main.css",
-    "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "build": "./node_modules/.bin/gulp",
+    "lint-js": "./node_modules/.bin/eslint gulpfile.js gulp/**/*.js",
+    "lint-style": "./node_modules/.bin/stylelint sass/*.scss css/*.css",
+    "lint-yaml": "./node_modules/.bin/yamllint .github/**/*.yml",
+    "lint": "npm run lint-js && npm run lint-style && npm run lint-yaml",
+    "watch": "./node_modules/.bin/gulp watch"
   },
   "repository": {
     "type": "git",
@@ -20,8 +22,21 @@
   },
   "homepage": "https://github.com/SoutheastDreamin/website#readme",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "browserify": "^17.0.0",
     "bulma": "^0.9.2",
+    "config": "^3.3.6",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-bro": "^2.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^4.1.0",
+    "gulp-sitemap": "^8.0.0",
     "node-sass": "^6.0.0",
-    "stylelint": "^13.13.1"
+    "stylelint": "^13.13.1",
+    "yaml-lint": "^1.2.4"
   }
 }

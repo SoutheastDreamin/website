@@ -1,15 +1,11 @@
 @charset "utf-8";
 
-$dark_blue: #5498bc;
-$light_blue: #6bb4e5;
-$dark_yellow: #f4bb3a;
-$light_yellow: #ffc74e;
-
-$primary: $dark_blue;
-$link: $light_blue;
-$info: $dark_yellow;
+@import "_variables.scss";
 
 @import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
 #hero_banner {
     background-color: $light_blue;
