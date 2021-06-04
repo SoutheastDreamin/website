@@ -23,7 +23,7 @@ function sass() {
     const dist_path = path.join(constants.getDistDir(), constants.CSS);
 
     const sass_config = {
-        //outputStyle: 'compressed'
+        outputStyle: 'compressed'
     };
 
     return gulp.src(sass_path())

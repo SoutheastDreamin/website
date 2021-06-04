@@ -57,7 +57,7 @@ function hasJS() {
  * If the config has the font files
  * @returns {Boolean} If the font file list is not an empty array
  */
- function hasFont() {
+function hasFont() {
     return has(SELECTOR_FONT);
 }
 
@@ -94,7 +94,7 @@ function static_css() {
  * Copies the static font files
  * @returns {Stream} A stream for the static font files
  */
- function static_font() {
+function static_font() {
     return static_files(constants.FONT, SELECTOR_FONT);
 }
 
