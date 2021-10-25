@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% import "partials/helpers.html" as helpers %}
+
+{% block content %}
+    <div class="container px-4">
+        <section class="hero">
+            <p class="title">Team</h1>
+            <p class="subtitle">Our team works hard to bring the best event we can to you!</p>
+        </section>
+        <div class="columns is-multiline mt-6">
+            {% for m in data.team %}
+                {{ helpers.staffbio(m.name, m.title, m.bio, m.image, m.links) }}
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,52 @@
+{
+    "team": [
+        {
+            "name": "Kelly Spaulding",
+            "title": "Sponsor Coordinator",
+            "bio": "<p>Trying to learn all things Salesforce and Pardot.  Fascinated by block chain technology.  Lover of yoga, coffee, and travel.</p>",
+            "image": "/img/team/kelly.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/kellyspaulding"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/kelly-spaulding-517807/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/kspaulding"
+                }
+            ]
+        },
+        {
+            "name": "Patrick Connelly",
+            "title": "Session Wrangler",
+            "bio": "<p>Salesforce developer by day and ... also by night.  Proud supporter of open-source.  Photographer, runner and recovering cyclist.</p>",
+            "image": "/img/team/pcon.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/aelst"
+                },
+                {
+                    "icon": "fas fa-blog",
+                    "link": "https://blog.deadlypenguin.com"
+                },
+                {
+                    "icon": "fas fa-globe",
+                    "link": "https://connelly.dev"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/pub/patrick-connelly/28/6b3/b56/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/pcon"
+                }
+            ]
+        }
+    ]
+}

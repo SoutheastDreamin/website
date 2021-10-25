@@ -1,0 +1,35 @@
+{% macro link(icon, url) -%}
+    <a class="level-item" href="{{ url }}">
+        <span class="icon is-small">
+            <i class="{{ icon }}"></i>
+        </span>
+    </a>
+{%- endmacro %}
+
+{% macro staffbio(name, title, bio, img, links) -%}
+    <div class="column is-half">
+        <article class="media mt-2">
+            <figure class="media-left">
+                <p class="image is-128x128">
+                    <img class="is-rounded" src="{{ img }}">
+                </p>
+            </figure>
+            <div class="media-content">
+                <div class="content">
+                    <div class="mb-4">
+                        <h1 class="mb-0">{{ name }}</h1>
+                        <strong>{{ title }}</strong>
+                    </div>
+                    {{ bio | safe }}
+                </div>
+                <nav class="level is-mobile">
+                    <div class="level-left">
+                        {% for l in links %}
+                            {{ link(l.icon, l.link) }}
+                        {% endfor %}
+                    </div>
+                </nav>
+            </div>
+        </article>
+    </div>
+{%- endmacro %}

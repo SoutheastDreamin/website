@@ -7,6 +7,27 @@
 @import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
+body {
+    background-color: $light_blue;
+    min-height: 100%;
+    min-height: 100vh;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#site_wrapper {
+    background-color: $white;
+    min-height: 100%;
+    min-height: 100vh;
+    /* stylelint-disable-next-line unit-allowed-list */
+    padding-bottom: 150px;
+}
+
 #hero_banner {
     background-color: $light_blue;
     background-image: url('/img/skyline.png');
