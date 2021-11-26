@@ -1,6 +1,26 @@
 {
     "team": [
         {
+            "name": "Jackie Travieso",
+            "title": "COVID Proctor",
+            "bio": "<p>Here to keep everyone COVID safe! Fourteen year member of the Salesforce ecosystem. Charlotte Community Group Leader with a passion for connecting people, sharing information, and conquering the word \"no\". Lover of felines and hard cider.</p>",
+            "image": "/img/team/jackie.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/jackieforce"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://linkedin.com/in/jackietravieso/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/jtravieso"
+                }
+            ]
+        },
+        {
             "name": "Kelly Spaulding",
             "title": "Sponsor Coordinator",
             "bio": "<p>Trying to learn all things Salesforce and Pardot.  Fascinated by block chain technology.  Lover of yoga, coffee, and travel.</p>",
