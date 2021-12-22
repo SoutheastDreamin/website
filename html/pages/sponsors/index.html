@@ -2,6 +2,7 @@
 {% import "partials/helpers.html" as helpers %}
 
 {% block content %}
+    {% if globals.display_sponsor_form %}
     <div class="container mx-4">
         <section class="hero">
             <p class="title">Sponsorship</h1>
@@ -140,4 +141,14 @@
             </form>
         </div>
     </div>
+    {% else %}
+    <div class="container mx-4">
+        <section class="hero">
+            <p class="title">Sponsorship</h1>
+        </section>
+        <div class="content mt-6 is-fluid">
+            <p>We are working on planning our next event and are not currently accepting sponsorship applications.  Please check our social media outlets for our call for sponsors</p>
+        </div>
+    </div>
+    {% endif %}
 {% endblock %}
