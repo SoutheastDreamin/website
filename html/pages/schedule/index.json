@@ -1,0 +1,104 @@
+{
+    "general_schedule": [
+        {
+            "date": "Monday June 20th, 2022",
+            "events": [
+                {
+                    "start": "12:30 PM",
+                    "end": "04:30 PM",
+                    "title": "Trailhead-a-thon",
+                    "location": "Keynote Room"
+                },
+                {
+                    "start": "12:30 PM",
+                    "end": "12:45 PM",
+                    "title": "Hands-on Training Check-in",
+                    "location": "Breakout Rooms"
+                },
+                {
+                    "start": "12:45 PM",
+                    "end": "02:15 PM",
+                    "title": "Hands-on Training",
+                    "location": "Breakout Rooms"
+                },
+                {
+                    "start": "02:45 PM",
+                    "end": "03:00 PM",
+                    "title": "Hands-on Training Check-in",
+                    "location": "Breakout Rooms"
+                },
+                {
+                    "start": "03:00 PM",
+                    "end": "04:30 PM",
+                    "title": "Hands-on Training",
+                    "location": "Breakout Rooms"
+                },
+                {
+                    "start": "04:30 PM",
+                    "end": "06:00 PM",
+                    "title": "Happy Hour",
+                    "location": "Expo"
+                }
+            ]
+        },
+        {
+            "date": "Tuesday June 21th, 2022",
+            "events": [
+                {
+                    "start": "08:30 AM",
+                    "end": "09:30 AM",
+                    "title": "Opening Keynote",
+                    "location": "Keynote Room"
+                },
+                {
+                    "start": "10:00 AM",
+                    "end": "10:45 AM",
+                    "title": "Breakout Session #1",
+                    "location": "Breakout Rooms"
+                },
+                {
+                    "start": "11:00 AM",
+                    "end": "12:30 PM",
+                    "title": "Lunch",
+                    "location": ""
+                },
+                {
+                    "start": "12:30 PM",
+                    "end": "01:15 PM",
+                    "title": "Breakout Session #2",
+                    "location": "Breakout Rooms"
+                },
+                {
+                    "start": "01:30 PM",
+                    "end": "01:50 PM",
+                    "title": "Breakout Session #3",
+                    "location": "Breakout Rooms"
+                },
+                {
+                    "start": "01:55 PM",
+                    "end": "02:15 PM",
+                    "title": "Breakout Session #4",
+                    "location": "Breakout Rooms"
+                },
+                {
+                    "start": "02:30 PM",
+                    "end": "03:00 PM",
+                    "title": "Break",
+                    "location": ""
+                },
+                {
+                    "start": "03:00 PM",
+                    "end": "03:45 PM",
+                    "title": "Breakout Session #5",
+                    "location": "Breakout Rooms"
+                },
+                {
+                    "start": "04:15 PM",
+                    "end": "05:00 PM",
+                    "title": "Closing Keynote",
+                    "location": "Keynote Room"
+                }
+            ]
+        }
+    ]
+}

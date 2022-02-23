@@ -33,3 +33,38 @@
         </article>
     </div>
 {%- endmacro %}
+
+{% macro scheduletable(events) -%}
+<table class="table is-striped is-fullwidth is-hidden-mobile">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Location</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+        <tr>
+    </thead>
+    <tbody>
+        {% for e in events %}
+        <tr>
+            <td>{{ e.title }}</td>
+            <td>{{ e.location }}</td>
+            <td>{{ e.start}}</td>
+            <td>{{ e.end }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{%- endmacro %}
+
+{% macro schedulemobile(events) -%}
+<div class="is-hidden-tablet">
+    {% for e in events %}
+    <div class="mt-5 ">
+        <p>{{ e.start }} - {{ e.end }}</p>
+        <p class="pl-4 is-size-4">{{ e.title }}</p>
+        <p class="pl-4 has-text-grey">{{ e.location }}</p>
+    </div>
+    {% endfor %}
+</div>
+{%- endmacro %}

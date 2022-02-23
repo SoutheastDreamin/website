@@ -1,0 +1,70 @@
+{
+    "sections": [
+        {
+            "title": "General",
+            "id": "general",
+            "questions": [
+                {
+                    "question": "Where is Southeast Dreamin' being held?",
+                    "answer": "Southeast Dreamin’ will be held at the Atlanta Marriott Buckhead Hotel & Conference Center in Atlanta Georgia."
+                },
+                {
+                    "question": "How can I get my ticket?",
+                    "answer": "Currently tickets to Southeast Dreamin’ are not available.  Once ticket sales have been opened, we will make announcements on our social media channels."
+                },
+                {
+                    "question": "Are meals included?",
+                    "answer": ""
+                },
+                {
+                    "question": "How can I volunteer at the event?",
+                    "answer": "Throughout the event we will have opportunities for members of the community to volunteer their time and energy.  Currently we do not have any specific opportunities right now, but we will announce some on our social media channels soon."
+                },
+                {
+                    "question": "What is the closest airport to the event?",
+                    "answer": "The closest airport is Hartsfield-Jackson Atlanta International Airport (ATL) located 19mi from the event venue."
+                }
+            ]
+        },
+        {
+            "title": "Sessions & Hands-on Trainings",
+            "id": "sessions",
+            "questions": [
+                {
+                    "question": "How are sessions selected?",
+                    "answer": "After {{ globals.cfp_enddate }} a group of Southeast Dreamin’ team members will be sent an anonymized list of session titles, abstracts and session tracks.  The members will then assign a score from 1 to 5, with 5 being the highest, to each session.  These votes will then be averaged together and applied to the session information.  The session selection team will then pick from the highest rated sessions to build out a rounded schedule that provides enough sessions for each track.  After the sessions have been selected, we will review the session speakers to try to ensure that we give the most community members the opportunity to present."
+                },
+                {
+                    "question": "When will sessions be announced?",
+                    "answer": "Sessions will be posted to the schedule page after {{ globals.cfp_notifdate }} and after all speakers have been confirmed."
+                },
+                {
+                    "question": "How will sessions be announced?",
+                    "answer": "On (or before) {{ globals.cfp_notifdate }} an email will be sent to every community member that submitted a session with the status of the submission.  If you are selected, we will verify your availability and finalize the schedule.  If you are not selected, we may reach out to you after the notification date if one of our selected speakers becomes unavailable."
+                },
+                {
+                    "question": "How are hands-on trainings selected?",
+                    "answer": "Because of the time commitment and the high technical requirements for presenting hands-on training, selections for submitted hands-on training are not done blind. The session selection team will review all submitted trainings and select topics that meet our community’s needs as well as being run by a skilled presenter.  If we see similar trainings being proposed by multiple people, we may approach these community members to see if they are willing to work together to provide a single training session."
+                }
+            ]
+        },
+        {
+            "title": "Hotel",
+            "id": "hotel",
+            "questions": [
+                {
+                    "question": "Is there parking at the hotel?",
+                    "answer": "There is on-site parking available at the hotel for a daily rate of $35 and an hourly rate of $10.  The hotel does also provide an electric car charging station."
+                },
+                {
+                    "question": "How do I reserve a hotel room?",
+                    "answer": "Currently our hotel block is not available for reservation.  This will change once we open Southeast Dreamin’ for registration."
+                },
+                {
+                    "question": "What's the best way to get to the hotel from the airport?",
+                    "answer": "You can take a taxi or rideshare to the hotel from the airport however, traffic in the Atlanta area is notoriously bad and can be significantly longer than the advertised 40 minute drive. There is a MARTA stop located within walking distance from the hotel that should take approximately 35 minutes to take.  Simply take the gold line from the airport to Lenox station.  Exit the station and travel 0.2mi north along Lenox Rd NE to the hotel."
+                }
+            ]
+        }
+    ]
+}

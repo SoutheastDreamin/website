@@ -1,27 +1,20 @@
 {% extends "layout.html" %}
 
 {% block content %}
-    <div class="container">
+    <div class="container mx-4">
         <section class="hero">
             <p class="title">Frequently Asked Questions</p>
         </section>
-        <div class="content">
+        <div class="content mt-6">
+            {% for section in data.sections %}
+            <h2 class="title is-3"><a id="{{ section.id }}"></a>{{ section.title }}</h2>
             <dl>
-                <dt>Where is Southeast Dreamin' being held?</dt>
-                <dd>Marriot</dd>
-                <dt>How can I get my ticket?</dt>
-                <dd></dd>
-                <dt>Is there parking at the hotel?</dt>
-                <dd></dd>
-                <dt>Are meals included?</dt>
-                <dd></dd>
-                <dt>How do I reserve a hotel room?</dt>
-                <dd></dd>
-                <dt>What's the best way to get to the hotel from the airport?</dt>
-                <dd></dd>
-                <dt>How can I volunteer at the event?</dt>
-                <dd></dd>
+                {% for question in section.questions %}
+                <dt class="title is-5 mt-4 mb-1">{{ question.question }}</dt>
+                <dd>{{ question.answer | replace("{{ globals.cfp_notifdate }}", globals.cfp_notifdate) | replace("{{ globals.cfp_enddate }}", globals.cfp_enddate)}}</dd>
+                {% endfor %}
             </dl>
+            {% endfor %}
         </div>
     </div>
 {% endblock %}
