@@ -30,7 +30,7 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-    <title>Southeast Dreamin' &mdash; Call for Presentations</title>
+    <title>Southeast Dreamin' &mdash; Hands-on Training</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
 
@@ -67,15 +67,18 @@
     <div class="container mx-4">
         
             <section class="hero">
-                <p class="title">Call for Presentations</h1>
-                <p class="subtitle">Call for presentations closes on March 31st 2022.</p>
+                <p class="title">Hands-on Training</h1>
+                <p class="subtitle">Call for hands-on trainings closes on March 31st 2022.</p>
+
+                <p>All hands-on trainings will be 90 minutes in length and will be held on June 20th 2022.  Depending on the quantity of trainings we select and the expected popularity of a training, you may be asked to lead the training twice.</p>
+                <p>For more information on how hands-on trainings are selected, please review our <a href="/faq#sessions">FAQ</a>
             </section>
             <div class="content mt-6 is-fluid">
                 <div id="submitted" class="is-hidden">
                     Thank you for you submission!  If you would like to submit another session, please refresh this page and fill out the form again.  We will notify everyone the status of their submission after submissions close on March 31st 2022 and before April 7th 2022.
                 </div>
-                <form id="cfp">
-                    <fieldset id="cfp_fieldset">
+                <form id="hot">
+                    <fieldset id="hot_fieldset">
                         <div class="field is-horizontal">
                             <div class="field-label is-normal">
                                 <label class="label">Name</label>
@@ -149,14 +152,14 @@
 
                         <div class="field is-horizontal">
                             <div class="field-label is-normal">
-                                <label class="label">Session Title</label>
+                                <label class="label">Training Title</label>
                             </div>
                             <div class="field-body">
                                 <div class="field">
                                     <p class="control is-narrow">
                                         <input
                                             class="input"
-                                            placeholder="Session Title"
+                                            placeholder="Training Title"
                                             id="session_title"
                                             maxlength="40"
                                             name="session_title"
@@ -168,36 +171,18 @@
 
                         <div class="field is-horizontal">
                             <div class="field-label is-normal">
-                                <label class="label">Session Details</label>
+                                <label class="label">Training Abstract</label>
                             </div>
-
                             <div class="field-body">
                                 <div class="field">
                                     <div class="control">
-                                        <div class="select is-fullwidth">
-                                            <select name="track" id="track">
-                                                <option value="">Audience</option>
-                                                <option value="admin">Administrators</option>
-                                                <option value="architect">Architects</option>
-                                                <option value="dev">Developers</option>
-                                                <option value="end_users">End Users</option>
-                                                <option value="exec">Executives</option>
-                                                <option value="marketing">Marketing Cloud / Pardot</option>
-                                                <option value="non_profit">Non-Profit</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="field">
-                                    <div class="control">
-                                        <div class="select is-fullwidth">
-                                            <select name="length" id="length">
-                                                <option value="">Length</option>
-                                                <option value="short">15-25 Minutes</option>
-                                                <option value="long">25-45 Minutes</option>
-                                            </select>
-                                        </div>
+                                        <textarea
+                                            class="textarea"
+                                            placeholder="Training Abstract"
+                                            id="session_abstract"
+                                            maxlength="32000"
+                                            name="session_abstract"
+                                        ></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -205,17 +190,17 @@
 
                         <div class="field is-horizontal">
                             <div class="field-label is-normal">
-                                <label class="label">Session Abstract</label>
+                                <label class="label">Speaker Info</label>
                             </div>
                             <div class="field-body">
                                 <div class="field">
                                     <div class="control">
                                         <textarea
                                             class="textarea"
-                                            placeholder="Session Abstract"
-                                            id="session_abstract"
+                                            placeholder="More information about yourself and why and how you developed this training"
+                                            id="speaker_info"
                                             maxlength="32000"
-                                            name="session_abstract"
+                                            name="speaker_info"
                                         ></textarea>
                                     </div>
                                 </div>
@@ -232,7 +217,7 @@
                         </div>
                     </fieldset>
                 </form>
-                <script src="/js/cfp.js"></script>
+                <script src="/js/hot.js"></script>
             </div>
         
     </div>
