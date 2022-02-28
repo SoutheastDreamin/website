@@ -4,7 +4,8 @@
 
 {% block content %}
     <div class="container mx-4">
-        <h1 class="title">Schedule</h1>
+        <h1 class="title is-1">Schedule</h1>
+        <h2 class="subtitle is-6">This schedule has not been finalized and may be subject to change</h2>
         {% for d in data.general_schedule %}
         <h2 class="is-size-4 has-text-weight-bold mt-5">{{ d.date }}</h2>
         {{ helpers.scheduletable(d.events) }}
