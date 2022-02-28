@@ -67,6 +67,26 @@
                     "link": "https://trailblazer.me/id/pcon"
                 }
             ]
+        },
+        {
+            "name": "Gloria Ramchandani",
+            "title": "Speaker Events &amp; Keynotes",
+            "bio": "<p>Salesforce DevOps Strategy &amp; Business Process ninja. Proud supporter of the Business Analyst movement. Mom of 2, Bollywood Enthusiast, Runner.</p>",
+            "image": "/img/team/gloria.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/ThisIsTechChat"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/gloriarama/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/gramchandani"
+                }
+            ]
         }
     ]
 }

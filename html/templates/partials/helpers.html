@@ -18,7 +18,7 @@
                 <div class="content">
                     <div class="mb-4">
                         <h1 class="mb-0">{{ name }}</h1>
-                        <strong>{{ title }}</strong>
+                        <strong>{{ title | safe }}</strong>
                     </div>
                     {{ bio | safe }}
                 </div>
