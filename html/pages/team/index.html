@@ -8,9 +8,15 @@
             <p class="title">Team</h1>
             <p class="subtitle">Our team works hard to bring the best event we can to you!</p>
         </section>
-        <div class="columns is-multiline mt-6">
+        <div class="columns is-multiline mt-6 is-hidden-mobile">
             {% for m in data.team %}
                 {{ helpers.staffbio(m.name, m.title, m.bio, m.image, m.links) }}
+            {% endfor %}
+        </div>
+        <div class="columns is-multiline mt-2 is-hidden-tablet">
+            {% set cls = cycler("left", "right") %}
+            {% for m in data.team %}
+                {{ helpers.staffbiomobile(m.name, m.title, m.bio, m.image, m.links, cls.next()) }}
             {% endfor %}
         </div>
     </div>
