@@ -87,6 +87,26 @@
                     "link": "https://trailblazer.me/id/gramchandani"
                 }
             ]
+        },
+        {
+            "name": "Kristi Campbell",
+            "title": "Head Cat Herder",
+            "bio": "<p>Kristi met Salesforce in 2007 and it didn’t take long for her to ask process improvement questions and become an Accidental Admin. A frequent User Group attendee, she started the Charlotte Women In Tech chapter and Salesforce Saturday meetup. She is a Salesforce MVP, a swagaholic, a voracious reader and addicted to dog snuggles.</p>",
+            "image": "/img/team/kristi_alt.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/KristiForce"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/kristiforce/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/kristiforce"
+                }
+            ]
         }
     ]
 }
