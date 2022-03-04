@@ -23,6 +23,10 @@
                 {
                     "question": "What is the closest airport to the event?",
                     "answer": "The closest airport is Hartsfield-Jackson Atlanta International Airport (ATL) located 19mi from the event venue."
+                },
+                {
+                    "question": "What is your ticket refund policy?",
+                    "answer": "Currently we do not have a defined refund policy.  We are working on defining this and will update this space once it is finalized."
                 }
             ]
         },
