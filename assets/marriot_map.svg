@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="875.53052"
+   height="901.85535"
+   viewBox="0 0 231.65078 238.6159"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="marriot_map.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="167.102"
+     inkscape:cy="591.25689"
+     inkscape:document-units="px"
+     inkscape:current-layer="g953"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:object-paths="true"
+     inkscape:snap-bbox="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="2048"
+     inkscape:window-height="1113"
+     inkscape:window-x="1080"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px"
+     fit-margin-top="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     fit-margin-left="10">
+    <sodipodi:guide
+       position="179.48985,67.266739"
+       orientation="1,0"
+       id="guide1172" />
+    <sodipodi:guide
+       position="177.49949,32.7202"
+       orientation="0,-1"
+       id="guide1278" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="g953"
+     inkscape:label="Buckhead_B"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <path
+       id="buckhead_b_bg"
+       style="fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="M 30.669992,226.26642 H 106.13753 V 180.14449 H 33.724407 v 30.84646 h -3.054416 z"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:label="#buckhead_b_bg" />
+    <path
+       id="path951"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="M 58.047862,226.26642 H 82.62276 m 14.368233,0 h 9.146537 V 180.14449 H 33.724407 v 30.84647 h -3.054416 v 15.27546 h 13.418633"
+       sodipodi:nodetypes="cccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="52.869839"
+       y="204.74644"
+       id="text957"><tspan
+         sodipodi:role="line"
+         id="tspan955"
+         x="52.869839"
+         y="204.74644"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.264583">BUCKHEAD B</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Buckhead_A"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <path
+       id="buckhead_a_bg"
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 30.669992,134.02255 h 75.467538 v 46.12193 H 33.724407 v -30.84646 h -3.054416 z"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:label="#buckhead_a_bg" />
+    <path
+       id="rect948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="M 58.047862,134.02256 H 82.62276 m 14.368233,0 h 9.146537 v 46.12193 H 33.724407 v -30.84647 h -3.054416 v -15.27546 h 13.418633"
+       sodipodi:nodetypes="cccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="52.706539"
+       y="158.62451"
+       id="text957-8"><tspan
+         sodipodi:role="line"
+         id="tspan955-1"
+         x="52.706539"
+         y="158.62451"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.264583">BUCKHEAD A</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Ballroom"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <path
+       id="ballroom_bg"
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 3.719229,27.649714 48.101533,-1e-6 v -4.10399 h 33.4421 v 4.10399 l 55.369228,1e-6 v 66.96276 H 107.5639 V 105.95458 H 93.23876 v 5.00582 H 43.730521 v -5.00582 H 30.620566 V 94.612474 H 3.719229 Z"
+       sodipodi:nodetypes="ccccccccccccccccc"
+       inkscape:label="#ballroom_bg" />
+    <path
+       id="rect984"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:1.05833;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="M 80.857662,110.9604 H 55.495017 m -6.303199,0 h -5.461297 v -5.00582 H 30.620566 V 94.612474 h -4.442263 m -7.166229,0 H 3.719229 V 27.649713 h 48.101533 v -4.10399 h 33.4421 v 4.10399 H 140.6321 v 66.962761 h -22.55779 m -5.88688,0 H 107.5639 V 105.95458 H 93.23876 v 5.00582 h -6.393276"
+       sodipodi:nodetypes="cccccccccccccccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="46.420155"
+       y="68.794052"
+       id="text957-8-9"><tspan
+         sodipodi:role="line"
+         id="tspan955-1-3"
+         x="46.420155"
+         y="68.794052"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.264583">HERITAGE BALLROOM</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Savannah"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <path
+       id="savannah_bg"
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 106.13753,134.02255 34.88391,1e-5 v 23.20295 h 9.79704 v 6.5931 h -44.68095 z"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:label="#savannah_bg" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="123.62186"
+       y="150.46158"
+       id="text957-8-8"><tspan
+         sodipodi:role="line"
+         id="tspan955-1-0"
+         x="123.62186"
+         y="150.46158"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">SAVANNAH</tspan></text>
+    <path
+       id="rect1140-4"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 150.81848,161.24279 v 2.57583 h -44.68095 v -29.79606 h 34.88391 v 23.20295 h 9.79704"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Augusta"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <path
+       id="augusta_bg"
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 106.13753,163.81862 h 44.68095 v 5.14378 l 3.34831,0.0482 v 21.70575 h -3.34831 v 4.69411 h -44.68095 z"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:label="#augusta_bg" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="130.15216"
+       y="181.15553"
+       id="text957-8-2"><tspan
+         sodipodi:role="line"
+         id="tspan955-1-1"
+         x="130.15216"
+         y="181.15553"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">AUGUSTA</tspan></text>
+    <path
+       id="rect1140"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 150.81848,194.26928 v 1.14118 h -44.68095 v -31.59184 h 44.68095 v 1.24044 m 0,3.90334 3.34831,0.0482 v 21.70575 h -3.34831 v 1.00353"
+       sodipodi:nodetypes="ccccccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="Suwannee"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <path
+       id="suwannee_bg"
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 106.13753,195.41048 h 44.68095 v 4.48009 h 3.34831 v 22.42309 h -3.34831 v 3.95275 h -44.68095 z"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:label="#suwannee_bg" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="129.31386"
+       y="213.61935"
+       id="text957-8-0"><tspan
+         sodipodi:role="line"
+         id="tspan955-1-5"
+         x="129.31386"
+         y="213.61935"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">SUWANNEE</tspan></text>
+    <path
+       id="rect1140-2"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 150.81848,199.03931 v 0.85126 h 3.34831 v 22.42309 h -3.34831 m 0,3.37232 v 0.58044 h -44.68095 v -30.85594 h 44.68095 v 0.91701"
+       sodipodi:nodetypes="ccccccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="Atlanta"
+     style="display:inline"
+     transform="translate(28.671366,-20.370725)"
+     sodipodi:insensitive="true">
+    <rect
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="atlanta_bg"
+       width="31.216702"
+       height="25.9986"
+       x="168.58772"
+       y="200.26781"
+       inkscape:label="#atlanta_bg" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="184.19608"
+       y="214.55299"
+       id="text957-8-85"><tspan
+         sodipodi:role="line"
+         id="tspan955-1-06"
+         x="184.19608"
+         y="214.55299"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">ATLANTA</tspan></text>
+    <path
+       id="rect1195-0-6-2"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 168.58772,222.04107 v -21.77325 h 31.2167 v 25.9986 h -36.93224"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="Marietta"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <rect
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="marietta_bg"
+       width="31.216702"
+       height="31.53121"
+       x="168.58772"
+       y="168.73662"
+       inkscape:label="#marietta_bg" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="184.04277"
+       y="185.7881"
+       id="text957-8-4"><tspan
+         sodipodi:role="line"
+         id="tspan955-1-6"
+         x="184.04277"
+         y="185.7881"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">MARIETTA</tspan></text>
+    <path
+       id="rect1195-0-6"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 168.58772,196.04247 v -27.30586 h 31.2167 v 31.53121 h -31.2167"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Dahlonega"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <rect
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="rect1286"
+       width="31.216705"
+       height="31.531204"
+       x="168.58772"
+       y="137.2054"
+       inkscape:label="#dahlonega_bg" />
+    <rect
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="dahlonega_bg"
+       width="31.216702"
+       height="31.53121"
+       x="168.58772"
+       y="137.2054"
+       inkscape:label="#dahlonega_bg" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="184.0121"
+       y="154.51199"
+       id="text957-8-1"><tspan
+         sodipodi:role="line"
+         id="tspan955-1-10"
+         x="184.0121"
+         y="154.51199"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">DAHLONEGA</tspan></text>
+    <path
+       id="rect1195"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="M 168.58772,164.51126 V 137.2054 h 31.2167 v 31.53121 h -31.2167"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="Oglethorpe"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <rect
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="oglethorpe_bg"
+       width="31.216709"
+       height="31.531208"
+       x="168.58772"
+       y="105.67419"
+       inkscape:label="#oglethorpe_bg" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="184.23741"
+       y="122.72395"
+       id="text957-8-25"><tspan
+         sodipodi:role="line"
+         id="tspan955-1-8"
+         x="184.23741"
+         y="122.72395"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">OGLETHORPE</tspan></text>
+    <path
+       id="rect1195-0"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 168.58772,132.98005 v -27.30586 h 31.2167 v 31.53121 h -31.2167"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer14"
+     inkscape:label="Restroom_Men_B"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <path
+       id="restroom_men_b_bg"
+       style="fill:#ffffff;stroke:none;stroke-width:1.05834;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m -4.259017,215.05887 h 17.088005 v 40.75274 H -4.259017 Z"
+       inkscape:label="restroom_men_b_bg" />
+    <path
+       id="rect1363"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:1.05834;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 5.4392214,215.05887 h 7.3897666 v 40.75274 H -4.259017 v -40.75274 h 2.3897835"
+       sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:1;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="4.2855883"
+       y="235.04976"
+       id="text957-8-6-0"><tspan
+         sodipodi:role="line"
+         id="tspan955-1-2-8"
+         x="4.2855883"
+         y="235.04976"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.46944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">MENS</tspan><tspan
+         sodipodi:role="line"
+         x="4.2855883"
+         y="237.61856"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.46944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan1347-1">RESTROOM</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer15"
+     inkscape:label="Restroom_Women_B"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <rect
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="restroom_women_b_bg"
+       width="21.237347"
+       height="40.752739"
+       x="-25.496363"
+       y="215.05887"
+       inkscape:label="restroom_women_b_bg" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:1;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-14.877087"
+       y="235.04974"
+       id="text957-8-6-3"><tspan
+         sodipodi:role="line"
+         id="tspan955-1-2-1"
+         x="-14.877087"
+         y="235.04974"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.46944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">WOMENS</tspan><tspan
+         sodipodi:role="line"
+         x="-14.877087"
+         y="237.61855"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.46944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan1347-10">RESTROOM</tspan></text>
+    <path
+       id="rect1363-4"
+       style="fill:none;stroke:#000000;stroke-width:1.05834;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m -7.5099632,215.05887 h 3.2509462 v 40.75274 h -21.237346 v -40.75274 h 11.131648"
+       sodipodi:nodetypes="cccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="Restroom_Men_A"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <path
+       id="restroom_mens_a_bg"
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 121.52003,114.08229 h 36.04273 v 13.46352 h -7.27712 v 6.47675 h -28.76561 z"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:label="#restroom_mens_a_bg" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:1;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="139.54199"
+       y="123.66694"
+       id="text957-8-6"><tspan
+         sodipodi:role="line"
+         id="tspan955-1-2"
+         x="139.54199"
+         y="123.66694"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.46944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">MENS</tspan><tspan
+         sodipodi:role="line"
+         x="139.54199"
+         y="126.23573"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.46944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan1347">RESTROOM</tspan></text>
+    <path
+       id="rect1351"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 150.28564,134.02256 h -28.76561 v -19.94027 h 36.04273 v 13.46352 h -7.27712 v 1.03517"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="Restroom_Women_A"
+     style="display:inline"
+     sodipodi:insensitive="true"
+     transform="translate(28.671366,-20.370725)">
+    <rect
+       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       id="restroom_women_a_bg"
+       width="16.54133"
+       height="23.20295"
+       x="141.02144"
+       y="134.02255"
+       inkscape:label="#restroom_women_a_bg" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:1;font-family:'Coinage Caps Kruger Gray';-inkscape-font-specification:'Coinage Caps Kruger Gray';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="149.29271"
+       y="145.23854"
+       id="text957-8-84"><tspan
+         sodipodi:role="line"
+         id="tspan955-1-7"
+         x="149.29271"
+         y="145.23854"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.46944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583">WOMENS</tspan><tspan
+         sodipodi:role="line"
+         x="149.29271"
+         y="147.80734"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.46944px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         id="tspan1325">RESTROOM</tspan></text>
+    <path
+       id="restroom_women_a"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.05833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+       d="m 154.22368,134.02256 h 3.33909 v 23.20295 h -16.54133 v -23.20295 h 9.2642 v -1.77918"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+</svg>
