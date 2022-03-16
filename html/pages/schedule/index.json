@@ -7,7 +7,7 @@
                     "start": "12:30 PM",
                     "end": "04:30 PM",
                     "title": "Trailhead-a-thon",
-                    "location": "Keynote Room"
+                    "location": "Heritage Ballroom"
                 },
                 {
                     "start": "12:30 PM",
@@ -37,7 +37,7 @@
                     "start": "04:30 PM",
                     "end": "06:00 PM",
                     "title": "Networking Reception",
-                    "location": "Expo"
+                    "location": "Buckhead A & B"
                 }
             ]
         },
@@ -48,7 +48,7 @@
                     "start": "08:30 AM",
                     "end": "09:30 AM",
                     "title": "Opening Keynote",
-                    "location": "Keynote Room"
+                    "location": "Heritage Ballroom"
                 },
                 {
                     "start": "10:00 AM",
@@ -96,7 +96,7 @@
                     "start": "04:15 PM",
                     "end": "05:00 PM",
                     "title": "Closing Keynote",
-                    "location": "Keynote Room"
+                    "location": "Heritage Ballroom"
                 }
             ]
         }

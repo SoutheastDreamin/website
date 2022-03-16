@@ -37,6 +37,8 @@
             "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
         ],
         "js": [],
-        "css": []
+        "css": [
+            "node_modules/leaflet/dist/leaflet.css"
+        ]
     }
 }

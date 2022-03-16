@@ -3,6 +3,7 @@
 {% import "partials/helpers.html" as helpers %}
 
 {% block content %}
+    <link rel="stylesheet" href="/css/leaflet.css">
     <div class="container mx-4">
         <h1 class="title is-1">Schedule</h1>
         <h2 class="subtitle is-6">This schedule has not been finalized and may be subject to change</h2>
@@ -11,5 +12,7 @@
         {{ helpers.scheduletable(d.events) }}
         {{ helpers.schedulemobile(d.events) }}
         {% endfor %}
+        <div id="map" class="mt-5"></div>
     </div>
+    <script src="/js/map.js"></script>
 {% endblock %}

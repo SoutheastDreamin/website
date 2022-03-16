@@ -60,3 +60,9 @@ footer {
 .navbar-menu {
     box-shadow: none !important;
 }
+
+#map {
+    /* stylelint-disable-next-line unit-allowed-list */
+    height: 600px;
+    background-color: #fafafa;
+}
