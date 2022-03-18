@@ -1,7 +1,8 @@
 {
     "team": [
         {
-            "name": "Jackie Travieso",
+            "firstname": "Jackie",
+            "lastname": "Travieso",
             "title": "COVID Proctor",
             "bio": "<p>Here to keep everyone COVID safe! Fourteen year member of the Salesforce ecosystem. Charlotte Community Group Leader with a passion for connecting people, sharing information, and conquering the word \"no\". Lover of felines and hard cider.</p>",
             "image": "/img/team/jackie.jpg",
@@ -21,7 +22,8 @@
             ]
         },
         {
-            "name": "Kelly Spaulding",
+            "firstname": "Kelly",
+            "lastname": "Spaulding",
             "title": "Sponsor Coordinator",
             "bio": "<p>Trying to learn all things Salesforce and Pardot.  Fascinated by block chain technology.  Lover of yoga, coffee, and travel.</p>",
             "image": "/img/team/kelly.jpg",
@@ -41,7 +43,8 @@
             ]
         },
         {
-            "name": "Patrick Connelly",
+            "firstname": "Patrick",
+            "lastname": "Connelly",
             "title": "Session Wrangler",
             "bio": "<p>Salesforce developer by day and ... also by night.  Proud supporter of open-source.  Photographer, runner and recovering cyclist.</p>",
             "image": "/img/team/pcon.jpg",
@@ -69,7 +72,8 @@
             ]
         },
         {
-            "name": "Gloria Ramchandani",
+            "firstname": "Gloria",
+            "lastname": "Ramchandani",
             "title": "Speaker Events &amp; Keynotes",
             "bio": "<p>Salesforce DevOps Strategy &amp; Business Process ninja. Proud supporter of the Business Analyst movement. Mom of 2, Bollywood Enthusiast, Runner.</p>",
             "image": "/img/team/gloria.jpg",
@@ -89,7 +93,8 @@
             ]
         },
         {
-            "name": "Kristi Campbell",
+            "firstname": "Kristi",
+            "lastname": "Campbell",
             "title": "Head Cat Herder",
             "bio": "<p>Kristi met Salesforce in 2007 and it didn’t take long for her to ask process improvement questions and become an Accidental Admin. A frequent User Group attendee, she started the Charlotte Women In Tech chapter and Salesforce Saturday meetup. She is a Salesforce MVP, a swagaholic, a voracious reader and addicted to dog snuggles.</p>",
             "image": "/img/team/kristi_alt.jpg",
@@ -109,7 +114,8 @@
             ]
         },
         {
-            "name": "Phillip Southern",
+            "firstname": "Phillip",
+            "lastname": "Southern",
             "title": "Content and Tech Team",
             "bio": "<p>Salesforce MVP and Developer Group Leader.  Founder of clicks 2 code, a Salesforce partner.</p>",
             "image": "/img/team/phillip.jpg",
@@ -121,6 +127,27 @@
                 {
                     "icon": "fab fa-linkedin",
                     "link": "https://www.linkedin.com/in/phillipsouthern/"
+                }
+            ]
+        },
+        {
+            "firstname": "Chris",
+            "lastname": "Zullo",
+            "title": "Bad Marketer",
+            "bio": "<p>Salesforce MVP, Marketing Champion, and Partner. Transplanted Bostonian. Family guy. Dogs > cats.</p>",
+            "image": "/img/team/chris.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/chriszullo"
+                },
+                {
+                    "icon": "fas fa-blog",
+                    "link": "https://chriszullo.wordpress.com/"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/zullochristopher/"
                 }
             ]
         }
