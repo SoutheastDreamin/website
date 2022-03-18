@@ -107,6 +107,22 @@
                     "link": "https://trailblazer.me/id/kristiforce"
                 }
             ]
+        },
+        {
+            "name": "Phillip Southern",
+            "title": "Content and Tech Team",
+            "bio": "<p>Salesforce MVP and Developer Group Leader.  Founder of clicks 2 code, a Salesforce partner.</p>",
+            "image": "/img/team/phillip.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/phillip__s"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/phillipsouthern/"
+                }
+            ]
         }
     ]
 }
