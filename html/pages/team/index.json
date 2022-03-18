@@ -148,6 +148,10 @@
                 {
                     "icon": "fab fa-linkedin",
                     "link": "https://www.linkedin.com/in/zullochristopher/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/chriszullo"
                 }
             ]
         }
