@@ -154,6 +154,40 @@
                     "link": "https://trailblazer.me/id/chriszullo"
                 }
             ]
+        },
+        {
+            "firstname": "Karmel",
+            "lastname": "James",
+            "title": "Magic Marketer",
+            "bio": "<p>#AwesomeAdmin turned consultant who listens to music like a fish lives in water. Currently lives out of her suitcase traveling the US</p>",
+            "image": "/img/team/karmel.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/armejam44"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/karmelnjames/"
+                }
+            ]
+        },
+        {
+            "firstname": "Stephanie",
+            "lastname": "Foerst",
+            "title": "Sponsor Sales & Gopher",
+            "bio": "<p>Salesforce Consultant @ Slalom. Salesforce MVP, Atlanta WIT Co-Leader.</p>",
+            "image": "/img/team/stephanie.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/stephaniefoerst"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/stephaniefoerst/"
+                }
+            ]
         }
     ]
 }
