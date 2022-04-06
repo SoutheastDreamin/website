@@ -1,37 +1,57 @@
 {
-    "sponsors_types": [
+    "sponsor_types": [
+        {
+            "type": "platinum",
+            "homepage": true,
+            "full": true,
+            "sponsors": []
+        },
         {
             "type": "gold",
-            "sponsors": [
-                {
-                    "name": "Formstack",
-                    "logo": "",
-                    "url": ""
-                },
-                {
-                    "name": "Metazoa",
-                    "logo": "",
-                    "url": ""
-                }
-            ]
+            "homepage": true,
+            "full": false,
+            "sponsors": []
         },
         {
             "type": "silver",
+            "homepage": true,
+            "full": false,
             "sponsors": [
                 {
                     "name": "Coastal Cloud",
-                    "logo": "",
-                    "url": ""
+                    "description": "Coastal Cloud is a Salesforce Multi-Cloud Expert Partner with deep experience across all aspects of a business: Marketing, Sales, Revenue, Billing, Service, Field Service, Community, Customer Success, ERP, Finance & Accounting, and Nonprofit Success Pack. Coastal Cloud is #1 on G2.com and maintains a 5 Star Salesforce AppExchange rating.",
+                    "logo": "/img/sponsors/coastalcloud.png",
+                    "url": "https://coastalcloud.us/"
                 },
                 {
-                    "name": "Deloitte",
-                    "logo": "",
-                    "url": ""
+                    "name": "Coastal Cloud",
+                    "description": "Coastal Cloud is a Salesforce Multi-Cloud Expert Partner with deep experience across all aspects of a business: Marketing, Sales, Revenue, Billing, Service, Field Service, Community, Customer Success, ERP, Finance & Accounting, and Nonprofit Success Pack. Coastal Cloud is #1 on G2.com and maintains a 5 Star Salesforce AppExchange rating.",
+                    "logo": "/img/sponsors/coastalcloud.png",
+                    "url": "https://coastalcloud.us/"
                 },
                 {
-                    "name": "Southern Cloud Solutions Corporation",
-                    "logo": "",
-                    "url": ""
+                    "name": "Coastal Cloud",
+                    "description": "Coastal Cloud is a Salesforce Multi-Cloud Expert Partner with deep experience across all aspects of a business: Marketing, Sales, Revenue, Billing, Service, Field Service, Community, Customer Success, ERP, Finance & Accounting, and Nonprofit Success Pack. Coastal Cloud is #1 on G2.com and maintains a 5 Star Salesforce AppExchange rating.",
+                    "logo": "/img/sponsors/coastalcloud.png",
+                    "url": "https://coastalcloud.us/"
+                },
+                {
+                    "name": "Coastal Cloud",
+                    "description": "Coastal Cloud is a Salesforce Multi-Cloud Expert Partner with deep experience across all aspects of a business: Marketing, Sales, Revenue, Billing, Service, Field Service, Community, Customer Success, ERP, Finance & Accounting, and Nonprofit Success Pack. Coastal Cloud is #1 on G2.com and maintains a 5 Star Salesforce AppExchange rating.",
+                    "logo": "/img/sponsors/coastalcloud.png",
+                    "url": "https://coastalcloud.us/"
+                },
+                {
+                    "name": "Coastal Cloud",
+                    "description": "Coastal Cloud is a Salesforce Multi-Cloud Expert Partner with deep experience across all aspects of a business: Marketing, Sales, Revenue, Billing, Service, Field Service, Community, Customer Success, ERP, Finance & Accounting, and Nonprofit Success Pack. Coastal Cloud is #1 on G2.com and maintains a 5 Star Salesforce AppExchange rating.",
+                    "logo": "/img/sponsors/coastalcloud.png",
+                    "url": "https://coastalcloud.us/"
+                },
+                {
+                    "name": "Coastal Cloud",
+                    "description": "Coastal Cloud is a Salesforce Multi-Cloud Expert Partner with deep experience across all aspects of a business: Marketing, Sales, Revenue, Billing, Service, Field Service, Community, Customer Success, ERP, Finance & Accounting, and Nonprofit Success Pack. Coastal Cloud is #1 on G2.com and maintains a 5 Star Salesforce AppExchange rating.",
+                    "logo": "/img/sponsors/coastalcloud.png",
+                    "url": "https://coastalcloud.us/"
                 }
             ]
         }
