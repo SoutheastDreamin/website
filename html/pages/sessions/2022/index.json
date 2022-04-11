@@ -352,10 +352,12 @@
             "speaker": {
                 "first_name": "Andrew",
                 "last_name": "Nerney",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                "pronouns": "He / Him",
+                "title": "Solution Engineer",
+                "company": "ScreenMeet",
+                "image": "/img/sessions/2022/speakers/nerney.jpg",
+                "first_talk": true,
+                "first_sed": true
             }
         },
         {
