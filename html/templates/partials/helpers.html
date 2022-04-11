@@ -96,7 +96,7 @@
         <tbody>
             {% for e in events %}
             <tr>
-                <td>{{ e.title }}</td>
+                {% if e.slot %}<td><a href="#{{ e.slot }}">{{ e.title }}</a></td>{% else %}<td>{{ e.title }}</td>{% endif %}
                 <td>{{ e.location }}</td>
                 <td>{{ e.start}}</td>
                 <td>{{ e.end }}</td>
@@ -111,7 +111,7 @@
         {% for e in events %}
         <div class="mt-5 ">
             <p>{{ e.start }} - {{ e.end }}</p>
-            <p class="pl-4 is-size-4">{{ e.title }}</p>
+            {% if e.slot %}<p class="pl-4 is-size-4"><a href="#{{ e.slot }}">{{ e.title }}</a></p>{% else %}<p class="pl-4 is-size-4">{{ e.title }}</p>{% endif %}
             <p class="pl-4 has-text-grey">{{ e.location }}</p>
         </div>
         {% endfor %}
@@ -157,7 +157,8 @@
 {% macro sessions(slots, rooms, tracks, sessions) -%}
     {{ slots[0].start }}
     {% for name, slot in slots %}
-        <h2 class="subtitle is-size-3 has-text-weight-bold">{{ slot.start }} - {{ slot.end }}</h2>
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="{{ name }}"></a>{{ slot.name }}</h2>
+        <h3 class="subtitle is-size-4">{{ slot.start }} - {{ slot.end }}</h3>
         {% for session in sessions | where("slot", name) %}
             {{ session_display(session, rooms[session.room], tracks[session.track]) }}
         {% endfor %}

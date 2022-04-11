@@ -54,7 +54,8 @@
                     "start": "10:00 AM",
                     "end": "10:45 AM",
                     "title": "Breakout Session #1",
-                    "location": "Breakout Rooms"
+                    "location": "Breakout Rooms",
+                    "slot": "slot1"
                 },
                 {
                     "start": "11:00 AM",
@@ -66,19 +67,22 @@
                     "start": "12:30 PM",
                     "end": "01:15 PM",
                     "title": "Breakout Session #2",
-                    "location": "Breakout Rooms"
+                    "location": "Breakout Rooms",
+                    "slot": "slot2"
                 },
                 {
                     "start": "01:30 PM",
                     "end": "01:50 PM",
                     "title": "Breakout Session #3",
-                    "location": "Breakout Rooms"
+                    "location": "Breakout Rooms",
+                    "slot": "slot3"
                 },
                 {
                     "start": "01:55 PM",
                     "end": "02:15 PM",
                     "title": "Breakout Session #4",
-                    "location": "Breakout Rooms"
+                    "location": "Breakout Rooms",
+                    "slot": "slot4"
                 },
                 {
                     "start": "02:30 PM",
@@ -90,7 +94,8 @@
                     "start": "03:00 PM",
                     "end": "03:45 PM",
                     "title": "Breakout Session #5",
-                    "location": "Breakout Rooms"
+                    "location": "Breakout Rooms",
+                    "slot": "slot5"
                 },
                 {
                     "start": "04:15 PM",
@@ -129,22 +134,27 @@
     },
     "time_slots": {
         "slot1": {
+            "name": "Breakout Session #1",
             "start": "09:50 AM",
             "end": "10:30 AM"
         },
         "slot2": {
+            "name": "Breakout Session #2",
             "start": "10:45 AM",
             "end": "11:30 AM"
         },
         "slot3": {
+            "name": "Breakout Session #3",
             "start": "12:35 PM",
             "end": "1:20 PM"
         },
         "slot4": {
+            "name": "Breakout Session #4",
             "start": "1:30 PM",
             "end": "2:15 PM"
         },
         "slot5": {
+            "name": "Breakout Session #5",
             "start": "3:00 PM",
             "end": "3:45 PM"
         }
