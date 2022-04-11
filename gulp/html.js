@@ -4,8 +4,16 @@ const gulp_connect = require('gulp-connect');
 const gulp_data = require('gulp-data');
 const gulp_nunjucks = require('gulp-nunjucks-render');
 const path = require('path');
+const lodash = require('lodash');
 
 const constants = require('./constants');
+const config = require('../config.json');
+
+const ADDITIONAL_DATA = {
+    'html/pages/schedule/index.html': [
+        `html/pages/sessions/${config.year}/index.json`
+    ]
+};
 
 /**
  * Gets the path to the HTML page files
@@ -40,8 +48,43 @@ function getJsonForFile(file) {
         // It's ok if we don't have supplemental data
     }
 
+    lodash.each(ADDITIONAL_DATA, function (supplemental_data_paths, filename) {
+        if (lodash.endsWith(file.path, filename)) {
+            lodash.each(supplemental_data_paths, function (supplemental_data_path) {
+                try {
+                    lodash.merge(data.data, JSON.parse(fs.readFileSync(supplemental_data_path)));
+                } catch (err) {
+                    // It's ok if the additional data fails too
+                }
+            });
+        }
+    });
+
     return data;
 }
+
+/**
+ * A where filter for nunjucks
+ * @param {Object} obj The object
+ * @param {String} selector The selector
+ * @param {String} match The match
+ * @returns {Boolean} If the selector returns the match
+ */
+function filter_where(obj, selector, match) {
+    const filter = {
+        [selector]: match
+    };
+    return lodash.filter(obj, filter);
+}
+
+/**
+ * Sets up custom filters in nunjucks
+ * @param {Object} environment The nunjucks environment
+ * @returns {undefined}
+ */
+const manageEnvironment = function (environment) {
+    environment.addFilter('where', filter_where);
+};
 
 /**
  * Outputs the HTML
@@ -51,7 +94,8 @@ function html() {
     const nunjucks_config = {
         path: [
             path.join(__dirname, '..', constants.HTML, constants.TEMPLATES)
-        ]
+        ],
+        manageEnv: manageEnvironment
     };
 
     return gulp.src(page_path())
