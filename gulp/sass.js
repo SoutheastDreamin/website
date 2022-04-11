@@ -1,11 +1,9 @@
 const gulp = require('gulp');
 const gulp_connect = require('gulp-connect');
-const gulp_sass = require('gulp-sass');
+const gulp_sass = require('gulp-sass')(require('node-sass'));
 const path = require('path');
 
 const constants = require('./constants');
-
-gulp_sass.compiler = require('node-sass');
 
 /**
  * Gets the path to the SASS files

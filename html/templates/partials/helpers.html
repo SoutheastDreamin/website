@@ -84,36 +84,82 @@
 {%- endmacro %}
 
 {% macro scheduletable(events) -%}
-<table class="table is-striped is-fullwidth is-hidden-mobile">
-    <thead>
-        <tr>
-            <th></th>
-            <th>Location</th>
-            <th>Start Time</th>
-            <th>End Time</th>
-        <tr>
-    </thead>
-    <tbody>
-        {% for e in events %}
-        <tr>
-            <td>{{ e.title }}</td>
-            <td>{{ e.location }}</td>
-            <td>{{ e.start}}</td>
-            <td>{{ e.end }}</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
+    <table class="table is-striped is-fullwidth is-hidden-mobile">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Location</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+            <tr>
+        </thead>
+        <tbody>
+            {% for e in events %}
+            <tr>
+                <td>{{ e.title }}</td>
+                <td>{{ e.location }}</td>
+                <td>{{ e.start}}</td>
+                <td>{{ e.end }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 {%- endmacro %}
 
 {% macro schedulemobile(events) -%}
-<div class="is-hidden-tablet">
-    {% for e in events %}
-    <div class="mt-5 ">
-        <p>{{ e.start }} - {{ e.end }}</p>
-        <p class="pl-4 is-size-4">{{ e.title }}</p>
-        <p class="pl-4 has-text-grey">{{ e.location }}</p>
+    <div class="is-hidden-tablet">
+        {% for e in events %}
+        <div class="mt-5 ">
+            <p>{{ e.start }} - {{ e.end }}</p>
+            <p class="pl-4 is-size-4">{{ e.title }}</p>
+            <p class="pl-4 has-text-grey">{{ e.location }}</p>
+        </div>
+        {% endfor %}
     </div>
+{%- endmacro %}
+
+{% macro session_speaker(speaker) -%}
+    <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="{{ speaker.image }}">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">{{ speaker.first_name }} {{ speaker.last_name }}</h1>
+                    <strong>{{ speaker.title }}</strong>
+                    <p>{{ speaker.company }}</p>
+                    {% if speaker.pronouns %}<span class="tag is-info is-light">{{ speaker.pronouns }}</span>{% endif %}
+                    {% if speaker.first_talk %}<span class="tag is-success is-light">First Talk</span>{% endif %}
+                    {% if speaker.first_sed %}<span class="tag is-success is-light">First SED</span>{% endif %}
+                </div>
+            </div>
+        </div>
+    </article>
+{%- endmacro %}
+
+{% macro session_display(session, room, track) -%}
+    <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1">{{ session.title }}</h3>
+            <h4 class="subtitle is-size-6 has-text-weight-bold">{{ room.name }}</h4>
+            <span class="tag {{ track.type }} is-light">{{ track.name }}</span>
+            <div class="content mt-4 pl-5">{{ session.abstract | safe }}</div>
+        </div>
+        <div class="column">
+            {{ session_speaker(session.speaker) }}
+        </div>
+    </div>
+{%- endmacro %}
+
+{% macro sessions(slots, rooms, tracks, sessions) -%}
+    {{ slots[0].start }}
+    {% for name, slot in slots %}
+        <h2 class="subtitle is-size-3 has-text-weight-bold">{{ slot.start }} - {{ slot.end }}</h2>
+        {% for session in sessions | where("slot", name) %}
+            {{ session_display(session, rooms[session.room], tracks[session.track]) }}
+        {% endfor %}
     {% endfor %}
-</div>
 {%- endmacro %}

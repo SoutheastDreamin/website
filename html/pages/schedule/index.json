@@ -100,5 +100,83 @@
                 }
             ]
         }
-    ]
+    ],
+    "rooms": {
+        "augusta": {
+            "name": "Augusta",
+            "occupancy": 50
+        },
+        "dahlonega": {
+            "name": "Dahlonega",
+            "occupancy": 35
+        },
+        "marietta": {
+            "name": "Marietta",
+            "occupancy": 35
+        },
+        "oglethorpe": {
+            "name": "Oglethorpe",
+            "occupancy": 35
+        },
+        "savannah": {
+            "name": "Savannah",
+            "occupancy": 30
+        },
+        "suwanee": {
+            "name": "Suwanee",
+            "occupancy": 50
+        }
+    },
+    "time_slots": {
+        "slot1": {
+            "start": "09:50 AM",
+            "end": "10:30 AM"
+        },
+        "slot2": {
+            "start": "10:45 AM",
+            "end": "11:30 AM"
+        },
+        "slot3": {
+            "start": "12:35 PM",
+            "end": "1:20 PM"
+        },
+        "slot4": {
+            "start": "1:30 PM",
+            "end": "2:15 PM"
+        },
+        "slot5": {
+            "start": "3:00 PM",
+            "end": "3:45 PM"
+        }
+    },
+    "tracks": {
+        "admin": {
+            "name": "Administrators",
+            "type": "is-info"
+        },
+        "marketing": {
+            "name": "Marketing",
+            "type": "is-warning"
+        },
+        "end_users": {
+            "name": "End Users",
+            "type": "is-primary"
+        },
+        "architect": {
+            "name": "Architects",
+            "type": "is-success"
+        },
+        "dev": {
+            "name": "Developers",
+            "type": "is-link"
+        },
+        "exec": {
+            "name": "Executives",
+            "type": "is-primary"
+        },
+        "non_profit": {
+            "name": "Non-Profit",
+            "type": "is-success"
+        }
+    }
 }
