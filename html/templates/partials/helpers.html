@@ -143,7 +143,7 @@
 {% macro session_display(session, room, track) -%}
     <div class="columns mt-4">
         <div class="column is-two-thirds">
-            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1">{{ session.title }}</h3>
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="{{ session.id }}"></a>{{ session.title }}</h3>
             <h4 class="subtitle is-size-6 has-text-weight-bold">{{ room.name }}</h4>
             <span class="tag {{ track.type }} is-light">{{ track.name }}</span>
             <div class="content mt-4 pl-5">{{ session.abstract | safe }}</div>
