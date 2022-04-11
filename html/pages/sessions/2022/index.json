@@ -92,10 +92,11 @@
             "speaker": {
                 "first_name": "Katie",
                 "last_name": "Villanueva",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                "pronouns": "She / Her",
+                "title": "Systems Administrator",
+                "company": "Alliant Purchasing",
+                "image": "/img/sessions/2022/speakers/villanueva.jpg",
+                "first_sed": true
             }
         },
         {
