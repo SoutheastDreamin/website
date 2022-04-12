@@ -57,14 +57,18 @@ function transformSessions(sessions) {
                 track: session.track,
                 room: '',
                 slot: '',
-                speaker: {
-                    first_name: session.first_name,
-                    last_name: session.last_name,
-                    pronouns: '',
-                    title: '',
-                    company: '',
-                    image: ''
-                }
+                speakers: [
+                    {
+                        first_name: session.first_name,
+                        last_name: session.last_name,
+                        pronouns: '',
+                        title: '',
+                        company: '',
+                        image: '',
+                        first_talk: false,
+                        first_sed: false
+                    }
+                ]
             });
         });
 

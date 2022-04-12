@@ -7,14 +7,16 @@
             "track": "admin",
             "room": "dahlonega",
             "slot": "slot4",
-            "speaker": {
-                "first_name": "Patrick",
-                "last_name": "Connelly",
-                "pronouns": "He / Him",
-                "title": "Principal Software Engineer",
-                "company": "Red Hat",
-                "image": "/img/sessions/2022/speakers/connelly.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Patrick",
+                    "last_name": "Connelly",
+                    "pronouns": "He / Him",
+                    "title": "Principal Software Engineer",
+                    "company": "Red Hat",
+                    "image": "/img/sessions/2022/speakers/connelly.jpg"
+                }
+            ]
         },
         {
             "title": "Order Up! Pick from the Flow Type Menu",
@@ -23,16 +25,18 @@
             "track": "admin",
             "room": "augusta",
             "slot": "slot1",
-            "speaker": {
-                "first_name": "Sean",
-                "last_name": "Williams",
-                "pronouns": "",
-                "title": "Senior Consultant",
-                "company": "Slalom",
-                "image": "/img/sessions/2022/speakers/williams.jpg",
-                "first_talk": true,
-                "first_sed": true
-            }
+            "speakers": [
+                {
+                    "first_name": "Sean",
+                    "last_name": "Williams",
+                    "pronouns": "",
+                    "title": "Senior Consultant",
+                    "company": "Slalom",
+                    "image": "/img/sessions/2022/speakers/williams.jpg",
+                    "first_talk": true,
+                    "first_sed": true
+                }
+            ]
         },
         {
             "title": "You might (already) be a Salesforce Architect if…",
@@ -41,14 +45,16 @@
             "track": "admin",
             "room": "suwanee",
             "slot": "slot3",
-            "speaker": {
-                "first_name": "Sandi",
-                "last_name": "Zellner",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Sandi",
+                    "last_name": "Zellner",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "Creativity without Code: Extend the Salesforce Platform Declaratively with Custom Metadata Types",
@@ -57,14 +63,16 @@
             "track": "admin",
             "room": "augusta",
             "slot": "slot3",
-            "speaker": {
-                "first_name": "Samantha",
-                "last_name": "Lisk",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Samantha",
+                    "last_name": "Lisk",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "The 5 T's of Documentation",
@@ -73,14 +81,16 @@
             "track": "admin",
             "room": "augusta",
             "slot": "slot2",
-            "speaker": {
-                "first_name": "Amber",
-                "last_name": "Boaz",
-                "pronouns": "She / Her",
-                "company": "Red Canary",
-                "title": "Senior Manager, Business Solutions",
-                "image": "/img/sessions/2022/speakers/boaz.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Amber",
+                    "last_name": "Boaz",
+                    "pronouns": "She / Her",
+                    "company": "Red Canary",
+                    "title": "Senior Manager, Business Solutions",
+                    "image": "/img/sessions/2022/speakers/boaz.jpg"
+                }
+            ]
         },
         {
             "title": "How I manage relationships with bipolar disorder",
@@ -89,15 +99,17 @@
             "track": "admin",
             "room": "marietta",
             "slot": "slot3",
-            "speaker": {
-                "first_name": "Katie",
-                "last_name": "Villanueva",
-                "pronouns": "She / Her",
-                "title": "Systems Administrator",
-                "company": "Alliant Purchasing",
-                "image": "/img/sessions/2022/speakers/villanueva.jpg",
-                "first_sed": true
-            }
+            "speakers": [
+                {
+                    "first_name": "Katie",
+                    "last_name": "Villanueva",
+                    "pronouns": "She / Her",
+                    "title": "Systems Administrator",
+                    "company": "Alliant Purchasing",
+                    "image": "/img/sessions/2022/speakers/villanueva.jpg",
+                    "first_sed": true
+                }
+            ]
         },
         {
             "title": "Flow Design Patterns: Building with Flow at Scale",
@@ -106,15 +118,17 @@
             "track": "admin",
             "room": "savannah",
             "slot": "slot2",
-            "speaker": {
-                "first_name": "Tom",
-                "last_name": "Hoffman",
-                "pronouns": "He / Him",
-                "title": "Practice Lead, Salesforce",
-                "company": "Crowe",
-                "image": "/img/sessions/2022/speakers/hoffman.jpg",
-                "first_sed": true
-            }
+            "speakers": [
+                {
+                    "first_name": "Tom",
+                    "last_name": "Hoffman",
+                    "pronouns": "He / Him",
+                    "title": "Practice Lead, Salesforce",
+                    "company": "Crowe",
+                    "image": "/img/sessions/2022/speakers/hoffman.jpg",
+                    "first_sed": true
+                }
+            ]
         },
         {
             "title": "Leads in Salesforce: And why you may be doing it wrong.",
@@ -123,15 +137,17 @@
             "track": "admin",
             "room": "suwanee",
             "slot": "slot1",
-            "speaker": {
-                "first_name": "Erick",
-                "last_name": "Mahle",
-                "pronouns": "",
-                "title": "Co-Founder",
-                "company": "Ohanaly",
-                "image": "/img/sessions/2022/speakers/mahle.jpg",
-                "first_sed": true
-            }
+            "speakers": [
+                {
+                    "first_name": "Erick",
+                    "last_name": "Mahle",
+                    "pronouns": "",
+                    "title": "Co-Founder",
+                    "company": "Ohanaly",
+                    "image": "/img/sessions/2022/speakers/mahle.jpg",
+                    "first_sed": true
+                }
+            ]
         },
         {
             "title": "Going from Solo Admin to an Admin Team - Tips to help with growing pains",
@@ -140,14 +156,16 @@
             "track": "admin",
             "room": "suwanee",
             "slot": "slot2",
-            "speaker": {
-                "first_name": "Keri",
-                "last_name": "Callison",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Keri",
+                    "last_name": "Callison",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "Top 5 Things that Salesforce Admins should know about Marketing Automation (and vice versa!)",
@@ -156,14 +174,25 @@
             "track": "marketing",
             "room": "savannah",
             "slot": "slot3",
-            "speaker": {
-                "first_name": "Brenda",
-                "last_name": "Glasser",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Brenda",
+                    "last_name": "Glasser",
+                    "pronouns": "She / Her",
+                    "title": "Salesforce Architect",
+                    "company": "Ripple",
+                    "image": "/img/sessions/2022/speakers/glasser.jpg",
+                    "first_sed": true
+                },
+                {
+                    "first_name": "Tasha",
+                    "last_name": "Rucker",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "The Dark Side of Security",
@@ -172,14 +201,16 @@
             "track": "admin",
             "room": "suwanee",
             "slot": "slot5",
-            "speaker": {
-                "first_name": "Karisa",
-                "last_name": "Booth",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Karisa",
+                    "last_name": "Booth",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "Flow Trigger Explorer and Orchestrator",
@@ -188,14 +219,16 @@
             "track": "admin",
             "room": "dahlonega",
             "slot": "slot5",
-            "speaker": {
-                "first_name": "Andy Engin",
-                "last_name": "Utkan",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Andy Engin",
+                    "last_name": "Utkan",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "Transitioning to Flow",
@@ -204,14 +237,16 @@
             "track": "admin",
             "room": "augusta",
             "slot": "slot4",
-            "speaker": {
-                "first_name": "Stephanie",
-                "last_name": "Rebain",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Stephanie",
+                    "last_name": "Rebain",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "Dark Deployments & Strange Branches",
@@ -220,14 +255,16 @@
             "track": "architect",
             "room": "suwanee",
             "slot": "slot5",
-            "speaker": {
-                "first_name": "Marisa",
-                "last_name": "Taylor",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Marisa",
+                    "last_name": "Taylor",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "Architectural Considerations to Implementing DX and 2nd Generation Packaging -- \"Breaking up the 'Happy Soup' to a more modular design”",
@@ -236,15 +273,17 @@
             "track": "architect",
             "room": "dahlonega",
             "slot": "slot1",
-            "speaker": {
-                "first_name": "John",
-                "last_name": "Daniel",
-                "pronouns": "",
-                "title": "Senior Director of Digital Platforms",
-                "company": "Steampunk",
-                "image": "/img/sessions/2022/speakers/daniel.jpg",
-                "first_sed": true
-            }
+            "speakers": [
+                {
+                    "first_name": "John",
+                    "last_name": "Daniel",
+                    "pronouns": "",
+                    "title": "Senior Director of Digital Platforms",
+                    "company": "Steampunk",
+                    "image": "/img/sessions/2022/speakers/daniel.jpg",
+                    "first_sed": true
+                }
+            ]
         },
         {
             "title": "Getting started with Scratch Orgs",
@@ -253,14 +292,16 @@
             "track": "dev",
             "room": "oglethorpe",
             "slot": "slot2",
-            "speaker": {
-                "first_name": "M Hamza",
-                "last_name": "Siddiqui",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "M Hamza",
+                    "last_name": "Siddiqui",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "Code Review & Code Quality",
@@ -269,14 +310,16 @@
             "track": "dev",
             "room": "oglethorpe",
             "slot": "slot1",
-            "speaker": {
-                "first_name": "Amit",
-                "last_name": "Chaudhary",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Amit",
+                    "last_name": "Chaudhary",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "Essential Developer Tools: Embrace the CLI",
@@ -285,15 +328,17 @@
             "track": "dev",
             "room": "dahlonega",
             "slot": "slot3",
-            "speaker": {
-                "first_name": "Alan",
-                "last_name": "Petersen",
-                "pronouns": "He / Him",
-                "title": "Senior Managing Salesforce Architect",
-                "company": "IBM",
-                "image": "/img/sessions/2022/speakers/petersen.jpg",
-                "first_sed": true
-            }
+            "speakers": [
+                {
+                    "first_name": "Alan",
+                    "last_name": "Petersen",
+                    "pronouns": "He / Him",
+                    "title": "Senior Managing Salesforce Architect",
+                    "company": "IBM",
+                    "image": "/img/sessions/2022/speakers/petersen.jpg",
+                    "first_sed": true
+                }
+            ]
         },
         {
             "title": "Build Engaging Slack Apps Integrated to Salesforce",
@@ -302,14 +347,16 @@
             "track": "dev",
             "room": "augusta",
             "slot": "slot5",
-            "speaker": {
-                "first_name": "Mohith",
-                "last_name": "Shrivastava",
-                "pronouns": "He / Him",
-                "title": "Lead Developer Advocate",
-                "company": "Salesforce",
-                "image": "/img/sessions/2022/speakers/shrivastava.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Mohith",
+                    "last_name": "Shrivastava",
+                    "pronouns": "He / Him",
+                    "title": "Lead Developer Advocate",
+                    "company": "Salesforce",
+                    "image": "/img/sessions/2022/speakers/shrivastava.jpg"
+                }
+            ]
         },
         {
             "title": "The Rise of the Digital Sales Room",
@@ -318,14 +365,16 @@
             "track": "end_users",
             "room": "oglethorpe",
             "slot": "slot5",
-            "speaker": {
-                "first_name": "Amy",
-                "last_name": "Murch",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Tara",
+                    "last_name": "Pawlak",
+                    "pronouns": "She / Her",
+                    "title": "Head of Marketing (US)",
+                    "company": "GetAccept",
+                    "image": "/img/sessions/2022/speakers/pawlak.jpg"
+                }
+            ]
         },
         {
             "title": "Blazing Trails with Salesforce Military",
@@ -334,14 +383,16 @@
             "track": "end_users",
             "room": "marietta",
             "slot": "slot2",
-            "speaker": {
-                "first_name": "Yancy",
-                "last_name": "Whitaker",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Yancy",
+                    "last_name": "Whitaker",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "Modern Digital Customer Experience (DCX): Better Support Experiences Now!",
@@ -350,16 +401,18 @@
             "track": "exec",
             "room": "marietta",
             "slot": "slot1",
-            "speaker": {
-                "first_name": "Andrew",
-                "last_name": "Nerney",
-                "pronouns": "He / Him",
-                "title": "Solution Engineer",
-                "company": "ScreenMeet",
-                "image": "/img/sessions/2022/speakers/nerney.jpg",
-                "first_talk": true,
-                "first_sed": true
-            }
+            "speakers": [
+                {
+                    "first_name": "Andrew",
+                    "last_name": "Nerney",
+                    "pronouns": "He / Him",
+                    "title": "Solution Engineer",
+                    "company": "ScreenMeet",
+                    "image": "/img/sessions/2022/speakers/nerney.jpg",
+                    "first_talk": true,
+                    "first_sed": true
+                }
+            ]
         },
         {
             "title": "Secret Weapons to Level Up Your Communication & Drive Change",
@@ -368,14 +421,16 @@
             "track": "exec",
             "room": "savannah",
             "slot": "slot4",
-            "speaker": {
-                "first_name": "Andrea",
-                "last_name": "Tarrell",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Andrea",
+                    "last_name": "Tarrell",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "Lightning Email & Landing Page Builders",
@@ -384,14 +439,16 @@
             "track": "marketing",
             "room": "dahlonega",
             "slot": "slot2",
-            "speaker": {
-                "first_name": "Erin",
-                "last_name": "Duncan",
-                "pronouns": "She / Her",
-                "title": "Pardot Product Director",
-                "company": "Secante",
-                "image": "/img/sessions/2022/speakers/duncan.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Erin",
+                    "last_name": "Duncan",
+                    "pronouns": "She / Her",
+                    "title": "Pardot Product Director",
+                    "company": "Secante",
+                    "image": "/img/sessions/2022/speakers/duncan.jpg"
+                }
+            ]
         },
         {
             "title": "10 steps to fully maximizing your Pardot investment",
@@ -400,16 +457,18 @@
             "track": "marketing",
             "room": "savannah",
             "slot": "slot1",
-            "speaker": {
-                "first_name": "Ryan",
-                "last_name": "Cammisa",
-                "pronouns": "",
-                "title": "Co-Fouder",
-                "company": "Cloudtegic",
-                "image": "/img/sessions/2022/speakers/cammisa.jpg",
-                "first_talk": true,
-                "first_sed": true
-            }
+            "speakers": [
+                {
+                    "first_name": "Ryan",
+                    "last_name": "Cammisa",
+                    "pronouns": "",
+                    "title": "Co-Fouder",
+                    "company": "Cloudtegic",
+                    "image": "/img/sessions/2022/speakers/cammisa.jpg",
+                    "first_talk": true,
+                    "first_sed": true
+                }
+            ]
         },
         {
             "title": "Salesforce.org: Build Your Career in Marketing & Engagement Consulting",
@@ -418,14 +477,16 @@
             "track": "marketing",
             "room": "oglethorpe",
             "slot": "slot4",
-            "speaker": {
-                "first_name": "Kristen",
-                "last_name": "Havemeier",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Kristen",
+                    "last_name": "Havemeier",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "How To Capture Web Leads with CloudPages in Marketing Cloud",
@@ -434,14 +495,16 @@
             "track": "marketing",
             "room": "marietta",
             "slot": "slot5",
-            "speaker": {
-                "first_name": "Danielle",
-                "last_name": "Larregui",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Danielle",
+                    "last_name": "Larregui",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "How to unlock the power of the nonprofit success pack",
@@ -450,15 +513,17 @@
             "track": "non_profit",
             "room": "savannah",
             "slot": "slot5",
-            "speaker": {
-                "first_name": "Sarah",
-                "last_name": "Epting",
-                "pronouns": "She / Her",
-                "title": "CEO/Founder",
-                "company": "Technopath",
-                "image": "/img/sessions/2022/speakers/epting.jpg",
-                "first_sed": true
-            }
+            "speakers": [
+                {
+                    "first_name": "Sarah",
+                    "last_name": "Epting",
+                    "pronouns": "She / Her",
+                    "title": "CEO/Founder",
+                    "company": "Technopath",
+                    "image": "/img/sessions/2022/speakers/epting.jpg",
+                    "first_sed": true
+                }
+            ]
         },
         {
             "title": "How Nonprofits Roll",
@@ -467,14 +532,16 @@
             "track": "non_profit",
             "room": "marietta",
             "slot": "slot4",
-            "speaker": {
-                "first_name": "Amanda",
-                "last_name": "Styles",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Amanda",
+                    "last_name": "Styles",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         },
         {
             "title": "Embracing Open Source in the Salesforce Community",
@@ -483,14 +550,16 @@
             "track": "non_profit",
             "room": "oglethorpe",
             "slot": "slot3",
-            "speaker": {
-                "first_name": "Chris",
-                "last_name": "Pifer",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }
+            "speakers": [
+                {
+                    "first_name": "Chris",
+                    "last_name": "Pifer",
+                    "pronouns": "",
+                    "title": "",
+                    "company": "",
+                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                }
+            ]
         }
     ]
 }
