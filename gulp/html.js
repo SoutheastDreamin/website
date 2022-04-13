@@ -12,6 +12,9 @@ const config = require('../config.json');
 const ADDITIONAL_DATA = {
     'html/pages/schedule/index.html': [
         `html/pages/sessions/${config.year}/index.json`
+    ],
+    'html/pages/sessions/index.html': [
+        `html/pages/sessions/${config.year}/index.json`
     ]
 };
 
@@ -45,6 +48,7 @@ function getJsonForFile(file) {
     try {
         data.data = JSON.parse(fs.readFileSync(data_file));
     } catch (err) {
+        data.data = {};
         // It's ok if we don't have supplemental data
     }
 
@@ -64,39 +68,11 @@ function getJsonForFile(file) {
 }
 
 /**
- * A where filter for nunjucks
- * @param {Object} obj The object
- * @param {String} selector The selector
- * @param {String} match The match
- * @returns {Boolean} If the selector returns the match
- */
-function filter_where(obj, selector, match) {
-    const filter = {
-        [selector]: match
-    };
-    return lodash.filter(obj, filter);
-}
-
-/**
- * Sets up custom filters in nunjucks
- * @param {Object} environment The nunjucks environment
- * @returns {undefined}
- */
-const manageEnvironment = function (environment) {
-    environment.addFilter('where', filter_where);
-};
-
-/**
  * Outputs the HTML
  * @returns {Promise} A promise for when the HTML has been outputted
  */
 function html() {
-    const nunjucks_config = {
-        path: [
-            path.join(__dirname, '..', constants.HTML, constants.TEMPLATES)
-        ],
-        manageEnv: manageEnvironment
-    };
+    const nunjucks_config = constants.getNunjucksConfig();
 
     return gulp.src(page_path())
         .pipe(gulp_data(getJsonForFile))

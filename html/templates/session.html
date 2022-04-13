@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% import "partials/helpers.html" as helpers %}
+{% block content %}
+    <div class="container mx-4">
+        {{ helpers.session_display(session, rooms[session.room], tracks[session.track], time_slots[session.slot], true) }}
+        {{ helpers.session_image(session) }}
+    </div>
+{% endblock %}

@@ -140,12 +140,17 @@
     </article>
 {%- endmacro %}
 
-{% macro session_display(session, room, track) -%}
+{% macro session_display(session, room, track, time_slot, is_individual) -%}
     <div class="columns mt-4">
         <div class="column is-two-thirds">
+            {% if is_individual %}
             <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="{{ session.id }}"></a>{{ session.title }}</h3>
-            <h4 class="subtitle is-size-6 has-text-weight-bold">{{ room.name }}</h4>
-            <span class="tag {{ track.type }} is-light">{{ track.name }}</span>
+            {% else %}
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="{{ session.id }}" href="/sessions/{{ session.year }}/{{ session.id }}">{{ session.title }}</a></h3>
+            {% endif %}
+            {% if time_slot and is_individual %}<h4 class="subtitle is-size-6 has-text-weight-bold">{{ time_slot.start }} - {{ time_slot.end }}</h4>{% endif %}
+            {% if room %}<h4 class="subtitle is-size-6 has-text-weight-bold">{{ room.name }}</h4>{% endif %}
+            {% if track %}<span class="tag {{ track.type }} is-light">{{ track.name }}</span>{% endif %}
             <div class="content mt-4 pl-5">{{ session.abstract | safe }}</div>
         </div>
         <div class="column">
@@ -165,4 +170,14 @@
             {{ session_display(session, rooms[session.room], tracks[session.track]) }}
         {% endfor %}
     {% endfor %}
+{%- endmacro %}
+
+{% macro session_image(session) -%}
+    {% if session.speakers | length == 1 %}
+        <img src="/img/sessions/{{ session.year }}/{{ session.id }}.png" />
+    {% else %}
+        {% for speaker in session.speakers %}
+            <img src="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker.last_name | lower }}.png" />
+        {% endfor %}
+    {% endif %}
 {%- endmacro %}
