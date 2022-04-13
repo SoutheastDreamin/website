@@ -5,7 +5,7 @@
         <loc>https://southeastdreamin.com/</loc>
     
         
-        <lastmod>2022-04-12T13:44:56.472Z</lastmod>
+        <lastmod>2022-04-13T00:58:43.238Z</lastmod>
     
     </url>
     <url>
@@ -13,7 +13,7 @@
         <loc>https://southeastdreamin.com/cfp/</loc>
     
         
-        <lastmod>2022-04-12T13:44:56.472Z</lastmod>
+        <lastmod>2022-04-13T00:58:43.238Z</lastmod>
     
     </url>
     <url>
@@ -21,7 +21,7 @@
         <loc>https://southeastdreamin.com/faq/</loc>
     
         
-        <lastmod>2022-04-12T13:44:56.472Z</lastmod>
+        <lastmod>2022-04-13T00:58:43.238Z</lastmod>
     
     </url>
     <url>
@@ -29,7 +29,7 @@
         <loc>https://southeastdreamin.com/hot/</loc>
     
         
-        <lastmod>2022-04-12T13:44:56.472Z</lastmod>
+        <lastmod>2022-04-13T00:58:43.238Z</lastmod>
     
     </url>
     <url>
@@ -37,7 +37,15 @@
         <loc>https://southeastdreamin.com/schedule/</loc>
     
         
-        <lastmod>2022-04-12T13:44:56.472Z</lastmod>
+        <lastmod>2022-04-13T00:58:43.238Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:43.242Z</lastmod>
     
     </url>
     <url>
@@ -45,7 +53,7 @@
         <loc>https://southeastdreamin.com/sponsors/</loc>
     
         
-        <lastmod>2022-04-12T13:44:56.472Z</lastmod>
+        <lastmod>2022-04-13T00:58:43.242Z</lastmod>
     
     </url>
     <url>
@@ -53,7 +61,15 @@
         <loc>https://southeastdreamin.com/team/</loc>
     
         
-        <lastmod>2022-04-12T13:44:56.472Z</lastmod>
+        <lastmod>2022-04-13T00:58:43.242Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:43.238Z</lastmod>
     
     </url>
     <url>
@@ -61,7 +77,7 @@
         <loc>https://southeastdreamin.com/sponsors/new/</loc>
     
         
-        <lastmod>2022-04-12T13:44:56.472Z</lastmod>
+        <lastmod>2022-04-13T00:58:43.242Z</lastmod>
     
     </url>
     <url>
@@ -69,7 +85,247 @@
         <loc>https://southeastdreamin.com/sponsors/thankyou/</loc>
     
         
-        <lastmod>2022-04-12T13:44:56.472Z</lastmod>
+        <lastmod>2022-04-13T00:58:43.242Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/ flow-trigger-explorer-and-orchestrator/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.771Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/architectural-considerations-to-implementing-dx-and-second-generation-packaging/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.255Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/blazing-trails-with-salesforce-military/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.295Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/build-engaging-slack-apps-integrated-to-salesforce/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.291Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/code-review-and-code-quality/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.259Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/creativity-without-code/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.699Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/dark-deployments-and-strange-branches/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.123Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/embracing-open-source-in-the-salesforce-community/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.303Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/essential-developer-tools/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.263Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/flow-design-patterns/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.747Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/getting-started-with-scratch-orgs/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.259Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/going-from-solo-admin-to-an-admin-team/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.755Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/how-i-manage-relationships-with-bipolar-disorder/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.731Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/how-nonprofits-roll/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.303Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/how-to-capture-web-leads-with-cloudpages-in-marketing-cloud/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.303Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/how-to-unlock-the-power-of-the-nonprofit-success-pack/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.303Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/leads-in-salesforce/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.751Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/lightning-email-and-landing-page-builders/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.295Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/modern-digital-customer-experience/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.295Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/order-up-pick-from-the-flow-type-menu/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.679Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/salesforce-dot-org/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.299Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/secret-weapons-to-level-up-your-communication-and-drive-change/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.295Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/so-you-want-to-be-a-developer/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.671Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/ten-steps-to-fully-maximizing-your-pardot-investment/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.299Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/the-dark-side-of-security/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.763Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/the-five-ts-of-documentation/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.711Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/the-rise-of-the-digital-sales-room/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:58.291Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/top-five-things-that-salesforce-admins-should-know-about-marketing-automation/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.759Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/transitioning-to-flow/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.783Z</lastmod>
+    
+    </url>
+    <url>
+        
+        <loc>https://southeastdreamin.com/sessions/2022/you-might-already-be-a-salesforce-architect-if/</loc>
+    
+        
+        <lastmod>2022-04-13T00:58:57.691Z</lastmod>
     
     </url>
 </urlset>
