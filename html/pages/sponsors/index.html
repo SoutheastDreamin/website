@@ -3,15 +3,11 @@
 {% import "partials/helpers.html" as helpers %}
 
 {% block content %}
-<h1>2022 Sponsors</h1>
-{% for level in data.sponsor_types %}
-    <section class="section">
-        <h1 class="title is-capitalized">{{ level.type | capitalize }}</h1>
-        <div class="columns">
-            {% for sponsor in level.sponsors %}
-            <div class="column is-one-third">{{ sponsor.name }}</div>
-            {% endfor %}
-        </div>
-    </section>
-{% endfor %}
+    <div class="container mx-4">
+        <a class="button is-primary is-light is-small is-pulled-right" href="/sponsors/new/">Become a Sponsor</a>
+        <h1 class="title is-1">{{ data.sponsor_year }} Sponsors</h1>
+        {% for level in data.sponsor_types %}
+            {{ helpers.sponsor_level(level) }}
+        {% endfor %}
+    </div>
 {% endblock %}

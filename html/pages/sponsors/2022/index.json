@@ -1,0 +1,43 @@
+{
+    "sponsor_year": "2022",
+    "sponsor_types": [
+        {
+            "type": "platinum",
+            "label": "Platinum",
+            "homepage": true,
+            "full": true,
+            "size": "is-full",
+            "sponsors": []
+        },
+        {
+            "type": "gold",
+            "label": "Gold",
+            "homepage": true,
+            "full": false,
+            "size": "is-half",
+            "sponsors": [
+                {
+                    "name": "Formstack",
+                    "description": "",
+                    "logo": "/img/sponsors/2022/formstack.png",
+                    "url": "https://formstack.com"
+                }
+            ]
+        },
+        {
+            "type": "silver",
+            "label": "Silver",
+            "homepage": true,
+            "full": false,
+            "size": "is-one-third",
+            "sponsors": [
+                {
+                    "name": "Coastal Cloud",
+                    "description": "Coastal Cloud is a Salesforce Multi-Cloud Expert Partner with deep experience across all aspects of a business: Marketing, Sales, Revenue, Billing, Service, Field Service, Community, Customer Success, ERP, Finance & Accounting, and Nonprofit Success Pack. Coastal Cloud is #1 on G2.com and maintains a 5 Star Salesforce AppExchange rating.",
+                    "logo": "/img/sponsors/2022/coastalcloud.png",
+                    "url": "https://coastalcloud.us/"
+                }
+            ]
+        }
+    ]
+}

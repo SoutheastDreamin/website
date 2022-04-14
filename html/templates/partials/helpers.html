@@ -181,3 +181,26 @@
         {% endfor %}
     {% endif %}
 {%- endmacro %}
+
+{% macro sponsor_level(level) -%}
+    {% if (level.sponsors | length) != 0 %}
+    <section class="section">
+        <h1 class="title is-capitalized">{{ level.label }}</h1>
+        <div class="columns is-multiline">
+            {% for sponsor in level.sponsors %}
+                {{ sponsor_image(sponsor, level) }}
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+{%- endmacro %}
+
+{% macro sponsor_image(sponsor, level) -%}
+    <div class="column {{ level.size }}">
+        <figure class="image">
+            <a href="{{ sponsor.url }}">
+                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" />
+            </a>
+        </figure>
+    </div>
+{%- endmacro %}
