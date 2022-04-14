@@ -15,6 +15,12 @@ const ADDITIONAL_DATA = {
     ],
     'html/pages/sessions/index.html': [
         `html/pages/sessions/${config.year}/index.json`
+    ],
+    'html/pages/sponsors/index.html': [
+        `html/pages/sponsors/${config.year}/index.json`
+    ],
+    'html/pages/index.html': [
+        `html/pages/sponsors/${config.year}/index.json`
     ]
 };
 
