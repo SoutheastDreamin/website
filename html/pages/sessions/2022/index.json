@@ -296,9 +296,10 @@
                 "first_name": "Andy Engin",
                 "last_name": "Utkan",
                 "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                "title": "Senior Consultant",
+                "company": "Cirrius Solutions",
+                "image": "/img/sessions/2022/speakers/utkan.jpg",
+                "first_sed": true
             }]
         },
         {
@@ -539,10 +540,11 @@
             "speakers": [{
                 "first_name": "Kristen",
                 "last_name": "Havemeier",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                "pronouns": "She / Her",
+                "title": "Salesforce.org Sr Partner Success Manager",
+                "company": "Salesforce",
+                "image": "/img/sessions/2022/speakers/havemeier.jpg",
+                "first_sed": true
             }]
         },
         {
