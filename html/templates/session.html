@@ -1,3 +1,9 @@
+{% if session.speakers | length == 1 %}
+{% set opengraph_image = "/img/sessions/" + session.year + "/" + session.id + ".png" %}
+{% else %}
+{% set opengraph_image = "/img/sessions/" + session.year + "/" + session.id + "_" + session.speakers[0].last_name | lower + ".png" %}
+{% endif %}
+
 {% extends "layout.html" %}
 {% import "partials/helpers.html" as helpers %}
 {% block content %}

@@ -5,6 +5,15 @@
 {% else %}
 {% set pagetitle = "Southeast Dreamin'" %}
 {% endif %}
+
+{% if data.opengraph_image %}
+{% set page_opengraph_image = data.opengraph_image %}
+{% elif opengraph_image %}
+{% set page_opengraph_image = opengraph_image %}
+{% else %}
+{% set page_opengraph_image = "/img/opengraph.png" %}
+{% endif %}
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,19 +24,17 @@
     <meta property="og:local" content="en_US">
     {% if data.opengraph_image %}
         <meta property="og:image" content="{{ data.opengraph_image }}">
+    {% elif opengraph_image %}
+        <meta property="og:image" content="{{ opengraph_image }}">
     {% else %}
-        <meta property="og:image" content="/img/opengraph.png">
+        <meta property="og:image" content="{{ page_opengraph_image }}">
     {% endif %}
     <meta property="og:url" content="https://southeastdreamin.com">
 
     <meta property="twitter:card" content="summary">
     <meta property="twitter:site" content="@sedreamin">
     <meta property="twitter:creator" content="@aelst">
-    {% if data.opengraph_image %}
-        <meta property="twitter:image" content="{{ data.opengraph_image }}">
-    {% else %}
-        <meta property="twitter:image" content="/img/opengraph.png">
-    {% endif %}
+    <meta property="twitter:image" content="{{ page_opengraph_image }}">
 
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 

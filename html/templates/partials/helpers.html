@@ -174,10 +174,10 @@
 
 {% macro session_image(session) -%}
     {% if session.speakers | length == 1 %}
-        <img src="/img/sessions/{{ session.year }}/{{ session.id }}.png" />
+        <object data="/img/sessions/{{ session.year }}/{{ session.id }}.png" type="image/png"></object>
     {% else %}
         {% for speaker in session.speakers %}
-            <img src="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker.last_name | lower }}.png" />
+            <object data="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker.last_name | lower }}.png" type="image/png"></object>
         {% endfor %}
     {% endif %}
 {%- endmacro %}

@@ -129,27 +129,11 @@
             "speakers": [{
                 "first_name": "Sandi",
                 "last_name": "Zellner",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
-            }]
-        },
-        {
-            "title": "Creativity without Code: Extend the Salesforce Platform Declaratively with Custom Metadata Types",
-            "abstract": "<p>Most admins know that hard coding should be avoided, but what are the alternatives? One option is the custom metadata type (CMDT), which can be thought of as a custom object that stores application structure and company information (metadata) instead of data. CMDTs allow admins to creatively extend Salesforce application functionality without writing code. In this session, we will discuss three use cases for custom metadata types:\n-Referencing unchanging values in Flows\n-Formatting display text\n-Storing integration settings</p>",
-            "id": "creativity-without-code",
-            "year": "2022",
-            "track": "admin",
-            "room": "augusta",
-            "slot": "slot3",
-            "speakers": [{
-                "first_name": "Samantha",
-                "last_name": "Lisk",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                "pronouns": "She / Her",
+                "title": "Senior Solutions Architect",
+                "company": "Crowe",
+                "image": "/img/sessions/2022/speakers/zellner.jpg",
+                "first_sed": true
             }]
         },
         {
@@ -234,10 +218,21 @@
             "speakers": [{
                 "first_name": "Keri",
                 "last_name": "Callison",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                "pronouns": "She / Her",
+                "title": "CRM Analyst",
+                "company": "Workwear Outfitters",
+                "image": "/img/sessions/2022/speakers/callison.jpg",
+                "first_talk": true,
+                "first_sed": true
+            },{
+                "first_name": "Sarah",
+                "last_name": "Baxter",
+                "pronouns": "She / Her",
+                "title": "CRM Administrator",
+                "company": "Workwear Outfitters",
+                "image": "/img/sessions/2022/speakers/baxter.jpg",
+                "first_talk": true,
+                "first_sed": true
             }]
         },
         {
@@ -278,16 +273,17 @@
             "speakers": [{
                 "first_name": "Karisa",
                 "last_name": "Booth",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                "pronouns": "She / Her",
+                "title": "Sr Architect",
+                "company": "Traction on Demand, a Salesforce Company",
+                "image": "/img/sessions/2022/speakers/booth.jpg",
+                "first_sed": true
             }]
         },
         {
             "title": "Flow Trigger Explorer and Orchestrator",
             "abstract": "<p>Flow Trigger Explorer is a browser that shows all flows in Salesforce triggering on a specific object. This tool facilitates and supports multiple flow triggers running on the same object determining the order of execution.\nFlow Orchestrator, on the other hand, is the flow of flows. It supports the sequencing of flows that run in sequence or parallel.\nJoin me in this session to see real-life examples of use case implementations.</p>",
-            "id": " flow-trigger-explorer-and-orchestrator",
+            "id": "flow-trigger-explorer-and-orchestrator",
             "year": "2022",
             "track": "admin",
             "room": "dahlonega",
@@ -313,10 +309,10 @@
             "speakers": [{
                 "first_name": "Stephanie",
                 "last_name": "Rebain",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                "pronouns": "She / Her",
+                "title": "Managed Services Consultant",
+                "company": "Cloud for Good",
+                "image": "/img/sessions/2022/speakers/rebain.jpg"
             }]
         },
         {
@@ -334,6 +330,15 @@
                 "title": "",
                 "company": "",
                 "image": "/img/sessions/2022/speakers/placeholder.jpg"
+            },{
+                "first_name": "Tyler",
+                "last_name": "Damon",
+                "pronouns": "He / Him",
+                "title": "DevOps Architect",
+                "company": "S&P Global",
+                "image": "/img/sessions/2022/speakers/damon.jpg",
+                "first_sed": true,
+                "first_talk": true
             }]
         },
         {
@@ -366,9 +371,10 @@
                 "first_name": "M Hamza",
                 "last_name": "Siddiqui",
                 "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                "title": "Director Of Product Development",
+                "company": "CloudJunction Advisors, Inc.",
+                "image": "/img/sessions/2022/speakers/siddiqui.jpg",
+                "first_sed": true
             }]
         },
         {
@@ -451,10 +457,11 @@
             "speakers": [{
                 "first_name": "Yancy",
                 "last_name": "Whitaker",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                "pronouns": "He / Him",
+                "title": "Blazin Trails with Salesforce Military",
+                "company": "Deloitte",
+                "image": "/img/sessions/2022/speakers/whitaker.jpg",
+                "first_sed": true
             }]
         },
         {
@@ -487,10 +494,10 @@
             "speakers": [{
                 "first_name": "Andrea",
                 "last_name": "Tarrell",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                "pronouns": "She / Her",
+                "title": "CEO",
+                "company": "Sercante",
+                "image": "/img/sessions/2022/speakers/tarrell.jpg"
             }]
         },
         {
@@ -593,10 +600,10 @@
             "speakers": [{
                 "first_name": "Amanda",
                 "last_name": "Styles",
-                "pronouns": "",
-                "title": "",
-                "company": "",
-                "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                "pronouns": "She / Her",
+                "title": "Nonprofit Solution Architect",
+                "company": "Traction on Demand",
+                "image": "/img/sessions/2022/speakers/styles.jpg"
             }]
         },
         {
