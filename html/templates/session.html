@@ -5,6 +5,7 @@
 {% endif %}
 
 {% set opengraph_title = "Southeast Dreamin' " + session.year + " &mdash; " + session.title | escape %}
+{% set subtitle = session.title %}
 
 {% extends "layout.html" %}
 {% import "partials/helpers.html" as helpers %}
