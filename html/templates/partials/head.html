@@ -14,26 +14,27 @@
 {% set page_opengraph_image = "/img/opengraph.png" %}
 {% endif %}
 
+{% if opengraph_title %}
+{% set page_opengraph_title = opengraph_title %}
+{% else %}
+{% set page_opengraph_title = "Southeast Dreamin' &mdash; " + globals.event_date %}
+{% endif %}
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:title" content="Southeast Dreamin' &mdash; {{ globals.event_date }}">
+    <meta property="og:title" content="{{ page_opengraph_title }}">
     <meta property="og:description" content="Join us for a community lead Salesforce conference with sessions by community members like you!">
     <meta property="og:type" content="website">
     <meta property="og:local" content="en_US">
-    {% if data.opengraph_image %}
-        <meta property="og:image" content="{{ data.opengraph_image }}">
-    {% elif opengraph_image %}
-        <meta property="og:image" content="{{ opengraph_image }}">
-    {% else %}
-        <meta property="og:image" content="{{ page_opengraph_image }}">
-    {% endif %}
+    <meta property="og:image" content="{{ page_opengraph_image }}">
     <meta property="og:url" content="https://southeastdreamin.com">
 
     <meta property="twitter:card" content="summary">
     <meta property="twitter:site" content="@sedreamin">
     <meta property="twitter:creator" content="@aelst">
+    <meta property="twitter:title" content="{{ page_opengraph_title }}">
     <meta property="twitter:image" content="{{ page_opengraph_image }}">
 
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8">

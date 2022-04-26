@@ -4,6 +4,8 @@
 {% set opengraph_image = "/img/sessions/" + session.year + "/" + session.id + "_" + session.speakers[0].last_name | lower + ".png" %}
 {% endif %}
 
+{% set opengraph_title = "Southeast Dreamin' " + session.year + " &mdash; " + session.title | escape %}
+
 {% extends "layout.html" %}
 {% import "partials/helpers.html" as helpers %}
 {% block content %}
