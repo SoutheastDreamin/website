@@ -6,7 +6,7 @@
             "questions": [
                 {
                     "question": "Where is Southeast Dreamin' being held?",
-                    "answer": "Southeast Dreamin’ will be held at the <a href=\"https://www.marriott.com/en-us/hotels/atlbc-atlanta-marriott-buckhead-hotel-and-conference-center/overview/\">Atlanta Marriott Buckhead Hotel & Conference Center</a> in Atlanta Georgia.  Discounted hotel rooms will be available soon."
+                    "answer": "Southeast Dreamin’ will be held at the <a href=\"https://www.marriott.com/en-us/hotels/atlbc-atlanta-marriott-buckhead-hotel-and-conference-center/overview/\">Atlanta Marriott Buckhead Hotel & Conference Center</a> in Atlanta Georgia.  Discounted <a href=\"{{ globals.hotel_url }}\">hotel rooms</a> are available."
                 },
                 {
                     "question": "How can I get my ticket?",

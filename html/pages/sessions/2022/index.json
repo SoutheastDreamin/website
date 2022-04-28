@@ -265,10 +265,10 @@
                     "first_name": "Tasha",
                     "last_name": "Rucker",
                     "id": "rucker",
-                    "pronouns": "",
-                    "title": "",
-                    "company": "",
-                    "image": "/img/sessions/2022/speakers/placeholder.jpg"
+                    "pronouns": "She / Her",
+                    "title": "Founder & Principal Consultant",
+                    "company": "ReadyCRM",
+                    "image": "/img/sessions/2022/speakers/rucker.jpg"
                 }
             ]
         },
