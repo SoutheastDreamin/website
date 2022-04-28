@@ -10,7 +10,7 @@
                 },
                 {
                     "question": "How can I get my ticket?",
-                    "answer": "Currently tickets to Southeast Dreamin’ are not available.  We are planning on opening registration in April.  Once ticket sales have been opened, we will make announcements on our social media channels."
+                    "answer": "You can <a href=\"{{ globals.registration_url }}\">register</a> at this link or you can click the register button in the navigation bar or on the homepage."
                 },
                 {
                     "question": "Are meals included?",
@@ -26,7 +26,7 @@
                 },
                 {
                     "question": "What is your ticket refund policy?",
-                    "answer": "Currently we do not have a defined refund policy.  We are working on defining this and will update this space once it is finalized."
+                    "answer": "<ul><li>All registration cancellation requests or registration transfer requests must be received via email. Please send your cancellation notice to: <a href=\"mailto:registration@sedreamin.com\">registration@sedreamin.com</a>.</li><li>For a full refund, the registration cancellation request must be received by {{ globals.full_refund_date }}. Please allow 5 business days for refund requests to be processed.</li><li>No refunds will be given after {{ globals.full_refund_date }}.</li><li>If you are unable to attend Southeast Dreamin’, you may transfer your registration to another person. Requests for registration transfers must be received via email no later than {{ globals.transfer_date }}. Please email your transfer request, along with the name and email address of the person to whom you are transferring your registration to: <a href=\"mailto:registration@sedreamin.com\">registration@sedreamin.com</a>.</li></ul><br />For Hotel Reservation Cancellations, please contact your hotel directly, as they have differing cancellation policies."
                 }
             ]
         },
@@ -62,7 +62,7 @@
                 },
                 {
                     "question": "How do I reserve a hotel room?",
-                    "answer": "Currently our hotel block is not available for reservation.  This will change once we open Southeast Dreamin’ for registration."
+                    "answer": "Southeast Dreamin' has a block of hotel rooms provided by the venue for a discounted rate.  You can book your room <a href=\"{{ globals.hotel_url }}\">here</a>."
                 },
                 {
                     "question": "What's the best way to get to the hotel from the airport?",
@@ -86,7 +86,7 @@
             "questions": [
                 {
                     "question": "",
-                    "answer": "Your conference organizers will closely monitor guidelines provided by the CDC as well as local government. We’ll establish protocols in accordance with those guidelines or requirements in order to make everyone feel safe. Please revisit this FAQ as we get closer to open registration. Should you have questions or concerns after protocols have been established, please contact the Southeast Dreamin' team."
+                    "answer": "Your conference organizers will closely monitor guidelines provided by the CDC as well as local government. We'll establish protocols in accordance with those guidelines or requirements in order to make everyone feel safe. Please revisit this FAQ as we get closer to the event. Should you have questions or concerns after protocols have been established, please contact the Southeast Dreamin' team."
                 }
             ]
         }

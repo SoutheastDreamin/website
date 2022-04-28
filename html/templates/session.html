@@ -1,7 +1,7 @@
 {% if session.speakers | length == 1 %}
 {% set opengraph_image = "/img/sessions/" + session.year + "/" + session.id + ".png" %}
 {% else %}
-{% set opengraph_image = "/img/sessions/" + session.year + "/" + session.id + "_" + session.speakers[0].last_name | lower + ".png" %}
+{% set opengraph_image = "/img/sessions/" + session.year + "/" + session.id + "_" + session.speakers[0].id + ".png" %}
 {% endif %}
 
 {% set opengraph_title = "Southeast Dreamin' " + session.year + " &mdash; " + session.title | escape %}

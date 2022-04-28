@@ -22,4 +22,16 @@
             <a class="navbar-item" href="/faq">FAQ</a>
         </div>
     </div>
+    <div class="navbar-end">
+        {% if globals.registration_open %}
+        <div class="navbar-item">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a href="{{ globals.registration_url }}" class="button is-link">Register</a>
+                    <a href="{{ globals.hotel_url }}" class="button is-light is-link">Hotel</a>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
 </nav>

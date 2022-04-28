@@ -177,7 +177,7 @@
         <object data="/img/sessions/{{ session.year }}/{{ session.id }}.png" type="image/png"></object>
     {% else %}
         {% for speaker in session.speakers %}
-            <object data="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker.last_name | lower }}.png" type="image/png"></object>
+            <object data="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker.id }}.png" type="image/png"></object>
         {% endfor %}
     {% endif %}
 {%- endmacro %}
