@@ -606,7 +606,7 @@
             "year": "2022",
             "track": "admin",
             "room": "buckheadb",
-            "slot": "slot4",
+            "slot": "slot3",
             "speakers": ["rebain"]
         },
         {
@@ -786,7 +786,7 @@
             "year": "2022",
             "track": "admin",
             "room": "buckheadb",
-            "slot": "slot3",
+            "slot": "slot4",
             "speakers": ["whitakers", "whitakery"]
         }
     ],
@@ -872,7 +872,7 @@
             "speakers": ["aggarwal"]
         },
         {
-            "title": "Demystifying Flows, lets build a flow together and learn my top 5 tricks ",
+            "title": "Demystifying Flows, lets build a flow together and learn my top 5 tricks",
             "abstract": "<p>This session is for the people newer to flows that may need to learn it as Salesforce is deprecating Process Builder and eventually Workflow Rules. Flows are a powerful tool every admin should know, but they have some important gotchas to learn as well. In this session we'll learn the following:</p><ul><li>Flow basics</li><li>Let's build a record trigger flow</li><li>Let's build a screen pop flow</li><li>Top 5 tricks you need to know about flows (cool use cases and how to go with the flow)</li><li>Gotchas with Flows</li><li>Gotchas with Salesforce Workflow-Rule to Flow Importer tool</li></ul>",
             "id": "demystifying-flows",
             "year": "2022",
