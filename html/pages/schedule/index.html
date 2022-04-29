@@ -12,8 +12,15 @@
             {{ helpers.scheduletable(d.events) }}
             {{ helpers.schedulemobile(d.events) }}
         {% endfor %}
+        <h1 class="title is-1 is-hidden-mobile">Session overview</h1>
+        <h2 class="title is-2 is-hidden-mobile">Hands-on Trainings</h1>
+        {{ helpers.room_table(data.hot_time_slots, data.rooms, data.tracks, data.hots) }}
+        <h2 class="title is-2 is-hidden-mobile">Sessions</h1>
+        {{ helpers.room_table(data.session_time_slots, data.rooms, data.tracks, data.sessions) }}
+        <h1 class="title is-1">Hands-on Trainings</h1>
+        {{ helpers.sessions(data.hot_time_slots, data.rooms, data.tracks, data.speakers, data.hots) }}
         <h1 class="title is-1">Sessions</h1>
-        {{ helpers.sessions(data.time_slots, data.rooms, data.tracks, data.sessions) }}
+        {{ helpers.sessions(data.session_time_slots, data.rooms, data.tracks, data.speakers, data.sessions) }}
         <div id="map" class="mt-5"></div>
     </div>
     <script src="/js/map.js"></script>

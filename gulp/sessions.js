@@ -5,6 +5,7 @@ const fs = require('fs');
 const jsonfile = require('jsonfile');
 const path = require('path');
 const nunjucks = require('nunjucks');
+const lodash = require('lodash');
 
 const constants = require('./constants');
 
@@ -41,14 +42,16 @@ function find_session_dirs() {
  * @param {Object} rooms A map of rooms
  * @param {Object} tracks A map of tracks
  * @param {Object} time_slots A map of time slots
+ * @param {Object} speakers The speakers
  * @param {Object} session The session to create
  * @returns {Promise} A promise for when the session has been added
  */
-function handle_session(read_this, rooms, tracks, time_slots, session) {
+function handle_session(read_this, rooms, tracks, time_slots, speakers, session) {
     return new Promise(function (resolve) {
         nunjucks.configure(constants.getNunjucksConfig().path);
         const data = {
             session: session,
+            speakers: speakers,
             rooms: rooms,
             tracks: tracks,
             time_slots: time_slots
@@ -78,9 +81,11 @@ function handle_dir(read_this, directory) {
             if (error) {
                 reject(error);
             } else {
-                const handle_session_bound = handle_session.bind(null, read_this, data.rooms, data.tracks, data.time_slots);
+                const time_slots = lodash.merge(data.hot_time_slots, data.session_time_slots);
+                const handle_session_bound = handle_session.bind(null, read_this, data.rooms, data.tracks, time_slots, data.speakers);
+                const sessions = lodash.concat(data.hots, data.sessions);
 
-                data.sessions.forEach(function (session) {
+                sessions.forEach(function (session) {
                     promises.push(handle_session_bound(session));
                 });
             }

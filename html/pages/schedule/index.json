@@ -18,8 +18,9 @@
                 {
                     "start": "12:45 PM",
                     "end": "02:15 PM",
-                    "title": "Hands-on Training",
-                    "location": "Breakout Rooms"
+                    "title": "Hands-on Training Session #1",
+                    "location": "Breakout Rooms",
+                    "slot": "hotslot1"
                 },
                 {
                     "start": "02:45 PM",
@@ -30,8 +31,9 @@
                 {
                     "start": "03:00 PM",
                     "end": "04:30 PM",
-                    "title": "Hands-on Training",
-                    "location": "Breakout Rooms"
+                    "title": "Hands-on Training Session #2",
+                    "location": "Breakout Rooms",
+                    "slot": "hotslot2"
                 },
                 {
                     "start": "04:30 PM",
