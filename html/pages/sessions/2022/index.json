@@ -189,10 +189,10 @@
             "company": "Red Hat",
             "image": "/img/sessions/2022/speakers/connelly.jpg"
         },
-        "crossman": {
+        "crosman": {
             "first_name": "Aaron",
-            "last_name": "Crossman",
-            "id": "crossman",
+            "last_name": "Crosman",
+            "id": "crosman",
             "pronouns": "",
             "title": "",
             "company": "",
@@ -333,7 +333,7 @@
             "pronouns": "He / Him",
             "title": "Senior Solution Architect",
             "company": "Attain Partners",
-            "image": "/img/sessions/2022/speakers/placeholder.jpg"
+            "image": "/img/sessions/2022/speakers/pifer.jpg"
         },
         "rebain": {
             "first_name": "Stephanie",
@@ -777,7 +777,7 @@
             "track": "non_profit",
             "room": "oglethorpe",
             "slot": "slot3",
-            "speakers": ["pifer", "crossman"]
+            "speakers": ["pifer", "crosman"]
         },
         {
             "title": "Crazy Hair? Don't Care! Owning Your Personal Brand",
