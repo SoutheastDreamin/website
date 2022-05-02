@@ -293,10 +293,11 @@
             "first_name": "Danielle",
             "last_name": "Larregui",
             "id": "larregui",
-            "pronouns": "",
+            "pronouns": "She / Her",
             "title": "",
-            "company": "",
-            "image": "/img/sessions/2022/speakers/placeholder.jpg"
+            "company": "Salesforce",
+            "image": "/img/sessions/2022/speakers/larregui.jpg",
+            "first_sed": true
         },
         "mahle": {
             "first_name": "Erick",
