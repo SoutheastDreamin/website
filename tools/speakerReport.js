@@ -59,7 +59,7 @@ function checkSpeakers(session_data) {
                 'Id',
                 'Mismatch',
                 'Image Path',
-                'Image',
+                'Image'
             ]
         });
 
