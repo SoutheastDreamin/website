@@ -59,11 +59,13 @@ function filter_where(obj, selector, match) {
  * @returns {undefined}
  */
 const manageEnvironment = function (environment) {
+    const merge = lodash.merge.bind(null, {});
+
     environment.addFilter('map', lodash.map);
     environment.addFilter('uniq', lodash.uniq);
     environment.addFilter('where', filter_where);
     environment.addGlobal('concat', lodash.concat);
-    environment.addGlobal('merge', lodash.merge);
+    environment.addGlobal('merge', merge);
 };
 
 /**

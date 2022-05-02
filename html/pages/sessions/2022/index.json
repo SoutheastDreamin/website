@@ -85,7 +85,7 @@
     "session_time_slots": {
         "slot1": {
             "name": "Breakout Session #1",
-            "start": "09:50 AM",
+            "start": "9:50 AM",
             "end": "10:30 AM"
         },
         "slot2": {
@@ -114,10 +114,12 @@
             "first_name": "Miraz",
             "last_name": "Aggarwal",
             "id": "aggarwal",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "image": "/img/sessions/2022/speakers/placeholder.jpg"
+            "pronouns": "She / Her",
+            "title": "Sr Salesforce Admin",
+            "company": "HD Supply",
+            "image": "/img/sessions/2022/speakers/aggarwal.jpg",
+            "first_talk": true,
+            "first_sed": true
         },
         "baxter": {
             "first_name": "Sarah",
@@ -153,10 +155,11 @@
             "first_name": "Michelle",
             "last_name": "Bura",
             "id": "bura",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "image": "/img/sessions/2022/speakers/placeholder.jpg"
+            "pronouns": "She / Her",
+            "title": "Senior Salesforce Administrator",
+            "company": "Science Exchange",
+            "image": "/img/sessions/2022/speakers/bura.jpg",
+            "first_sed": true
         },
         "callison": {
             "first_name": "Keri",
@@ -276,6 +279,15 @@
             "company": "Crowe",
             "image": "/img/sessions/2022/speakers/hoffman.jpg",
             "first_sed": true
+        },
+        "kingston": {
+            "first_name": "Jarrod",
+            "last_name": "Kingston",
+            "id": "kingston",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "image": "/img/sessions/2022/speakers/placeholder.jpg"
         },
         "larregui": {
             "first_name": "Danielle",
@@ -434,9 +446,9 @@
             "last_name": "Weinmeister",
             "id": "weinmeister",
             "pronouns": "",
-            "title": "",
+            "title": "Product Leader",
             "company": "IBM",
-            "image": "/img/sessions/2022/speakers/placeholder.jpg"
+            "image": "/img/sessions/2022/speakers/weinmeister.jpg"
         },
         "whipple": {
             "first_name": "Eric",
@@ -819,7 +831,7 @@
             "track": "admin",
             "room": "buckheadb",
             "slot": "hotslot1",
-            "speakers": ["weinmeister"]
+            "speakers": ["weinmeister", "kingston"]
         },
         {
             "title": "A Deep Dive on Salesforce Functions",
@@ -828,7 +840,7 @@
             "year": "2022",
             "track": "dev",
             "room": "suwannee",
-            "slot": "hotslot2",
+            "slot": "hotslot1",
             "speakers": ["petersen"]
         },
         {
@@ -859,7 +871,7 @@
             "track": "admin",
             "room": "buckheada",
             "slot": "hotslot1",
-            "speakers": ["bura"]
+            "speakers": ["bura", "aggarwal"]
         },
         {
             "title": "Braving the waters of Apex: An intro to Apex for Admins",
@@ -868,8 +880,8 @@
             "year": "2022",
             "track": "dev",
             "room": "suwannee",
-            "slot": "hotslot1",
-            "speakers": ["aggarwal"]
+            "slot": "hotslot2",
+            "speakers": ["aggarwal", "bura"]
         },
         {
             "title": "Demystifying Flows, lets build a flow together and learn my top 5 tricks",
