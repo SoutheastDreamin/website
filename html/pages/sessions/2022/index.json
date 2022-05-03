@@ -456,9 +456,10 @@
             "last_name": "Whipple",
             "id": "whipple",
             "pronouns": "",
-            "title": "",
+            "title": "Founder",
             "company": "Job Center Software",
-            "image": "/img/sessions/2022/speakers/placeholder.jpg"
+            "image": "/img/sessions/2022/speakers/whipple.jpg",
+            "first_sed": true
         },
         "whitakers": {
             "first_name": "Stacey",

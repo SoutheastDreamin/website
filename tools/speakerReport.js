@@ -60,6 +60,13 @@ function checkSpeakers(session_data) {
                 'Mismatch',
                 'Image Path',
                 'Image'
+            ],
+            colWidths: [
+                50,
+                8,
+                8,
+                8,
+                8
             ]
         });
 
@@ -85,6 +92,7 @@ function checkSpeakers(session_data) {
         });
 
         if (table.length !== 0) {
+            console.log(chalk.bold('Speakers'));
             console.log(table.toString());
         } else {
             console.log(`${checkmark(true)} Speakers`);
@@ -190,6 +198,7 @@ function checkHots(session_data) {
         const table = checkSessionGeneric(session_data, 'hots', 'hot_time_slots');
 
         if (table.length !== 0) {
+            console.log(chalk.bold('Hots'));
             console.log(table.toString());
         } else {
             console.log(`${checkmark(true)} Hots`);
@@ -209,6 +218,7 @@ function checkSessions(session_data) {
         const table = checkSessionGeneric(session_data, 'sessions', 'session_time_slots');
 
         if (table.length !== 0) {
+            console.log(chalk.bold('Sessions'));
             console.log(table.toString());
         } else {
             console.log(`${checkmark(true)} Sessions`);
