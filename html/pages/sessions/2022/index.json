@@ -241,6 +241,16 @@
             "image": "/img/sessions/2022/speakers/epting.jpg",
             "first_sed": true
         },
+        "garcia": {
+            "first_name": "Stephan",
+            "last_name": "Chandler-Garcia",
+            "id": "garcia",
+            "pronouns": "He / Him",
+            "title": "Lead Developer Advocate",
+            "company": "Salesforce",
+            "image": "/img/sessions/2022/speakers/garcia.jpg",
+            "first_sed": true
+        },
         "glasser": {
             "first_name": "Brenda",
             "last_name": "Glasser",
@@ -255,10 +265,11 @@
             "first_name": "Michelle",
             "last_name": "Hansen",
             "id": "hansen",
-            "pronouns": "",
-            "title": "",
+            "pronouns": "She / Her",
+            "title": "Business Architect",
             "company": "IBM",
-            "image": "/img/sessions/2022/speakers/placeholder.jpg"
+            "image": "/img/sessions/2022/speakers/placeholder.jpg",
+            "first_sed": true
         },
         "havemeier": {
             "first_name": "Kristen",
@@ -914,6 +925,16 @@
             "room": "dahlonega",
             "slot": "hotslot1",
             "speakers": ["whipple"]
+        },
+        {
+            "title": "Get hands on with the Apex SDK for Slack",
+            "abstract": "<p>At this years TrailblazerDX Salesforce announced the Apex SDK for Slack that helps you build Slack Apps right inside of your org! Join us to be some of the first customers to get your hands on the SDK and build a Slack App from scratch! You will learn how to create your first app, link it to Salesforce, and explore the possibilities of Slack + Salesforce.</p>",
+            "id": "get-hands-on-with-the-apex-sdk-for-slack",
+            "year": "2022",
+            "track": "admin",
+            "room": "dahlonega",
+            "slot": "hotslot2",
+            "speakers": ["garcia"]
         }
     ]
 }
