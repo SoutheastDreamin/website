@@ -287,9 +287,10 @@
             "last_name": "Kingston",
             "id": "kingston",
             "pronouns": "",
-            "title": "",
-            "company": "",
-            "image": "/img/sessions/2022/speakers/placeholder.jpg"
+            "title": "Solution Engineering Leader",
+            "company": "IBM",
+            "image": "/img/sessions/2022/speakers/kingston.jpg",
+            "first_sed": true
         },
         "larregui": {
             "first_name": "Danielle",
