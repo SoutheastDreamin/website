@@ -192,15 +192,6 @@
             "company": "Red Hat",
             "image": "/img/sessions/2022/speakers/connelly.jpg"
         },
-        "crosman": {
-            "first_name": "Aaron",
-            "last_name": "Crosman",
-            "id": "crosman",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "image": "/img/sessions/2022/speakers/placeholder.jpg"
-        },
         "damon": {
             "first_name": "Tyler",
             "last_name": "Damon",
@@ -802,7 +793,7 @@
             "track": "non_profit",
             "room": "oglethorpe",
             "slot": "slot3",
-            "speakers": ["pifer", "crosman"]
+            "speakers": ["pifer"]
         },
         {
             "title": "Crazy Hair? Don't Care! Owning Your Personal Brand",
