@@ -67,8 +67,8 @@
         <section class="section">
             <div class="container mx-4">
                 <h1 class="title is-1">{{ data.sponsor_year }} Sponsors</h1>
-                {% for level in data.sponsor_types %}
-                    {{ helpers.sponsor_level(level) }}
+                {% for level in data.sponsor_types | selectattr("homepage") %}
+                    {{ helpers.sponsor_level(level, data.sponsor_year) }}
                 {% endfor %}
             </div>
         </section>

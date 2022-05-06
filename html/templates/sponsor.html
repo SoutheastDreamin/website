@@ -1,0 +1,11 @@
+{% set subtitle = sponsor.name %}
+
+{% extends "layout.html" %}
+{% import "partials/helpers.html" as helpers %}
+{% block content %}
+    <div class="container mx-4">
+        <h1 class="title is-1">{{ sponsor.name }}</h1>
+        <a href="{{ sponsor.url }}"><img src="{{ sponsor.logo }}" /></a>
+        <div class="block">{{ sponsor.description | safe }}</div>
+    </div>
+{% endblock %}

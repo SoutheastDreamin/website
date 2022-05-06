@@ -9,6 +9,7 @@ const js = require('./gulp/js').default;
 const pub = require('./gulp/public').default;
 const sass = require('./gulp/sass').default;
 const sessions = require('./gulp/sessions');
+const sponsors = require('./gulp/sponsors');
 const sitemap = require('./gulp/sitemap');
 const static_files = require('./gulp/static');
 const watch = require('./gulp/watch');
@@ -20,7 +21,8 @@ const parallel_jobs = [
     js,
     pub,
     sass,
-    sessions
+    sessions,
+    sponsors
 ];
 
 if (static_files.has.css()) {

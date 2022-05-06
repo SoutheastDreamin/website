@@ -14,6 +14,8 @@ const SASS = config.has('build.sass') ? config.get('build.sass') : 'sass';
 const TEMPLATES = config.has('build.templates') ? config.get('build.templates') : 'templates';
 const SESSIONS = config.has('build.sessions') ? config.get('build.sessions') : 'html/pages/sessions';
 const SESSION_TEMPLATE = config.has('build.session_template') ? config.get('build.session_template') : 'html/templates/session.html';
+const SPONSOR = config.has('build.sponsor') ? config.get('build.sponsor') : 'html/pages/sponsors';
+const SPONSOR_TEMPLATE = config.has('build.sponsor_template') ? config.get('build.sponsor_template') : 'html/templates/sponsor.html';
 
 /**
  * Gets the dist directory
@@ -37,6 +39,22 @@ function getSessionsDir() {
  */
 function getSessionTemplate() {
     return path.join(__dirname, '..', SESSION_TEMPLATE);
+}
+
+/**
+ * Gets the sponsor directory
+ * @returns {String} The sponsor directory path
+ */
+function getSponsorDir() {
+    return path.join(__dirname, '..', SPONSOR);
+}
+
+/**
+ * Gets the sponsor template path
+ * @returns {String} The path to the sponsor template
+ */
+function getSponsorTemplate() {
+    return path.join(__dirname, '..', SPONSOR_TEMPLATE);
 }
 
 /**
@@ -86,6 +104,8 @@ module.exports = {
     getSessionsDir: getSessionsDir,
     getNunjucksConfig: getNunjucksConfig,
     getSessionTemplate: getSessionTemplate,
+    getSponsorDir: getSponsorDir,
+    getSponsorTemplate: getSponsorTemplate,
     CSS: CSS,
     FONT: FONT,
     HTML: HTML,
