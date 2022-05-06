@@ -653,7 +653,7 @@
             "year": "2022",
             "track": "dev",
             "room": "oglethorpe",
-            "slot": "slot2",
+            "slot": "slot1",
             "speakers": ["siddiqui"]
         },
         {
@@ -663,7 +663,7 @@
             "year": "2022",
             "track": "dev",
             "room": "oglethorpe",
-            "slot": "slot1",
+            "slot": "slot2",
             "speakers": ["connelly"]
         },
         {
