@@ -330,7 +330,9 @@
             "pronouns": "She / Her",
             "title": "Head of Marketing (US)",
             "company": "GetAccept",
-            "image": "/img/sessions/2022/speakers/pawlak.jpg"
+            "image": "/img/sessions/2022/speakers/pawlak.jpg",
+            "first_talk": true,
+            "first_sed": true
         },
         "petersen": {
             "first_name": "Alan",
@@ -358,7 +360,8 @@
             "pronouns": "She / Her",
             "title": "Managed Services Consultant",
             "company": "Cloud for Good",
-            "image": "/img/sessions/2022/speakers/rebain.jpg"
+            "image": "/img/sessions/2022/speakers/rebain.jpg",
+            "first_sed": true
         },
         "rucker": {
             "first_name": "Tasha",
@@ -367,16 +370,18 @@
             "pronouns": "She / Her",
             "title": "Founder & Principal Consultant",
             "company": "ReadyCRM",
-            "image": "/img/sessions/2022/speakers/rucker.jpg"
+            "image": "/img/sessions/2022/speakers/rucker.jpg",
+            "first_sed": true
         },
         "sandberg": {
             "first_name": "Monica",
             "last_name": "Sandberg",
             "id": "sandberg",
             "pronouns": "She / Her",
-            "title": "",
+            "title": "Salesforce Architect / Admin",
             "company": "Notisblank",
-            "image": "/img/sessions/2022/speakers/sandberg.jpg"
+            "image": "/img/sessions/2022/speakers/sandberg.jpg",
+            "first_sed": true
         },
         "shrivastava": {
             "first_name": "Mohith",
