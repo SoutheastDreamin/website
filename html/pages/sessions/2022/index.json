@@ -373,10 +373,10 @@
             "first_name": "Monica",
             "last_name": "Sandberg",
             "id": "sandberg",
-            "pronouns": "",
+            "pronouns": "She / Her",
             "title": "",
             "company": "Notisblank",
-            "image": "/img/sessions/2022/speakers/placeholder.jpg"
+            "image": "/img/sessions/2022/speakers/sandberg.jpg"
         },
         "shrivastava": {
             "first_name": "Mohith",
@@ -386,16 +386,6 @@
             "title": "Lead Developer Advocate",
             "company": "Salesforce",
             "image": "/img/sessions/2022/speakers/shrivastava.jpg"
-        },
-        "siddiqui": {
-            "first_name": "M Hamza",
-            "last_name": "Siddiqui",
-            "id": "siddiqui",
-            "pronouns": "",
-            "title": "Director Of Product Development",
-            "company": "CloudJunction Advisors, Inc.",
-            "image": "/img/sessions/2022/speakers/siddiqui.jpg",
-            "first_sed": true
         },
         "styles": {
             "first_name": "Amanda",
@@ -654,7 +644,7 @@
             "track": "dev",
             "room": "oglethorpe",
             "slot": "slot1",
-            "speakers": ["siddiqui"]
+            "speakers": ["garcia"]
         },
         {
             "title": "Code Review & Code Quality",
