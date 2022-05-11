@@ -11,7 +11,7 @@
                 {
                     "name": "Tricentis",
                     "id": "tricentis",
-                    "description": "Tricentis has been widely recognized as the leader by all major industry analysts, including being named a leader in Gartner’s Magic Quadrant five years in a row. Tricentis has more than 1,800 customers, including the largest brands in the world, such as Accenture, Coca-Cola, Nationwide Insurance, Allianz, Telstra, Dolby, RBS, and Zappos. To learn more, visit <a href=\"http://www.tricentis.com\">www.tricentis.com</a> or follow us on <a href=\"https://www.linkedin.com/company/tricentis/\">LinkedIn</a>, <a href=\"https://twitter.com/tricentis\">Twitter</a>, and <a href=\"https://www.facebook.com/TRICENTIS\">Facebook</a>.",
+                    "description": "<p>Tricentis has been widely recognized as the leader by all major industry analysts, including being named a leader in Gartner’s Magic Quadrant five years in a row. Tricentis has more than 1,800 customers, including the largest brands in the world, such as Accenture, Coca-Cola, Nationwide Insurance, Allianz, Telstra, Dolby, RBS, and Zappos. To learn more, visit <a href=\"http://www.tricentis.com\">www.tricentis.com</a> or follow us on <a href=\"https://www.linkedin.com/company/tricentis/\">LinkedIn</a>, <a href=\"https://twitter.com/tricentis\">Twitter</a>, and <a href=\"https://www.facebook.com/TRICENTIS\">Facebook</a>.</p>",
                     "logo": "/img/sponsors/2022/tricentis.png",
                     "url": "http://www.tricentis.com"
                 }
@@ -28,16 +28,37 @@
                 {
                     "name": "Formstack",
                     "id": "formstack",
-                    "description": "Reimagine your data journey, native to Salesforce. Formstack for Salesforce helps improve the customer, patient, student, and client experience by progressively building on their profile, automating and simplifying manual tasks, and reducing the time it takes to complete processes. A seamless experience for data collection, document automation and digital signature all within Salesforce, allowing you to continually build on a 360-view of your customers.",
+                    "description": "<p>Reimagine your data journey, native to Salesforce. Formstack for Salesforce helps improve the customer, patient, student, and client experience by progressively building on their profile, automating and simplifying manual tasks, and reducing the time it takes to complete processes. A seamless experience for data collection, document automation and digital signature all within Salesforce, allowing you to continually build on a 360-view of your customers.</p>",
                     "logo": "/img/sponsors/2022/formstack.png",
                     "url": "https://formstack.com"
                 },
                 {
                     "name": "Veeam",
                     "id": "veeam",
-                    "description": "Veeam® is the leader in backup, recovery and data management solutions that deliver Modern Data Protection. The company provides a single platform for Cloud, Virtual, Physical, SaaS and Kubernetes environments. Veeam customers are confident their apps and data are protected from ransomware, disaster and harmful actors and always available with the most simple, flexible, reliable and powerful platform in the industry. Veeam protects over 400,000 customers worldwide, including 81% of the Fortune 500 and 70% of the Global 2,000. Headquartered in Columbus, Ohio, with offices in more than 30 countries, Veeam’s global ecosystem includes 35,000+ technology partners, resellers and service providers, and alliance partners.",
+                    "description": "<p>Veeam® is the leader in backup, recovery and data management solutions that deliver Modern Data Protection. The company provides a single platform for Cloud, Virtual, Physical, SaaS and Kubernetes environments. Veeam customers are confident their apps and data are protected from ransomware, disaster and harmful actors and always available with the most simple, flexible, reliable and powerful platform in the industry. Veeam protects over 400,000 customers worldwide, including 81% of the Fortune 500 and 70% of the Global 2,000. Headquartered in Columbus, Ohio, with offices in more than 30 countries, Veeam’s global ecosystem includes 35,000+ technology partners, resellers and service providers, and alliance partners. To learn more, visit <a href=\"https://www.veeam.com\">https://www.veeam.com</a> or follow Veeam on LinkedIn <a href=\"https://www.linkedin.com/company/veeam-software/\">@veeam-software</a> and Twitter <a href=\"https://twitter.com/veeam\">@veeam.</a></p>",
                     "logo": "/img/sponsors/2022/veeam.png",
                     "url": "https://www.veeam.com"
+                },
+                {
+                    "name": "Prodly",
+                    "id": "prodly",
+                    "description": "<p>Prodly enables Salesforce teams to increase productivity by 80 percent while reducing risk up to 30 percent by putting next-gen DevOps into the hands of admins and citizen developers. By reimagining the change management experience, Prodly delivers greater business agility, governance, and compliance without straining IT. The company’s AppOps offering has rapidly expanded from a CPQ data deployment tool to include solutions for modern Salesforce DevOps, data migration, sandbox seeding, and SOX compliance. Prodly AppOps sets the standard for low-code DevOps and can be implemented 20 times faster than traditional applications. The Prodly AppOps suite includes the following products: AppOps Release for Data, AppOps Release for Metadata, AppOps Environment Management, and AppOps Governance.</p><p>Prodly powers change management workflows for high-growth and Fortune 100 companies, including American Express, Expedia, Stanley Black & Decker, Cardinal Health, Nutanix, Johnson & Johnson, Splunk, Verizon, DoorDash, and Snowflake. The company is privately held and based in Palo Alto, California with global operations. For more information, visit <a href=\"https://prodly.co\">prodly.co</a></p>",
+                    "logo": "/img/sponsors/2022/prodly.png",
+                    "url": "https://prodly.co"
+                },
+                {
+                    "name": "Southern Cloud Solutions Corporation",
+                    "id": "southern-cloud",
+                    "description": "<p>Southern Cloud Solutions is a woman-owned Salesforce consulting and ISV partner founded in 2012. Announcing SoClo Inventory! Our new Appexchange product fills the gap between your sales and assets allowing you to manage fulfillment from multiple inventory locations for items sold, installed or manufactured.</p>",
+                    "logo": "/img/sponsors/2022/soclo.png",
+                    "url": "https://www.southerncloudsolutions.com/"
+                },
+                {
+                    "name": "Elements.cloud",
+                    "id": "elements-cloud",
+                    "description": "<p>The basis of making intelligent decisions is a shared understanding of Org configuration. Elements automates the discovery by building documentation, bringing teams together, and breaking down silos of knowledge. It is the collective wisdom.</p><p>Then apply a rigorous approach and change intelligence to manage transformational change. Elements enables everyone to manage the Salesforce platform, not relying on Org Heroics. Applied consistently it can help you move to Org Excellence.</p>",
+                    "logo": "/img/sponsors/2022/elementscloud.png",
+                    "url": "https://elements.cloud"
                 }
             ]
         },
@@ -46,7 +67,7 @@
             "label": "Silver",
             "homepage": false,
             "fullpage": false,
-            "maxwords": 50,
+            "maxwords": 55,
             "size": "is-one-third",
             "sponsors": [
                 {
@@ -55,6 +76,13 @@
                     "description": "Coastal Cloud is a Salesforce Multi-Cloud Expert Partner with deep experience across all aspects of a business: Marketing, Sales, Revenue, Billing, Service, Field Service, Community, Customer Success, ERP, Finance & Accounting, and Nonprofit Success Pack. Coastal Cloud is #1 on G2.com and maintains a 5 Star Salesforce AppExchange rating.",
                     "logo": "/img/sponsors/2022/coastalcloud.png",
                     "url": "https://coastalcloud.us/"
+                },
+                {
+                    "name": "Deloitte Digital",
+                    "id": "deloitte-digital",
+                    "description": "Deloitte Digital helps create new growth by elevating the human experience with connected ideas, technology, and talent. We do this to shape a better future for every single one of us. Deloitte Digital works with our clients to develop customer-centric organizations; helping them take on the challenges of tomorrow and beyond.",
+                    "logo": "/img/sponsors/2022/deloitte.png",
+                    "url": "https://www.deloittedigital.com/"
                 }
             ]
         },
@@ -65,15 +93,7 @@
             "fullpage": false,
             "maxwords": 50,
             "size": "is-one-third",
-            "sponsors": [
-                {
-                    "name": "Southern Cloud Solutions Corporation",
-                    "id": "southern-cloud",
-                    "description": "Southern Cloud Solutions is a woman-owned Salesforce consulting and ISV partner founded in 2012. Announcing SoClo Inventory! Our new Appexchange product fills the gap between your sales and assets allowing you to manage fulfillment from multiple inventory locations for items sold, installed or manufactured.",
-                    "logo": "/img/sponsors/2022/soclo.png",
-                    "url": "https://www.southerncloudsolutions.com/"
-                }
-            ]
+            "sponsors": []
         }
     ]
 }
