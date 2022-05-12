@@ -139,7 +139,8 @@
             "pronouns": "She / Her",
             "company": "Red Canary",
             "title": "Senior Manager, Business Solutions",
-            "image": "/img/sessions/2022/speakers/boaz.jpg"
+            "image": "/img/sessions/2022/speakers/boaz.jpg",
+            "mvp": true
         },
         "booth": {
             "first_name": "Karisa",
@@ -190,7 +191,8 @@
             "pronouns": "He / Him",
             "title": "Principal Software Engineer",
             "company": "Red Hat",
-            "image": "/img/sessions/2022/speakers/connelly.jpg"
+            "image": "/img/sessions/2022/speakers/connelly.jpg",
+            "mvp": true
         },
         "damon": {
             "first_name": "Tyler",
@@ -202,6 +204,7 @@
             "image": "/img/sessions/2022/speakers/damon.jpg",
             "first_sed": true,
             "first_talk": true
+
         },
         "daniel": {
             "first_name": "John",
@@ -211,7 +214,8 @@
             "title": "Senior Director of Digital Platforms",
             "company": "Steampunk",
             "image": "/img/sessions/2022/speakers/daniel.jpg",
-            "first_sed": true
+            "first_sed": true,
+            "mvp": true
         },
         "duncan": {
             "first_name": "Erin",
@@ -260,7 +264,8 @@
             "title": "Business Architect",
             "company": "IBM",
             "image": "/img/sessions/2022/speakers/hansen.jpg",
-            "first_sed": true
+            "first_sed": true,
+            "mvp": true
         },
         "havemeier": {
             "first_name": "Kristen",
@@ -280,7 +285,8 @@
             "title": "Practice Lead, Salesforce",
             "company": "Crowe",
             "image": "/img/sessions/2022/speakers/hoffman.jpg",
-            "first_sed": true
+            "first_sed": true,
+            "mvp": true
         },
         "kingston": {
             "first_name": "Jarrod",
@@ -351,7 +357,8 @@
             "pronouns": "He / Him",
             "title": "Senior Solution Architect",
             "company": "Attain Partners",
-            "image": "/img/sessions/2022/speakers/pifer.jpg"
+            "image": "/img/sessions/2022/speakers/pifer.jpg",
+            "mvp": true
         },
         "rebain": {
             "first_name": "Stephanie",
@@ -381,7 +388,8 @@
             "title": "Salesforce Architect / Admin",
             "company": "Notisblank",
             "image": "/img/sessions/2022/speakers/sandberg.jpg",
-            "first_sed": true
+            "first_sed": true,
+            "mvp": true
         },
         "shrivastava": {
             "first_name": "Mohith",
@@ -408,7 +416,8 @@
             "pronouns": "She / Her",
             "title": "CEO",
             "company": "Sercante",
-            "image": "/img/sessions/2022/speakers/tarrell.jpg"
+            "image": "/img/sessions/2022/speakers/tarrell.jpg",
+            "mvp": true
         },
         "taylor": {
             "first_name": "Marisa",
@@ -447,7 +456,8 @@
             "pronouns": "",
             "title": "Product Leader",
             "company": "IBM",
-            "image": "/img/sessions/2022/speakers/weinmeister.jpg"
+            "image": "/img/sessions/2022/speakers/weinmeister.jpg",
+            "mvp": true
         },
         "whipple": {
             "first_name": "Eric",
@@ -466,7 +476,8 @@
             "pronouns": "She / Her",
             "title": "Delivery Manager",
             "company": "Innovate",
-            "image": "/img/sessions/2022/speakers/whitakers.jpg"
+            "image": "/img/sessions/2022/speakers/whitakers.jpg",
+            "mvp": true
         },
         "whitakery": {
             "first_name": "Yancy",
@@ -497,7 +508,8 @@
             "title": "Senior Solutions Architect",
             "company": "Crowe",
             "image": "/img/sessions/2022/speakers/zellner.jpg",
-            "first_sed": true
+            "first_sed": true,
+            "mvp": true
         }
     },
     "sessions": [
