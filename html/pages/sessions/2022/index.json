@@ -73,35 +73,35 @@
     "hot_time_slots": {
         "hotslot1": {
             "name": "Hands-on Training Session #1",
-            "start": "12:45 PM",
-            "end": "2:15 PM"
+            "start": "1:30 PM",
+            "end": "3:00 PM"
         },
         "hotslot2": {
             "name": "Hands-on Training Session #2",
-            "start": "3:00 PM",
-            "end": "4:30 PM"
+            "start": "3:15 PM",
+            "end": "4:45 PM"
         }
     },
     "session_time_slots": {
         "slot1": {
             "name": "Breakout Session #1",
-            "start": "9:50 AM",
-            "end": "10:30 AM"
+            "start": "9:40 AM",
+            "end": "10:25 AM"
         },
         "slot2": {
             "name": "Breakout Session #2",
-            "start": "10:45 AM",
-            "end": "11:30 AM"
+            "start": "10:35 AM",
+            "end": "11:20 AM"
         },
         "slot3": {
             "name": "Breakout Session #3",
-            "start": "12:35 PM",
-            "end": "1:20 PM"
+            "start": "1:35 PM",
+            "end": "2:00 PM"
         },
         "slot4": {
             "name": "Breakout Session #4",
-            "start": "1:30 PM",
-            "end": "2:15 PM"
+            "start": "2:10 PM",
+            "end": "2:35 PM"
         },
         "slot5": {
             "name": "Breakout Session #5",
@@ -484,7 +484,7 @@
             "last_name": "Whitaker",
             "id": "whitakery",
             "pronouns": "He / Him",
-            "title": "Blazin Trails with Salesforce Military",
+            "title": "",
             "company": "Deloitte",
             "image": "/img/sessions/2022/speakers/whitakery.jpg",
             "first_sed": true

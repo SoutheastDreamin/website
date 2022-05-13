@@ -3,6 +3,7 @@ const chalk = require('chalk');
 const fs = require('fs');
 const Table = require('cli-table');
 const lodash = require('lodash');
+const jsontocsv = require('json-2-csv');
 
 /**
  * Gets the data from a JSON file
@@ -99,9 +100,49 @@ function buildTable(table_metadata, is_verbose, checker, data) {
     return table;
 }
 
+/**
+ * Writes a file to disk
+ * @param {String} filename The filename
+ * @param {Object} data The data to write
+ * @returns {Promise} A promise for when the file was written
+ */
+function writeFile(filename, data) {
+    return new Promise(function (resolve, reject) {
+        fs.writeFile(filename, data, function (error) {
+            if (error) {
+                reject(error);
+            } else {
+                resolve(data);
+            }
+        });
+    });
+}
+
+/**
+ * Coverts an array of objects to CSV and writes it to a file
+ * @param {String} filename The filename
+ * @param {Object[]} data JSON data to convert to CSV
+ * @returns {Promise} A promise for when the data has been converted and written
+ */
+function writeCSVFile(filename, data) {
+    return new Promise(function (resolve, reject) {
+        jsontocsv.json2csv(data, function (error, csv) {
+            if (error) {
+                reject(error);
+            } else {
+                writeFile(filename, csv)
+                    .then(resolve)
+                    .catch(reject);
+            }
+        });
+    });
+}
+
 module.exports = {
     loadJSONFile: loadJSONFile,
     checkmark: checkmark,
     fileExists: fileExists,
-    buildTable: buildTable
+    buildTable: buildTable,
+    writeCSVFile: writeCSVFile,
+    writeFile: writeFile
 };
