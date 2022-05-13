@@ -59,6 +59,13 @@
                     "description": "<p>The basis of making intelligent decisions is a shared understanding of Org configuration. Elements automates the discovery by building documentation, bringing teams together, and breaking down silos of knowledge. It is the collective wisdom.</p><p>Then apply a rigorous approach and change intelligence to manage transformational change. Elements enables everyone to manage the Salesforce platform, not relying on Org Heroics. Applied consistently it can help you move to Org Excellence.</p>",
                     "logo": "/img/sponsors/2022/elementscloud.png",
                     "url": "https://elements.cloud"
+                },
+                {
+                    "name": "Form Assembly",
+                    "id": "formassembly",
+                    "description": "<p>FormAssembly is a trusted enterprise data collection platform that empowers security-conscious organizations to drive mission-critical business initiatives and become better stewards of their data. Our platform helps customers of all skill levels build efficient data collection workflows while meeting the high security and compliance standards of regulated industries. Used by thousands of organizations, FormAssembly integrates seamlessly with other commonly used systems to streamline processes and drive business results.</p>",
+                    "logo": "/img/sponsors/2022/formassembly.png",
+                    "url": "https://www.formassembly.com/"
                 }
             ]
         },
