@@ -256,6 +256,15 @@
             "image": "/img/sessions/2022/speakers/glasser.jpg",
             "first_sed": true
         },
+        "godley": {
+            "first_name": "Cate",
+            "last_name": "Godley",
+            "id": "godley",
+            "pronouns": "",
+            "title": "",
+            "company": "Sercante",
+            "image": "/img/sessions/2022/speakers/placeholder.jpg"
+        },
         "hansen": {
             "first_name": "Michelle",
             "last_name": "Hansen",
@@ -276,6 +285,15 @@
             "company": "Salesforce",
             "image": "/img/sessions/2022/speakers/havemeier.jpg",
             "first_sed": true
+        },
+        "hernandez": {
+            "first_name": "Sara",
+            "last_name": "Hernandez",
+            "id": "hernandez",
+            "pronouns": "",
+            "title": "",
+            "company": "Sercante",
+            "image": "/img/sessions/2022/speakers/placeholder.jpg"
         },
         "hoffman": {
             "first_name": "Tom",
@@ -316,17 +334,6 @@
             "title": "Co-Founder",
             "company": "Ohanaly",
             "image": "/img/sessions/2022/speakers/mahle.jpg",
-            "first_sed": true
-        },
-        "nerney": {
-            "first_name": "Andrew",
-            "last_name": "Nerney",
-            "id": "nerney",
-            "pronouns": "He / Him",
-            "title": "Solution Engineer",
-            "company": "ScreenMeet",
-            "image": "/img/sessions/2022/speakers/nerney.jpg",
-            "first_talk": true,
             "first_sed": true
         },
         "pawlak": {
@@ -714,16 +721,6 @@
             "speakers": ["whitakery"]
         },
         {
-            "title": "Modern Digital Customer Experience (DCX): Better Support Experiences Now!",
-            "abstract": "<p>In this session, you will discover what roadblocks enterprises are experiencing, the most pressing challenges to overcome, and how some of the most well-known companies are experiencing success with their own digital transformations and best Customer Support practices. You'll learn how the use of cloud technologies integrated into Salesforce can offer business and financial benefits to your organization that will truly transform the business Support model.</p><p>The acceleration in the adoption of digital technologies in the last 2 years has resulted in both an increase in collaboration tools and the complexity in streamlining those tools to be truly effective, impactful, and cost savings for the enterprise. This increase in collaboration has resulted in a change in expectations and behaviors as well. The “new normal” is that customers can have their Customer Support issues resolved and questions answered without physical contact, through live virtual interactions with the businesses they work with.</p><p>The composition of the workforce has also changed: employees expect simple to use, low-friction technologies that allow them to interface with their clients and team members remotely, independent of where they are geographically located.</p><p>Unfortunately, the benefits of numerous collaboration tools are often displaced by being disparate and siloed systems. While improving one group's ability to work, it may further separate their work from the larger enterprise. This is when the proper cloud-based technologies can truly digitally transform a business.</p><p>Learn, get informed, ask questions, and go back prepared to be a digital change maker!</p>",
-            "id": "modern-digital-customer-experience",
-            "year": "2022",
-            "track": "exec",
-            "room": "suwannee",
-            "slot": "slot1",
-            "speakers": ["nerney"]
-        },
-        {
             "title": "Secret Weapons to Level Up Your Communication & Drive Change",
             "abstract": "<p>Whether you're an admin, a developer, a consultant, or something in between, part of your job is driving change and influencing people.</p><p>This session will cover soft skills that make all the difference when you want to build trust and make things happen.  They're legit \"secret weapons\" -- because if you leverage them effectively, your audience won't even know what hit 'em.</p><p>Topics covered:<ul><li>The 5 whys</li><li>Leveraging silence</li><li>The art of framing</li><li>Practical prompts to put it in action</p>",
             "id": "secret-weapons-to-level-up-your-communication-and-drive-change",
@@ -913,7 +910,7 @@
             "track": "marketing",
             "room": "augusta",
             "slot": "hotslot1",
-            "speakers": ["tarrell"]
+            "speakers": ["tarrell", "hernandez", "godley"]
         },
         {
             "title": "Build Your Own Automation Monitors and Save Yourself from Run-Time Errors",
