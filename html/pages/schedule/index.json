@@ -59,8 +59,14 @@
                     "slot": "slot2"
                 },
                 {
-                    "start": "11:00 AM",
+                    "start": "11:30 AM",
                     "end": "12:30 PM",
+                    "title": "Demo Jam",
+                    "location": "Heritage Ballroom"
+                },
+                {
+                    "start": "12:30 PM",
+                    "end": "1:30 PM",
                     "title": "Lunch",
                     "location": ""
                 },
