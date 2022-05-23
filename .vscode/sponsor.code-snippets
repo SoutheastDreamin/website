@@ -1,0 +1,15 @@
+{
+	"sponsor": {
+		"scope": "json",
+		"prefix": "sponsor",
+		"body": [
+			"{",
+			"\t\"name\": \"\",",
+			"\t\"id\": \"\",",
+			"\t\"description\": \"\",",
+			"\t\"logo\": \"/img/sponsors/20XX/\",",
+			"\t\"url\": \"\"",
+			"}"
+		]
+	}
+}
