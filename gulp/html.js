@@ -9,10 +9,6 @@ const lodash = require('lodash');
 const constants = require('./constants');
 const config = require('../config.json');
 
-const YEAR_LIST = [
-    '2022'
-];
-
 const ADDITIONAL_DATA = {
     'html/pages/schedule/index.html': [
         `html/pages/schedule/${config.year}/index.json`,
@@ -29,7 +25,26 @@ const ADDITIONAL_DATA = {
     ]
 };
 
-lodash.each(YEAR_LIST, function (year) {
+/**
+ * List the years for the schedule
+ * @returns {String[]} A list of years
+ */
+function list_years() {
+    const schedule_path = 'html/pages/schedule/';
+    const opts = {
+        withFileTypes: true
+    };
+    return fs.readdirSync(schedule_path, opts)
+        .filter(function (file) {
+            console.log(`${file.name} -> ${file.isDirectory()}`);
+            return file.isDirectory();
+        })
+        .map(function (file) {
+            return file.name;
+        });
+}
+
+lodash.each(list_years(), function (year) {
     const key = `html/pages/schedule/${year}/index.html`;
 
     ADDITIONAL_DATA[key] = [];
