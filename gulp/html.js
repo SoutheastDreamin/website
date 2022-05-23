@@ -9,8 +9,13 @@ const lodash = require('lodash');
 const constants = require('./constants');
 const config = require('../config.json');
 
+const YEAR_LIST = [
+    '2022'
+];
+
 const ADDITIONAL_DATA = {
     'html/pages/schedule/index.html': [
+        `html/pages/schedule/${config.year}/index.json`,
         `html/pages/sessions/${config.year}/index.json`
     ],
     'html/pages/sessions/index.html': [
@@ -23,6 +28,13 @@ const ADDITIONAL_DATA = {
         `html/pages/sponsors/${config.year}/index.json`
     ]
 };
+
+lodash.each(YEAR_LIST, function (year) {
+    const key = `html/pages/schedule/${year}/index.html`;
+
+    ADDITIONAL_DATA[key] = [];
+    ADDITIONAL_DATA[key].push(`html/pages/sessions/${year}/index.json`);
+});
 
 /**
  * Gets the path to the HTML page files
