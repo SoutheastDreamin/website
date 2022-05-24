@@ -260,10 +260,12 @@
             "first_name": "Cate",
             "last_name": "Godley",
             "id": "godley",
-            "pronouns": "",
-            "title": "",
+            "pronouns": "She / Her",
+            "title": "Jump Start Program Administrator",
             "company": "Sercante",
-            "image": "/img/sessions/2022/speakers/placeholder.jpg"
+            "image": "/img/sessions/2022/speakers/godley.jpg",
+            "first_talk": true,
+            "first_sed": true
         },
         "hansen": {
             "first_name": "Michelle",
