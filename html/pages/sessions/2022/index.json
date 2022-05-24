@@ -290,10 +290,12 @@
             "first_name": "Sara",
             "last_name": "Hernandez",
             "id": "hernandez",
-            "pronouns": "",
-            "title": "",
+            "pronouns": "She / Her",
+            "title": "Director of Delivery",
             "company": "Sercante",
-            "image": "/img/sessions/2022/speakers/placeholder.jpg"
+            "image": "/img/sessions/2022/speakers/hernandez.jpg",
+            "first_talk": true,
+            "first_sed": true
         },
         "hoffman": {
             "first_name": "Tom",
