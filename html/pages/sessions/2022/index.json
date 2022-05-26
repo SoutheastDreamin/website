@@ -310,6 +310,18 @@
             "first_sed": true,
             "mvp": true
         },
+        "keitt": {
+            "first_name": "Tracey",
+            "last_name": "Keitt",
+            "id": "keitt",
+            "pronouns": "He / Him",
+            "title": "Salesforce Administrator",
+            "company": "Itential",
+            "bio": "Born and raised in Charlotte, NC, Tracey spent the first decade of his career focused on education and corporate training both stateside and abroad.  After 6 years of exploring the beauty of Chile, founding a business with his wife and starting their family, they decided to move their growing family back stateside. He returned to the traditional classroom but soon felt the need to dive back into the world of data and business.</p><p>Aftering being introduced to the Salesforce ecosystem and its endless opportunities to learn and develop new skills, he dedicated all of his energies to pivot into his new career. With 6 certifications and counting, he is excited to continually grow his Salesforce knowledge as he goes after new challenges everyday as the Admin at Itential, a cutting edge and rapidly growing tech startup based in Atlanta.</p><p>In his free time Tracey is an avid cyclist, dedicated to the yoga mat, and loves any and all aspects of photography and videography. He is the current reigning champion of trampoline lucha libres at his homestead, where his scrappy and tenacious sons don’t stand a chance... yet.</p>",
+            "image": "/img/sessions/20XX/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false
+        },
         "kingston": {
             "first_name": "Jarrod",
             "last_name": "Kingston",
@@ -458,6 +470,7 @@
             "title": "Systems Administrator",
             "company": "Alliant Purchasing",
             "image": "/img/sessions/2022/speakers/villanueva.jpg",
+            "bio": "Oh goodness, I'm terrible at these. I'm a certified Salesforce Administrator and Platform builder. I love my job, my coworkers, and the company I work for. In my free time you can find me in the gym Olympic style weightlifting or doing CrossFit. I'm a yoga instructor and dog mom. I'm an all around happy human :D",
             "first_sed": true
         },
         "weinmeister": {
@@ -936,5 +949,8 @@
             "slot": "hotslot2",
             "speakers": ["garcia"]
         }
-    ]
+    ],
+    "keynote": {
+        "speakers": ["keitt", "villanueva"]
+    }
 }

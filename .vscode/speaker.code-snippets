@@ -1,0 +1,19 @@
+{
+	"speaker": {
+		"scope": "json",
+		"prefix": "speaker",
+		"body": [
+			"\"first_name\": \"\",",
+            "\"last_name\": \"\",",
+            "\"id\": \"\",",
+            "\"pronouns\": \"\",",
+            "\"title\": \"\",",
+            "\"company\": \"\",",
+			"\"bio\": \"\"",
+            "\"image\": \"/img/sessions/20XX/speakers/placeholder.jpg\",",
+            "\"first_sed\": false,",
+			"\"first_talk\": false",
+			"\"mvp\": false"
+		]
+	}
+}
