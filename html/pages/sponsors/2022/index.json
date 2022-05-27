@@ -61,7 +61,7 @@
                     "url": "https://elements.cloud"
                 },
                 {
-                    "name": "Form Assembly",
+                    "name": "FormAssembly",
                     "id": "formassembly",
                     "description": "<p>FormAssembly is a trusted enterprise data collection platform that empowers security-conscious organizations to drive mission-critical business initiatives and become better stewards of their data. Our platform helps customers of all skill levels build efficient data collection workflows while meeting the high security and compliance standards of regulated industries. Used by thousands of organizations, FormAssembly integrates seamlessly with other commonly used systems to streamline processes and drive business results.</p>",
                     "logo": "/img/sponsors/2022/formassembly.png",
@@ -101,6 +101,20 @@
                     "description": "<p>Strongpoint is a Managed Package built directly in the Salesforce platform that helps companies automate the toughest parts of change management, access management, data security and compliance. Strongpoint continuously monitors how your Org is configured and flags for review anything that could introduce risk. Based on policies you’ve set out, Strongpoint can also require pre-approval or testing for potentially unsafe changes, tracking everything in an airtight, audit-ready log. The result is that resources are directed where they need to go, and internal expertise is freed up to work on other projects. In busy organizations that rely on Salesforce to propel their growth, Strongpoint gives IT teams the confidence to do their work while effectively managing risk, maintaining data security, and reducing the cost of regulatory compliance.</p>",
                     "logo": "/img/sponsors/2022/strongpoint.png",
                     "url": "https://strongpoint.io"
+                },
+                {
+                    "name": "Spekit",
+                    "id": "spekit",
+                    "description": "<p>Spekit, the highest-rated and easiest-to-use digital enablement platform that maximizes employee productivity, helps you onboard faster and drives tool adoption by reinforcing your training and enablement in real-time, in any application.</p>",
+                    "logo": "/img/sponsors/2022/spekit.png",
+                    "url": "https://spekit.co/"
+                },
+                {
+                    "name": "",
+                    "id": "",
+                    "description": "<p>GetAccept is the #1 Digital Sales Room platform for Salesforce. Recently named the Digital Sales Room category leader by G2, GetAccept makes room for better virtual partnerships between sales professionals and their buyers. The Digital Sales Room manages the entire customer lifecycle, from qualified opportunity through customer onboarding and renewal.</p><p>GetAccept is on a mission to radically redefine the way companies run sales. The Digital Sales Room platform brings popular sales tech features such as proposal and contract management, content creation, personalized video and chat, document tracking and analytics as well as eSignature into one place.</p><p>Founded by Swedish entrepreneurs Samir Smajic, Mathias Thulin, Jonas Blanck and Carl Carell, the platform serves more than 30,000 users in more than 3,000 different enterprises across 50+ countries.</p>",
+                    "logo": "/img/sponsors/2022/getaccept.png",
+                    "url": ""
                 }
             ]
         },
@@ -115,14 +129,14 @@
                 {
                     "name": "Coastal Cloud",
                     "id": "costal-cloud",
-                    "description": "Coastal Cloud is a Salesforce Multi-Cloud Expert Partner with deep experience across all aspects of a business: Marketing, Sales, Revenue, Billing, Service, Field Service, Community, Customer Success, ERP, Finance & Accounting, and Nonprofit Success Pack. Coastal Cloud is #1 on G2.com and maintains a 5 Star Salesforce AppExchange rating.",
+                    "description": "<p>Coastal Cloud is a Salesforce Multi-Cloud Expert Partner with deep experience across all aspects of a business: Marketing, Sales, Revenue, Billing, Service, Field Service, Community, Customer Success, ERP, Finance & Accounting, and Nonprofit Success Pack. Coastal Cloud is #1 on G2.com and maintains a 5 Star Salesforce AppExchange rating.</p>",
                     "logo": "/img/sponsors/2022/coastalcloud.png",
                     "url": "https://coastalcloud.us/"
                 },
                 {
                     "name": "Deloitte Digital",
                     "id": "deloitte-digital",
-                    "description": "Deloitte Digital helps create new growth by elevating the human experience with connected ideas, technology, and talent. We do this to shape a better future for every single one of us. Deloitte Digital works with our clients to develop customer-centric organizations; helping them take on the challenges of tomorrow and beyond.",
+                    "description": "<p>Deloitte Digital helps create new growth by elevating the human experience with connected ideas, technology, and talent. We do this to shape a better future for every single one of us. Deloitte Digital works with our clients to develop customer-centric organizations; helping them take on the challenges of tomorrow and beyond.</p>",
                     "logo": "/img/sponsors/2022/deloitte.png",
                     "url": "https://www.deloittedigital.com/"
                 }
