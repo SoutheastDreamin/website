@@ -9,7 +9,7 @@ const constants = require('./constants');
  * @returns {String} The image file path
  */
 function image_path() {
-    return path.join(__dirname, '..', constants.IMG, '**/*.+(png|jpg|gif|svg)');
+    return path.join(__dirname, '..', constants.IMG, '**/*.+(png|jpg|gif|svg|eps)');
 }
 
 /**
