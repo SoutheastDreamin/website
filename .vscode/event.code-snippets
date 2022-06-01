@@ -1,0 +1,14 @@
+{
+	"event": {
+		"scope": "json",
+		"prefix": "event",
+		"body": [
+			"{",
+			"\t\"start\": \"\",",
+			"\t\"end\": \"\",",
+			"\t\"title\": \"\",",
+			"\t\"location\": \"\"",
+			"}"
+		]
+	}
+}
