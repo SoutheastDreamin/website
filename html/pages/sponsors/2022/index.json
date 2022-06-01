@@ -110,11 +110,18 @@
                     "url": "https://spekit.co/"
                 },
                 {
-                    "name": "",
-                    "id": "",
+                    "name": "GetAccept",
+                    "id": "getaccept",
                     "description": "<p>GetAccept is the #1 Digital Sales Room platform for Salesforce. Recently named the Digital Sales Room category leader by G2, GetAccept makes room for better virtual partnerships between sales professionals and their buyers. The Digital Sales Room manages the entire customer lifecycle, from qualified opportunity through customer onboarding and renewal.</p><p>GetAccept is on a mission to radically redefine the way companies run sales. The Digital Sales Room platform brings popular sales tech features such as proposal and contract management, content creation, personalized video and chat, document tracking and analytics as well as eSignature into one place.</p><p>Founded by Swedish entrepreneurs Samir Smajic, Mathias Thulin, Jonas Blanck and Carl Carell, the platform serves more than 30,000 users in more than 3,000 different enterprises across 50+ countries.</p>",
                     "logo": "/img/sponsors/2022/getaccept.png",
-                    "url": ""
+                    "url": "https://www.getaccept.com/"
+                },
+                {
+                    "name": "Mogli SMS",
+                    "id": "mogli",
+                    "description": "<p>Mogli SMS is the most robust and user-friendly native text messaging solution on the AppExchange. It offers an unlimited user license, a US-based 5-star client success team, and a beautiful, intuitive user interface. Mogli - Do More of What Matters.</p><p>Mogli SMS features:</p><ul><li>2-way bulk SMS and MMS from campaigns, list views, and reports: Send text messages & WhatsApp immediately, automate them, or schedule messages from any standard or custom object. It even works with Pardot, Marketing Cloud, and Omnichannel.</li><li>Inbound / outbound SMS & WhatsApp™ surveys and chatbot: Mogli guides the conversation based on participant responses. Text message replies can be used to qualify leads, auto-create or update records, or start a 1 on 1 conversation.</li><li>Text to Voice and File to Voice Features: Auto-dial your contacts to provide them with important reminders and notifications. Along with SMS and WhatsApp, you'll be sure your contacts have the information they need, when they need it with Mogli Voice.</li></ul>",
+                    "logo": "/img/sponsors/2022/mogli.png",
+                    "url": "https://www.mogli.com/"
                 }
             ]
         },
