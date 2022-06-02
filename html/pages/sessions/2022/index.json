@@ -964,6 +964,8 @@
         }
     ],
     "keynote": {
+        "abstract": "The Southeast Dreamin’ team is putting together a different kind of keynote this year. After two years of being at home, interacting with the Trailblazer community, we want to celebrate the reason we come together. Dreamin’ conferences provide space for seasoned Trailblazers to share knowledge but also create opportunities for new Trailblazers to make their mark - to find their path and go on to become the teachers for the next generation. The three trailblazers highlighted here represent the hope, change, and future of the Salesforce ecosystem.",
+        "takeaway": "<dl><dt>Lessons and Laughs</dt><dd>Inspiring Career Journeys of three Trailblazers</dd><dt>Tips and Tricks</dt><dd>How Trailblazers find Success</dd><dt>The Power of Community</dt><dd>Benefits of User Groups, Community Conferences, and Salesforce Saturdays</dd></dl>",
         "speakers": ["keitt", "villanueva"]
     }
 }
