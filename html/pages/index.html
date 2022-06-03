@@ -18,17 +18,27 @@
                     </div>
                 </div>
             </div>
-            {% if globals.registration_open %}
+
             <div class="columns is-multiline is-centered">
-                <div class="column is-5">
+                {% if globals.registration_open %}
+                <div class="column is-4">
                     <a href="{{ globals.registration_url }}" class="is-primary">
                         <div class="notification has-background-info has-text-black">
                                 <i class="fas fa-user-plus"></i> <span class="pl-2">Register</span>
                         </div>
                     </a>
                 </div>
+                {% endif %}
+                {% if globals.whova_open %}
+                <div class="column is-4">
+                    <a href="{{ globals.whova_url }}" class="is-primary">
+                        <div class="notification has-background-info has-text-black">
+                                <i class="fas fa-download"></i> <span class="pl-2">Download Whova</span>
+                        </div>
+                    </a>
+                </div>
+                {% endif %}
             </div>
-            {% endif %}
         </div>
     </section>
     <nav class="level py-3 has-background-info is-mobile">
@@ -47,7 +57,7 @@
         <div class="level-item has-text-centered">
             <div>
                 <p class="heading">Attendees</p>
-                <p class="title">350+</p>
+                <p class="title">200+</p>
             </div>
         </div>
     </nav>
