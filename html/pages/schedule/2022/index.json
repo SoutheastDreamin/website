@@ -52,7 +52,8 @@
                     "start": "8:30 AM",
                     "end": "9:30 AM",
                     "title": "Opening Keynote",
-                    "location": "Heritage Ballroom"
+                    "location": "Heritage Ballroom",
+                    "anchor": "keynote"
                 },
                 {
                     "title": "Breakout Session #1",

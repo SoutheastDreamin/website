@@ -98,7 +98,13 @@
             {% set start = e.start if not e.slot else slots[e.slot].start  %}
             {% set end = e.end if not e.slot else slots[e.slot].end  %}
             <tr>
-                {% if e.slot %}<td><a href="#{{ e.slot }}">{{ e.title }}</a></td>{% else %}<td>{{ e.title }}</td>{% endif %}
+                {% if e.slot %}
+                    <td><a href="#{{ e.slot }}">{{ e.title }}</a></td>
+                {% elif e.anchor %}
+                    <td><a href="#{{ e.anchor }}">{{ e.title }}</a></td>
+                {% else %}
+                    <td>{{ e.title }}</td>
+                {% endif %}
                 <td class="has-text-centered">{{ e.location }}</td>
                 <td class="has-text-centered">{{ start }}</td>
                 <td class="has-text-centered">{{ end }}</td>
@@ -238,4 +244,29 @@
             {% endfor %}
         </tbody>
     </table>
+{%- endmacro %}
+
+{% macro keynote_block(keynote, speakers) %}
+    <a id="keynote"></a>
+    <section class="hero mb-6">
+        <div class="hero-body pl-0">
+            <p class="title is-capitalized is-1">{{ keynote.title }}</p>
+            <p class="subtitle">{{ keynote.abstract }}</p>
+        </div>
+        <div class="ml-4 mb-6">
+            <p class="title is-capitalized is-3">Takeaways</p>
+            <div class="content">{{ keynote.takeaway | safe }}</div>
+        </div>
+        {% for speaker_id in keynote.speakers %}
+        <div class="section keynote_speaker">
+        <div class="columns">
+            <div class="column is-one-quarter">
+                {% set speaker = speakers[speaker_id] %}
+                {{ session_speaker(speaker) }}
+            </div>
+            <div class="column">{{ speaker.bio | safe }}</div>
+        </div>
+        </div>
+        {% endfor %}
+    </section>
 {%- endmacro %}
