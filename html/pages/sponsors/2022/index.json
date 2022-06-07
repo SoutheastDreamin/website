@@ -171,6 +171,14 @@
                     "type": "Photo Booth & Caricature Artist",
                     "logo": "/img/sponsors/2022/sercante.png",
                     "url": "https://www.sercante.com/"
+                },
+                {
+                    "name": "Hike2",
+                    "id": "hike2",
+                    "description": "<p>We are a digital solutions consultancy focused on helping our clients become better companies for their customers. We help our customers unlock the potential of their organization, through technology, and all along their customers’ journey.  Whether you are just getting started in your Salesforce journey, want to evaluate where you are, or you are ready to take things to the next level, HIKE2 can guide you through your entire process. We help you create an integrated customer experience while producing a speedy and tangible return on your Salesforce investment.</p><p>Our cross-Salesforce Capabilities Include:</p><ul><li>Business, technology &amp; customer strategy</li><li>Human Centered Design</li><li>Strategy</li><li>Integration</li><li>Data &amp; Analytics</li><li>User experience & process design</li></ul>",
+                    "type": "Reception",
+                    "logo": "/img/sponsors/2022/hike2.png",
+                    "url": "https://hike2.com/"
                 }
             ]
         }
