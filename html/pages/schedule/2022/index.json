@@ -43,7 +43,7 @@
                     "location": ""
                 },
                 {
-                    "start": "8:00 AM",
+                    "start": "7:00 AM",
                     "end": "8:30 AM",
                     "title": "Breakfast",
                     "location": "Heritage Ballroom"
@@ -94,7 +94,7 @@
                     "slot": "slot4"
                 },
                 {
-                    "start": "2:30 PM",
+                    "start": "2:35 PM",
                     "end": "3:00 PM",
                     "title": "Break",
                     "location": ""
