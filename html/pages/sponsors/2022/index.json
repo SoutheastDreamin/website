@@ -14,6 +14,13 @@
                     "description": "<p>Tricentis has been widely recognized as the leader by all major industry analysts, including being named a leader in Gartner’s Magic Quadrant five years in a row. Tricentis has more than 1,800 customers, including the largest brands in the world, such as Accenture, Coca-Cola, Nationwide Insurance, Allianz, Telstra, Dolby, RBS, and Zappos. To learn more, visit <a href=\"http://www.tricentis.com\">www.tricentis.com</a> or follow us on <a href=\"https://www.linkedin.com/company/tricentis/\">LinkedIn</a>, <a href=\"https://twitter.com/tricentis\">Twitter</a>, and <a href=\"https://www.facebook.com/TRICENTIS\">Facebook</a>.</p>",
                     "logo": "/img/sponsors/2022/tricentis.png",
                     "url": "http://www.tricentis.com"
+                },
+                {
+                    "name": "Copado",
+                    "id": "copado",
+                    "description": "<p>Copado is the #1 DevOps Platform for Salesforce and the Cloud. We harness the power of native CI/CD and Robotic Testing to drive digital transformation for 1,000+ of the most innovative brands on the planet — from Coca-Cola to eBay to Volkswagen. Our low-code platform unites non-technical admins and pro-code developers on the same system and empowers enterprises to scale end-to-end software delivery across multi-cloud environments. The impact on your business? 20X faster releases, 94% fewer production bugs and 46% more Salesforce ROI. The impact on your team? No more late nights, weekend war rooms or stressful release days</p>",
+                    "logo": "/img/sponsors/2022/copado.png",
+                    "url": "https://www.copado.com/"
                 }
             ]
         },
@@ -129,6 +136,13 @@
                     "description": "<p>Cirrus Insight is a plugin for Gmail and Outlook for salespeople.</p><p>Founded in 2011, Cirrus Insight sales enablement platform for Gmail and Outlook offers an all-in-one sales productivity platform with world-class Salesforce integration.</p>",
                     "logo": "/img/sponsors/2022/cirrus.png",
                     "url": "https://www.cirrusinsight.com/"
+                },
+                {
+                    "name": "Sonar",
+                    "id": "sonar",
+                    "description": "<p>Before Sonar, Ops teams had a limited view of what could be affected by the changes they were making to their tech stack. This could lead to significant negative impacts on businesses as a whole, as Ops teams support critical go-to-market teams. Our founders had seen these types of issues firsthand and set out to solve this problem.</p><p>Sonar solves these issues by providing a Change Intelligence platform that gives Ops teams a blueprint for any modification they wish to make to their tech stack. With Sonar, operations teams confidently deliver new processes to go-to-market teams with more success and less worry. Scoping and executing changes is a breeze with a living data dictionary to organize the scope visually. Sonar empowers teams to immediately realize the downstream impacts of change across their tech stack, so they know exactly what will break and can easily navigate change.</p><p>By using Sonar to support their Ops teams, companies have seen fewer breakages to critical systems, more accurate data, and faster creation of new processes.</p>",
+                    "logo": "/img/sponsors/2022/sonar.png",
+                    "url": "https://seesonar.com"
                 }
             ]
         },
@@ -175,10 +189,18 @@
                 {
                     "name": "Hike2",
                     "id": "hike2",
-                    "description": "<p>We are a digital solutions consultancy focused on helping our clients become better companies for their customers. We help our customers unlock the potential of their organization, through technology, and all along their customers’ journey.  Whether you are just getting started in your Salesforce journey, want to evaluate where you are, or you are ready to take things to the next level, HIKE2 can guide you through your entire process. We help you create an integrated customer experience while producing a speedy and tangible return on your Salesforce investment.</p><p>Our cross-Salesforce Capabilities Include:</p><ul><li>Business, technology &amp; customer strategy</li><li>Human Centered Design</li><li>Strategy</li><li>Integration</li><li>Data &amp; Analytics</li><li>User experience & process design</li></ul>",
+                    "description": "<p>We are a digital solutions consultancy focused on helping our clients become better companies for their customers. We help our customers unlock the potential of their organization, through technology, and all along their customers’ journey.  We help you create an integrated customer experience while producing a speedy and tangible return on your Salesforce investment.</p>",
                     "type": "Reception",
                     "logo": "/img/sponsors/2022/hike2.png",
                     "url": "https://hike2.com/"
+                },
+                {
+                    "name": "Focus on Force",
+                    "id": "focusonforce",
+                    "description": "Focus on Force is the ideal preparation for your Salesforce Certification",
+                    "type": "Giveaway",
+                    "logo": "/img/sponsors/2022/focusonforce.png",
+                    "url": "https://focusonforce.com/"
                 }
             ]
         }

@@ -1,0 +1,14 @@
+{
+	"schedule": {
+		"scope": "json",
+		"prefix": "schedule",
+		"body": [
+			"{",
+			"\t\"start\": \"\",",
+			"\t\"end\": \"\",",
+			"\t\"title\": \"\",",
+			"\t\"location\": \"\"",
+			"}"
+		]
+	}
+}

@@ -10,21 +10,15 @@
                     "location": ""
                 },
                 {
-                    "start": "12:30 PM",
-                    "end": "12:45 PM",
-                    "title": "Hands-on Training Check-in",
-                    "location": "Breakout Rooms"
+                    "start": "11:30 AM",
+                    "end": "5:00 PM",
+                    "title": "Expo",
+                    "location": "Heritage Ballroom"
                 },
                 {
                     "title": "Hands-on Training Session #1",
                     "location": "Breakout Rooms",
                     "slot": "hotslot1"
-                },
-                {
-                    "start": "2:45 PM",
-                    "end": "3:00 PM",
-                    "title": "Hands-on Training Check-in",
-                    "location": "Breakout Rooms"
                 },
                 {
                     "title": "Hands-on Training Session #2",
@@ -47,6 +41,18 @@
                     "end": "12:30 PM",
                     "title": "Registration",
                     "location": ""
+                },
+                {
+                    "start": "8:00 AM",
+                    "end": "8:30 AM",
+                    "title": "Breakfast",
+                    "location": "Heritage Ballroom"
+                },
+                {
+                    "start": "11:30 AM",
+                    "end": "3:00 PM",
+                    "title": "Expo",
+                    "location": "Heritage Ballroom"
                 },
                 {
                     "start": "8:30 AM",

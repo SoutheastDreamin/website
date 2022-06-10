@@ -2,6 +2,7 @@ const commander = require('commander');
 const lodash = require('lodash');
 const chalk = require('chalk');
 const path = require('path');
+const stringStripHtml = require('string-strip-html');
 const utils = require('./utils');
 
 const program = new commander.Command();
@@ -43,7 +44,8 @@ const SPONSOR_METADATA = {
  */
 function check_sponsor(level, sponsor) {
     const bad_description = lodash.isEmpty(lodash.get(sponsor, 'description'));
-    const bad_description_length = level.maxwords === undefined ? false : lodash.size(lodash.split(lodash.get(sponsor, 'description'), ' ')) > level.maxwords;
+    const strippedDescription = stringStripHtml.stripHtml(lodash.get(sponsor, 'description'));
+    const bad_description_length = level.maxwords === undefined ? false : lodash.size(lodash.split(strippedDescription, ' ')) > level.maxwords;
     const bad_url = lodash.isEmpty(lodash.get(sponsor, 'url'));
     const bad_image = !utils.fileExists(path.join(__dirname, `..${sponsor.logo}`));
 
