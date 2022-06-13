@@ -305,16 +305,6 @@
             "first_sed": true,
             "mvp": true
         },
-        "havemeier": {
-            "first_name": "Kristen",
-            "last_name": "Havemeier",
-            "id": "havemeier",
-            "pronouns": "She / Her",
-            "title": "Salesforce.org Sr Partner Success Manager",
-            "company": "Salesforce",
-            "image": "/img/sessions/2022/speakers/havemeier.jpg",
-            "first_sed": true
-        },
         "hernandez": {
             "first_name": "Sara",
             "last_name": "Hernandez",
@@ -574,6 +564,18 @@
             "image": "/img/sessions/2022/speakers/zellner.jpg",
             "first_sed": true,
             "mvp": true
+        },
+        "zullo": {
+            "first_name": "Chris",
+            "last_name": "Zullo",
+            "id": "zullo",
+            "pronouns": "He / Him",
+            "title": "Marketing Practice Director",
+            "company": "AllCloud",
+            "image": "/img/sessions/2022/speakers/zullo.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": true
         }
     },
     "sessions": [
@@ -808,14 +810,14 @@
             "speakers": ["cammisa"]
         },
         {
-            "title": "Salesforce.org: Build Your Career in Marketing & Engagement Consulting",
-            "abstract": "<p>As two of the largest industries, we recognize that nonprofits &amp; education institutions, when enabled with the right tools and technology, have the power to change the world. Learn more about how you can build your consultant skill set with services that support impact including: marketing cloud implementation, email design, and 3rd party application development/integration. This session will also cover solution design techniques that can be applied to Salesforce customers in any Industry.</p>",
-            "id": "salesforce-dot-org",
+            "title": "Why admins need to get familiar with Marketing Cloud",
+            "abstract": "<p>Salesforce as a platform continues to evolve and enhance its capabilities. It is made up of a few clouds and the lines between them continue to blur. Marketing Cloud has traditionally been the furthest removed from its sibling “core” clouds. However, this is changing. Two of the bigger initiatives that are driving Marketing Cloud closer and closer to the other clouds are CDP and Interaction Studio. Both these tools will have large impacts on our CRM data and admins should get acquainted.</p>",
+            "id": "why-admins-need-to-get-familiar-with-marketing-cloud",
             "year": "2022",
             "track": "marketing",
             "room": "oglethorpe",
             "slot": "slot4",
-            "speakers": ["havemeier"]
+            "speakers": ["zullo"]
         },
         {
             "title": "How To Capture Web Leads with CloudPages in Marketing Cloud",
