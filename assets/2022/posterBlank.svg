@@ -14,7 +14,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="posterBlank.svg">
+   sodipodi:docname="posterBlank.svg"
+   inkscape:export-filename="/tmp/poster.png"
+   inkscape:export-xdpi="92"
+   inkscape:export-ydpi="92">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -108,12 +111,12 @@
        y="349.8476"
        style="stroke-width:0.254682" />
     <rect
-       style="opacity:0.65;fill:#ffffff;stroke:none;stroke-width:0.75;paint-order:stroke markers fill;stop-color:#000000"
+       style="opacity:0.65;fill:#ffffff;stroke:none;stroke-width:0.750001;paint-order:stroke markers fill;stop-color:#000000"
        id="rect1759"
-       width="406.40002"
-       height="457.19998"
-       x="25.4"
-       y="126.99999" />
+       width="279.39999"
+       height="431.79999"
+       x="88.900002"
+       y="152.40001" />
     <g
        id="g1089"
        transform="matrix(0.40344452,0,0,0.40344452,152.38115,1.4544359)"
