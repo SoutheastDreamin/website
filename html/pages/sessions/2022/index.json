@@ -895,7 +895,7 @@
             "id": "getting-started-with-salesforce-cms",
             "year": "2022",
             "track": "admin",
-            "room": "buckheadb",
+            "room": "oglethorpe",
             "slot": "hotslot1",
             "speakers": ["weinmeister", "kingston"]
         },
@@ -925,7 +925,7 @@
             "id": "intermediate-flow",
             "year": "2022",
             "track": "admin",
-            "room": "oglethorpe",
+            "room": "buckheadb",
             "slot": "hotslot1",
             "speakers": ["hansen"]
         },
