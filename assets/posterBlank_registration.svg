@@ -14,8 +14,8 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="posterBlank.svg"
-   inkscape:export-filename="/tmp/poster.png"
+   sodipodi:docname="posterBlank_registration.svg"
+   inkscape:export-filename="/home/pcon/devel/community/southeastdreamin/assets/posterBlank_registration.png"
    inkscape:export-xdpi="92"
    inkscape:export-ydpi="92">
   <defs
@@ -86,7 +86,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -110,13 +110,6 @@
        x="-6.1035157e-06"
        y="349.8476"
        style="stroke-width:0.254682" />
-    <rect
-       style="opacity:0.65;fill:#ffffff;stroke:none;stroke-width:0.75;paint-order:stroke markers fill;stop-color:#000000"
-       id="rect1759"
-       width="279.39999"
-       height="215.89999"
-       x="88.900002"
-       y="344.00732" />
     <g
        id="g1089"
        transform="matrix(0.40344452,0,0,0.40344452,152.38115,1.4544359)"
@@ -196,14 +189,14 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.5627px;line-height:1.25;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="63.121151"
-       y="261.97617"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;line-height:1.25;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="228.59999"
+       y="339.61478"
        id="text903"><tspan
          sodipodi:role="line"
          id="tspan901"
-         x="63.121151"
-         y="261.97617"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.5627px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.264583">RECEPTION</tspan></text>
+         x="228.59999"
+         y="339.61478"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583">REGISTRATION</tspan></text>
   </g>
 </svg>

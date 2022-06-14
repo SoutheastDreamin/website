@@ -14,10 +14,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="posterBlank.svg"
-   inkscape:export-filename="/tmp/poster.png"
-   inkscape:export-xdpi="92"
-   inkscape:export-ydpi="92">
+   sodipodi:docname="posterBlank_welcome.svg"
+   inkscape:export-filename="/home/pcon/devel/community/southeastdreamin/assets/posterBlank_welcome.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -110,16 +110,9 @@
        x="-6.1035157e-06"
        y="349.8476"
        style="stroke-width:0.254682" />
-    <rect
-       style="opacity:0.65;fill:#ffffff;stroke:none;stroke-width:0.75;paint-order:stroke markers fill;stop-color:#000000"
-       id="rect1759"
-       width="279.39999"
-       height="215.89999"
-       x="88.900002"
-       y="344.00732" />
     <g
        id="g1089"
-       transform="matrix(0.40344452,0,0,0.40344452,152.38115,1.4544359)"
+       transform="matrix(0.40344452,0,0,0.40344452,152.38115,209.06188)"
        style="stroke-width:0.65581">
       <path
          d="m -265.46805,118.88685 c -0.14115,-1.6287 -0.24846,-3.26843 -0.24846,-4.93615 0,-30.155532 24.44508,-54.597895 54.60146,-54.597895 24.33803,0 44.93768,15.93241 51.9835,37.931724 6.93215,-4.243949 15.05783,-6.733653 23.78325,-6.733653 21.91194,0 40.199176,15.435314 44.638229,36.019704 18.993855,8.54558 32.243153,27.28664 32.243153,49.4641 0,30.15638 -24.445756,54.28403 -54.596202,54.28403 -1.16469,0 18.83438,0 0.0891,0 l -36.83744,53.00304 4.14809,-53.00304 c -37.34895,0 -110.78505,0 -112.8093,0 -31.07821,0 -56.26986,-24.87668 -56.26986,-55.95175 0,-28.70583 21.50494,-52.02931 49.27451,-55.48011"
@@ -196,14 +189,19 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.5627px;line-height:1.25;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="63.121151"
-       y="261.97617"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;line-height:1.25;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="227.68134"
+       y="122.23611"
        id="text903"><tspan
          sodipodi:role="line"
          id="tspan901"
-         x="63.121151"
-         y="261.97617"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.5627px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.264583">RECEPTION</tspan></text>
+         x="227.68134"
+         y="122.23611"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583">WELCOME</tspan><tspan
+         sodipodi:role="line"
+         x="227.68134"
+         y="204.25699"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="tspan6788">TO</tspan></text>
   </g>
 </svg>
