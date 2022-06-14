@@ -86,7 +86,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -187,21 +187,47 @@
          style="fill:#fbc136;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0874418"
          id="path973" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;line-height:1.25;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="227.68134"
-       y="122.23611"
-       id="text903"><tspan
-         sodipodi:role="line"
-         id="tspan901"
-         x="227.68134"
-         y="122.23611"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583">WELCOME</tspan><tspan
-         sodipodi:role="line"
-         x="227.68134"
-         y="204.25699"
+    <g
+       aria-label="WELCOME
+TO"
+       id="text903"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;line-height:1.25;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583">
+      <path
+         d="m 139.09913,74.992083 -7.87401,47.244027 h -6.6929 l -8.33332,-35.170554 -8.59579,35.170554 h -7.15222 L 92.576889,74.992083 h 5.708653 l 6.233588,41.404137 8.33332,-35.301784 h 7.15222 l 7.80839,35.170554 6.16797,-41.272907 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
-         id="tspan6788">TO</tspan></text>
+         id="path3519" />
+      <path
+         d="m 167.64232,100.38575 h -15.41993 v 17.38842 h 17.38843 v 4.46194 H 146.64498 V 74.992083 h 22.96584 v 4.461936 h -17.38843 v 16.601025 h 15.41993 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3521" />
+      <path
+         d="m 185.03061,74.992083 v 42.388387 h 18.17583 v 4.85564 H 179.4532 V 74.992083 Z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3523" />
+      <path
+         d="m 237.39259,114.42772 q -1.83727,3.937 -5.05249,6.36482 -3.21522,2.42782 -8.46455,2.42782 -2.62467,0 -5.57742,-0.98425 -2.88714,-1.04987 -5.38057,-3.80577 -2.49344,-2.7559 -4.13385,-7.54592 -1.64042,-4.79002 -1.64042,-12.270325 0,-7.34907 1.5748,-12.139089 1.5748,-4.790019 4.00262,-7.545921 2.49343,-2.755901 5.44618,-3.805768 2.95275,-1.115484 5.77427,-1.115484 2.55905,0 4.59317,0.656167 2.09974,0.656167 3.67454,1.771651 1.5748,1.049867 2.69028,2.493434 1.1811,1.443568 1.90289,3.018369 l -4.92126,1.902884 q -1.04986,-2.690285 -2.95275,-4.068236 -1.83727,-1.37795 -4.98687,-1.37795 -2.23097,0 -4.26508,0.98425 -1.9685,0.918634 -3.47769,3.280835 -1.50918,2.296585 -2.42782,6.16797 -0.85301,3.871385 -0.85301,9.776888 0,5.839885 0.91863,9.711275 0.91863,3.87138 2.42782,6.16797 1.5748,2.29658 3.5433,3.28083 2.03412,0.98425 4.19947,0.98425 3.60892,0 5.5118,-1.77165 1.90289,-1.83727 3.08399,-4.59317 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3525" />
+      <path
+         d="m 244.01975,98.614095 q 0,-6.889753 1.44357,-11.548539 1.44357,-4.724402 3.80577,-7.611537 2.3622,-2.887135 5.38057,-4.133852 3.08398,-1.312334 6.36482,-1.312334 3.28083,0 6.2992,1.312334 3.08399,1.246717 5.44619,4.133852 2.3622,2.887135 3.80577,7.611537 1.44356,4.658786 1.44356,11.548539 0,6.889755 -1.44356,11.614155 -1.44357,4.65879 -3.80577,7.54592 -2.3622,2.88714 -5.44619,4.19947 -3.08398,1.24672 -6.2992,1.24672 -3.28084,0 -6.36482,-1.24672 -3.01837,-1.31233 -5.38057,-4.19947 -2.3622,-2.88713 -3.80577,-7.54592 -1.44357,-4.7244 -1.44357,-11.614155 z m 5.70866,0 q 0,9.973735 2.82151,15.157455 2.82152,5.18372 8.46456,5.18372 5.64303,0 8.46455,-5.18372 2.82152,-5.18372 2.82152,-15.157455 0,-9.973738 -2.82152,-15.157457 -2.82152,-5.18372 -8.46455,-5.18372 -5.64304,0 -8.46456,5.18372 -2.82151,5.183719 -2.82151,15.157457 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3527" />
+      <path
+         d="M 304.97761,116.00252 293.82277,84.703355 v 37.532755 h -5.31495 V 74.992083 h 7.28346 l 11.811,33.858217 10.89237,-33.858217 h 7.21784 v 47.244027 h -5.5118 V 84.703355 l -10.30182,31.299165 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3529" />
+      <path
+         d="M 358.52082,100.38575 H 343.1009 v 17.38842 h 17.38842 v 4.46194 H 337.52348 V 74.992083 h 22.96584 v 4.461936 H 343.1009 v 16.601025 h 15.41992 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3531" />
+      <path
+         d="m 221.18541,161.86859 h -11.54854 v 42.38839 h -5.57741 v -42.38839 h -11.41731 v -4.85563 h 28.54326 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3533" />
+      <path
+         d="m 225.4503,180.63497 q 0,-6.88975 1.44357,-11.54854 1.44356,-4.7244 3.80577,-7.61154 2.3622,-2.88713 5.38057,-4.13385 3.08398,-1.31233 6.36481,-1.31233 3.28084,0 6.29921,1.31233 3.08398,1.24672 5.44618,4.13385 2.36221,2.88714 3.80577,7.61154 1.44357,4.65879 1.44357,11.54854 0,6.88975 -1.44357,11.61415 -1.44356,4.65879 -3.80577,7.54593 -2.3622,2.88713 -5.44618,4.19946 -3.08399,1.24672 -6.29921,1.24672 -3.28083,0 -6.36481,-1.24672 -3.01837,-1.31233 -5.38057,-4.19946 -2.36221,-2.88714 -3.80577,-7.54593 -1.44357,-4.7244 -1.44357,-11.61415 z m 5.70865,0 q 0,9.97374 2.82152,15.15746 2.82152,5.18372 8.46455,5.18372 5.64304,0 8.46456,-5.18372 2.82152,-5.18372 2.82152,-15.15746 0,-9.97374 -2.82152,-15.15746 -2.82152,-5.18372 -8.46456,-5.18372 -5.64303,0 -8.46455,5.18372 -2.82152,5.18372 -2.82152,15.15746 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3535" />
+    </g>
   </g>
 </svg>

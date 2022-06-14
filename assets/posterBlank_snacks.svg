@@ -194,16 +194,34 @@
          style="fill:#fbc136;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.0874418"
          id="path973" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;line-height:1.25;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="227.68134"
-       y="261.97617"
-       id="text903"><tspan
-         sodipodi:role="line"
-         id="tspan901"
-         x="227.68134"
-         y="261.97617"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583">SNACKS</tspan></text>
+    <g
+       aria-label="SNACKS"
+       id="text903"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;line-height:1.25;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583">
+      <path
+         d="m 136.73684,218.07859 q -3.67454,0 -6.03674,1.77165 -2.3622,1.70604 -2.3622,5.44619 0,1.70604 0.45932,3.01837 0.45931,1.31233 1.50918,2.3622 1.11548,1.04987 2.88713,2.03412 1.77165,0.91863 4.39632,1.90288 2.55905,0.98425 4.85564,2.16535 2.29658,1.1811 4.00262,2.88714 1.77165,1.70603 2.7559,4.13385 1.04987,2.42782 1.04987,5.9055 0,2.69029 -1.11549,5.11811 -1.04987,2.42781 -3.01837,4.26508 -1.90288,1.77165 -4.59317,2.82152 -2.69028,1.04987 -5.9055,1.04987 -3.28083,0 -5.77427,-0.85302 -2.42782,-0.7874 -4.19947,-2.09974 -1.77165,-1.37795 -2.95275,-3.08398 -1.11548,-1.70603 -1.77165,-3.5433 l 4.7244,-1.77165 q 0.45932,1.31233 1.1811,2.55905 0.7874,1.24672 1.96851,2.23097 1.1811,0.91863 2.82151,1.50918 1.70604,0.59055 4.06824,0.59055 1.5748,0 3.1496,-0.3937 1.5748,-0.45932 2.82152,-1.44357 1.31233,-0.98425 2.09973,-2.62466 0.7874,-1.64042 0.7874,-4.00262 0,-2.49344 -0.65616,-4.13386 -0.59055,-1.64041 -1.96851,-2.88713 -1.31233,-1.24672 -3.47768,-2.23097 -2.16535,-0.98425 -5.18372,-2.23097 -5.31495,-2.16535 -7.874,-5.24933 -2.49344,-3.08399 -2.49344,-7.61154 0,-2.49343 0.91864,-4.65878 0.91863,-2.23097 2.69028,-3.80577 1.77165,-1.64042 4.26509,-2.55905 2.55905,-0.91864 5.83988,-0.91864 5.57742,0 8.72702,2.29659 3.1496,2.23096 4.85564,6.10235 l -4.85564,1.70603 q -1.11548,-2.7559 -3.08398,-4.26508 -1.9685,-1.50919 -5.5118,-1.50919 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3538" />
+      <path
+         d="m 187.58967,214.73214 v 47.24403 h -7.21783 l -15.35431,-39.89496 v 39.89496 h -5.05249 v -47.24403 h 7.41469 l 15.28869,39.30441 v -39.30441 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3540" />
+      <path
+         d="m 223.21954,261.97617 -3.47769,-12.66403 h -16.53541 l -3.5433,12.66403 h -5.5118 l 14.10759,-47.24403 h 6.82414 l 14.04197,47.24403 z m -18.76638,-16.92911 h 14.10759 l -6.95537,-25.19682 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3542" />
+      <path
+         d="m 263.31127,254.16778 q -1.83727,3.937 -5.05248,6.36482 -3.21522,2.42782 -8.46456,2.42782 -2.62467,0 -5.57742,-0.98425 -2.88713,-1.04987 -5.38057,-3.80577 -2.49343,-2.7559 -4.13385,-7.54592 -1.64042,-4.79002 -1.64042,-12.27033 0,-7.34907 1.5748,-12.13909 1.5748,-4.79001 4.00262,-7.54592 2.49344,-2.7559 5.44619,-3.80576 2.95275,-1.11549 5.77427,-1.11549 2.55905,0 4.59317,0.65617 2.09973,0.65617 3.67453,1.77165 1.5748,1.04987 2.69029,2.49343 1.1811,1.44357 1.90288,3.01837 l -4.92125,1.90289 q -1.04987,-2.69029 -2.95275,-4.06824 -1.83727,-1.37795 -4.98687,-1.37795 -2.23097,0 -4.26509,0.98425 -1.9685,0.91863 -3.47768,3.28084 -1.50919,2.29658 -2.42782,6.16797 -0.85302,3.87138 -0.85302,9.77688 0,5.83989 0.91864,9.71128 0.91863,3.87138 2.42781,6.16797 1.57481,2.29658 3.54331,3.28083 2.03411,0.98425 4.19946,0.98425 3.60892,0 5.51181,-1.77165 1.90288,-1.83727 3.08398,-4.59317 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3544" />
+      <path
+         d="m 294.47913,261.97617 -16.33856,-21.9816 v 21.9816 h -5.57742 v -47.24403 h 5.57742 v 20.60365 l 14.82937,-20.60365 h 6.23359 l -16.46979,22.50653 18.56952,24.7375 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3546" />
+      <path
+         d="m 319.93828,218.07859 q -3.67453,0 -6.03673,1.77165 -2.36221,1.70604 -2.36221,5.44619 0,1.70604 0.45932,3.01837 0.45932,1.31233 1.50919,2.3622 1.11548,1.04987 2.88713,2.03412 1.77165,0.91863 4.39632,1.90288 2.55905,0.98425 4.85563,2.16535 2.29659,1.1811 4.00262,2.88714 1.77165,1.70603 2.75591,4.13385 1.04986,2.42782 1.04986,5.9055 0,2.69029 -1.11548,5.11811 -1.04987,2.42781 -3.01837,4.26508 -1.90288,1.77165 -4.59317,2.82152 -2.69028,1.04987 -5.9055,1.04987 -3.28084,0 -5.77427,-0.85302 -2.42782,-0.7874 -4.19947,-2.09974 -1.77165,-1.37795 -2.95275,-3.08398 -1.11549,-1.70603 -1.77165,-3.5433 l 4.7244,-1.77165 q 0.45932,1.31233 1.1811,2.55905 0.7874,1.24672 1.9685,2.23097 1.1811,0.91863 2.82152,1.50918 1.70603,0.59055 4.06823,0.59055 1.57481,0 3.14961,-0.3937 1.5748,-0.45932 2.82151,-1.44357 1.31234,-0.98425 2.09974,-2.62466 0.7874,-1.64042 0.7874,-4.00262 0,-2.49344 -0.65617,-4.13386 -0.59055,-1.64041 -1.9685,-2.88713 -1.31233,-1.24672 -3.47768,-2.23097 -2.16535,-0.98425 -5.18372,-2.23097 -5.31496,-2.16535 -7.87401,-5.24933 -2.49343,-3.08399 -2.49343,-7.61154 0,-2.49343 0.91863,-4.65878 0.91864,-2.23097 2.69029,-3.80577 1.77165,-1.64042 4.26508,-2.55905 2.55905,-0.91864 5.83989,-0.91864 5.57742,0 8.72702,2.29659 3.1496,2.23096 4.85564,6.10235 l -4.85564,1.70603 q -1.11548,-2.7559 -3.08399,-4.26508 -1.9685,-1.50919 -5.5118,-1.50919 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.6167px;font-family:'Carrois Gothic SC';-inkscape-font-specification:'Carrois Gothic SC, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+         id="path3548" />
+    </g>
   </g>
 </svg>
