@@ -198,6 +198,16 @@
             "first_talk": false,
             "mvp": false
         },
+        "catalano": {
+            "first_name": "Jacob",
+            "last_name": "Catalano",
+            "id": "catalano",
+            "pronouns": "He / Him",
+            "title": "Product Manager",
+            "company": "Sercante",
+            "image": "/img/sessions/2022/speakers/catalano.jpg",
+            "first_set": true
+        },
         "chaudhary": {
             "first_name": "Amit",
             "last_name": "Chaudhary",
@@ -461,16 +471,6 @@
             "title": "Senior Solution Architect",
             "company": "Traction on Demand, a Salesforce Company",
             "image": "/img/sessions/2022/speakers/styles.jpg"
-        },
-        "tarrell": {
-            "first_name": "Andrea",
-            "last_name": "Tarrell",
-            "id": "tarrell",
-            "pronouns": "She / Her",
-            "title": "CEO",
-            "company": "Sercante",
-            "image": "/img/sessions/2022/speakers/tarrell.jpg",
-            "mvp": true
         },
         "taylor": {
             "first_name": "Marisa",
@@ -787,7 +787,7 @@
             "track": "exec",
             "room": "augusta",
             "slot": "slot4",
-            "speakers": ["tarrell"]
+            "speakers": ["catalano"]
         },
         {
             "title": "Lightning Email & Landing Page Builders",
@@ -969,7 +969,7 @@
             "track": "marketing",
             "room": "augusta",
             "slot": "hotslot1",
-            "speakers": ["tarrell", "hernandez", "godley"]
+            "speakers": ["hernandez", "godley"]
         },
         {
             "title": "Build Your Own Automation Monitors and Save Yourself from Run-Time Errors",
