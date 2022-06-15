@@ -182,7 +182,7 @@
                     "name": "Sercante",
                     "id": "sercante",
                     "description": "<p>Sercante makes marketing teams wildly successful on the Salesforce platform.</p>",
-                    "type": "Photo Booth & Caricature Artist",
+                    "type": "Caricature Artist",
                     "logo": "/img/sponsors/2022/sercante.png",
                     "url": "https://www.sercante.com/"
                 },
@@ -201,6 +201,14 @@
                     "type": "Giveaway",
                     "logo": "/img/sponsors/2022/focusonforce.png",
                     "url": "https://focusonforce.com/"
+                },
+                {
+                    "name": "SharinPix",
+                    "id": "sharinpix",
+                    "description": "<p>Image Management for ANY Salesforce Implementation</p><p>SharinPix offers PROFESSIONAL Images features in Salesforce & integrate with any Salesforce Cloud, Mobile Apps & objects.</p>",
+                    "type": "Photo Booth",
+                    "logo": "/img/sponsors/2022/sharinpix.png",
+                    "url": "https://www.sharinpix.com/"
                 }
             ]
         }
