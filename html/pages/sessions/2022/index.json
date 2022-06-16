@@ -685,7 +685,7 @@
             "id": "flow-trigger-explorer-and-orchestrator",
             "year": "2022",
             "track": "admin",
-            "room": "dahlonega",
+            "room": "buckheada",
             "slot": "slot5",
             "speakers": ["utkan"]
         },
@@ -705,7 +705,7 @@
             "id": "dark-deployments-and-strange-branches",
             "year": "2022",
             "track": "architect",
-            "room": "buckheada",
+            "room": "dahlonega",
             "slot": "slot5",
             "speakers": ["taylor", "damon"]
         },
@@ -907,7 +907,7 @@
             "id": "a-deep-dive-on-salesforce-functions",
             "year": "2022",
             "track": "dev",
-            "room": "suwannee",
+            "room": "augusta",
             "slot": "hotslot1",
             "speakers": ["petersen"]
         },
@@ -967,7 +967,7 @@
             "id": "pardot-building-a-post-tradeshow-engagement-program",
             "year": "2022",
             "track": "marketing",
-            "room": "augusta",
+            "room": "suwannee",
             "slot": "hotslot1",
             "speakers": ["hernandez", "godley"]
         },
