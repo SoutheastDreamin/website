@@ -55,6 +55,12 @@
                     "location": "Heritage Ballroom"
                 },
                 {
+                    "start": "7:30 AM",
+                    "end": "8:30 AM",
+                    "title": "Headshots",
+                    "location": "Outside Suwannee"
+                },
+                {
                     "start": "8:00 AM",
                     "end": "3:00 PM",
                     "title": "Expo",
