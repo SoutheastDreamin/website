@@ -114,7 +114,7 @@
     </table>
 {%- endmacro %}
 
-{% macro schedulemobile(events) -%}
+{% macro schedulemobile(events, slots) -%}
     <div class="is-hidden-tablet">
         {% for e in events %}
         {% set start = e.start if not e.slot else slots[e.slot].start  %}
