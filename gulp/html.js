@@ -36,7 +36,6 @@ function list_years() {
     };
     return fs.readdirSync(schedule_path, opts)
         .filter(function (file) {
-            console.log(`${file.name} -> ${file.isDirectory()}`);
             return file.isDirectory();
         })
         .map(function (file) {
