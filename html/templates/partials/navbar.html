@@ -15,9 +15,10 @@
             <a class="navbar-item" href="/">Home</a>
             {% if globals.display_cfp_form %}<a class="navbar-item" href="/cfp">CFP</a>{% endif %}
             {% if globals.display_hot_form %}<a class="navbar-item" href="/hot">HoT</a>{% endif %}
-            <a class="navbar-item" href="/sponsors">Sponsors</a>
-            <a class="navbar-item" href="/schedule">Schedule</a>
-            <a class="navbar-item" href="/sessions">Sessions</a>
+            {% if globals.display_header_sponsors %}<a class="navbar-item" href="/sponsors">Sponsors</a>{% endif %}
+            {% if globals.display_header_schedule %}<a class="navbar-item" href="/schedule">Schedule</a>{% endif %}
+            {% if globals.display_header_sessions %}<a class="navbar-item" href="/sessions">Sessions</a>{% endif %}
+            <a class="navbar-item" href="/archive">Archive</a>
             <a class="navbar-item" href="/team">About Us</a>
             <a class="navbar-item" href="/faq">FAQ</a>
         </div>
