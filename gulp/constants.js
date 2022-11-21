@@ -16,6 +16,8 @@ const SESSIONS = config.has('build.sessions') ? config.get('build.sessions') : '
 const SESSION_TEMPLATE = config.has('build.session_template') ? config.get('build.session_template') : 'html/templates/session.html';
 const SPONSOR = config.has('build.sponsor') ? config.get('build.sponsor') : 'html/pages/sponsors';
 const SPONSOR_TEMPLATE = config.has('build.sponsor_template') ? config.get('build.sponsor_template') : 'html/templates/sponsor.html';
+const BLOG = config.has('build.blog') ? config.get('build.blog') : 'blog';
+const BLOG_TEMPLATE = config.has('build.blog_template') ? config.get('build.blog_template') : 'html/templates/blog.html';
 
 /**
  * Gets the dist directory
@@ -55,6 +57,22 @@ function getSponsorDir() {
  */
 function getSponsorTemplate() {
     return path.join(__dirname, '..', SPONSOR_TEMPLATE);
+}
+
+/**
+ * Gets the blog directory
+ * @returns {String} The blog directory path
+ */
+function getBlogDir() {
+    return path.join(__dirname, '..', BLOG);
+}
+
+/**
+ * Gets the blog template path
+ * @returns {String} The path to the blog template
+ */
+function getBlogTemplate() {
+    return path.join(__dirname, '..', BLOG_TEMPLATE);
 }
 
 /**
@@ -106,6 +124,9 @@ module.exports = {
     getSessionTemplate: getSessionTemplate,
     getSponsorDir: getSponsorDir,
     getSponsorTemplate: getSponsorTemplate,
+    getBlogDir: getBlogDir,
+    getBlogTemplate: getBlogTemplate,
+    BLOG: BLOG,
     CSS: CSS,
     FONT: FONT,
     HTML: HTML,

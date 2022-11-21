@@ -14,10 +14,18 @@
 {% set page_opengraph_image = "/img/opengraph.png" %}
 {% endif %}
 
-{% if opengraph_title %}
+{% if data.opengraph_title %}
+{% set page_opengraph_title = data.opengraph_title %}
+{% elif opengraph_title %}
 {% set page_opengraph_title = opengraph_title %}
 {% else %}
 {% set page_opengraph_title = "Southeast Dreamin' &mdash; " + globals.event_date %}
+{% endif %}
+
+{% if opengraph_description %}
+{% set page_opengraph_description = opengraph_description %}
+{% else %}
+{% set page_opengraph_description = "Join us for a community lead Salesforce conference with sessions by community members like you!" %}
 {% endif %}
 
 <head>
@@ -25,7 +33,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta property="og:title" content="{{ page_opengraph_title | safe }}">
-    <meta property="og:description" content="Join us for a community lead Salesforce conference with sessions by community members like you!">
+    <meta property="og:description" content="{{ page_opengraph_description | safe }}">
     <meta property="og:type" content="website">
     <meta property="og:local" content="en_US">
     <meta property="og:image" content="{{ page_opengraph_image }}">

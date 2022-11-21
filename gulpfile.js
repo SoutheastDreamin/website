@@ -1,6 +1,7 @@
 const config = require('config');
 const gulp = require('gulp');
 
+const blog = require('./gulp/blog').default;
 const clean = require('./gulp/clean');
 const css = require('./gulp/css').default;
 const html = require('./gulp/html').default;
@@ -15,6 +16,7 @@ const static_files = require('./gulp/static');
 const watch = require('./gulp/watch');
 
 const parallel_jobs = [
+    blog,
     css,
     html,
     img,

@@ -1,0 +1,12 @@
+{% set subtitle = post.title %}
+{% if post.thumbnail %}
+{% set opengraph_image = post.thumbnail %}
+{% endif %}
+{% set opengraph_title = "Southeast Dreamin' &mdash; " + post.title %}
+{% set opengraph_description = post.abstract %}
+
+{% extends "layout.html" %}
+{% import "partials/helpers.html" as helpers %}
+{% block content %}
+    {{ post.content | safe }}
+{% endblock %}

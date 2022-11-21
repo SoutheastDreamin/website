@@ -2,6 +2,7 @@ const config = require('config');
 const gulp_connect = require('gulp-connect');
 
 const constants = require('./constants');
+const blog = require('./blog');
 const css = require('./css');
 const html = require('./html');
 const img = require('./img');
@@ -14,6 +15,7 @@ const sass = require('./sass');
  * @returns {undefined}
  */
 function watch() {
+    blog.watch();
     css.watch();
     html.watch();
     img.watch();

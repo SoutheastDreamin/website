@@ -1,10 +1,3 @@
-{% set subtitle = "Call for presentations information webinar" %}
-{% extends "layout.html" %}
-{% import "partials/helpers.html" as helpers %}
-
-{%- set time_slots = merge(data.hot_time_slots, data.session_time_slots) %}
-
-{% block content %}
 <div class="content mx-4">
     <h1 class="title is-1">Call for Presentations Info Session</h1>
     <p>Join us for the SED call for presentations Info session on Thursday, Nov. 17th at 7pm ET to learn more about the CFP process for #SED23. SED planning team members, Karmel James and Patrick Connelly, will be available to provide an overview of the application process and answer your questions.The agenda will be as follows:</p>
@@ -20,4 +13,3 @@
     </ul>
     <p>Click <a href="https://us06web.zoom.us/meeting/register/tZclduqorT4rHdPbjltLFD4A9vXHW3QgYPDw">here</a> to register for the free info session to learn more about speaking at SED. Space is limited to the first 100 registrants.</p>
 </div>
-{% endblock %}
