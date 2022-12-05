@@ -74,6 +74,7 @@
                 </div>
             </div>
         </section>
+        {% if data.sponsor_types %}
         <section class="section">
             <div class="container mx-4">
                 <h1 class="title is-1">{{ data.sponsor_year }} Sponsors</h1>
@@ -82,5 +83,6 @@
                 {% endfor %}
             </div>
         </section>
+        {% endif %}
     </div>
 {% endblock %}
