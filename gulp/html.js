@@ -20,6 +20,9 @@ const ADDITIONAL_DATA = {
     'html/pages/sponsors/index.html': [
         `html/pages/sponsors/${config.year}/index.json`
     ],
+    'html/pages/team/index.html': [
+        `html/pages/team/${config.year}/index.json`
+    ],
     'html/pages/index.html': [
         `html/pages/sponsors/${config.year}/index.json`
     ]

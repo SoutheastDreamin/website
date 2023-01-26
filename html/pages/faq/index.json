@@ -6,19 +6,19 @@
             "questions": [
                 {
                     "question": "Where is Southeast Dreamin' being held?",
-                    "answer": "Southeast Dreamin’ will be held at the <a href=\"https://www.marriott.com/en-us/hotels/atlbc-atlanta-marriott-buckhead-hotel-and-conference-center/overview/\">Atlanta Marriott Buckhead Hotel & Conference Center</a> in Atlanta Georgia.  Discounted <a href=\"{{ globals.hotel_url }}\">hotel rooms</a> are available."
+                    "answer": "Southeast Dreamin’ will be held at the <a href=\"https://www.gatechhotel.com/\">Georgia Tech Hotel and Conference Center</a> in Atlanta Georgia. Discounted hotel rooms are available."
                 },
                 {
                     "question": "How can I get my ticket?",
-                    "answer": "You can <a href=\"{{ globals.registration_url }}\">register</a> at this link or you can click the register button in the navigation bar or on the homepage."
+                    "answer": "Registration opens soon!"
                 },
                 {
                     "question": "Are meals included?",
-                    "answer": "Snacks will be available during the afternoon sessions on the {{ globals.event_day_one_number }}. Food and beverage will be available at the networking reception that evening. The {{ globals.event_day_two_number }} will include breakfast and lunch and snacks (including coffee, tea, water, and sodas) will be available all day."
+                    "answer": "Lunch as well as all day snacks and beverages will be available on the first day, {{ globals.event_day_one_number }}. Food and beverage will be available at the networking reception that evening. The second day, {{ globals.event_day_two_number }}, will include breakfast and lunch as well as all day snacks (including coffee, tea, water, and sodas)."
                 },
                 {
                     "question": "How can I volunteer at the event?",
-                    "answer": "Throughout the event we will have opportunities for members of the community to volunteer their time and energy.  Currently we do not have any specific opportunities, but we will announce some on our social media channels soon."
+                    "answer": "Throughout the event we will have opportunities for members of the community to volunteer their time and energy. Currently we do not have any specific opportunities, but we will announce some on our social media channels soon."
                 },
                 {
                     "question": "What is the closest airport to the event?",
@@ -27,10 +27,6 @@
                 {
                     "question": "What is your ticket refund policy?",
                     "answer": "<ul><li>All registration cancellation requests or registration transfer requests must be received via email. Please send your cancellation notice to: <a href=\"mailto:registration@sedreamin.com\">registration@sedreamin.com</a>.</li><li>For a full refund, the registration cancellation request must be received by {{ globals.full_refund_date }}. Please allow 5 business days for refund requests to be processed.</li><li>No refunds will be given after {{ globals.full_refund_date }}.</li><li>If you are unable to attend Southeast Dreamin’, you may transfer your registration to another person. Requests for registration transfers must be received via email no later than {{ globals.transfer_date }}. Please email your transfer request, along with the name and email address of the person to whom you are transferring your registration to: <a href=\"mailto:registration@sedreamin.com\">registration@sedreamin.com</a>.</li></ul><br />For Hotel Reservation Cancellations, please contact your hotel directly, as they have differing cancellation policies."
-                },
-                {
-                    "question": "The event is sold out, how can I get a ticket?",
-                    "answer": "Given the continued interest in ticket purchases, we have decided to allow for late cancellations as requested by current attendees. IF cancellations are made, we will process them at 5pm EST each day until the event and they will then be first come first serve. You can also try checking our Twitter around that time to see if any tickets were released. We do not anticipate tickets being available onsite."
                 }
             ]
         },
@@ -62,15 +58,15 @@
             "questions": [
                 {
                     "question": "Is there parking at the hotel?",
-                    "answer": "Self parking is covered for the days of the event. Overnight guests will have their room key card enabled to access the garage. For day guests, parking vouchers will be distributed via the event Registration desk. Valet parking is not covered. The hotel does also provide an electric car charging station."
+                    "answer": "Daily self parking is covered for the days of the event. The garage is accessible near the hotel's main entrance at Spring St. NW and Armstead Pl NW (across from Barnes & Noble) or via the garage entrance at Spring St NW and 4th St NW."
                 },
                 {
                     "question": "How do I reserve a hotel room?",
-                    "answer": "Southeast Dreamin' has a block of hotel rooms provided by the venue for a discounted rate.  You can book your room <a href=\"{{ globals.hotel_url }}\">here</a>."
+                    "answer": "Southeast Dreamin' has a block of hotel rooms provided by the venue for a discounted rate.  Rooms will be available soon."
                 },
                 {
                     "question": "What's the best way to get to the hotel from the airport?",
-                    "answer": "You can take a taxi or rideshare to the hotel from the airport however, traffic in the Atlanta area is notoriously bad and can be significantly longer than the advertised 40 minute drive. There is a MARTA stop located within walking distance from the hotel that should take approximately 35 minutes to take.  Simply take the gold line from the airport to Lenox station.  Exit the station and travel 0.2mi north along Lenox Rd NE to the hotel."
+                    "answer": "You can take a taxi or rideshare to the hotel from the airport however, traffic in the Atlanta area is notoriously bad and can be significantly longer than the advertised 40 minute drive. There is a MARTA stop located within walking distance from the hotel that should take approximately 20 minutes to take. Simply take the red or gold line from the airport to the North Avenue station. Exit the station and travel 0.5mi north along West Peachtree Street to the hotel."
                 }
             ]
         },
@@ -81,16 +77,6 @@
                 {
                     "question": "",
                     "answer": "Food is selected keeping a variety of dietary restrictions in mind - including vegetarian, vegan, and gluten-free. If you have a specific dietary restriction and need to confirm what food is available for you to eat, please find a Southeast Dreamin team member or hotel employee on site and someone will get you the information you need."
-                }
-            ]
-        },
-        {
-            "title": "Safety &amp; COVID Protocols",
-            "id": "safety",
-            "questions": [
-                {
-                    "question": "",
-                    "answer": "Although Georgia does not currently require masks indoors, your Southeast Dreamin' event team highly recommends the use of a properly worn mask to keep those around you safe. Let's not negatively impact others' family vacations, reunions, and Summer activities by being the source of COVID-19. <a href=\"https://bit.ly/ATL_COVIDcases\">Check here</a> for the latest 7-day average in Fulton County, Georgia"
                 }
             ]
         }
