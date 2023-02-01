@@ -24,6 +24,15 @@
         </div>
     </div>
     <div class="navbar-end">
+        {% if globals.display_sponsor_form %}
+        <div class="navbar-item">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a href="/sponsors/new" class="button is-link">Become a Sponsor</a>
+                </div>
+            </div>
+        </div>
+        {% endif %}
         {% if globals.registration_open %}
         <div class="navbar-item">
             <div class="navbar-item">
