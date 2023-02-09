@@ -36,6 +36,7 @@ jobs:
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          SLACK_MESSAGE: 'Website updated!'
+          SLACK_TITLE: 'Website updated!'
+          SLACK_MESSAGE: ${{ github.event.head_commit.message }}
           SLACK_USERNAME: 'Github'
           SLACK_ICON: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
