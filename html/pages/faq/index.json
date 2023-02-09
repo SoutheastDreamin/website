@@ -6,11 +6,11 @@
             "questions": [
                 {
                     "question": "Where is Southeast Dreamin' being held?",
-                    "answer": "Southeast Dreamin’ will be held at the <a href=\"https://www.gatechhotel.com/\">Georgia Tech Hotel and Conference Center</a> in Atlanta Georgia. Discounted hotel rooms are available."
+                    "answer": "Southeast Dreamin’ will be held at the <a href=\"https://www.gatechhotel.com/\">Georgia Tech Hotel and Conference Center</a> in Atlanta Georgia. Discounted <a href=\"{{ globals.hotel_url }}\">hotel rooms</a> are available."
                 },
                 {
                     "question": "How can I get my ticket?",
-                    "answer": "Registration opens soon!"
+                    "answer": "Tickets are available <a href=\"{{ globals.registration_url }}\">here</a>."
                 },
                 {
                     "question": "Are meals included?",
@@ -62,7 +62,7 @@
                 },
                 {
                     "question": "How do I reserve a hotel room?",
-                    "answer": "Southeast Dreamin' has a block of hotel rooms provided by the venue for a discounted rate.  Rooms will be available soon."
+                    "answer": "Southeast Dreamin' has a block of <a href=\"{{ globals.hotel_url }}\">hotel rooms</a> provided by the venue for a discounted rate."
                 },
                 {
                     "question": "What's the best way to get to the hotel from the airport?",
