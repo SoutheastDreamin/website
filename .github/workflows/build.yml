@@ -34,7 +34,6 @@ jobs:
           FOLDER: dist
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
-        if: ${{ github.event.build.conclusion == 'success'}}
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_MESSAGE: 'Website updated!'
