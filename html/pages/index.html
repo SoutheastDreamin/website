@@ -2,6 +2,7 @@
 {% import "partials/helpers.html" as helpers %}
 
 {% block content %}
+    {% include "partials/mailchimp_notifications.html" %}
     <section class="hero is-large" id="hero_banner">
         <div class="hero-body pb-4 pt-6 px-4 has-text-centered">
             <div id="hero_image">
@@ -20,6 +21,13 @@
             </div>
 
             <div class="columns is-multiline is-centered">
+                <div class="column is-4">
+                    <a class="is-primary js-modal-trigger" data-target="mailchimp-modal">
+                        <div class="notification has-background-info has-text-black">
+                                <i class="fas fa-envelope"></i> <span class="pl-2">Mailing List</span>
+                        </div>
+                    </a>
+                </div>
                 {% if globals.registration_open %}
                 <div class="column is-4">
                     <a href="{{ globals.registration_url }}" class="is-primary">
@@ -85,4 +93,7 @@
         </section>
         {% endif %}
     </div>
+
+    {% include "partials/mailchimp_modal.html" %}
+    {% include "partials/mailchimp_scripts.html" %}
 {% endblock %}
