@@ -1,0 +1,45 @@
+{% set subtitle = "Volunteers" %}
+{% extends "layout.html" %}
+{% import "partials/helpers.html" as helpers %}
+
+{% block content %}
+    <div class="container mx-4">
+        {% if data.form_active %}
+            <div class="content mt-6 is-fluid">
+                <iframe class="google_form" id="volunteer_form" src="{{ data.form_url }}" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+        {% else %}
+            <section class="hero">
+                <p class="title">Volunteer Interest</p>
+                <div class="content mt-6 is-fluid">
+                    <p>We are currently not looking for any volunteers.  Thank you for interest.</p>
+                </div>
+                <div class="is-clearfix"></div>
+            </section>
+        {% endif %}
+    </div>
+
+    <script type="application/javascript">
+
+function resizeIFrameToFitContent( iFrame ) {
+    console.log(iFrame.contentWindow.document.body.scrollHeight);
+    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+}
+
+window.addEventListener('DOMContentLoaded', function(e) {
+    console.log('marco');
+
+    var iFrame = document.getElementById( 'volunteer_form' );
+    resizeIFrameToFitContent( iFrame );
+
+    // or, to resize all iframes:
+    var iframes = document.querySelectorAll("iframe");
+    for( var i = 0; i < iframes.length; i++) {
+        console.log('polo');
+        resizeIFrameToFitContent( iframes[i] );
+    }
+} );
+
+</script>
+{% endblock %}
