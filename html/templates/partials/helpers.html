@@ -11,7 +11,7 @@
         <article class="media mt-2">
             <figure class="media-left">
                 <p class="image is-128x128">
-                    <img class="is-rounded" src="{{ img }}">
+                    <img class="is-rounded" src="{{ img }}" alt="Photo of {{ name }}" width="128" height="128">
                 </p>
             </figure>
             <div class="media-content">
@@ -34,7 +34,7 @@
     </div>
 {%- endmacro %}
 
-{% macro staffheadshot(side, img)%}
+{% macro staffheadshot(side, img, name)%}
     {% set figure_class = "media-" + side %}
 
     {% if side == "right" %}
@@ -43,7 +43,7 @@
 
     <figure class="{{ figure_class }}">
         <p class="image is-128x128">
-            <img class="is-rounded" src="{{ img }}">
+            <img class="is-rounded" src="{{ img }}" alt="Photo of {{ name }}"  width="128" height="128">
         </p>
     </figure>
 {% endmacro %}
@@ -63,11 +63,11 @@
     <div class="column is-half">
         <article class="media mt-2">
             {% if side == "left" %}
-                {{ staffheadshot(side, img) }}
+                {{ staffheadshot(side, img, name) }}
                 {{ staffcontent(name, title) }}
             {% else %}
                 {{ staffcontent(name, title) }}
-                {{ staffheadshot(side, img) }}
+                {{ staffheadshot(side, img, name) }}
             {% endif %}
         </article>
         <div class="mt-2">
@@ -132,7 +132,7 @@
     <article class="media mt-2">
         <figure class="media-left">
             <p class="image is-128x128">
-                <img class="is-rounded" src="{{ speaker.image }}">
+                <img class="is-rounded" src="{{ speaker.image }}" alt="Photo of {{ speaker.first_name }} {{ speaker.last_name }}" width="128" height="128">
             </p>
         </figure>
         <div class="media-content">
@@ -184,10 +184,10 @@
 
 {% macro session_image(session) -%}
     {% if session.speakers | length == 1 %}
-        <object data="/img/sessions/{{ session.year }}/{{ session.id }}.png" type="image/png"></object>
+        <object data="/img/sessions/{{ session.year }}/{{ session.id }}.png" type="image/png" title="Social image for session"></object>
     {% else %}
         {% for speaker in session.speakers %}
-            <object data="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker }}.png" type="image/png"></object>
+            <object data="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker }}.png" type="image/png" title="Social image for session branded for {{ speaker }}"></object>
         {% endfor %}
     {% endif %}
 {%- endmacro %}
@@ -213,7 +213,7 @@
             {% else %}
             <a href="{{ sponsor.url }}">
             {% endif %}
-                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" class="mb-4" />
+                <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" class="mb-4" alt="{{ sponsor.name }} Logo" />
             </a>
             <div class="content"><p class="has-text-weight-semibold">{{ sponsor.type }}</p>{{ sponsor.description | safe }}</div>
         </figure>

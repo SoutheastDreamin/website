@@ -641,7 +641,7 @@
         },
         {
             "title": "Leads in Salesforce: And why you may be doing it wrong.",
-            "abstract": "<p>It's common place for a consultant to be sought for help with Leads, and this always comes well after the implementation. The fact is that defining the Leads object as \"a place where you put people you want to do business with\", or simply \"a place to put your Leads in\" is misleading, if not borderline wrong. In this session, we're going to go over the proper definition for the Leads object in Salesforce, what its there for, and discuss how it aligns with Pardot and a Lead Nurturing Process (including Marketing Qualified Leads and Sales Qualified Leads).</p><p>We're also going to help validate if the Leads object is right for you and your organization (you may be surprised with the answer).</p><p>In the session, key takeaways include:<ul><li>Learn how to properly leverage the Leads object (and the Accounts/Contacts object) in Salesforce</li><li>Align the Salesforce objects and Pardot to a Lead Nurturing Process</li><li>Discover some best practices in how Pardot Prospects can be best set up to map over to Salesforce</li><li>Get a quick dive into MQL and SQL leads</li><li>Learn one simple trick for implementing MQL leads if you have not yet implemented it, and fear you may spend too much time in whiteboard sessions re-inventing the wheel to qualify your leads.</li></p>",
+            "abstract": "<p>It's common place for a consultant to be sought for help with Leads, and this always comes well after the implementation. The fact is that defining the Leads object as \"a place where you put people you want to do business with\", or simply \"a place to put your Leads in\" is misleading, if not borderline wrong. In this session, we're going to go over the proper definition for the Leads object in Salesforce, what its there for, and discuss how it aligns with Pardot and a Lead Nurturing Process (including Marketing Qualified Leads and Sales Qualified Leads).</p><p>We're also going to help validate if the Leads object is right for you and your organization (you may be surprised with the answer).</p><p>In the session, key takeaways include:<ul><li>Learn how to properly leverage the Leads object (and the Accounts/Contacts object) in Salesforce</li><li>Align the Salesforce objects and Pardot to a Lead Nurturing Process</li><li>Discover some best practices in how Pardot Prospects can be best set up to map over to Salesforce</li><li>Get a quick dive into MQL and SQL leads</li><li>Learn one simple trick for implementing MQL leads if you have not yet implemented it, and fear you may spend too much time in whiteboard sessions re-inventing the wheel to qualify your leads.</li></ul>",
             "id": "leads-in-salesforce",
             "year": "2022",
             "track": "admin",
@@ -711,7 +711,7 @@
         },
         {
             "title": "Architectural Considerations to Implementing DX and 2nd Generation Packaging",
-            "abstract": "<p>As architects of larger to enterprise-class orgs evaluate how they could adopt Salesforce DX and Second Generation Packaging, there are many things to consider along the way.</p><p><ul><li>What are the things that are important to consider during the implementation?</li><li>How to understand if you really need to transition?</li><li>How do you modularize your codebase?</li><li>What supporting infrastructure might you need?\n- How to identify success?  It is not the goal to simply create a DX package... It needs to be sustainable long term</li><li>How can concepts like \"separation of concerns\", \"properly layered code\", and \"dependency injection\" help?</li><li>How can open source frameworks like Apex Enterprise Patterns help?</li><li>What are some key tips to gaining support for the effort?</li></p><p>This talk will review the above points, providing the audience with various topics to consider, further research, and key elements of a Salesforce DX \"implementation blueprint\", in an effort to help make their individual implementation successful.</p>",
+            "abstract": "<p>As architects of larger to enterprise-class orgs evaluate how they could adopt Salesforce DX and Second Generation Packaging, there are many things to consider along the way.</p><p><ul><li>What are the things that are important to consider during the implementation?</li><li>How to understand if you really need to transition?</li><li>How do you modularize your codebase?</li><li>What supporting infrastructure might you need?\n- How to identify success?  It is not the goal to simply create a DX package... It needs to be sustainable long term</li><li>How can concepts like \"separation of concerns\", \"properly layered code\", and \"dependency injection\" help?</li><li>How can open source frameworks like Apex Enterprise Patterns help?</li><li>What are some key tips to gaining support for the effort?</li></ul></p><p>This talk will review the above points, providing the audience with various topics to consider, further research, and key elements of a Salesforce DX \"implementation blueprint\", in an effort to help make their individual implementation successful.</p>",
             "id": "architectural-considerations-to-implementing-dx-and-second-generation-packaging",
             "year": "2022",
             "track": "architect",
@@ -731,7 +731,7 @@
         },
         {
             "title": "Code Review & Code Quality",
-            "abstract": "<p>In this session we will talk about what importance of code review and how to setup code review checklist. Best practices of Salesforce Development to create the quality of code.</p><p>This session will cover<ul><li>Why Code needed?</li><li>What is basic code review?</li><li>How to do expert level code review</li><li>Best Practiced of Code Review</li><li>How to build Code Review Checklist</li><li>Example of code review and how to improve it</li><li>Salesforce Coding Best practices.</li></p>",
+            "abstract": "<p>In this session we will talk about what importance of code review and how to setup code review checklist. Best practices of Salesforce Development to create the quality of code.</p><p>This session will cover<ul><li>Why Code needed?</li><li>What is basic code review?</li><li>How to do expert level code review</li><li>Best Practiced of Code Review</li><li>How to build Code Review Checklist</li><li>Example of code review and how to improve it</li><li>Salesforce Coding Best practices.</li></ul></p>",
             "id": "code-review-and-code-quality",
             "year": "2022",
             "track": "dev",
@@ -741,7 +741,7 @@
         },
         {
             "title": "Essential Developer Tools: Embrace the CLI",
-            "abstract": "<p>While the integrations provided for IDEs such as VS Code are great and can save a lot of time, there are still times when you want to drop into the command line and start doing some matrix-like hacking.</p><p>This session will look at<ul><li>When you really need to use the CLI</li><li>Cool things you can do with pipes</li><li>Still can't do something? Write your own extension!</li></ul><p>Developers will see how the command-line interface can be a powerful tool in their arsenal. Learn to embrace your inner Neo!</p>",
+            "abstract": "<p>While the integrations provided for IDEs such as VS Code are great and can save a lot of time, there are still times when you want to drop into the command line and start doing some matrix-like hacking.</p><p>This session will look at<ul><li>When you really need to use the CLI</li><li>Cool things you can do with pipes</li><li>Still can't do something? Write your own extension!</li></ul></p><p>Developers will see how the command-line interface can be a powerful tool in their arsenal. Learn to embrace your inner Neo!</p>",
             "id": "essential-developer-tools",
             "year": "2022",
             "track": "dev",
@@ -781,7 +781,7 @@
         },
         {
             "title": "Secret Weapons to Level Up Your Communication & Drive Change",
-            "abstract": "<p>Whether you're an admin, a developer, a consultant, or something in between, part of your job is driving change and influencing people.</p><p>This session will cover soft skills that make all the difference when you want to build trust and make things happen.  They're legit \"secret weapons\" -- because if you leverage them effectively, your audience won't even know what hit 'em.</p><p>Topics covered:<ul><li>The 5 whys</li><li>Leveraging silence</li><li>The art of framing</li><li>Practical prompts to put it in action</p>",
+            "abstract": "<p>Whether you're an admin, a developer, a consultant, or something in between, part of your job is driving change and influencing people.</p><p>This session will cover soft skills that make all the difference when you want to build trust and make things happen.  They're legit \"secret weapons\" -- because if you leverage them effectively, your audience won't even know what hit 'em.</p><p>Topics covered:<ul><li>The 5 whys</li><li>Leveraging silence</li><li>The art of framing</li><li>Practical prompts to put it in action</li></ul></p>",
             "id": "secret-weapons-to-level-up-your-communication-and-drive-change",
             "year": "2022",
             "track": "exec",
@@ -903,7 +903,7 @@
         },
         {
             "title": "A Deep Dive on Salesforce Functions",
-            "abstract": "<p>Salesforce Functions are a way to get more out of your Salesforce implementation. They help us overcome some of the limitations of development in Salesforce, unlocking unlimited (ok with some limits!) potential.</p><p>This workshop will provide a guided interactive tour of Salesforce Functions including:</p><ul><li>Getting things set up</li><li>Developing a function</li><li>Running things locally</li><li>Unit tests</li><li>Deploying functions</li><li>Calling functions from Salesforce</li><li>Monitoring logs</li><li>Practical function examples / ideas</li></ul>",
+            "abstract": "<p>Salesforce Functions are a way to get more out of your Salesforce implementation. They help us overcome some of the limitations of development in Salesforce, unlocking unlimited (ok with some limits!) potential.</p><p>This workshop will provide a guided interactive tour of Salesforce Functions including:<ul><li>Getting things set up</li><li>Developing a function</li><li>Running things locally</li><li>Unit tests</li><li>Deploying functions</li><li>Calling functions from Salesforce</li><li>Monitoring logs</li><li>Practical function examples / ideas</li></ul></p>",
             "id": "a-deep-dive-on-salesforce-functions",
             "year": "2022",
             "track": "dev",
@@ -953,7 +953,7 @@
         },
         {
             "title": "Demystifying Flows, lets build a flow together and learn my top 5 tricks",
-            "abstract": "<p>This session is for the people newer to flows that may need to learn it as Salesforce is deprecating Process Builder and eventually Workflow Rules. Flows are a powerful tool every admin should know, but they have some important gotchas to learn as well. In this session we'll learn the following:</p><ul><li>Flow basics</li><li>Let's build a record trigger flow</li><li>Let's build a screen pop flow</li><li>Top 5 tricks you need to know about flows (cool use cases and how to go with the flow)</li><li>Gotchas with Flows</li><li>Gotchas with Salesforce Workflow-Rule to Flow Importer tool</li></ul>",
+            "abstract": "<p>This session is for the people newer to flows that may need to learn it as Salesforce is deprecating Process Builder and eventually Workflow Rules. Flows are a powerful tool every admin should know, but they have some important gotchas to learn as well. In this session we'll learn the following:<ul><li>Flow basics</li><li>Let's build a record trigger flow</li><li>Let's build a screen pop flow</li><li>Top 5 tricks you need to know about flows (cool use cases and how to go with the flow)</li><li>Gotchas with Flows</li><li>Gotchas with Salesforce Workflow-Rule to Flow Importer tool</li></ul></p>",
             "id": "demystifying-flows",
             "year": "2022",
             "track": "admin",
@@ -963,7 +963,7 @@
         },
         {
             "title": "Pardot Hands-On Training: Building a Post Tradeshow Engagement Program",
-            "abstract": "<p>Join us for an interactive, hands-on training where we will walk through one of the most common use cases we see on Pardot: building a post tradeshow engagement program for your prospects.  We’ll present a real-life scenario & discuss how to amplify lead generation & nurturing efforts using the platform.</p><p>Last but not least, you’ll have the opportunity to walk through a live example in your own Pardot instance & get 1-on-1 guidance along the way!</p><p>Topics Covered:</p><ul><li>Common roadblocks in implementing marketing automation</li><li>Sales &amp; marketing processes you can automate</li><li>Hands-on example of how to use Pardot to build a post tradeshow engagement program</li><li>How to build a roadmap to leverage Pardot to its fullest potential</li></ul>",
+            "abstract": "<p>Join us for an interactive, hands-on training where we will walk through one of the most common use cases we see on Pardot: building a post tradeshow engagement program for your prospects.  We’ll present a real-life scenario & discuss how to amplify lead generation & nurturing efforts using the platform.</p><p>Last but not least, you’ll have the opportunity to walk through a live example in your own Pardot instance & get 1-on-1 guidance along the way!</p><p>Topics Covered:<ul><li>Common roadblocks in implementing marketing automation</li><li>Sales &amp; marketing processes you can automate</li><li>Hands-on example of how to use Pardot to build a post tradeshow engagement program</li><li>How to build a roadmap to leverage Pardot to its fullest potential</li></ul></p>",
             "id": "pardot-building-a-post-tradeshow-engagement-program",
             "year": "2022",
             "track": "marketing",
@@ -973,7 +973,7 @@
         },
         {
             "title": "Build Your Own Automation Monitors and Save Yourself from Run-Time Errors",
-            "abstract": "<p>Are you an admin, developer, or product manager that needs better visibility into Salesforce automations?  Do you hate blind spots in your org?  Us too!  This session will briefly review Salesforce blind spots and then show you how to eliminate them, using 5 simple configuration techniques, including platform events, flows, and custom objects.  In this session, we will create a working automation monitor that:</p><ul><li>Can be created with no code</li><li>Can be utilized from code OR from Salesforce Flows</li><li>Handles escalation and communications automatically (including integration with Slack!)</li><li>Cleans up after itself (so you don't have log storage issues)</li></ul><p>If you want to get \"under the covers\" of your Salesforce automations and lose less time, chasing run-time bugs, this hands-on training is for you!</p>",
+            "abstract": "<p>Are you an admin, developer, or product manager that needs better visibility into Salesforce automations?  Do you hate blind spots in your org?  Us too!  This session will briefly review Salesforce blind spots and then show you how to eliminate them, using 5 simple configuration techniques, including platform events, flows, and custom objects.  In this session, we will create a working automation monitor that:<ul><li>Can be created with no code</li><li>Can be utilized from code OR from Salesforce Flows</li><li>Handles escalation and communications automatically (including integration with Slack!)</li><li>Cleans up after itself (so you don't have log storage issues)</li></ul></p><p>If you want to get \"under the covers\" of your Salesforce automations and lose less time, chasing run-time bugs, this hands-on training is for you!</p>",
             "id": "build-your-own-automation-monitors",
             "year": "2022",
             "track": "admin",
