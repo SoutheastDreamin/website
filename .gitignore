@@ -103,4 +103,8 @@ dist
 # TernJS port file
 .tern-port
 
+# Unlighthouse cache
+.unlighthouse
+
+# Data for scripts
 data/

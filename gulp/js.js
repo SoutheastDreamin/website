@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const gulp_bro = require('gulp-bro');
 const gulp_connect = require('gulp-connect');
+const gulp_minifiy = require('gulp-minify');
 const path = require('path');
 
 const constants = require('./constants');
@@ -22,6 +23,7 @@ function js() {
 
     return gulp.src(js_path())
         .pipe(gulp_bro())
+        .pipe(gulp_minifiy())
         .pipe(gulp.dest(dist_path))
         .pipe(gulp_connect.reload());
 }
