@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     
     
 
@@ -33,6 +33,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Join us for a community lead Salesforce conference with sessions by community members like you!">
 
     <meta property="og:title" content="Southeast Dreamin' &mdash; June 29-30, 2023">
     <meta property="og:description" content="Join us for a community lead Salesforce conference with sessions by community members like you!">
@@ -66,7 +67,7 @@
             <nav class="navbar px-4" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item" href="/">
-            <img src="/img/logo_wide.png" alt="Southeast Dreamin'" width="112" height="28">
+            <img src="/img/logo_wide_header.png" alt="Southeast Dreamin'" width="112" height="28">
         </a>
         <span class="navbar-item has-text-primary">June 29-30, 2023</span>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -135,18 +136,20 @@
 
             <div class="columns is-multiline is-centered">
                 <div class="column is-4">
-                    <a class="is-primary js-modal-trigger" data-target="mailchimp-modal">
-                        <div class="notification has-background-info has-text-black">
-                                <i class="fas fa-envelope"></i> <span class="pl-2">Mailing List</span>
-                        </div>
-                    </a>
+                    <button class="button is-primary is-fullwidth has-background-info has-text-black p-5 js-modal-trigger " data-target="mailchimp-modal">
+                        <span class="icon">
+                                <i class="is-fullwidth fas fa-envelope"></i>
+                        </span>
+                        <span class="">Mailing List</span>
+                    </button>
                 </div>
                 
                 <div class="column is-4">
-                    <a href="https://whova.com/portal/registration/south_202306/" class="is-primary">
-                        <div class="notification has-background-info has-text-black">
-                                <i class="fas fa-user-plus"></i> <span class="pl-2">Register</span>
-                        </div>
+                    <a href="https://whova.com/portal/registration/south_202306/" class="button is-primary is-fullwidth has-background-info has-text-black p-5">
+                        <span class="icon">
+                            <i class="fas fa-user-plus"></i>
+                        </span>
+                        <span class="pl-2">Register</span>
                     </a>
                 </div>
                 
@@ -178,7 +181,8 @@
         <section class="section is-small">
             <div class="columns is-multiline is-centered">
                 <div class="column is-half">
-                    <img src="/img/cover.jpg" class="image is-5by5">
+                    <img srcset="/img/cover-300.jpg 300w, /img/cover-800.jpg 800w"
+                        sizes="(max-width: 400px) 300px, 800px" class="image is-5by5" alt="Photo of attendee hold plush goat">
                 </div>
                 <div class="column">
                     <p class="mt-6">Southeast Dreamin' is a community lead multi-day conference where attendees can expand their knowledge of Salesforce and Salesforce related technologies. Located in the Atlanta area, and spanning two days,  attendees will get to experience hands-on trainings, sessions on a wide variety of Salesforce topics, key notes from exciting members of the community, and much more!</p>
@@ -258,17 +262,7 @@
         </form>
     </div>
 </div>
-    <!--<script id="mcjs">
-    !function (c, h, i, m, p) {
-        m = c.createElement(h),
-        p = c.getElementsByTagName(h)[0],
-        m.async = 1,
-        m.src = i,
-        p.parentNode.insertBefore(m, p)
-    } (document, "script", "");
-</script>-->
-
-<script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript' src='/js/mc-validate.js'></script>
 <script type='text/javascript'>
     (function($) {
         window.fnames = new Array();
@@ -297,14 +291,14 @@
         Developed and designed by <a href="https://connelly.dev">Patrick Connelly</a> using <a href="https://bulma.io/">Bulma</a>, <a href="https://fontawesome.com/">Font Awesome</a>, and <a href="https://github.com/SoutheastDreamin/website">GitHub</a>
     </div>
     <div class="content has-text-right">
-        <a href="https://twitter.com/sedreamin">
+        <a href="https://twitter.com/sedreamin" aria-label="SEDreamin Twitter account">
             <i class="fab fa-twitter"></i>
         </a>
     </div>
 </footer>
 <footer class="footer p-2 is-hidden-tablet-only is-hidden-desktop-only is-hidden-widescreen-only is-hidden-fullhd">
     <div class="content pl-2 pr-4">
-        <a href="https://twitter.com/sedreamin">
+        <a href="https://twitter.com/sedreamin"  aria-label="SEDreamin Twitter account">
             <i class="fab fa-twitter"></i>
         </a>
     </div>
@@ -313,6 +307,6 @@
     </div>
 </footer>
         </div>
-        <script src="/js/main.js"></script>
+        <script src="/js/main-min.js"></script>
     </body>
 </html>
