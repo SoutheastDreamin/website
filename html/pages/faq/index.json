@@ -10,7 +10,7 @@
                 },
                 {
                     "question": "How can I get my ticket?",
-                    "answer": "Tickets are available <a href=\"{{ globals.registration_url }}\">here</a>."
+                    "answer": "Tickets are available on our <a href=\"{{ globals.registration_url }}\">registration page</a>."
                 },
                 {
                     "question": "Are meals included?",
