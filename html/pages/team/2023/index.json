@@ -150,6 +150,27 @@
                     "link": "https://www.linkedin.com/in/stephaniefoerst/"
                 }
             ]
+        },
+        {
+            "firstname": "Amber",
+            "lastname": "Boaz",
+            "title": "Other duties as assigned",
+            "bio": "<p>Amber entered the Salesforce universe in late 2008 and was immediately smitten. Since then she has passed 14 certification exams, founded or co-founded 5 user groups (Nonprofit UG, Dev Meetup, Architect, Women In Tech, & Slack), started a weekly Salesforce Saturday in central NC, and is a 8 time Dreamforce speaker. Amber has been a Salesforce.com MVP since 2011.</p>",
+            "image": "/img/team/amber.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/amber9904"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/amberboaz/"
+                },
+                {
+                    "icon": "fas fa-blog",
+                    "link": "https://www.amber9904.com"
+                }
+            ]
         }
     ]
 }
