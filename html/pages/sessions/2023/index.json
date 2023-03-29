@@ -1,0 +1,900 @@
+{
+    "rooms": {
+        "salon1and2": {
+            "name": "Salon I & II",
+            "occupancy": 100
+        },
+        "salon3and4": {
+            "name": "Salon III & IV",
+            "occupancy": 360
+        },
+        "salon5and6": {
+            "name": "Salon V & VI",
+            "occupancy": 100
+        },
+        "conference2": {
+            "name": "Conference 2",
+            "occupancy": 70
+        },
+        "conference4": {
+            "name": "Conference 4",
+            "occupancy": 70
+        },
+        "conferenceb": {
+            "name": "Conference B",
+            "occupancy": 144
+        },
+        "conferencee": {
+            "name": "Conference E",
+            "occupancy": 80
+        }
+    },
+    "tracks": {
+        "admin": {
+            "name": "Administrators",
+            "type": "is-info",
+            "background": "has-background-info-light"
+        },
+        "marketing": {
+            "name": "Marketing",
+            "type": "is-warning",
+            "background": "has-background-warning-light"
+        },
+        "end_users": {
+            "name": "End Users",
+            "type": "is-primary",
+            "background": "has-background-primary-light"
+        },
+        "architect": {
+            "name": "Architects",
+            "type": "is-success",
+            "background": "has-background-success-light"
+        },
+        "dev": {
+            "name": "Developers",
+            "type": "is-link",
+            "background": "has-background-link-light"
+        },
+        "exec": {
+            "name": "Executives",
+            "type": "is-primary",
+            "background": "has-background-primary-light"
+        },
+        "non_profit": {
+            "name": "Non-Profit",
+            "type": "is-success",
+            "background": "has-background-success-light"
+        },
+        "business": {
+            "name": "Business Analyst",
+            "type": "is-success",
+            "background": "has-background-success-light"
+        }
+    },
+    "hot_time_slots": {
+        "hotslot1": {
+            "name": "Hands-on Training Session #1",
+            "start": "1:30 PM",
+            "end": "3:00 PM"
+        },
+        "hotslot2": {
+            "name": "Hands-on Training Session #2",
+            "start": "3:15 PM",
+            "end": "4:45 PM"
+        }
+    },
+    "session_time_slots": {
+        "slot1": {
+            "name": "Breakout Session #1",
+            "start": "9:40 AM",
+            "end": "10:25 AM"
+        },
+        "slot2": {
+            "name": "Breakout Session #2",
+            "start": "10:35 AM",
+            "end": "11:20 AM"
+        },
+        "slot3": {
+            "name": "Breakout Session #3",
+            "start": "1:35 PM",
+            "end": "2:00 PM"
+        },
+        "slot4": {
+            "name": "Breakout Session #4",
+            "start": "2:10 PM",
+            "end": "2:35 PM"
+        },
+        "slot5": {
+            "name": "Breakout Session #5",
+            "start": "3:00 PM",
+            "end": "3:45 PM"
+        }
+    },
+    "speakers": {
+        "amos": {
+            "first_name": "Amos",
+            "last_name": "William",
+            "id": "amos",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "bsmith": {
+            "first_name": "Brad",
+            "last_name": "Smith",
+            "id": "bsmith",
+            "pronouns": "He / Him",
+            "title": "CEO & Co-Founder, Sonar",
+            "company": "Sonar",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/bsmith.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "carpenter": {
+            "first_name": "Nate",
+            "last_name": "Carpenter",
+            "id": "carpenter",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "connelly": {
+            "first_name": "Patrick",
+            "last_name": "Connelly",
+            "id": "connelly",
+            "pronouns": "He / Him",
+            "title": "Principal Software Engineer",
+            "company": "Red Hat",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/connelly.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": true
+        },
+        "cowell": {
+            "first_name": "Rob",
+            "last_name": "Cowell",
+            "id": "cowell",
+            "pronouns": "He / Him",
+            "title": "DevOps Advocate",
+            "company": "Gearset",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/cowell.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "crear": {
+            "first_name": "Crear",
+            "last_name": "Aaron",
+            "id": "crear",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "davis": {
+            "first_name": "Robert",
+            "last_name": "Davis",
+            "id": "davis",
+            "pronouns": "He / Him",
+            "title": "Solution Architect",
+            "company": "Hike2",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/davis.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "delgado": {
+            "first_name": "Sommer",
+            "last_name": "Delgado",
+            "id": "delgado",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "epting": {
+            "first_name": "Sarah",
+            "last_name": "Epting",
+            "id": "epting",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "erstelle": {
+            "first_name": "Adam",
+            "last_name": "Erstelle",
+            "id": "erstelle",
+            "pronouns": "He / Him",
+            "title": "VP of Technology",
+            "company": "Sercante",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/erstelle.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "falk": {
+            "first_name": "Em",
+            "last_name": "Falk",
+            "id": "falk",
+            "pronouns": "They / They",
+            "title": "Director Revenue Operations ",
+            "company": "Relyance.ai",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/falk.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "fields": {
+            "first_name": "Shaniqua",
+            "last_name": "Fields",
+            "id": "fields",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "forte": {
+            "first_name": "Ko",
+            "last_name": "Forte",
+            "id": "forte",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "hager": {
+            "first_name": "Kayla",
+            "last_name": "Hager",
+            "id": "hager",
+            "pronouns": "",
+            "title": "Sr. Salesforce Engineer",
+            "company": "Blackthorn.io",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/hager.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "hamori": {
+            "first_name": "Dengyue",
+            "last_name": "Hamori",
+            "id": "hamori",
+            "pronouns": "She / Her",
+            "title": "Senior Salesforce Administrator",
+            "company": "CallRail",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/hamori.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "hatch": {
+            "first_name": "Mike",
+            "last_name": "Hatch",
+            "id": "hatch",
+            "pronouns": "He / Him",
+            "title": "Certified Principal Enterprise Architect",
+            "company": "Salesforce",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/hatch.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "jaeger": {
+            "first_name": "Terry",
+            "last_name": "Jaeger",
+            "id": "jaeger",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "jdreiling": {
+            "first_name": "Joshua",
+            "last_name": "Dreiling",
+            "id": "jdreiling",
+            "pronouns": "He / Him",
+            "title": "Technical Architect",
+            "company": "Salesforce",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/jdreiling.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "larregui": {
+            "first_name": "Danielle",
+            "last_name": "Larregui",
+            "id": "larregui",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "makky": {
+            "first_name": "Zeina",
+            "last_name": "Makky",
+            "id": "makky",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "ndreiling": {
+            "first_name": "Nicole",
+            "last_name": "Dreiling",
+            "id": "ndreiling",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "owens": {
+            "first_name": "Brian",
+            "last_name": "Owens",
+            "id": "owens",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "pilzer": {
+            "first_name": "Sarah",
+            "last_name": "Pilzer",
+            "id": "pilzer",
+            "pronouns": "She / They",
+            "title": "Director of Operations",
+            "company": "Country Dance & Song Society",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/pilzer.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "reed": {
+            "first_name": "David",
+            "last_name": "Reed",
+            "id": "reed",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "robertson": {
+            "first_name": "Shahida",
+            "last_name": "Robertson",
+            "id": "robertson",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "shepard": {
+            "first_name": "Melissa",
+            "last_name": "Shepard",
+            "id": "shepard",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "shrivastava": {
+            "first_name": "Mohith",
+            "last_name": "Shrivastava",
+            "id": "shrivastava",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "spencer": {
+            "first_name": "Tiffany",
+            "last_name": "Spencer",
+            "id": "spencer",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "thayer": {
+            "first_name": "Susan",
+            "last_name": "Thayer",
+            "id": "thayer",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "trumble": {
+            "first_name": "Steven",
+            "last_name": "Trumble",
+            "id": "trumble",
+            "pronouns": "He / Him",
+            "title": "Salesforce Consultant",
+            "company": "Blue Engine Solutions",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/trumble.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "wilkerson": {
+            "first_name": "CJ",
+            "last_name": "Wilkerson",
+            "id": "wilkerson",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "yadav": {
+            "first_name": "Dinesh",
+            "last_name": "Yadav",
+            "id": "yadav",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "zaa": {
+            "first_name": "Jitendra",
+            "last_name": "Zaa",
+            "id": "zaa",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "zellner": {
+            "first_name": "Sandi Nuss",
+            "last_name": "Zellner",
+            "id": "zellner",
+            "pronouns": "She / Her",
+            "title": "Founder and Lead Architect",
+            "company": "Locke Nuss Consulting",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/zellner.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "ziter": {
+            "first_name": "Timothy",
+            "last_name": "Ziter",
+            "id": "ziter",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        }
+    },
+    "sessions": [
+        {
+            "title": "Developer Console for Admins",
+            "abstract": "<p>The developer console sounds like a scary place if you're not a developer.  But trust me, it's a wonderful place for everyone.  In this session we'll take a tour of the developer console, talk about what all the tabs do and how you can use them in your daily work.  With the developer console you can direct queries without having to login to Workbench and edit data without having to visit the record page.  Have a slow running report and want to figure out why?  The developer console has you covered!  We'll even dip our toes into the world of logging and deployments that can help you report issues to vendors or your internal development teams more efficiently.  So let's uncover the possibilities that await inside the developer console!</p>",
+            "id": "developer-console-for-admins",
+            "year": "2023",
+            "track": "admin",
+            "room": "salon3and4",
+            "slot": "slot4",
+            "speakers": ["connelly"]
+        },
+        {
+            "title": "Coding for Clicks",
+            "abstract": "<p>\"Coding for Clicks\" is the art of intentionally designing your code to be modified by configuration. As Salesforce developers, we spend most of our time squarely placed in the \"pro-code\" realm. However, while because a solution might require code, we can still enable our low-code and no-code colleagues by designing our solutions to give them levers to control our code's behavior via clicks. This presentation will focus on using tools such as custom metadata, custom settings, and custom objects to expose your code to configuration. Examples as well as recommended best practices will be discussed to provide guidelines and techniques. As a result, developers will be equipped with tools to enable their low-code/no code colleagues, admins will be equipped with a framework for requesting configurable code from developers, and architects will be equipped with patterns for implementing configurable pro-code development.</p>",
+            "id": "coding-for-clicks",
+            "year": "2023",
+            "track": "dev",
+            "room": "salon1and2",
+            "slot": "slot3",
+            "speakers": ["carpenter"]
+        },
+        {
+            "title": "Salesforce CPQ: Designing for Scale and Performance",
+            "abstract": "<p>The session will explain the best practices for designing scalable and performance solutions with Salesforce CPQ. It will also list some of the scale and performance impacting factors in Salesforce CPQ and explain how developers/admins can leverage the Salesforce CPQ package settings for scale and performance.</p>",
+            "id": "salesforce-cpq-designing-for-scale-and-performance",
+            "year": "2023",
+            "track": "admin",
+            "room": "conference4",
+            "slot": "slot4",
+            "speakers": ["yadav"]
+        },
+        {
+            "title": "Marketing Cloud Journey Builder: Design And Build Custom Journeys",
+            "abstract": "<p>Working session to build out a lead nurture journey that ranks and sorts leads into easy to understand buckets, nurtures leads in a automated omni channel journey and notifies sales of \"hot leads\" to follow up immediately.  Overview will include SF CRM set up, cross cloud integration and the building of a custom marketing automation solution in Marketing Cloud.</p>",
+            "id": "marketing-cloud-journey-builder",
+            "year": "2023",
+            "track": "marketing",
+            "room": "salon5and6",
+            "slot": "slot1",
+            "speakers": ["ziter"]
+        },
+        {
+            "title": "Grow and Thrive as a Junior Engineer",
+            "abstract": "<p>Working as a junior engineer can be deeply stressful. There’s so much to learn. Pressure to deliver code can be overwhelming. And how the heck do you fix that compiler error, anyway?</p><p>This presentation, by a principal engineer working at Salesforce, invites junior engineers to learn critical habits that will help them grow and thrive – and, sooner or later, end up a senior engineer. Three foci cover Breaking Down Problems, Asking Great Questions, and building Confidence through Self-Knowledge. Junior engineers are invited to put early-career jitters in perspective by cultivating behaviors that help them excel as part of a team and demolish technical challenges. No specific coding experience is required, although minimal exposure to code will increase the impact of the presentation.</p>",
+            "id": "grow-and-thrive-as-a-junior-engineer",
+            "year": "2023",
+            "track": "end_users",
+            "room": "conference4",
+            "slot": "slot1",
+            "speakers": ["reed"]
+        },
+        {
+            "title": "Creating your first Unlocked Package",
+            "abstract": "<p>Getting started with the creation of unlocked packages in your organization. The benefits and limitations of using unlocked packages for deployments.</p><li>Attendees will have a understanding the benefits and limitations of using unlocked packages.</li><li>Attendees will know the steps to creating a unlock package in Visual Studio Code.</li></ul>",
+            "id": "creating-your-first-unlocked-package",
+            "year": "2023",
+            "track": "dev",
+            "room": "conferenceb",
+            "slot": "slot5",
+            "speakers": ["davis"]
+        },
+        {
+            "title": "No Fault Flows: Elegant Error Handling Solutions in Flow Builder",
+            "abstract": "<p>Learn how to avoid the dreaded \"An unhandled Fault has occurred in this Flow\" red text of doom and to reduce the time it takes to troubleshoot flow errors. In this session, we will demonstrate a few different techniques for declarative error handling that will either stop errors before they happen or elegantly deal with them when they do occur. While designed primarily for intermediate Admins who are familiar with Flow Builder, anyone who attends will take away important concepts such as using decision elements to validate data entry and setting up custom notifications to replace the standard Flow error emails. Leave this session equipped with ideas for improving the entire flow error experience for both your users and yourself.</p>",
+            "id": "no-fault-flows",
+            "year": "2023",
+            "track": "admin",
+            "room": "salon3and4",
+            "slot": "slot5",
+            "speakers": ["pilzer"]
+        },
+        {
+            "title": "Get Started with Salesforce Industry Cloud for Developers",
+            "abstract": "<p>Salesforce Industry cloud is becoming a go to solution for fast digital acceleration across various industry verticals. Salesforce Industry comes with some excellent tools  like OmniScripts, Data Raptors and Integration Procedures that developers can leverage to build solutions faster.</p><p>In this session we will take a very basic use case and learn how to use OmniScripts, Data Raptors and Integration Procedures.</p><p>We will also learn how to extract deployment artifacts and move over the change to version control systems.</p>",
+            "id": "get-started-with-salesforce-industry-cloud-for-developers",
+            "year": "2023",
+            "track": "dev",
+            "room": "salon1and2",
+            "slot": "slot2",
+            "speakers": ["shrivastava"]
+        },
+        {
+            "title": "Optimizing the modern day Salesforce tech stack!",
+            "abstract": "<p>On a daily basis, we are buying and integrating more and more software into our go-to-market tech stack, with Salesforce sitting at the epicenter of it all. Today’s Salesforce teams have an average of 40+ systems they rely on to help their teams achieve their goals. Not only are Salesforce professionals responsible for administering their CRM, but also being faced with learning how to integrate, monitor, and optimize the modern GTM tech stack.</p><p>In this session, we’ll talk about the strategy needed to operationalize and optimize the modern day GTM tech stack. We’ll review:</p><li>Identifying the need for additional software purchases (buy vs build pros and cons)</li><li>The right questions to ask BEFORE purchasing and implementing new software</li><li>How to leverage your vendor as a MEMBER of your team</li></ul>",
+            "id": "optimizing-the-modern-day-salesforce-tech-stack",
+            "year": "2023",
+            "track": "admin",
+            "room": "salon5and6",
+            "slot": "slot3",
+            "speakers": ["bsmith"]
+        },
+        {
+            "title": "Explore the Marketing Cloud Programming Languages",
+            "abstract": "<p>In this session we will cover the programming languages available on the Marketing Cloud Platform and how to use them. We will explore AMPscript, SSJS, GTL, and SQL!</p>",
+            "id": "explore-the-marketing-cloud-programming-languages",
+            "year": "2023",
+            "track": "marketing",
+            "room": "salon5and6",
+            "slot": "slot4",
+            "speakers": ["larregui"]
+        },
+        {
+            "title": "How to unlock the power of the nonprofit success pack",
+            "abstract": "<p>Ever feel overwhelmed or frustrated with your nonprofit organization's computer systems?</p><p>Are you intimidated by technology that is more complex than spreadsheets and email?</p><p>Learn about the features of NPSP that you may be missing out on because you didn't realize they existed. Those include, outlook/gmail integrations + email templates, moves management, built-in reports, and a quick-lift formula trick to help with pesky soft credits.</p>",
+            "id": "how-to-unlock-the-power-of-the-nonprofit-success-pack",
+            "year": "2023",
+            "track": "non_profit",
+            "room": "conference2",
+            "slot": "slot1",
+            "speakers": ["epting"]
+        },
+        {
+            "title": "Flow Error Handling in Screen Flows",
+            "abstract": "<p>Salesforce Screen Flows are a powerful tool for creating custom user interfaces and automating business processes. However, without the proper error handling, Screen Flows can lead to user frustration and unintended consequences.</p><p>In this session, we will explore best practices for handling errors in Screen Flows. By the end of this session, you will have a better understanding of how to effectively handle errors in Screen Flows, which will help you create more robust and user-friendly Screen Flows in Salesforce.</p><p>Topic Covered:</p><ol><li>The most common type of errors</li><li>Strategies for preventing errors from occurring</li><li>Handle errors via fault paths and error screens</li><li>Build one subflow that you can use in all of your screen flows</li><li>Using the Roll Back element to roll back pending record changes</li><li>Demo</li></ol>",
+            "id": "flow-error-handling-in-screen-flows",
+            "year": "2023",
+            "track": "admin",
+            "room": "salon3and4",
+            "slot": "slot2",
+            "speakers": ["hamori", "trumble"]
+        },
+        {
+            "title": "From a Low-value AMS to \"the Mothership\"",
+            "abstract": "<p>We’re a professional organization who started with a low-value Salesforce org, an AMS that was clunky and difficult to use, and limited (no) digital member benefits.</p><p>In the past 5 years we have re-built our org and harnessing the power of a Salesforce Community, replacing all outdated listservs with better networking opportunities via Chatter.</p><p>We also connected an online resource library via SSO, brought in event registration, process (application, membership, everything else), integrated our marketing platform, &amp; Qualtrics.</p><p>We reduced 5 separate member logins to 1 for a seamless user experience and single source of truth. We consolidated and expanded data storage and utilization to achieve a sexier approach to segmented marketing and data governance.</p><p>Join us to learn about our 5-year journey and see the place our members now call their professional home.</p>",
+            "id": "from-a-lowvalue-ams-to-the-mothership",
+            "year": "2023",
+            "track": "non_profit",
+            "room": "conference2",
+            "slot": "slot4",
+            "speakers": ["makky"]
+        },
+        {
+            "title": "Advanced Reporting Tips & Tricks for New Admins",
+            "abstract": "<p>Are you a new Admin struggling to create reports for your team? Do you spend way too much time racking your brain trying to get data to present properly? You're not alone. Many beginner Admins spend hours trying to develop reports that should only take minutes to finish. This session will show you real examples of advanced reporting features that will make your job easier and provide greater value to your users. During this live demo you will learn how to use: Custom Summary Formulas, Row-Level Formulas, Unique Values, Cross Filters, Power of 1, Joined Reports, Buckets, and Custom Report Types. These tips will help you easily identify and present data, enable your marketing team to see Lead conversion rates and show sales reps revenue toward goal. The presentation will help you take your reporting game to the next level.</p>",
+            "id": "",
+            "year": "2023",
+            "track": "admin",
+            "room": "conferenceb",
+            "slot": "slot1",
+            "speakers": ["crear"]
+        },
+        {
+            "title": "Acceptance Criteria - Your Secret Weapon for Project Success",
+            "abstract": "<p>Are you in the midst of or want to avoid a chaotic technical project? You know, the one where no one’s on the same page about what needs to get done, by when, and in what order?</p><p>Whether you’re a project manager, business analyst, administrator, developer, or consultant, very few people know how to run a project smoothly - and the best of the best use their secret weapon….high-quality acceptance criteria.</p><p>Join this 20-minute session to learn what acceptance criteria is, why it matters to your Salesforce project, and how to write picture-perfect criteria so that everyone is aligned and your project results flow seamlessly.</p><p>By using simple analogies to help you stay consistent, you will be able to walk away with an actionable framework you can deploy immediately to set your team and project up for success.</p>",
+            "id": "acceptance-criteria",
+            "year": "2023",
+            "track": "business",
+            "room": "conferencee",
+            "slot": "slot2",
+            "speakers": ["robertson"]
+        },
+        {
+            "title": "How To Bring Account Engagement Capabilities Into Salesforce Flow",
+            "abstract": "<p>Account Engagement’s new V5 API allows external systems to work with Pardot data, but what if that \"external system\" is actually our Sales Cloud instance? Currently, we are limited to the native Salesforce Connector to get things done. With “Flow Actions for Pardot” we can bring a range of Account Engagement capabilities right into our Flow Designer.</p>",
+            "id": "how-to-bring-account-engagement-capabilities-into-salesforce-flow",
+            "year": "2023",
+            "track": "marketing",
+            "room": "salon5and6",
+            "slot": "slot2",
+            "speakers": ["erstelle", "catalano"]
+        },
+        {
+            "title": "How Salesforce does Enterprise Architecture",
+            "abstract": "<p>As Salesforce has grown in capabilities, it is more important than ever to understand how to best fit its functionality into the entire enterprise's business and technical architecture. Learn the methodology that we use at Salesforce as Enterprise Architects to assess business and technical architecture to build a Salesforce roadmap. This methodology can be used with any size or type of organization.</p>",
+            "id": "",
+            "year": "2023",
+            "track": "exec",
+            "room": "conference4",
+            "slot": "slot2",
+            "speakers": ["hatch"]
+        },
+        {
+            "title": "BA Where You Are",
+            "abstract": "<p>During this session, attendees will learn how to create the mindset, habits, and documentation necessary to show that they can earn a Business Analyst role on a technical team. The session will cover the following topics:<p>Understanding the Salesforce Ecosystem: We will start by exploring the different components of the Salesforce ecosystem, including Sales Cloud, Service Cloud, Marketing Cloud, and more. Attendees will learn how these components fit together and how they impact business processes.</p><p>Business Analysis Techniques: We will introduce attendees to business analysis techniques that are essential for a Business Analyst. These techniques include requirements gathering, stakeholder management, process mapping, and data analysis. Attendees will learn how to apply these techniques in their current roles as Salesforce end users.</p><p>Salesforce Business Analyst Certification: We will review the Salesforce Business Analyst certification and discuss the knowledge areas covered in the exam. Attendees will learn what they need to know to pass the certification exam and how the certification can help them to advance their career.</p><p>Building Your Business Analyst Portfolio: We will discuss the importance of creating a Business Analyst portfolio to showcase your skills and experience. Attendees will learn what types of documentation to include in their portfolio, such as user stories, process flows, and wireframes.</p><p>Learning Objectives:</p><ol><li>Understand the Salesforce ecosystem and its impact on business processes</li><li>Learn essential business analysis techniques and how to apply them as a Salesforce end user</li><li>Gain knowledge about the Salesforce Business Analyst certification and its value in advancing their career</li><li>Learn how to build a Business Analyst portfolio to showcase their skills and experience</li></ul><p>In conclusion, this session will provide valuable insights and practical tips for Salesforce end users who aspire to become Business Analysts. Attendees will walk away with a better understanding of the skills and knowledge required for a Business Analyst role, as well as practical steps to start developing those skills right where they are in their career.</p>",
+            "id": "ba-where-you-are",
+            "year": "2023",
+            "track": "end_users",
+            "room": "conferencee",
+            "slot": "slot3",
+            "speakers": ["forte"]
+        },
+        {
+            "title": "How to Execute a Discovery Effort with your People in Mind",
+            "abstract": "<p>During the session, a Salesforce certified architect and an experienced change management professional will walk through activities, best practices, and guidance on how to best drive a discovery effort. We look forward to sharing how we strengthen the solution approach and transformational direction by working in complementary fashion during this phase. At the end of the session, viewers should take away an understanding of the Discovery phase of an implementation, what Technical Architecture and Change Management do during this phase and how they can best work together for the success of the project.</p><p>Learning Objectives:</p><ul><li>How to set up an implementation for success from the very beginning with your people, your business goals, and your technological landscape in mind?</li><li>What are the goals of a Discovery phase of a project?</li><li>What are the discussions to take place, and what expected artifacts/outputs will result from the Discovery phase of a project by the Architects?</li><li>How can Change Management provide value from day 1?</li></ul>",
+            "id": "how-to-execute-a-discover-effort-with-your-people-in-mind",
+            "year": "2023",
+            "track": "business",
+            "room": "conference2",
+            "slot": "slot5",
+            "speakers": ["ndreiling", "jdreiling"]
+        },
+        {
+            "title": "Meet the Integration User: the hardest worker on your team",
+            "abstract": "<p>Admins often make the mistake of using their own account to connect external systems to Salesforce. In the past, many integrations even recommended using a System Administrator user in order to gain broad access and avoid sharing and security limitations. More recently, the recommended best practice has been to use a dedicated Integration User. The cost of an additional license, or licenses, has often been a barrier for organizations of all sizes. However, as of this Spring, Salesforce will offer free and low cost Integration User Licenses. We'll talk about why having a dedicated user is important, how to set up the user, and some tips to keep in mind. You'll learn everything you need to know to set up a new integration. If you have an existing integration connected to an admin user, there's never been a better time to implement best practices! Except of course setting it up correctly from the beginning, which admittedly, would have been the best time. In that case, this is definitely the next best time!</p>",
+            "id": "meet-the-integration-user",
+            "year": "2023",
+            "track": "admin",
+            "room": "salon3and4",
+            "slot": "slot3",
+            "speakers": ["wilkerson"]
+        },
+        {
+            "title": "Rebuilding from the ground up: A nonprofit’s redesign and implementation of Salesforce",
+            "abstract": "<p>This session will describe the experiences of a legal services nonprofit’s redesign and implementation of their Salesforce after a previously failed implementation. The organization utilized lessons learned from their first implementation, which was not widely used and quickly outgrown by their fast-paced and ever-changing work. This new approach to design and implementation included a comprehensive visioning process, goal setting, and the involvement of key stakeholders. This presentation will highlight the challenges of the organization and how they were addressed and will present goals and desired outcomes for the new design and implementation, which is still in process. Attendees will learn from these lessons and walk away with information on how to build buy-in across business units and roles and what we learned as an organization throughout our redesign processes.</p>",
+            "id": "rebuilding-from-the-ground-up",
+            "year": "2023",
+            "track": "non_profit",
+            "room": "conference2",
+            "slot": "slot3",
+            "speakers": ["delgado"]
+        },
+        {
+            "title": "Empowering Workforce Development: How Organizations Can Use Salesforce to Drive Impact and Change",
+            "abstract": "<p>Workforce development organizations play a critical role in helping individuals and communities thrive, but they face unique challenges in tracking and measuring their impact. Salesforce offers powerful tools and resources to help workforce development organizations overcome these challenges and create measurable impact. In this session, we'll explore how my organization has leveraged Salesforce to support our programs and drive impact. We'll dive into the different Salesforce apps and features that we use, including Salesforce for Nonprofits, PMM, Form Assembly and Slack. And we'll explore how these tools enable us to track program outcomes, measure impact, and engage with their stakeholders. Whether you're a nonprofit professional, a Salesforce administrator, or simply interested in using technology for social impact, this session will provide practical tips and strategies for leveraging Salesforce.</p>",
+            "id": "empowering-workforce-development",
+            "year": "2023",
+            "track": "non_profit",
+            "room": "conference2",
+            "slot": "slot2",
+            "speakers": ["spencer"]
+        },
+        {
+            "title": "Lock it Up - A guide to Privacy & Security in Salesforce",
+            "abstract": "<p>Worried about your data privacy & security? Probably the right time. With phishing emails hitting 3.4 billion in 2022, hacking through humans workflows and back door code is at an all time global high. With company sensitive information, customer & PPI data from employees housed in Salesforce and adjacent systems, having the right privacy program in place protects you and your customers from an embarrassing public displace of stolen data.</p>            <p>Pop in to this session and learn the ins and out of Administration of Salesforce's security to lock down your instance and protect your data. Explore the difference between human and bot attack while discussing the central pillars of architectural security in Salesforce and beyond.</p><p>Learning Points</p><ul><li>Privacy and security in the modern climate - creating and understanding of a Privacy Ops</li><li>Creating an understanding of attacks, protection and client facing considerations</li><li>Differentiating between human workflow orchestration vs Direct Data, integration and infrastructure coverage. Architectural considerations with Salesforce and beyond</li><li>Human Workflow Orchestration in Salesforce - SSO, TFA, and other options for locking down you instance</li><li>Options for Privacy and Security at the core of your architecture</li></ul>",
+            "id": "lock-it-up",
+            "year": "2023",
+            "track": "admin",
+            "room": "conferenceb",
+            "slot": "slot2",
+            "speakers": ["falk"]
+        },
+        {
+            "title": "Applying the Well-Architected Framework to Your Trailblazer Career Path…",
+            "abstract": "<p>According to recent surveys, the need for persons with Salesforce Architect skills outweighs the number of available candidates by a ratio of 10 to 1. That is a lot of opportunity waiting for Trailblazers like you. Are you an architect and you don’t even know it? Maybe it is a title you’ve never considered or a whole new lens to look at yourself through, but you may already be a Salesforce Architect.</p><p>Many people currently working as Salesforce administrators or developers have the required skills to fill a role but do not consider themselves architects. They possess the skills required, but don’t identify as qualified for the job. They have the desire to become an architect but don’t know how to get there. In this session, we will define key requirements, learn to identify existing strengths and lay out a plan to build a career as a Salesforce Architect.</p>",
+            "id": "applying-the-well-architected-framework-to-your-trailblazer-career-path",
+            "year": "2023",
+            "track": "admin",
+            "room": "salon1and2",
+            "slot": "slot5",
+            "speakers": ["zellner"]
+        },
+        {
+            "title": "An Admin’s guide to Git",
+            "abstract": "<p>An introduction to source control using Git for non-coders.  Admins will learn the benefits of source control for all types of metadata and gain an introduction to Salesforce DevOps</p>",
+            "id": "an-admins-guide-to-git",
+            "year": "2023",
+            "track": "admin",
+            "room": "conferencee",
+            "slot": "slot4",
+            "speakers": ["cowell"]
+        },
+        {
+            "title": "Make the Switch from Process Builder to Flow",
+            "abstract": "<p>Process Builder is schedule to be retired! Don't panic because In this session you will learn how to easily convert many of your Process Builders to Flow using the new migration tool. Then you will see a demo of the error handling and debugging features of Flow that make Flows my preferred option over Process Builders. You're going to love it and walk out a flow fanatic!</p>",
+            "id": "make-the-switch-from-process-builder-to-flow",
+            "year": "2023",
+            "track": "admin",
+            "room": "conferenceb",
+            "slot": "slot3",
+            "speakers": ["thayer"]
+        },
+        {
+            "title": "Go with the Asynchronous Flow",
+            "abstract": "<p>There are multiple ways to create asynchronous automations using Flow. There are benefits to using asynchronous in certain scenarios such as for outbound integrations or on-platform processing where there’s heavy logic or large data volumes. In this session we will review the different ways to use Flow asynchronously and some common use cases. Participants will leave knowing how to create asynchronous automations using Flow and when they would want to use each method.</p>",
+            "id": "go-with-the-asynchronous-flow",
+            "year": "2023",
+            "track": "admin",
+            "room": "conferenceb",
+            "slot": "slot4",
+            "speakers": ["shepard"]
+        },
+        {
+            "title": "Save the Day with Unit Tests",
+            "abstract": "<p>Often considered the black sheep of code, unit testing is actually the unsung hero of development! Filling your org with meaningful unit tests can yield BIG savings, of both time and money, for you, your company, and your customers. Did you know that the cost of a bug not found until production can be upward of $10,000?? That’s where unit tests can save the day by ensuring those pesky bugs (almost) never make it to prod! In this session you’ll learn why testing your code is so important, focus on what makes a purposeful, quality unit test, and see how to implement a mock framework to save on runtime and further improve test reliability and code quality.</p>",
+            "id": "save-the-day-with-unit-tests",
+            "year": "2023",
+            "track": "dev",
+            "room": "salon1and2",
+            "slot": "slot1",
+            "speakers": ["hager"]
+        },
+        {
+            "title": "What you don't know about Platform Events",
+            "abstract": "<p>Platform events is one of most talked &amp; used integration patters in Salesforce solutions. However, there are many edge cases & scenarios which are unknown unless you have used it implementations involving large data volumes.</p><p>In this session, I would explain when & why to use platform events & difference between change data capture , pub sub API. I would go through lesson learned and scenarios to watch before implementing integration pattern.</p><p>I would also introduce & share error handling framework which would help overcoming some of limitations of platform event.</p>",
+            "id": "what-you-dont-know-about-platform-events",
+            "year": "2023",
+            "track": "dev",
+            "room": "salon1and2",
+            "slot": "slot4",
+            "speakers": ["zaa"]
+        },
+        {
+            "title": "Help me Help you: The role of a Project Manager ",
+            "abstract": "<p>Are you a \"title\" who assumes the role of a Project Manager on projects by default? Are you lost and frustrated by wearing multiple hats? Do you want to learn more about how successful Project Managers manage their time? In this session, we will share how to effectively manage your projects including how to avoid scope creep, manage client expectations, communicate and delegate effectively, and still deliver on time. If you have been in this role and want to learn how to navigate this rough terrain better, then this session is definitely for you. Join us and bring all your questions because we've got the answers! </p>",
+            "id": "help-me-help-you",
+            "year": "2023",
+            "track": "exec",
+            "room": "conference4",
+            "slot": "slot5",
+            "speakers": ["amos", "fields"]
+        },
+        {
+            "title": "The Art & Science of Pivoting",
+            "abstract": "<p>Are you new to the Salesforce ecosystem and seeking your first Salesforce role, or trying to chart your career path to your next promotion and beyond? Then this session is for you! Transitioning from a non-tech career to become a #Trailblazer can be a difficult thing to do, especially when you don't have a plan. In this session I will take you through my career (all of it, not just the good parts) & give you some tangible/actionable tips that I have learned throughout my journey to supercharge our transition. This session will take you through the different entry points into the ecosystem, leveraging your background, building your personal board of directors, and preparing for your next big step.</p>",
+            "id": "the-art-and-science-of-pivoting",
+            "year": "2023",
+            "track": "admin",
+            "room": "conferencee",
+            "slot": "slot5",
+            "speakers": ["owens"]
+        },
+        {
+            "title": "Empower Your Customers with Experience Cloud",
+            "abstract": "<p>Attendees will learn how they can empower their customers by leveraging the power of Salesforce Experience Cloud and diving into use cases from various industries to show how Experience Cloud helped drive results for those industries-- some examples include Energy and Utilities, Field Services and Health and Life Science. Attendees will also learn about how Experience Cloud can scale with your business and how to measure ROI along with other powerful analytics to help move your business forward.</p>",
+            "id": "",
+            "year": "2023",
+            "track": "exec",
+            "room": "conference4",
+            "slot": "slot3",
+            "speakers": ["jaeger"]
+        }
+    ],
+    "hots": [
+    ],
+    "keynote": {
+        "title": "Keynote",
+        "abstract": "",
+        "takeaway": "",
+        "speakers": []
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "session": {
+        "scope": "json",
+        "prefix": "session",
+        "body": [
+            "{",
+            "\t\"title\": \"\",",
+            "\t\"abstract\": \"<p></p>\",",
+            "\t\"id\": \"\",",
+            "\t\"year\": \"2023\",",
+            "\t\"track\": \"\",",
+            "\t\"room\": \"\",",
+            "\t\"slot\": \"\",",
+            "\t\"speakers\": []",
+            "},"
+        ]
+    }
+}

@@ -1,8 +1,8 @@
 {
-    "map_url": "/img/marriot_map.svg",
+    "map_url": "/img/gatech_map.svg",
     "general_schedule": [
         {
-            "date": "Monday June 20th, 2022",
+            "date": "Thursday June 29th, 2023",
             "events": [
                 {
                     "start": "11:30 AM",
@@ -41,7 +41,7 @@
             ]
         },
         {
-            "date": "Tuesday June 21th, 2022",
+            "date": "Friday June 30th, 2023",
             "events": [
                 {
                     "start": "7:00 AM",
@@ -54,12 +54,6 @@
                     "end": "8:30 AM",
                     "title": "Breakfast",
                     "location": "Heritage Ballroom"
-                },
-                {
-                    "start": "7:30 AM",
-                    "end": "8:30 AM",
-                    "title": "Headshots",
-                    "location": "Outside Suwannee"
                 },
                 {
                     "start": "8:00 AM",

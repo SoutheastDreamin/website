@@ -1,0 +1,37 @@
+{% set subtitle = "Speaker FAQ" %}
+{% set opengraph_title = "Southeast Dreamin' &mdash; Speaker FAQ" %}
+{% set opengraph_description = "The source for all your frequently asked questions for Southeast Dreamin' speakers" %}
+{% extends "layout.html" %}
+{% import "partials/helpers.html" as helpers %}
+
+{% block content %}
+    <div class="container mx-4">
+        <section class="hero">
+            <p class="title">Speaker FAQ</p>
+        </section>
+        <div class="content mt-6">
+            <h2 class="title is-3" id="website">Website</h2>
+            <dl>
+                <dt class="title is-5 mt-4 mb-1">Where do I upload my speaker information?</dt>
+                <dd>By using our <a href="{{ globals.speaker_form_url }}">Speaker information form</a></dd>
+                <dt class="title is-5 mt-4 mb-1">Where can I get the slide template</dt>
+                <dd>This is our <a href="{{ globals.slide_deck_url }}">slide template</a> for the event</dd>
+                <dt class="title is-5 mt-4 mb-1">How do I update my information on the website?</dt>
+                <dd>Please reach out to Patrick Connelly in the speakers Slack channel with the needed corrections</dd>
+                <dd>
+            </dl>
+
+            <h2 class="title is-3" id="onsite">Onsite</h2>
+            <dl>
+                <dt class="title is-5 mt-4 mb-1">Do I need to bring my own laptop?</dt>
+                <dd>Yes, you will need to bring your own device to present from.  You will need to make sure that your device has HDMI out.  The conference and the A/V company will not provide any necessary dongles.</dd>
+                <dt class="title is-5 mt-4 mb-1">Are my hotel room or travel expenses covered?</dt>
+                <dd>Unfortunately since this is community funded conference our budget does have any allowences for these types of expenses for speakers.</dd>
+                <dt class="title is-5 mt-4 mb-1">How do I book my room?</dt>
+                <dd>Southeast Dreamin' has a block of <a href="{{ globals.hotel_url }}">hotel rooms</a> provided by the venue for a discounted rate.</dd>
+                <dt class="title is-5 mt-4 mb-1">If I already purchased a Southeast Dreamin' ticket can I get a refund?</dt>
+                <dd>Yes!  As a speaker, your entrance to the conference is covered.  You can either reach out to Patrick Connelly in the speaker Slack or email <a href="mailto:info@sedreamin.com">info@sedreamin.com</a></dd>
+            </dl>
+        </div>
+    </div>
+{% endblock %}
