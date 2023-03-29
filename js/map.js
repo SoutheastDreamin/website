@@ -18,7 +18,7 @@ const imageBounds = [
     [ height / 2, width / 2 ]
 ];
 
-L.imageOverlay('/img/marriott_map.svg', imageBounds).addTo(map);
+L.imageOverlay(window.HOTEL_MAP, imageBounds).addTo(map);
 map.setMaxBounds(imageBounds);
 },{"jquery":2,"leaflet":3}],2:[function(require,module,exports){
 /*!
