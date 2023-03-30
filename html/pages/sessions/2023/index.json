@@ -497,7 +497,7 @@
             "company": "Blue Engine Solutions",
             "bio": "",
             "image": "/img/sessions/2023/speakers/trumble.jpg",
-            "first_sed": false,
+            "first_sed": true,
             "first_talk": false,
             "mvp": false
         },
