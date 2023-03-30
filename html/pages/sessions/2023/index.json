@@ -376,10 +376,10 @@
             "last_name": "Dreiling",
             "id": "ndreiling",
             "pronouns": "",
-            "title": "",
-            "company": "",
+            "title": "Senior Principal - Salesforce Change Management Specialist",
+            "company": "Slalom",
             "bio": "",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/ndreiling.jpg",
             "first_sed": true,
             "first_talk": true,
             "mvp": false
@@ -731,7 +731,7 @@
         {
             "title": "How Salesforce does Enterprise Architecture",
             "abstract": "<p>As Salesforce has grown in capabilities, it is more important than ever to understand how to best fit its functionality into the entire enterprise's business and technical architecture. Learn the methodology that we use at Salesforce as Enterprise Architects to assess business and technical architecture to build a Salesforce roadmap. This methodology can be used with any size or type of organization.</p>",
-            "id": "",
+            "id": "how-salesforce-does-enterprise-architecture",
             "year": "2023",
             "track": "exec",
             "room": "conference4",
@@ -809,7 +809,7 @@
             "speakers": ["zellner"]
         },
         {
-            "title": "An Admin’s guide to Git",
+            "title": "An Admin's guide to Git",
             "abstract": "<p>An introduction to source control using Git for non-coders.  Admins will learn the benefits of source control for all types of metadata and gain an introduction to Salesforce DevOps</p>",
             "id": "an-admins-guide-to-git",
             "year": "2023",
