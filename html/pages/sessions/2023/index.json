@@ -124,6 +124,19 @@
             "first_talk": true,
             "mvp": false
         },
+        "bartek": {
+            "first_name": "Jim",
+            "last_name": "Bartek",
+            "id": "bartek",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
         "bsmith": {
             "first_name": "Brad",
             "last_name": "Smith",
@@ -371,6 +384,19 @@
             "first_talk": false,
             "mvp": false
         },
+        "liddell": {
+            "first_name": "Chuck",
+            "last_name": "Liddell",
+            "id": "liddell",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
         "makky": {
             "first_name": "Zeina",
             "last_name": "Makky",
@@ -485,6 +511,19 @@
             "bio": "",
             "image": "/img/sessions/2023/speakers/placeholder.jpg",
             "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "stayman": {
+            "first_name": "Aaron",
+            "last_name": "Stayman",
+            "id": "stayman",
+            "pronouns": "He / Him",
+            "title": "Marketing Analytics Program Manager",
+            "company": "Sercante",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/stayman.jpg",
+            "first_sed": false,
             "first_talk": false,
             "mvp": false
         },
@@ -888,7 +927,7 @@
             "year": "2023",
             "track": "admin",
             "room": "conferencee",
-            "slot": "slot5",
+            "slot": "slot1",
             "speakers": ["owens"]
         },
         {
@@ -900,6 +939,36 @@
             "room": "conference4",
             "slot": "slot3",
             "speakers": ["jaeger"]
+        },
+        {
+            "title": "DLRS (\"Dolores\") - Rollup Anything! How To and Roadmap from the Project Manager",
+            "abstract": "<p></p>",
+            "id": "dlrs",
+            "year": "2023",
+            "track": "admin",
+            "room": "salon5and6",
+            "slot": "slot5",
+            "speakers": ["bartek"]
+        },
+        {
+            "title": "Harmonizing Your Data with Marketing Cloud Intelligence",
+            "abstract": "<p>Marketing Cloud Intelligence brings data together from multiple sources, and in this session we'll boil down how to cleanly join it all together. Learn about the data model and mapping best practices to help you cleanly maintain your data in the platform.</p>",
+            "id": "harmonizing-your-data-with-marketing-cloud-intelligence",
+            "year": "2023",
+            "track": "marketing",
+            "room": "conferencee",
+            "slot": "slot5",
+            "speakers": ["stayman"]
+        },
+        {
+            "title": "LWCs, DevOps Center, and cMDTs walk into a bar, and it's not what UXpected",
+            "abstract": "<p>Sometimes problems are hard to solve simply and elegantly. Making weird things by combining features in unexpected ways might be the only reasonable way to solve a problem. This talk dissects a technical solution implemented to solve a customer problem when moving complex configurations between orgs. When you want to deliver high quality user experiences and the core platform is inadequate, it's time to get creative.</p>",
+            "id": "lwcs-devops-center-and-cmdts",
+            "year": "2023",
+            "track": "dev",
+            "room": "salon1and2",
+            "slot": "slot5",
+            "speakers": ["liddell"]
         }
     ],
     "hots": [
