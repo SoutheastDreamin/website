@@ -550,16 +550,16 @@
         },
         "ponter": {
             "bio": "",
-            "company": "",
+            "company": "Ponter Solutions",
             "first_name": "Evan",
             "first_sed": false,
             "first_talk": false,
             "id": "ponter",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/ponter.jpg",
             "last_name": "Ponter",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "He / Him",
+            "title": "Founder & Principal Consultant"
         },
         "reed": {
             "bio": "",
