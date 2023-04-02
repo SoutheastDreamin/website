@@ -1,0 +1,48 @@
+{
+    "sponsor_year": "2023",
+    "sponsor_types": [
+        {
+            "type": "platinum",
+            "label": "Platinum",
+            "homepage": true,
+            "fullpage": true,
+            "size": "is-full",
+            "sponsors": []
+        },
+        {
+            "type": "gold",
+            "label": "Gold",
+            "homepage": false,
+            "fullpage": false,
+            "maxwords": 250,
+            "size": "is-half",
+            "sponsors": [
+                {
+                    "name": "PDF Butler",
+                    "id": "pdfbutler",
+                    "description": "<p>Boost your productivity and amplify your brand identity with PDF Butler - the document generation tool designed for Salesforce. Generate, customize, and send your documents for signature with just one click.</p>",
+                    "logo": "/img/sponsors/2023/pdfbutler.png",
+                    "url": "https://www.pdfbutler.com/"
+                }
+            ]
+        },
+        {
+            "type": "silver",
+            "label": "Silver",
+            "homepage": false,
+            "fullpage": false,
+            "maxwords": 55,
+            "size": "is-one-third",
+            "sponsors": []
+        },
+        {
+            "type": "select",
+            "label": "Select Sponsors",
+            "homepage": false,
+            "fullpage": false,
+            "maxwords": 50,
+            "size": "is-one-third",
+            "sponsors": []
+        }
+    ]
+}
