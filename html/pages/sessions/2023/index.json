@@ -134,16 +134,16 @@
         },
         "bartek": {
             "bio": "",
-            "company": "",
+            "company": "Growth Heroes",
             "first_name": "Jim",
             "first_sed": true,
             "first_talk": false,
             "id": "bartek",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/bartek.jpg",
             "last_name": "Bartek",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "He / Him",
+            "title": "CEO & Business Architect"
         },
         "bsmith": {
             "bio": "",
@@ -394,16 +394,16 @@
         },
         "hansen": {
             "bio": "",
-            "company": "",
+            "company": "Slalom",
             "first_name": "Michelle",
             "first_sed": true,
             "first_talk": false,
             "id": "hansen",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/hansen.jpg",
             "last_name": "Hansen",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "She / Her",
+            "title": "Principal"
         },
         "hatch": {
             "bio": "",
@@ -620,7 +620,7 @@
             "first_sed": true,
             "first_talk": true,
             "id": "shanks",
-            "image": "/img/sessions/2023/speakers/shanks.jpg",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
             "last_name": "Shanks",
             "mvp": false,
             "pronouns": "He / Him",
@@ -966,7 +966,7 @@
         },
         {
             "title": "How to Execute a Discovery Effort with your People in Mind",
-            "abstract": "<p>During the session, a Salesforce certified architect and an experienced change management professional will walk through activities, best practices, and guidance on how to best drive a discovery effort. We look forward to sharing how we strengthen the solution approach and transformational direction by working in complementary fashion during this phase. At the end of the session, viewers should take away an understanding of the Discovery phase of an implementation, what Technical Architecture and Change Management do during this phase and how they can best work together for the success of the project.</p><p>Learning Objectives:</p><ul><li>How to set up an implementation for success from the very beginning with your people, your business goals, and your technological landscape in mind</li><li>What are the goals of a Discovery phase of a project?</li><li>What are the discussions to take place, and what expected artifacts/outputs will result from the Discovery phase of a project by the Architects?</li><li>How can Change Management provide value from day 1?</li></ul>",
+            "abstract": "<p>During this session, a Salesforce certified architect and an experienced change management professional will walk through activities, best practices, and guidance on how to drive an impactful discovery effort. We look forward to sharing how we strengthen the solution approach and transformational direction by working in a complementary fashion during this phase. At the end of the session, viewers should take away an understanding of the discovery phase of an implementation, what Technical Architecture and Change Management do during this phase, and how they can work together for the success of the project.</p><p>Learning Objectives:</p><ul><li>How to successfully set up an implementation with your people, business goals, and technological landscape in mind.</li><li>What are the goals of a discovery phase of a project?</li><li>What are the discussions to take place, and what expected artifacts/outputs will result from the discovery phase of a project by the Architects?</li><li>How can Change Management provide value from day 1?</li></ul>",
             "id": "how-to-execute-a-discover-effort-with-your-people-in-mind",
             "year": "2023",
             "track": "business",
