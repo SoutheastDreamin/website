@@ -171,6 +171,19 @@
             "pronouns": "",
             "title": ""
         },
+        "cabral": {
+            "bio": "",
+            "company": "",
+            "first_name": "Angelica",
+            "first_sed": false,
+            "first_talk": false,
+            "id": "cabral",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "last_name": "Cabral",
+            "mvp": false,
+            "pronouns": "",
+            "title": ""
+        },
         "carpenter": {
             "bio": "",
             "company": "Calix",
@@ -186,16 +199,16 @@
         },
         "catalano": {
             "bio": "",
-            "company": "",
+            "company": "Sercante",
             "first_name": "Jacob",
             "first_sed": false,
             "first_talk": false,
             "id": "catalano",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/catalano.jpg",
             "last_name": "Catalano",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "He / Him",
+            "title": "Product Manager, Sercante Labs"
         },
         "connelly": {
             "bio": "",
@@ -602,16 +615,16 @@
         },
         "shanks": {
             "bio": "",
-            "company": "",
+            "company": "Oregon Humane Society",
             "first_name": "Andrew",
             "first_sed": true,
             "first_talk": true,
             "id": "shanks",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/shanks.jpg",
             "last_name": "Shanks",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "He / Him",
+            "title": "Salesforce Admin"
         },
         "shepard": {
             "bio": "",
@@ -706,16 +719,16 @@
         },
         "utkan": {
             "bio": "",
-            "company": "",
+            "company": "Cirrius Solutions",
             "first_name": "Andy Engin",
             "first_sed": false,
             "first_talk": false,
             "id": "utkan",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/utkan.jpg",
             "last_name": "Utkan",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "He / Him",
+            "title": "Principal Consultant of Process Automation"
         },
         "wilkerson": {
             "bio": "",
@@ -1134,9 +1147,9 @@
             "speakers": ["hansen"]
         },
         {
-            "title": "Unleashing the Power of Salesforce Flow Test: Maximize Efficiency and Quality with Automated Testing",
-            "abstract": "<p>In this hands-on session, we will explore the power of Salesforce Flow Test, an automated testing framework for Salesforce Flows. We will discuss how Flow Test can help you improve the quality of your flows, save time and reduce costs, and increase efficiency. We will walk you through the process of creating and executing tests in Flow Test, and provide tips and best practices for effective testing. You will learn how to integrate Flow Test into your flow development process and make the most out of this powerful tool. Join us to unleash the full potential of Salesforce Flows with Flow Test</p>",
-            "id": "unleashing-the-power-of-salesforce-flow-test",
+            "title": "Setting up Flow Test for Record Triggered Flows",
+            "abstract": "<p>Are you tired of manually testing your record-triggered flows in Salesforce? In this hands-on training session, you will learn how to set up Flow Test for record-triggered flows in Salesforce. Flow Test is a powerful tool that allows you to test your flows and ensure they work as expected. You will learn how to prepare your test data, create test scenarios for your flows, and run automated tests using Flow Test. You will be provided with a pre-built Flow in an unmanaged package, and we will build some Flow Tests together!</p><p>By the end of this session, you will have a solid understanding of how to set up and run Flow Tests for record-triggered flows in Salesforce. You will be able to create automated tests that ensure the reliability of your flows, saving you time and reducing the risk of errors.</p>",
+            "id": "setting-up-flow-test-for-record-triggered-flows",
             "year": "2023",
             "track": "admin",
             "room": "salon1and2",
@@ -1191,7 +1204,7 @@
             "track": "marketing",
             "room": "salon5and6",
             "slot": "hotslot1",
-            "speakers": ["duncan"]
+            "speakers": ["duncan", "cabral"]
         },
         {
             "title": "Pass Go, Collect Your Data: Creating Your First SFMC Journey",
