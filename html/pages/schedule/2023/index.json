@@ -8,19 +8,13 @@
                     "start": "11:30 AM",
                     "end": "6:30 PM",
                     "title": "Registration",
-                    "location": ""
+                    "location": "Hallway"
                 },
                 {
                     "start": "11:30 AM",
                     "end": "5:00 PM",
                     "title": "Expo",
-                    "location": "Heritage Ballroom"
-                },
-                {
-                    "start": "12:00 PM",
-                    "end": "5:00 PM",
-                    "title": "Headshots",
-                    "location": "Outside Suwannee"
+                    "location": "Conference A"
                 },
                 {
                     "title": "Hands-on Training Session #1",
@@ -36,7 +30,7 @@
                     "start": "5:00 PM",
                     "end": "7:00 PM",
                     "title": "Networking Reception",
-                    "location": "Heritage Ballroom"
+                    "location": "Expo Area"
                 }
             ]
         },
@@ -47,13 +41,13 @@
                     "start": "7:00 AM",
                     "end": "12:30 PM",
                     "title": "Registration",
-                    "location": ""
+                    "location": "Hallway"
                 },
                 {
                     "start": "7:00 AM",
                     "end": "8:30 AM",
                     "title": "Breakfast",
-                    "location": "Heritage Ballroom"
+                    "location": ""
                 },
                 {
                     "start": "8:00 AM",
@@ -65,7 +59,7 @@
                     "start": "8:30 AM",
                     "end": "9:30 AM",
                     "title": "Opening Keynote",
-                    "location": "Heritage Ballroom",
+                    "location": "Salon III & IV",
                     "anchor": "keynote"
                 },
                 {
@@ -82,7 +76,7 @@
                     "start": "11:30 AM",
                     "end": "12:30 PM",
                     "title": "Demo Jam",
-                    "location": "Heritage Ballroom"
+                    "location": "Salon III & IV"
                 },
                 {
                     "start": "12:30 PM",
@@ -94,7 +88,7 @@
                     "start": "12:30 PM",
                     "end": "3:00 PM",
                     "title": "Headshots",
-                    "location": "Outside Suwannee"
+                    "location": ""
                 },
                 {
                     "title": "Breakout Session #3",
@@ -121,7 +115,7 @@
                     "start": "3:55 PM",
                     "end": "4:15 PM",
                     "title": "Closing",
-                    "location": "Heritage Ballroom"
+                    "location": "Salon III & IV"
                 }
             ]
         }
