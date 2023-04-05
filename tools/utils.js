@@ -84,14 +84,20 @@ function buildTable(table_metadata, is_verbose, checker, data) {
         sub_data = [];
 
         lodash.each(table_data, function (row) {
+            let hasMissingData = false;
+
             lodash.each(row, function (row_data) {
                 if (
                     lodash.isBoolean(row_data) &&
                     row_data
                 ) {
-                    sub_data.push(row);
+                    hasMissingData = true;
                 }
             });
+
+            if (hasMissingData) {
+                sub_data.push(row);
+            }
         });
     }
 

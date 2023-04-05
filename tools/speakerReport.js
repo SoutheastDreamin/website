@@ -44,10 +44,12 @@ const SESSION_METADATA = {
         'Room',
         'Track',
         'Speaker',
+        'Speaker Image',
         'Image'
     ],
     colWidths: [
         50,
+        8,
         8,
         8,
         8,
@@ -97,6 +99,7 @@ function check_session(rooms, tracks, slots, speakers, session) {
     const bad_room = !lodash.has(rooms, session.room);
     const bad_track = !lodash.has(tracks, session.track);
     let bad_speaker = false;
+    let bad_speaker_image = false;
 
     if (!lodash.isArray(session.speakers)) {
         bad_speaker = true;
@@ -104,6 +107,11 @@ function check_session(rooms, tracks, slots, speakers, session) {
         lodash.each(session.speakers, function (speaker) {
             if (!lodash.has(speakers, speaker)) {
                 bad_speaker = true;
+            } else {
+                const speaker_data = speakers[speaker];
+                if (lodash.includes(speaker_data.image, 'placeholder')) {
+                    bad_speaker_image = true;
+                }
             }
         });
     }
@@ -132,6 +140,7 @@ function check_session(rooms, tracks, slots, speakers, session) {
         bad_room,
         bad_track,
         bad_speaker,
+        bad_speaker_image,
         bad_image
     ];
 }

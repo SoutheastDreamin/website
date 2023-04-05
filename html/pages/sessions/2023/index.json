@@ -589,16 +589,16 @@
         },
         "robertson": {
             "bio": "",
-            "company": "",
+            "company": "Slalom Consulting",
             "first_name": "Shahida",
             "first_sed": true,
             "first_talk": false,
             "id": "robertson",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/robertson.jpg",
             "last_name": "Robertson",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "She / Her",
+            "title": "Senior Consultant"
         },
         "schlau": {
             "bio": "",
@@ -620,7 +620,7 @@
             "first_sed": true,
             "first_talk": true,
             "id": "shanks",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/shanks.jpg",
             "last_name": "Shanks",
             "mvp": false,
             "pronouns": "He / Him",
@@ -654,16 +654,16 @@
         },
         "shrivastava": {
             "bio": "",
-            "company": "",
+            "company": "Salesforce",
             "first_name": "Mohith",
             "first_sed": false,
             "first_talk": false,
             "id": "shrivastava",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/shrivastava.jpg",
             "last_name": "Shrivastava",
             "mvp": false,
             "pronouns": "",
-            "title": ""
+            "title": "Lead Developer Advocate"
         },
         "spencer": {
             "bio": "",
@@ -732,16 +732,16 @@
         },
         "wilkerson": {
             "bio": "",
-            "company": "",
+            "company": "Slalom Consulting",
             "first_name": "CJ",
             "first_sed": true,
             "first_talk": true,
             "id": "wilkerson",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/wilkerson.jpg",
             "last_name": "Wilkerson",
             "mvp": false,
             "pronouns": "",
-            "title": ""
+            "title": "Senior Consultant"
         },
         "yadav": {
             "bio": "",
@@ -1229,7 +1229,7 @@
         {
             "title": "Get started with Salesforce CLI",
             "abstract": "<p>In this session we will help you get started with Salesforce CLI. If you have never used a command line tool, this session is ideal for you.  We will cover below topics</p><ol><li>Installation of Salesforce CLI</li><li>How to authenticate to a Salesforce environment?</li><li>How to create your Project Scaffold?</li><li>Connect your developer environment to your Salesforce environment?</li><li>How to retrieve metadata from Salesforce org?</li><li>How to push code changes from local to your Salesforce org?</li></ul>",
-            "id": "get-started-with-the-salesforce-cli",
+            "id": "get-started-with-salesforce-cli",
             "year": "2023",
             "track": "dev",
             "room": "conference2",
