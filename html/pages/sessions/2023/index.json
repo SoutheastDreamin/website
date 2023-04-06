@@ -160,16 +160,16 @@
         },
         "bura": {
             "bio": "",
-            "company": "",
+            "company": "Science Exchange",
             "first_name": "Michelle",
             "first_sed": false,
             "first_talk": false,
             "id": "bura",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/bura.jpg",
             "last_name": "Bura",
             "mvp": false,
             "pronouns": "",
-            "title": ""
+            "title": "Senior Salesforce Administrator"
         },
         "cabral": {
             "bio": "",
@@ -485,13 +485,26 @@
         },
         "liddell": {
             "bio": "",
-            "company": "",
+            "company": "Valence App, Inc.",
             "first_name": "Chuck",
             "first_sed": true,
             "first_talk": false,
             "id": "liddell",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/liddell.jpg",
             "last_name": "Liddell",
+            "mvp": false,
+            "pronouns": "He / Him",
+            "title": "CEO"
+        },
+        "aggarwal": {
+            "bio": "",
+            "company": "",
+            "first_name": "Miraz",
+            "first_sed": true,
+            "first_talk": true,
+            "id": "aggarwal",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "last_name": "Aggarwal",
             "mvp": false,
             "pronouns": "",
             "title": ""
@@ -693,16 +706,16 @@
         },
         "thayer": {
             "bio": "",
-            "company": "",
+            "company": "Sogeti/Capgemini",
             "first_name": "Susan",
             "first_sed": true,
             "first_talk": false,
             "id": "thayer",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/thayer.jpg",
             "last_name": "Thayer",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "She / Her",
+            "title": "Director"
         },
         "trumble": {
             "bio": "",
@@ -1184,7 +1197,7 @@
             "track": "admin",
             "room": "salon4",
             "slot": "hotslot1",
-            "speakers": ["bura"]
+            "speakers": ["bura", "aggarwal"]
         },
         {
             "title": "Architect Flow Solutions",
