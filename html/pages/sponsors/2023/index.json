@@ -23,6 +23,13 @@
                     "description": "<p>Boost your productivity and amplify your brand identity with PDF Butler - the document generation tool designed for Salesforce. Generate, customize, and send your documents for signature with just one click.</p>",
                     "logo": "/img/sponsors/2023/pdfbutler.png",
                     "url": "https://www.pdfbutler.com/"
+                },
+                {
+                    "name": "Apsona",
+                    "id": "apsona",
+                    "description": "Apsona for Salesforce is an add-on application for Salesforce available through AppExchange. Its feature set includes everything you would want for managing your data, and is built to enable you to get your work done with the least possible effort.",
+                    "logo": "/img/sponsors/2023/apsona.png",
+                    "url": "https://www.apsona.com/pages/sfdc/index.html"
                 }
             ]
         },
