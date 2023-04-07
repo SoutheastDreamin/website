@@ -500,10 +500,10 @@
             "bio": "",
             "company": "",
             "first_name": "Miraz",
-            "first_sed": true,
-            "first_talk": true,
+            "first_sed": false,
+            "first_talk": false,
             "id": "aggarwal",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/aggarwal.jpg",
             "last_name": "Aggarwal",
             "mvp": false,
             "pronouns": "",
@@ -1236,7 +1236,7 @@
             "year": "2023",
             "track": "admin",
             "room": "conference2",
-            "slot": "hotslot1",
+            "slot": "hotslot2",
             "speakers": ["sherman"]
         },
         {
@@ -1246,7 +1246,7 @@
             "year": "2023",
             "track": "dev",
             "room": "conference2",
-            "slot": "hotslot2",
+            "slot": "hotslot1",
             "speakers": ["shrivastava"]
         },
         {
