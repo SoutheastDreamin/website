@@ -9,67 +9,33 @@
                 <img src="/img/logo_wide.png" alt="Southeast Dreamin'" height="280" width="1000">
             </div>
             <div class="columns is-multiline is-centered">
-                <div class="column is-3">
-                    <div class="notification">
-                        <i class="fas fa-calendar-alt"></i> {{ globals.event_date }}</div>
-                </div>
-                <div class="column is-3 is-offset-1">
-                    <div class="notification">
-                        <i class="fas fa-map-marker-alt"></i> Atlanta, GA
-                    </div>
-                </div>
+                {{ helpers.homepage_callout("fa-calendar-alt", globals.event_date) }}
+                {{ helpers.homepage_callout("fa-map-marker-alt", "Atlanta, GA") }}
             </div>
 
             <div class="columns is-multiline is-centered">
                 <div class="column is-4">
-                    <button class="button is-primary is-fullwidth has-background-info has-text-black p-5 js-modal-trigger " data-target="mailchimp-modal">
+                    <button class="{{ globals.style_homepage_button }} js-modal-trigger" data-target="mailchimp-modal">
                         <span class="icon">
-                                <i class="is-fullwidth fas fa-envelope"></i>
+                            <i class="fas fa-envelope"></i>
                         </span>
                         <span class="">Mailing List</span>
                     </button>
                 </div>
                 {% if globals.registration_open %}
-                <div class="column is-4">
-                    <a href="{{ globals.registration_url }}" class="button is-primary is-fullwidth has-background-info has-text-black p-5">
-                        <span class="icon">
-                            <i class="fas fa-user-plus"></i>
-                        </span>
-                        <span class="pl-2">Register</span>
-                    </a>
-                </div>
+                    {{ helpers.homepage_button(globals.registration_url, "fa-user-plus", "Register", globals.style_homepage_button) }}
                 {% endif %}
+
                 {% if globals.whova_open %}
-                <div class="column is-4">
-                    <a href="{{ globals.whova_url }}" class="is-primary">
-                        <div class="notification has-background-info has-text-black">
-                                <i class="fas fa-download"></i> <span class="pl-2">Download Event App</span>
-                        </div>
-                    </a>
-                </div>
+                    {{ helpers.homepage_button(globals.whova_url, "fa-download", "Download Event App", globals.style_homepage_button) }}
                 {% endif %}
             </div>
         </div>
     </section>
     <nav class="level py-3 has-background-info is-mobile">
-        <div class="level-item has-text-centered">
-            <div>
-                <p class="heading">Days</p>
-                <p class="title">2</p>
-            </div>
-        </div>
-        <div class="level-item has-text-centered">
-            <div>
-                <p class="heading">Sessions</p>
-                <p class="title">42</p>
-            </div>
-        </div>
-        <div class="level-item has-text-centered">
-            <div>
-                <p class="heading">Attendees</p>
-                <p class="title">200+</p>
-            </div>
-        </div>
+        {{ helpers.homepage_stat("Days", "2") }}
+        {{ helpers.homepage_stat("Sessions", "49") }}
+        {{ helpers.homepage_stat("Attendees", "200+") }}
     </nav>
     <div class="container is-fluid">
         <section class="section is-small">
@@ -85,7 +51,7 @@
                 </div>
             </div>
         </section>
-        {% if data.sponsor_types %}
+        {% if (data.sponsor_types | selectattr("homepage"))[0].sponsors | length > 0 %}
         <section class="section">
             <div class="container mx-4">
                 <h1 class="title is-1">{{ data.sponsor_year }} Sponsors</h1>

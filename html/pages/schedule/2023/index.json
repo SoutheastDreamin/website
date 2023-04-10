@@ -17,6 +17,12 @@
                     "location": "Salon III & IV"
                 },
                 {
+                    "start": "1:00 PM",
+                    "end": "2:00 PM",
+                    "title": "Lunch",
+                    "location": ""
+                },
+                {
                     "start": "11:30 AM",
                     "end": "5:00 PM",
                     "title": "Expo",
