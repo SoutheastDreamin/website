@@ -5,10 +5,16 @@
             "date": "Thursday June 29th, 2023",
             "events": [
                 {
-                    "start": "11:30 AM",
-                    "end": "6:30 PM",
+                    "start": "10:00 AM",
+                    "end": "7:00 PM",
                     "title": "Registration",
                     "location": "Hallway"
+                },
+                {
+                    "start": "12:00 PM",
+                    "end": "1:00 PM",
+                    "title": "Kickoff & Demo Jam",
+                    "location": "Salon III & IV"
                 },
                 {
                     "start": "11:30 AM",
@@ -53,7 +59,7 @@
                     "start": "8:00 AM",
                     "end": "3:00 PM",
                     "title": "Expo",
-                    "location": "Heritage Ballroom"
+                    "location": ""
                 },
                 {
                     "start": "8:30 AM",
@@ -73,14 +79,14 @@
                     "slot": "slot2"
                 },
                 {
-                    "start": "11:30 AM",
-                    "end": "12:30 PM",
+                    "start": "11:45 AM",
+                    "end": "1:00 PM",
                     "title": "Demo Jam",
                     "location": "Salon III & IV"
                 },
                 {
-                    "start": "12:30 PM",
-                    "end": "1:30 PM",
+                    "start": "1:00 PM",
+                    "end": "2:00 PM",
                     "title": "Lunch",
                     "location": ""
                 },
@@ -101,19 +107,13 @@
                     "slot": "slot4"
                 },
                 {
-                    "start": "2:35 PM",
-                    "end": "3:00 PM",
-                    "title": "Break",
-                    "location": ""
-                },
-                {
                     "title": "Breakout Session #5",
                     "location": "Breakout Rooms",
                     "slot": "slot5"
                 },
                 {
-                    "start": "3:55 PM",
-                    "end": "4:15 PM",
+                    "start": "4:35 PM",
+                    "end": "5:15 PM",
                     "title": "Closing",
                     "location": "Salon III & IV"
                 }

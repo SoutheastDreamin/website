@@ -247,6 +247,7 @@
 {%- endmacro %}
 
 {% macro keynote_block(keynote, speakers) %}
+    {% if keynote.abstract %}
     <a id="keynote"></a>
     <section class="hero mb-6">
         <div class="hero-body pl-0">
@@ -269,4 +270,5 @@
         </div>
         {% endfor %}
     </section>
+    {% endif %}
 {%- endmacro %}
