@@ -251,16 +251,16 @@
         },
         "daniel": {
             "bio": "",
-            "company": "",
+            "company": "Steampunk",
             "first_name": "John M.",
             "first_sed": false,
             "first_talk": false,
             "id": "daniel",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/daniel.jpg",
             "last_name": "Daniel",
             "mvp": false,
             "pronouns": "",
-            "title": ""
+            "title": "Senior Director of Digital Platforms"
         },
         "davis": {
             "bio": "",
@@ -511,16 +511,16 @@
         },
         "makky": {
             "bio": "",
-            "company": "",
+            "company": "PAEA",
             "first_name": "Zeina",
             "first_sed": true,
             "first_talk": true,
             "id": "makky",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/makky.jpg",
             "last_name": "Makky",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "She / Her",
+            "title": "User Experience and Systems Designer"
         },
         "mzaa": {
             "bio": "",
@@ -586,6 +586,19 @@
             "mvp": false,
             "pronouns": "He / Him",
             "title": "Founder & Principal Consultant"
+        },
+        "pysnik": {
+            "bio": "",
+            "company": "",
+            "first_name": "Steve",
+            "first_sed": false,
+            "first_talk": false,
+            "id": "pysnik",
+            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "last_name": "Pysnik",
+            "mvp": false,
+            "pronouns": "",
+            "title": ""
         },
         "reed": {
             "bio": "",
@@ -925,7 +938,7 @@
             "track": "non_profit",
             "room": "conference2",
             "slot": "slot4",
-            "speakers": ["makky"]
+            "speakers": ["makky", "pysnik"]
         },
         {
             "title": "Advanced Reporting Tips & Tricks for New Admins",
