@@ -459,16 +459,16 @@
         },
         "lammers": {
             "bio": "",
-            "company": "",
+            "company": "Slalom Consulting",
             "first_name": "Rebecca",
             "first_sed": false,
             "first_talk": false,
             "id": "lammers",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/lammers.jpg",
             "last_name": "Lammers",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "She / Her",
+            "title": "Director"
         },
         "larregui": {
             "bio": "",
@@ -758,7 +758,7 @@
         },
         "wilkerson": {
             "bio": "",
-            "company": "Slalom Consulting",
+            "company": "Craftsman Technology Group",
             "first_name": "CJ",
             "first_sed": true,
             "first_talk": true,
@@ -767,7 +767,7 @@
             "last_name": "Wilkerson",
             "mvp": false,
             "pronouns": "",
-            "title": "Senior Consultant"
+            "title": "Technical Analyst"
         },
         "yadav": {
             "bio": "",
@@ -1263,7 +1263,7 @@
             "speakers": ["shrivastava"]
         },
         {
-            "title": "Solution For Good: A Case Study ",
+            "title": "Solution For Good: A Case Study",
             "abstract": "<p>As you grow in your career and continue to do well, consider dedicating time to do good for your community to pay your success forward. Do Well, Do Good. This session walks through a real pro-bono project that implemented Salesforce for a nonprofit that needed support saving. From that implementation, we built a reusable asset to to make it easier for others to do good in their communities as well. This asset expands Salesforce’s Nonprofit cloud by delivering case management, inventory management, volunteer management, and time tracking so that more non profits can benefit from this initial investment. Let’s turn this ripple into a wave! By attending this session, you’ll receive access to the solution package to install in any Salesforce org, training materials, and project management kit so you can pay it forward in your local communities. We encourage everyone attending to find a local non profit or school in your area and offer to implement this solution for them in just a few weeks. Do Well. Do Good.</p>",
             "id": "solution-for-good",
             "year": "2023",
