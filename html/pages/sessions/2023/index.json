@@ -498,7 +498,7 @@
         },
         "aggarwal": {
             "bio": "",
-            "company": "",
+            "company": "HD Supply",
             "first_name": "Miraz",
             "first_sed": false,
             "first_talk": false,
@@ -506,8 +506,8 @@
             "image": "/img/sessions/2023/speakers/aggarwal.jpg",
             "last_name": "Aggarwal",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "She / Her",
+            "title": "Senior Salesforce Administrator"
         },
         "makky": {
             "bio": "",
