@@ -602,16 +602,16 @@
         },
         "reed": {
             "bio": "",
-            "company": "",
+            "company": "Salesforce",
             "first_name": "David",
             "first_sed": true,
             "first_talk": false,
             "id": "reed",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/reed.jpg",
             "last_name": "Reed",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "He / Him",
+            "title": "Principal Member of Technical Staff"
         },
         "robertson": {
             "bio": "",
