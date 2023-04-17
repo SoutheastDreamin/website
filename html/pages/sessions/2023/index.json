@@ -931,9 +931,9 @@
             "speakers": ["hamori", "trumble"]
         },
         {
-            "title": "From a Low-value AMS to \"the Mothership\"",
+            "title": "From a Low-value AMS to a Dream Community",
             "abstract": "<p>We’re a professional organization who started with a low-value Salesforce org, an AMS that was clunky and difficult to use, and limited (no) digital member benefits.</p><p>In the past 5 years we have re-built our org and harnessing the power of a Salesforce Community, replacing all outdated listservs with better networking opportunities via Chatter.</p><p>We also connected an online resource library via SSO, brought in event registration, process (application, membership, everything else), integrated our marketing platform, &amp; Qualtrics.</p><p>We reduced 5 separate member logins to 1 for a seamless user experience and single source of truth. We consolidated and expanded data storage and utilization to achieve a sexier approach to segmented marketing and data governance.</p><p>Join us to learn about our 5-year journey and see the place our members now call their professional home.</p>",
-            "id": "from-a-lowvalue-ams-to-the-mothership",
+            "id": "from-a-lowvalue-ams-to-a-dream-community",
             "year": "2023",
             "track": "non_profit",
             "room": "conference2",
