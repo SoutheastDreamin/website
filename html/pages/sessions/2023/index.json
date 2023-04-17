@@ -171,18 +171,18 @@
             "pronouns": "",
             "title": "Senior Salesforce Administrator"
         },
-        "cabral": {
+        "godley": {
             "bio": "",
-            "company": "",
-            "first_name": "Angelica",
+            "company": "Sercante",
+            "first_name": "Cate",
             "first_sed": false,
             "first_talk": false,
             "id": "cabral",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
-            "last_name": "Cabral",
+            "image": "/img/sessions/2023/speakers/godley.jpg",
+            "last_name": "Godley",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "She / Her",
+            "title": "Jump Start Program Manager"
         },
         "carpenter": {
             "bio": "",
@@ -1230,7 +1230,7 @@
             "track": "marketing",
             "room": "salon5and6",
             "slot": "hotslot1",
-            "speakers": ["duncan", "cabral"]
+            "speakers": ["duncan", "godley"]
         },
         {
             "title": "Pass Go, Collect Your Data: Creating Your First SFMC Journey",
