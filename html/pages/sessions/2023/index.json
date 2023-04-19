@@ -177,7 +177,7 @@
             "first_name": "Cate",
             "first_sed": false,
             "first_talk": false,
-            "id": "cabral",
+            "id": "godley",
             "image": "/img/sessions/2023/speakers/godley.jpg",
             "last_name": "Godley",
             "mvp": false,
@@ -667,16 +667,16 @@
         },
         "sherman": {
             "bio": "",
-            "company": "",
+            "company": "Coastal Cloud",
             "first_name": "EJ",
             "first_sed": true,
             "first_talk": false,
             "id": "sherman",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/sherman.jpg",
             "last_name": "Sherman",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "She / They",
+            "title": "Senior Consultant"
         },
         "shrivastava": {
             "bio": "",
@@ -1244,7 +1244,7 @@
         },
         {
             "title": "Git-dy Up! And Let's Learn Git for Salesforce",
-            "abstract": "<p>Git-dy Up! And Let's Learn Git for Salesforce. </p><p>(Although this is aimed at Admins learning git, Developers who are looking to get started using git are welcomed too! This is specifically for using Salesforce and Git, which includes hard learned lessons for choices you can make in development that will affect deployments and tips on how to ensure your deployments will be successful. Even if someone else on your team is responsible for managing version control and deployments, this presentation can help you develop a shared language and collaborate for a better release cycle.)</p><ul><li>Introduction, i.e. this is why I know this subject really well (5 mins)</li><li>A brief intro of Salesforce DevOps and why Git / Version Control is an important Part. (10mins)<ul><li>A high-level of what Salesforce DevOps is and why it is a necessary part of any development lifecycle, regardless of team size. And the role version control plays in DevOps. Hence, why we are learning how to use Git today.</li></ul></li><li>A tour of Github (but a nod to other platforms) and the Git- ionary. (15mins)<ul><li>What am I looking at here?! Repo, Branches, Gitignore, Folder Structure, and reading XML</li><li>What does this mean?! The Git- dictionary is the jargon I have encountered the most while using git with Salesforce.</li><li>Branching Strategy, and best practices.</li><li>Don't fear the merge conflict. What is a pull request and the inevitable merge conflicts.</li></ul></li><li>Hang-On for Hands On. (45 mins)<ul><li>Ideally I would like everyone to access my prepared repo and make their own branch with simple change (yes even declarative admins can too!). Create a pull request. And I will be shocked if we don’t get a merge conflict to resolve. But will have one prepared just in case.</li><li>Once the release branch is prepared, explain what it means to then deploy it to the target.</li></ul></li><li>Questions & Favorite Resources (15 mins)</li></ul><p>Objectives: I want attendees to walk away empowered that Git isn’t mysterious or just for developers. To give them a foundation of how the development choices they make impact a successful deployment by looking at how all these pieces come together as a release.</p>",
+            "abstract": "<p>Git-dy Up! And Let's Learn Git for Salesforce.</p><p>(Although this is aimed at Admins learning git, Developers who are looking to get started using git are welcomed too! This is specifically for using Salesforce and Git, which includes hard learned lessons for choices you can make in development that will affect deployments and tips on how to ensure your deployments will be successful. Even if someone else on your team is responsible for managing version control and deployments, this presentation can help you develop a shared language and collaborate for a better release cycle.)</p><ul><li>Introduction, i.e. this is why I know this subject really well (5 mins)</li><li>A brief intro of Salesforce DevOps and why Git / Version Control is an important Part. (10mins)<ul><li>A high-level of what Salesforce DevOps is and why it is a necessary part of any development lifecycle, regardless of team size. And the role version control plays in DevOps. Hence, why we are learning how to use Git today.</li></ul></li><li>A tour of Github (but a nod to other platforms) and the Git- ionary. (15mins)<ul><li>What am I looking at here?! Repo, Branches, Gitignore, Folder Structure, and reading XML</li><li>What does this mean?! The Git- dictionary is the jargon I have encountered the most while using git with Salesforce.</li><li>Branching Strategy, and best practices.</li><li>Don't fear the merge conflict. What is a pull request and the inevitable merge conflicts.</li></ul></li><li>Hang-On for Hands On. (45 mins)<ul><li>Ideally I would like everyone to access my prepared repo and make their own branch with simple change (yes even declarative admins can too!). Create a pull request. And I will be shocked if we don’t get a merge conflict to resolve. But will have one prepared just in case.</li><li>Once the release branch is prepared, explain what it means to then deploy it to the target.</li></ul></li><li>Questions & Favorite Resources (15 mins)</li></ul><p>Objectives: I want attendees to walk away empowered that Git isn’t mysterious or just for developers. To give them a foundation of how the development choices they make impact a successful deployment by looking at how all these pieces come together as a release.</p>",
             "id": "git-dy-up",
             "year": "2023",
             "track": "admin",
