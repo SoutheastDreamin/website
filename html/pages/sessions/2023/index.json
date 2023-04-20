@@ -797,16 +797,16 @@
         },
         "ziter": {
             "bio": "",
-            "company": "",
+            "company": "Cervello",
             "first_name": "Timothy",
             "first_sed": true,
             "first_talk": false,
             "id": "ziter",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/ziter.jpg",
             "last_name": "Ziter",
             "mvp": false,
             "pronouns": "",
-            "title": ""
+            "title": "Manager"
         }
     },
     "sessions": [
