@@ -4,6 +4,8 @@
 {% endif %}
 {% set opengraph_title = "Southeast Dreamin' &mdash; " + post.title %}
 {% set opengraph_description = post.abstract %}
+{% set has_charts = post.has_charts %}
+{% set has_script = post.has_script %}
 
 {% extends "layout.html" %}
 {% import "partials/helpers.html" as helpers %}

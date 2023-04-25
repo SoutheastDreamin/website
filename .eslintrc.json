@@ -104,5 +104,8 @@
             }
         ],
         "valid-jsdoc": "error"
+    },
+    "globals": {
+        "Chart": "readonly"
     }
 }

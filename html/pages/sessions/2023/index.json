@@ -589,16 +589,16 @@
         },
         "pysnik": {
             "bio": "",
-            "company": "",
+            "company": "Cloud Giants",
             "first_name": "Steve",
             "first_sed": false,
             "first_talk": false,
             "id": "pysnik",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/pysnik.jpg",
             "last_name": "Pysnik",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "He / Him",
+            "title": "Principal Consulting Manager"
         },
         "reed": {
             "bio": "",

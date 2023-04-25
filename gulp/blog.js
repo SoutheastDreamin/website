@@ -107,6 +107,52 @@ function handlePost(read_this, file_name) {
 }
 
 /**
+ * Handles an individual blog post script
+ * @param {Object} read_this The this from the stream read
+ * @param {String} file_name The filename
+ * @returns {Promise} A promise for when the blog post has been added
+ */
+function handleScript(read_this, file_name) {
+    return new Promise(function (resolve, reject) {
+        readMetadata(file_name)
+            .then(function (metadata) {
+                return new Promise(function (inner_resolve) {
+                    const file_path = path.parse(file_name);
+                    const script_path = {
+                        dir: constants.getBlogDir(),
+                        name: file_path.name,
+                        ext: '.js'
+                    };
+                    const script_file = path.format(script_path);
+
+                    if (fs.existsSync(script_file)) {
+                        const script_content = fs.readFileSync(script_file);
+
+                        const date_m = moment(metadata.date);
+                        const filename = path.join(
+                            constants.BLOG,
+                            date_m.format('YYYY'),
+                            date_m.format('MM'),
+                            date_m.format('DD'),
+                            metadata.name,
+                            'index.js'
+                        );
+
+                        read_this.push(new vinyl({
+                            path: filename,
+                            contents: script_content
+                        }));
+                    }
+
+                    inner_resolve();
+                });
+            })
+            .then(resolve)
+            .catch(reject);
+    });
+}
+
+/**
  * Handles all the blog posts
  * @param {Object} read_this The this from the stream read
  * @param {String[]} file_names The blog post files
@@ -115,10 +161,12 @@ function handlePost(read_this, file_name) {
 function handlePosts(read_this, file_names) {
     return new Promise(function (resolve, reject) {
         const handle_post_bound = handlePost.bind(null, read_this);
+        const handle_script_bound = handleScript.bind(null, read_this);
         const promises = [];
 
         file_names.forEach(function (file) {
             promises.push(handle_post_bound(file));
+            promises.push(handle_script_bound(file));
         });
 
         Promise.all(promises)
