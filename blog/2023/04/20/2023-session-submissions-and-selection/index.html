@@ -33,10 +33,10 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Join us for a community lead Salesforce conference with sessions by community members like you!">
+    <meta name="description" content="Southeast Dreamin' had 162 sessions submitted for 35 session slots.  Let's take a look at the breakdown of our session submissions and our selected sessions.">
 
-    <meta property="og:title" content="Southeast Dreamin' &mdash; June 29-30, 2023">
-    <meta property="og:description" content="Join us for a community lead Salesforce conference with sessions by community members like you!">
+    <meta property="og:title" content="Southeast Dreamin' &mdash; 2023 Session submissions and selection">
+    <meta property="og:description" content="Southeast Dreamin' had 162 sessions submitted for 35 session slots.  Let's take a look at the breakdown of our session submissions and our selected sessions.">
     <meta property="og:type" content="website">
     <meta property="og:local" content="en_US">
     <meta property="og:image" content="/img/opengraph.png">
@@ -45,7 +45,7 @@
     <meta property="twitter:card" content="summary">
     <meta property="twitter:site" content="@sedreamin">
     <meta property="twitter:creator" content="@aelst">
-    <meta property="twitter:title" content="Southeast Dreamin' &mdash; June 29-30, 2023">
+    <meta property="twitter:title" content="Southeast Dreamin' &mdash; 2023 Session submissions and selection">
     <meta property="twitter:image" content="/img/opengraph.png">
 
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
@@ -58,7 +58,7 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-    <title>Southeast Dreamin' &mdash; 2023 Sponsors</title>
+    <title>Southeast Dreamin' &mdash; 2023 Session submissions and selection</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
 
@@ -113,45 +113,57 @@
 </nav>
             <div class="container is-fluid px-0">
                 
-<h1>2023 Sponsors</h1>
-
-    
-
-    
-    <section class="section">
-        <h1 class="title is-capitalized">Gold</h1>
-        <div class="columns is-multiline is-vcentered">
-            
-                <div class="column is-half">
-        <figure class="image">
-            
-            <a href="https://www.apsona.com/pages/sfdc/index.html">
-            
-                <img src="/img/sponsors/2023/apsona.png" alt="Apsona" class="mb-4" alt="Apsona Logo" />
-            </a>
-            <div class="content"><p class="has-text-weight-semibold"></p>Apsona for Salesforce is an add-on application for Salesforce available through AppExchange. Its feature set includes everything you would want for managing your data, and is built to enable you to get your work done with the least possible effort.</div>
-        </figure>
-    </div>
-            
-                <div class="column is-half">
-        <figure class="image">
-            
-            <a href="https://www.pdfbutler.com/">
-            
-                <img src="/img/sponsors/2023/pdfbutler.png" alt="PDF Butler" class="mb-4" alt="PDF Butler Logo" />
-            </a>
-            <div class="content"><p class="has-text-weight-semibold"></p><p>Boost your productivity and amplify your brand identity with PDF Butler - the document generation tool designed for Salesforce. Generate, customize, and send your documents for signature with just one click.</p></div>
-        </figure>
-    </div>
-            
+    <div class="content mx-4">
+    <h1 class="title is-1">2023 Session Submission &amp; Selection</h1>
+    <p>For our 2023 conference we recieved 162 session submissions!  However, we only have room for 35 sessions so let's take a look at the breakdown of the submitted sessions, the speaker demographics and the sessions we selected.</p>
+    <p>Read our previous post about how Southeast Dreamin' does it's <a href="/blog/2022/11/21/session-selection/">session selection</a></p>
+    <h2 class="title is-2">Session Submissions</h2>
+    <p>In our return to Atlanta last year, we recieved 99 sessions submitted to be selected for 30 sessions.  This year saw a 163% increase in submissions bringing our session submissions up to 162 which is the most submissions we have on record.</p>
+    <p>The breakdown of the session tracks roughly matches the percentages we have seen in the past.  The majority of the sessions going to our Administrator and Developer tracks.  Also, you can see a distinct uptick in session submissions days before the submission window closes.</p>
+    <div class="columns is-multiline is-centered">
+        <div class="column is-half">
+            <canvas id="chart-by-track"></canvas>
         </div>
-    </section>
-    
-
-    
-
-    
-
+        <div class="column is-half">
+            <table id="table-by-track" class="table">
+                <thead>
+                    <th>Track</th>
+                    <th>Count</th>
+                    <th>Percentage</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <canvas id="chart-by-date"></canvas>
+        </div>
+    </div>
+    <h2 class="title is-2">Session Selection</h2>
+    <p>We're not going to rehash <a href="/blog/2022/11/21/session-selection/">our process for session selection</a> here but let's take a look at the <a href="/sessions/2023/">sessions we did select.</a>  As you can see, we end up choosing more sessions (by percentage) for the executive, business analysis, marketing, end user and non-profit tracks.  So, if you want a better chance of having your session selected next year, we'd recommend branching out and submitting extra talks into a smaller pool of sessions.</p>
+    <div class="columns is-multiline is-centered">
+        <div class="column is-half">
+            <canvas id="chart-by-track-chosen"></canvas>
+        </div>
+    </div>
+    <h2 class="title is-2">Diversity and Inclusion</h2>
+    <p>One of the biggest thing that we tried to be mindful of this year while making our session selection was to choose speakers that covered all of our vibrant community so that hopefully everyone attending could find someone that represented themselves amongst our speakers.</p>
+    <p>Let's take a look at the demographics of the speakers we have invited to speak at Southeast Dreamin' in 2023.</p>
+    <div class="columns is-multiline is-centered">
+        <div class="column is-one-quarter">
+            <canvas id="chart-by-gender"></canvas>
+        </div>
+        <div class="column is-one-quarter">
+            <canvas id="chart-by-race"></canvas>
+        </div>
+        <div class="column is-one-quarter">
+            <canvas id="chart-by-lgbtqai"></canvas>
+        </div>
+        <div class="column is-one-quarter">
+            <canvas id="chart-by-disability"></canvas>
+        </div>
+    </div>
+    <p>Something needs to go here discussing the graphs above</p>
+    <h2 class="title is-2">Looking ahead</h2>
+    <p>Another reason we collected data about our speaker's demographics is to know where we need to expand our influence into under represented spaces and try to raise them up using our platform.  Some groups that we can see we need to try to increase our engagement with is that of the Transgender, Agender / I don't identify with any gender and Indigenous, Native or Aboriginal communities.  Reviewing all the submitted sessions, we did not have any submissions from these communities and we want to make sure that we are removing any barriers for them and encourging them to submit sessions</p>
+</div>
 
             </div>
             <footer class="footer p-6 is-hidden-mobile">
@@ -178,7 +190,11 @@
         <script src="/js/main-min.js"></script>
 
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+
+
+<script src="index.js" defer></script>
 
     </body>
 </html>
