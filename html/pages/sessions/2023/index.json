@@ -40,43 +40,43 @@
     "tracks": {
         "admin": {
             "name": "Administrators",
-            "type": "is-info",
-            "background": "has-background-info-light"
+            "type": "is-admin",
+            "background": "has-background-admin"
         },
         "marketing": {
             "name": "Marketing",
-            "type": "is-warning",
-            "background": "has-background-warning-light"
+            "type": "is-marketing",
+            "background": "has-background-marketing"
         },
-        "end_users": {
+        "end-user": {
             "name": "End Users",
-            "type": "is-primary",
-            "background": "has-background-primary-light"
+            "type": "is-end-user",
+            "background": "has-background-end-user"
         },
         "architect": {
             "name": "Architects",
-            "type": "is-success",
-            "background": "has-background-success-light"
+            "type": "is-architect",
+            "background": "has-background-architect"
         },
         "dev": {
             "name": "Developers",
-            "type": "is-link",
-            "background": "has-background-link-light"
+            "type": "is-dev",
+            "background": "has-background-dev"
         },
         "exec": {
             "name": "Executives",
-            "type": "is-primary",
-            "background": "has-background-primary-light"
+            "type": "is-exec",
+            "background": "has-background-exec"
         },
-        "non_profit": {
+        "nonprofit": {
             "name": "Non-Profit",
-            "type": "is-success",
-            "background": "has-background-success-light"
+            "type": "is-nonprofit",
+            "background": "has-background-nonprofit"
         },
         "business": {
             "name": "Business Analyst",
-            "type": "is-success",
-            "background": "has-background-success-light"
+            "type": "is-business",
+            "background": "has-background-business"
         }
     },
     "hot_time_slots": {
@@ -855,7 +855,7 @@
             "abstract": "<p>Working as a junior engineer can be deeply stressful. There’s so much to learn. Pressure to deliver code can be overwhelming. And how the heck do you fix that compiler error, anyway?</p><p>This presentation, by a principal engineer working at Salesforce, invites junior engineers to learn critical habits that will help them grow and thrive – and, sooner or later, end up a senior engineer. Three foci cover Breaking Down Problems, Asking Great Questions, and building Confidence through Self-Knowledge. Junior engineers are invited to put early-career jitters in perspective by cultivating behaviors that help them excel as part of a team and demolish technical challenges. No specific coding experience is required, although minimal exposure to code will increase the impact of the presentation.</p>",
             "id": "grow-and-thrive-as-a-junior-engineer",
             "year": "2023",
-            "track": "end_users",
+            "track": "end-user",
             "room": "conference4",
             "slot": "slot1",
             "speakers": ["reed"]
@@ -915,7 +915,7 @@
             "abstract": "<p>Ever feel overwhelmed or frustrated with your nonprofit organization's computer systems?</p><p>Are you intimidated by technology that is more complex than spreadsheets and email?</p><p>Learn about the features of NPSP that you may be missing out on because you didn't realize they existed. Those include, outlook/gmail integrations + email templates, moves management, built-in reports, and a quick-lift formula trick to help with pesky soft credits.</p>",
             "id": "how-to-unlock-the-power-of-the-nonprofit-success-pack",
             "year": "2023",
-            "track": "non_profit",
+            "track": "nonprofit",
             "room": "conference2",
             "slot": "slot1",
             "speakers": ["epting"]
@@ -935,7 +935,7 @@
             "abstract": "<p>We’re a professional organization who started with a low-value Salesforce org, an AMS that was clunky and difficult to use, and limited (no) digital member benefits.</p><p>In the past 5 years we have re-built our org and harnessing the power of a Salesforce Community, replacing all outdated listservs with better networking opportunities via Chatter.</p><p>We also connected an online resource library via SSO, brought in event registration, process (application, membership, everything else), integrated our marketing platform, &amp; Qualtrics.</p><p>We reduced 5 separate member logins to 1 for a seamless user experience and single source of truth. We consolidated and expanded data storage and utilization to achieve a sexier approach to segmented marketing and data governance.</p><p>Join us to learn about our 5-year journey and see the place our members now call their professional home.</p>",
             "id": "from-a-lowvalue-ams-to-a-dream-community",
             "year": "2023",
-            "track": "non_profit",
+            "track": "nonprofit",
             "room": "conference2",
             "slot": "slot4",
             "speakers": ["makky", "pysnik"]
@@ -985,7 +985,7 @@
             "abstract": "<p>During this session, attendees will learn how to create the mindset, habits, and documentation necessary to show that they can earn a Business Analyst role on a technical team. The session will cover the following topics:<p>Understanding the Salesforce Ecosystem: We will start by exploring the different components of the Salesforce ecosystem, including Sales Cloud, Service Cloud, Marketing Cloud, and more. Attendees will learn how these components fit together and how they impact business processes.</p><p>Business Analysis Techniques: We will introduce attendees to business analysis techniques that are essential for a Business Analyst. These techniques include requirements gathering, stakeholder management, process mapping, and data analysis. Attendees will learn how to apply these techniques in their current roles as Salesforce end users.</p><p>Salesforce Business Analyst Certification: We will review the Salesforce Business Analyst certification and discuss the knowledge areas covered in the exam. Attendees will learn what they need to know to pass the certification exam and how the certification can help them to advance their career.</p><p>Building Your Business Analyst Portfolio: We will discuss the importance of creating a Business Analyst portfolio to showcase your skills and experience. Attendees will learn what types of documentation to include in their portfolio, such as user stories, process flows, and wireframes.</p><p>Learning Objectives:</p><ol><li>Understand the Salesforce ecosystem and its impact on business processes</li><li>Learn essential business analysis techniques and how to apply them as a Salesforce end user</li><li>Gain knowledge about the Salesforce Business Analyst certification and its value in advancing their career</li><li>Learn how to build a Business Analyst portfolio to showcase their skills and experience</li></ul><p>In conclusion, this session will provide valuable insights and practical tips for Salesforce end users who aspire to become Business Analysts. Attendees will walk away with a better understanding of the skills and knowledge required for a Business Analyst role, as well as practical steps to start developing those skills right where they are in their career.</p>",
             "id": "ba-where-you-are",
             "year": "2023",
-            "track": "end_users",
+            "track": "end-user",
             "room": "conferencee",
             "slot": "slot3",
             "speakers": ["forte"]
@@ -1015,7 +1015,7 @@
             "abstract": "<p>This session will describe the experiences of a legal services nonprofit’s redesign and implementation of their Salesforce after a previously failed implementation. The organization utilized lessons learned from their first implementation, which was not widely used and quickly outgrown by their fast-paced and ever-changing work. This new approach to design and implementation included a comprehensive visioning process, goal setting, and the involvement of key stakeholders. This presentation will highlight the challenges of the organization and how they were addressed and will present goals and desired outcomes for the new design and implementation, which is still in process. Attendees will learn from these lessons and walk away with information on how to build buy-in across business units and roles and what we learned as an organization throughout our redesign processes.</p>",
             "id": "rebuilding-from-the-ground-up",
             "year": "2023",
-            "track": "non_profit",
+            "track": "nonprofit",
             "room": "conference2",
             "slot": "slot3",
             "speakers": ["delgado"]
@@ -1025,7 +1025,7 @@
             "abstract": "<p>Workforce development organizations play a critical role in helping individuals and communities thrive, but they face unique challenges in tracking and measuring their impact. Salesforce offers powerful tools and resources to help workforce development organizations overcome these challenges and create measurable impact. In this session, we'll explore how my organization has leveraged Salesforce to support our programs and drive impact. We'll dive into the different Salesforce apps and features that we use, including Salesforce for Nonprofits, PMM, Form Assembly and Slack. And we'll explore how these tools enable us to track program outcomes, measure impact, and engage with their stakeholders. Whether you're a nonprofit professional, a Salesforce administrator, or simply interested in using technology for social impact, this session will provide practical tips and strategies for leveraging Salesforce.</p>",
             "id": "empowering-workforce-development",
             "year": "2023",
-            "track": "non_profit",
+            "track": "nonprofit",
             "room": "conference2",
             "slot": "slot2",
             "speakers": ["spencer"]
@@ -1267,7 +1267,7 @@
             "abstract": "<p>As you grow in your career and continue to do well, consider dedicating time to do good for your community to pay your success forward. Do Well, Do Good. This session walks through a real pro-bono project that implemented Salesforce for a nonprofit that needed support saving. From that implementation, we built a reusable asset to to make it easier for others to do good in their communities as well. This asset expands Salesforce’s Nonprofit cloud by delivering case management, inventory management, volunteer management, and time tracking so that more non profits can benefit from this initial investment. Let’s turn this ripple into a wave! By attending this session, you’ll receive access to the solution package to install in any Salesforce org, training materials, and project management kit so you can pay it forward in your local communities. We encourage everyone attending to find a local non profit or school in your area and offer to implement this solution for them in just a few weeks. Do Well. Do Good.</p>",
             "id": "solution-for-good",
             "year": "2023",
-            "track": "non_profit",
+            "track": "nonprofit",
             "room": "conference4",
             "slot": "hotslot1",
             "speakers": ["lammers"]

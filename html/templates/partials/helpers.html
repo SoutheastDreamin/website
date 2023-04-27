@@ -161,7 +161,7 @@
             {% endif %}
             {% if time_slot and is_individual %}<h4 class="subtitle is-size-6 has-text-weight-bold">{{ time_slot.start }} - {{ time_slot.end }}</h4>{% endif %}
             {% if room %}<h4 class="subtitle is-size-6 has-text-weight-bold">{{ room.name }}</h4>{% endif %}
-            {% if track %}<span class="tag {{ track.type }} is-light">{{ track.name }}</span>{% endif %}
+            {% if track %}<span class="tag is-{{ session.track }} is-light">{{ track.name }}</span>{% endif %}
             <div class="content mt-4 pl-5">{{ session.abstract | safe }}</div>
         </div>
         <div class="column">
@@ -238,7 +238,7 @@
                     <td class="has-text-centered is-vcentered has-text-weight-bold">{{ slot.name }}</td>
                     {% for room in room_list %}
                         {% set row_sessions = sessions | where("slot", slot_name) | where("room", room) %}
-                        <td class="{{ tracks[row_sessions[0].track].background }} has-text-centered is-vcentered"><a href="#{{ row_sessions[0].id }}" class="has-text-dark">{{ row_sessions[0].title }}</a></td>
+                        <td class="has-background-{{ row_sessions[0].track }} has-text-centered is-vcentered"><a href="#{{ row_sessions[0].id }}" class="has-text-dark">{{ row_sessions[0].title }}</a></td>
                     {% endfor %}
                 </tr>
             {% endfor %}

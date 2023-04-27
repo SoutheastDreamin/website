@@ -36,38 +36,38 @@
     "tracks": {
         "admin": {
             "name": "Administrators",
-            "type": "is-info",
-            "background": "has-background-info-light"
+            "type": "is-admin",
+            "background": "has-background-admin"
         },
         "marketing": {
             "name": "Marketing",
-            "type": "is-warning",
-            "background": "has-background-warning-light"
+            "type": "is-marketing",
+            "background": "has-background-marketing"
         },
-        "end_users": {
+        "end-user": {
             "name": "End Users",
-            "type": "is-primary",
-            "background": "has-background-primary-light"
+            "type": "is-enduser",
+            "background": "has-background-enduser"
         },
         "architect": {
             "name": "Architects",
-            "type": "is-success",
-            "background": "has-background-success-light"
+            "type": "is-architect",
+            "background": "has-background-architect"
         },
         "dev": {
             "name": "Developers",
-            "type": "is-link",
-            "background": "has-background-link-light"
+            "type": "is-dev",
+            "background": "has-background-dev"
         },
         "exec": {
             "name": "Executives",
-            "type": "is-primary",
-            "background": "has-background-primary-light"
+            "type": "is-exec",
+            "background": "has-background-exec"
         },
-        "non_profit": {
+        "nonprofit": {
             "name": "Non-Profit",
-            "type": "is-success",
-            "background": "has-background-success-light"
+            "type": "is-nonprofit",
+            "background": "has-background-nonprofit"
         }
     },
     "hot_time_slots": {
@@ -764,7 +764,7 @@
             "abstract": "<p>As digitalization continues, companies must evolve their digital sales processes to ensure they remain competitive and provide the best buyer experience possible.  Salesforce Customer 360 connects departments and customer data internally, but how will companies ensure deeper connectedness with external buyers/stakeholders?  Research shows the growing benefit of Deal Relationship Management or DRMs within the CRM to deliver personalized experiences and trusting relationships with buyers.  Gartner predicts that by 2025, 80% of B2B sales interactions between suppliers and buyers will occur in digital sales rooms.</p><p>In this session we will cover the following:<ul><li>what is a digital sales room?</li><li>The reasons why companies must ensure deeper connectedness with external buyers/stakeholders</li><li>How Salesforce customers use digital sales rooms inside of Salesforce</li></ul></p>",
             "id": "the-rise-of-the-digital-sales-room",
             "year": "2022",
-            "track": "end_users",
+            "track": "end-user",
             "room": "oglethorpe",
             "slot": "slot5",
             "speakers": ["pawlak"]
@@ -774,7 +774,7 @@
             "abstract": "<p>How do you stand out in such an outstanding ecosystem? Empowerment from the Trailblazer community and involvement with the available programs. Salesforce Military has provided myself and many other talented veterans and military spouses the tools for a transformation--from whatever we were to Awesome Admins, Developers, and beyond! I didn't even know how to spell C-R-M when I was directed to the Trailhead site, but I was soon addicted. 30 badges in 30 days. 60 in 6 weeks. Ranger status in 2 months. From there, I connected with Vetforce, completed the ADM 201 course, and got certified. I want everyone to know how a veteran or military spouse can use these tools and change their career and life!</p>",
             "id": "blazing-trails-with-salesforce-military",
             "year": "2022",
-            "track": "end_users",
+            "track": "end-user",
             "room": "suwannee",
             "slot": "slot2",
             "speakers": ["whitakery"]
@@ -834,7 +834,7 @@
             "abstract": "<p>Ever feel overwhelmed or frustrated with your nonprofit organization's computer systems?</p><p>Are you intimidated by technology that is more complex than spreadsheets and email?</p><p>Learn about the features of NPSP that you may be missing out on because you didn't realize they existed.  Those include, outlook/gmail integrations + email templates, moves management, built-in reports, and a quick-lift formula trick to help with pesky soft credits.</p>",
             "id": "how-to-unlock-the-power-of-the-nonprofit-success-pack",
             "year": "2022",
-            "track": "non_profit",
+            "track": "nonprofit",
             "room": "augusta",
             "slot": "slot5",
             "speakers": ["epting"]
@@ -844,7 +844,7 @@
             "abstract": "<p>What's the difference between regular rollups, customizable rollups, and declarative lookup rollup summaries (DLRS)? We have OPTIONS, especially now that DLRS is part of the Open Source Commons. We'll share examples you can build to help your users summarize and analyze their data for fundraising, programs, and more.</p>",
             "id": "how-nonprofits-roll",
             "year": "2022",
-            "track": "non_profit",
+            "track": "nonprofit",
             "room": "suwannee",
             "slot": "slot4",
             "speakers": ["styles"]
@@ -854,7 +854,7 @@
             "abstract": "<p>For the past 7 years, a group of admins, developers, partners, ISV's and Salesforce staff have gathered a few time each year to collaborate and develop solutions for some of the biggest ongoing problems facing nonprofits and educational institutions. These Open Source Community sprints have lead to the development of a variety of free, open source products that are available for any organization. This session will provide a brief introduction to some of the projects being developed at these open source sprints, along with an introduction to the Open Source Commons program, and an overview of how you can get involved in these community efforts</p>",
             "id": "embracing-open-source-in-the-salesforce-community",
             "year": "2022",
-            "track": "non_profit",
+            "track": "nonprofit",
             "room": "oglethorpe",
             "slot": "slot3",
             "speakers": ["pifer", "carlson"]

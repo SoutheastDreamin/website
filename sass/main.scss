@@ -7,6 +7,52 @@
 @import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
+$admin: $light_yellow;
+$architect: $light_pink;
+$business: $dark_green;
+$dev: $dark_blue;
+$end-user: $dark_green;
+$exec: $light_pink;
+$marketing:  $dark_purple;
+$nonprofit: $dark_red;
+
+$fg: (
+    admin: findDarkColor($admin),
+    architect: findDarkColor($architect),
+    business: findDarkColor($business),
+    dev: findDarkColor($dev),
+    end-user: findDarkColor($end-user),
+    exec: findDarkColor($exec),
+    marketing: findDarkColor($marketing),
+    nonprofit: findDarkColor($nonprofit)
+);
+
+$bg: (
+    admin: findLightColor($admin),
+    architect: findLightColor($architect),
+    business: findLightColor($business),
+    dev: findLightColor($dev),
+    end-user: findLightColor($end-user),
+    exec: findLightColor($exec),
+    marketing: findLightColor($marketing),
+    nonprofit: findLightColor($nonprofit)
+);
+
+$tracks: admin, marketing, end-user, architect, dev, exec, nonprofit, business;
+
+@each $track in $tracks {
+    .is-#{$track} {
+        background-color: map-get($bg, $track) !important;
+        color: map-get($fg, $track) !important;
+    }
+}
+
+@each $track in $tracks {
+    .has-background-#{$track} {
+        background-color: map-get($bg, $track) !important;
+    }
+}
+
 body {
     background-color: $light_blue;
     min-height: 100%;
@@ -36,7 +82,7 @@ footer {
     background-position: center top;
 
     .hero-body {
-        background-color: #0003;
+        background-color: $light_grey_semi;
     }
 }
 
@@ -54,7 +100,7 @@ footer {
 }
 
 #hero_foot {
-    background-color: #0008;
+    background-color: $dark_grey_semi;
 }
 
 .navbar-menu {
@@ -64,7 +110,7 @@ footer {
 #map {
     /* stylelint-disable-next-line unit-allowed-list */
     height: 600px;
-    background-color: #fafafa;
+    background-color: $light_grey;
 }
 
 .is-512x512 {
@@ -75,19 +121,19 @@ footer {
 }
 
 .has-background-dark-blue {
-    background: #5498bc;
+    background: $dark_blue;
 }
 
 .has-background-light-blue {
-    background: #6bb4e5;
+    background: $light_blue;
 }
 
 .has-background-dark-yellow {
-    background: #f4bb3a;
+    background: $dark_yellow;
 }
 
 .has-background-light-yellow {
-    background: #ffc74e;
+    background: $light_yellow;
 }
 
 .swatch {
@@ -97,7 +143,7 @@ footer {
     height: 170px;
     margin: auto;
     /* stylelint-disable-next-line unit-allowed-list */
-    border: 1px solid black;
+    border: 1px solid $black;
 }
 
 .swatch > p {
@@ -106,7 +152,7 @@ footer {
 
 .keynote_speaker {
     /* stylelint-disable-next-line unit-allowed-list */
-    border-top: 2px solid #f5f5f5;
+    border-top: 2px solid $light_grey;
 }
 
 .google_form {
