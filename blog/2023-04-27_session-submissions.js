@@ -126,18 +126,21 @@ const submission_dates = {
 };
 
 const speaker_gender = {
-    'Female': 15,
-    'Male': 33,
-    'Non-Binary': 3,
-    'Genderqueer/Non-conforming': 1
+    'Female': 23,
+    'Male': 27,
+    'Non-Binary': 2,
+    'Female, Non-Binary, Genderqueer/Non-conforming': 1
 };
 
 const speaker_race = {
-    'Asian': 4,
+    'Asian': 6,
     'Black or African American': 6,
+    'Black or African American, Hispanic or Latino': 1,
     'Hispanic or Latino': 3,
-    'White': 20,
-    'Prefer not to say': 2
+    'Hispanic or Latino, White': 1,
+    'MENA': 1,
+    'White': 31,
+    'Prefer not to say': 4
 };
 
 const speaker_lgbtqai = {
@@ -147,7 +150,7 @@ const speaker_lgbtqai = {
 };
 
 const speaker_disability = {
-    'Yes': 4,
+    'Yes': 7,
     'No': 31
 };
 
