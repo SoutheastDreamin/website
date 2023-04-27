@@ -1,45 +1,49 @@
 @charset "utf-8";
 
+/* stylelint-disable scss/at-import-no-partial-leading-underscore, scss/at-import-partial-extension */
 @import "_variables.scss";
-
 @import "../node_modules/bulma/bulma.sass";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+/* stylelint-enable scss/at-import-no-partial-leading-underscore, scss/at-import-partial-extension */
 
-$admin: $light_yellow;
-$architect: $light_pink;
-$business: $dark_green;
-$dev: $dark_blue;
-$end-user: $dark_green;
-$exec: $light_pink;
-$marketing:  $dark_purple;
+$admin: $light-yellow;
+$architect: $light-pink;
+$business: $dark-green;
+$dev: $dark-blue;
+$end-user: $dark-green;
+$exec: $light-pink;
+$marketing: $dark-purple;
 $nonprofit: $dark_red;
 
+/* stylelint-disable function-name-case */
 $fg: (
-    admin: findDarkColor($admin),
-    architect: findDarkColor($architect),
-    business: findDarkColor($business),
-    dev: findDarkColor($dev),
-    end-user: findDarkColor($end-user),
-    exec: findDarkColor($exec),
-    marketing: findDarkColor($marketing),
-    nonprofit: findDarkColor($nonprofit)
+admin: findDarkColor($admin),
+architect: findDarkColor($architect),
+business: findDarkColor($business),
+dev: findDarkColor($dev),
+end-user: findDarkColor($end-user),
+exec: findDarkColor($exec),
+marketing: findDarkColor($marketing),
+nonprofit: findDarkColor($nonprofit)
 );
 
 $bg: (
-    admin: findLightColor($admin),
-    architect: findLightColor($architect),
-    business: findLightColor($business),
-    dev: findLightColor($dev),
-    end-user: findLightColor($end-user),
-    exec: findLightColor($exec),
-    marketing: findLightColor($marketing),
-    nonprofit: findLightColor($nonprofit)
+admin: findLightColor($admin),
+architect: findLightColor($architect),
+business: findLightColor($business),
+dev: findLightColor($dev),
+end-user: findLightColor($end-user),
+exec: findLightColor($exec),
+marketing: findLightColor($marketing),
+nonprofit: findLightColor($nonprofit)
 );
+/* stylelint-enable function-name-case */
 
 $tracks: admin, marketing, end-user, architect, dev, exec, nonprofit, business;
 
+/* stylelint-disable scss/no-global-function-names */
 @each $track in $tracks {
     .is-#{$track} {
         background-color: map-get($bg, $track) !important;
@@ -52,9 +56,10 @@ $tracks: admin, marketing, end-user, architect, dev, exec, nonprofit, business;
         background-color: map-get($bg, $track) !important;
     }
 }
+/* stylelint-enable scss/no-global-function-names */
 
 body {
-    background-color: $light_blue;
+    background-color: $light-blue;
     min-height: 100%;
     min-height: 100vh;
 }
@@ -66,7 +71,7 @@ footer {
     bottom: 0;
 }
 
-#site_wrapper {
+#site-wrapper {
     background-color: $white;
     min-height: 100%;
     min-height: 100vh;
@@ -74,33 +79,33 @@ footer {
     padding-bottom: 150px;
 }
 
-#hero_banner {
-    background-color: $light_blue;
+#hero-banner {
+    background-color: $light-blue;
     background-image: url('/img/skyline.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
 
     .hero-body {
-        background-color: $light_grey_semi;
+        background-color: $light-grey-semi;
     }
 }
 
-#hero_image {
+#hero-image {
     /* stylelint-disable-next-line unit-allowed-list */
     max-width: 1000px;
     margin: 0 auto;
 }
 
-#hero_banner_mobile {
+#hero-banner-mobile {
     background-image: url('/img/logo_wide.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
-#hero_foot {
-    background-color: $dark_grey_semi;
+#hero-foot {
+    background-color: $dark-grey-semi;
 }
 
 .navbar-menu {
@@ -110,7 +115,7 @@ footer {
 #map {
     /* stylelint-disable-next-line unit-allowed-list */
     height: 600px;
-    background-color: $light_grey;
+    background-color: $light-grey;
 }
 
 .is-512x512 {
@@ -121,19 +126,19 @@ footer {
 }
 
 .has-background-dark-blue {
-    background: $dark_blue;
+    background: $dark-blue;
 }
 
 .has-background-light-blue {
-    background: $light_blue;
+    background: $light-blue;
 }
 
 .has-background-dark-yellow {
-    background: $dark_yellow;
+    background: $dark-yellow;
 }
 
 .has-background-light-yellow {
-    background: $light_yellow;
+    background: $light-yellow;
 }
 
 .swatch {
@@ -150,11 +155,12 @@ footer {
     margin: auto;
 }
 
-.keynote_speaker {
+.keynote-speaker {
     /* stylelint-disable-next-line unit-allowed-list */
-    border-top: 2px solid $light_grey;
+    border-top: 2px solid $light-grey;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .google_form {
     width: 100%;
     height: 100vh;
