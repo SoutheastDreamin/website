@@ -35,21 +35,21 @@
                 {
                     "name": "Apsona",
                     "id": "apsona",
-                    "description": "We believe that data management shouldn't be a burden, but rather an opportunity to drive growth and success. Since 2006, Apsona’s software has helped over 1,700 organizations globally streamline their data management processes with multi-step reporting, dedupe and match, and document merge.  Apsona can be used by small teams as well as international organizations (SMB up to Enterprise). With a focus on innovation and customer satisfaction, Apsona is the ideal partner for organizations looking to take their Salesforce data management to the next level. Our software can be used by any Salesforce customer - any data model.",
+                    "description": "<p>We believe that data management shouldn't be a burden, but rather an opportunity to drive growth and success. Since 2006, Apsona’s software has helped over 1,700 organizations globally streamline their data management processes with multi-step reporting, dedupe and match, and document merge.  Apsona can be used by small teams as well as international organizations (SMB up to Enterprise). With a focus on innovation and customer satisfaction, Apsona is the ideal partner for organizations looking to take their Salesforce data management to the next level. Our software can be used by any Salesforce customer - any data model.</p>",
                     "logo": "/img/sponsors/2023/apsona.png",
                     "url": "https://www.apsona.com/pages/sfdc/index.html"
                 },
                 {
                     "name": "Metazoa",
                     "id": "metazoa",
-                    "description": "Metazoa's software solutions are and services help Salesforce Administrators find, fix, and maintain orgs.  Our services specialize in org splits, merges, and reboots and our tool, Snapshot, helps with org management, maintenance and optimization.",
+                    "description": "<p>Metazoa's software solutions are and services help Salesforce Administrators find, fix, and maintain orgs.  Our services specialize in org splits, merges, and reboots and our tool, Snapshot, helps with org management, maintenance and optimization.</p>",
                     "logo": "/img/sponsors/2023/metazoa.png",
                     "url": "https://www.metazoa.com/"
                 },
                 {
                     "name": "FormAssembly",
                     "id": "formassembly",
-                    "description": "FormAssembly is a trusted enterprise data collection platform that empowers security-conscious organizations to drive mission-critical business initiatives and become better stewards of their data. Our platform helps customers of all skill levels build efficient data collection workflows while meeting the high security and compliance standards of regulated industries. Used by thousands of organizations, FormAssembly integrates seamlessly with other commonly used systems to streamline processes and drive business results.",
+                    "description": "<p>FormAssembly is a trusted enterprise data collection platform that empowers security-conscious organizations to drive mission-critical business initiatives and become better stewards of their data. Our platform helps customers of all skill levels build efficient data collection workflows while meeting the high security and compliance standards of regulated industries. Used by thousands of organizations, FormAssembly integrates seamlessly with other commonly used systems to streamline processes and drive business results.</p>",
                     "logo": "/img/sponsors/2023/formassembly.png",
                     "url": "https://www.formassembly.com"
                 }
@@ -66,16 +66,9 @@
                 {
                     "name": "Sonar",
                     "id": "sonar",
-                    "description": "Purpose built for Ops teams, Sonar visualizes your Salesforce blueprint for more intelligent change management. With automated change tracking across your CRM metadata & proactive alerts on any update, both your RevOps team & business leaders can feel confident in the changes being made to their most valuable business system.",
+                    "description": "<p>Purpose built for Ops teams, Sonar visualizes your Salesforce blueprint for more intelligent change management. With automated change tracking across your CRM metadata & proactive alerts on any update, both your RevOps team & business leaders can feel confident in the changes being made to their most valuable business system.</p>",
                     "logo": "/img/sponsors/2023/sonar.png",
                     "url": "https://www.sonarsoftware.com"
-                },
-                {
-                    "name": "SharinPix",
-                    "id": "sharinpix",
-                    "description": "SharinPix apps make it possible to create and configure your own optimized use of images and PDFs in all your Salesforce business processes, without code!",
-                    "logo": "/img/sponsors/2023/sharinpix.png",
-                    "url": "https://sharinpix.com"
                 }
             ]
         },
@@ -86,7 +79,16 @@
             "fullpage": false,
             "maxwords": 50,
             "size": "is-one-third",
-            "sponsors": []
+            "sponsors": [
+                {
+                    "name": "SharinPix",
+                    "id": "sharinpix",
+                    "description": "<p>SharinPix apps make it possible to create and configure your own optimized use of images and PDFs in all your Salesforce business processes, without code!</p>",
+                    "type": "Photo Booth",
+                    "logo": "/img/sponsors/2023/sharinpix.png",
+                    "url": "https://sharinpix.com"
+                }
+            ]
         }
     ]
 }
