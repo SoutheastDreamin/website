@@ -13,10 +13,12 @@ program
     .version('1.0.0')
     .requiredOption('--date <date>');
 
+program.addOption(new commander.Option('--type <type>').choices([ 'sessions', 'hots' ]).makeOptionMandatory());
 program.parse();
 
 const options = program.opts();
 
+const type = options.type;
 const year = moment(options.date, 'MM/DD/YYYY').year();
 const loadSessions = utils.loadJSONFile.bind(null, `html/pages/sessions/${year}/index.json`);
 
@@ -70,14 +72,15 @@ function getRoom(rooms, key) {
  */
 function collateData(data) {
     return new Promise(function (resolve) {
+        const time_slots = type === 'sessions' ? data.session_time_slots : data.hot_time_slots;
         const results = [];
         const getSpeakerName_bound = getSpeakerName.bind(null, data.speakers);
-        const getStart_bound = getSlotData.bind(null, data.session_time_slots, 'start');
-        const getEnd_bound = getSlotData.bind(null, data.session_time_slots, 'end');
+        const getStart_bound = getSlotData.bind(null, time_slots, 'start');
+        const getEnd_bound = getSlotData.bind(null, time_slots, 'end');
         const getTrack_bound = getTrack.bind(null, data.tracks);
         const getRoom_bound = getRoom.bind(null, data.rooms);
 
-        lodash.each(data.sessions, function (session) {
+        lodash.each(data[type], function (session) {
             const speaker_names = [];
 
             lodash.each(session.speakers, function (speaker) {
@@ -108,7 +111,7 @@ function collateData(data) {
  * @returns {Promise} A promise for when the data has been written
  */
 function writeData(data) {
-    const filename = path.join(__dirname, `../data/whova_schedule_${year}.csv`);
+    const filename = path.join(__dirname, `../data/whova_schedule_${type}_${year}.csv`);
 
     return utils.writeCSVFile(filename, data);
 }

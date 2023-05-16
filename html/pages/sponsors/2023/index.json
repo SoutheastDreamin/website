@@ -11,7 +11,7 @@
                 {
                     "name": "CapStorm",
                     "id": "capstorm",
-                    "description": "CapStorm is a self-hosted Salesforce data management platform used to give customers a pathway to ownership and control over their Salesforce data & metadata. Since 2011 CapStorm has offered enterprise Salesforce solutions for backup & recovery, integrations, sandbox seeding, archival, security & compliance, DevOps, and data migration use cases.",
+                    "description": "<p>CapStorm is a self-hosted Salesforce data management platform used to give customers a pathway to ownership and control over their Salesforce data & metadata. Since 2011 CapStorm has offered enterprise Salesforce solutions for backup & recovery, integrations, sandbox seeding, archival, security & compliance, DevOps, and data migration use cases.</p>",
                     "logo": "/img/sponsors/2023/capstorm.png",
                     "url": "https://www.capstorm.com/"
                 }
@@ -52,6 +52,20 @@
                     "description": "<p>FormAssembly is a trusted enterprise data collection platform that empowers security-conscious organizations to drive mission-critical business initiatives and become better stewards of their data. Our platform helps customers of all skill levels build efficient data collection workflows while meeting the high security and compliance standards of regulated industries. Used by thousands of organizations, FormAssembly integrates seamlessly with other commonly used systems to streamline processes and drive business results.</p>",
                     "logo": "/img/sponsors/2023/formassembly.png",
                     "url": "https://www.formassembly.com"
+                },
+                {
+                    "name": "Valence",
+                    "id": "valence",
+                    "description": "<p>100% Native Integrations. No third-party server. No third-party access. Familiar controls inside your own Salesforce environment. Diagnostic tools more helpful than you ever thought possible. Natively trigger reports and notifications from Salesforce. Gov Cloud certified. Nonprofit Organizations receive discount. License covers full org and has no traffic limitations.</p>",
+                    "logo": "/img/sponsors/2023/valence.png",
+                    "url": "https://valence.app"
+                },
+                {
+                    "name": "KnowledgeNet.ai",
+                    "id": "knowledgenetai",
+                    "description": "<p>KnowledgeNet.ai is an AI-powered tool that connects you to the relationships and insights you need to make actionable intelligence decisions to grow and manage your business faster.</p>",
+                    "logo": "/img/sponsors/2023/knowledgenetai.png",
+                    "url": "https://knowledgenet.ai/"
                 }
             ]
         },
