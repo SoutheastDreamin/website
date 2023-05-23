@@ -73,6 +73,13 @@
                     "description": "<p>KnowledgeNet.ai is an AI-powered tool that connects you to the relationships and insights you need to make actionable intelligence decisions to grow and manage your business faster.</p>",
                     "logo": "/img/sponsors/2023/knowledgenetai.png",
                     "url": "https://knowledgenet.ai/"
+                },
+                {
+                    "name": "SUMO Scheduler",
+                    "id": "sumoscheduler",
+                    "description": "<p>Salesforce Native Online Appointment, Event & Field Sales Booking</p>",
+                    "logo": "/img/sponsors/2023/sumoscheduler.png",
+                    "url": "https://www.sumoscheduler.com/"
                 }
             ]
         },
