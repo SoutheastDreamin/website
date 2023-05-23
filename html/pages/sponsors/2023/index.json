@@ -14,6 +14,13 @@
                     "description": "<p>CapStorm is a self-hosted Salesforce data management platform used to give customers a pathway to ownership and control over their Salesforce data & metadata. Since 2011 CapStorm has offered enterprise Salesforce solutions for backup & recovery, integrations, sandbox seeding, archival, security & compliance, DevOps, and data migration use cases.</p>",
                     "logo": "/img/sponsors/2023/capstorm.png",
                     "url": "https://www.capstorm.com/"
+                },
+                {
+                    "name": "Formstack",
+                    "id": "formstack",
+                    "description": "Formstack is a secure workplace productivity platform built to produce ingenious solutions to the everyday work that slows organizations down. From eliminating paper forms to breaking digital silos, Formstack empowers anyone to quickly and easily build custom forms, create documents, and collect eSignatures and automate workflows—all without code.",
+                    "logo": "/img/sponsors/2023/formstack.png",
+                    "url": "https://www.formstack.com"
                 }
             ]
         },
@@ -83,6 +90,13 @@
                     "description": "<p>Purpose built for Ops teams, Sonar visualizes your Salesforce blueprint for more intelligent change management. With automated change tracking across your CRM metadata & proactive alerts on any update, both your RevOps team & business leaders can feel confident in the changes being made to their most valuable business system.</p>",
                     "logo": "/img/sponsors/2023/sonar.png",
                     "url": "https://www.sonarsoftware.com"
+                },
+                {
+                    "name": "Provar",
+                    "id": "provar",
+                    "description": "Provar offers solutions to support you on your expedition to quality. We provide integrated quality management, maintainable test automation, release governance, and outstanding support to teams using complex systems like Salesforce. Our suite of low-code products improve release agility, reduce system defects, and advance innovation. Visit us at www.provar.com",
+                    "logo": "/img/sponsors/2023/provar.png",
+                    "url": "https://provar.com"
                 }
             ]
         },
