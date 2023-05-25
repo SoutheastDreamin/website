@@ -18,7 +18,7 @@
                 {
                     "name": "Formstack",
                     "id": "formstack",
-                    "description": "Formstack is a secure workplace productivity platform built to produce ingenious solutions to the everyday work that slows organizations down. From eliminating paper forms to breaking digital silos, Formstack empowers anyone to quickly and easily build custom forms, create documents, and collect eSignatures and automate workflows—all without code.",
+                    "description": "<p>Formstack is a secure workplace productivity platform built to produce ingenious solutions to the everyday work that slows organizations down. From eliminating paper forms to breaking digital silos, Formstack empowers anyone to quickly and easily build custom forms, create documents, and collect eSignatures and automate workflows—all without code.</p>",
                     "logo": "/img/sponsors/2023/formstack.png",
                     "url": "https://www.formstack.com"
                 }
@@ -80,6 +80,13 @@
                     "description": "<p>Salesforce Native Online Appointment, Event & Field Sales Booking</p>",
                     "logo": "/img/sponsors/2023/sumoscheduler.png",
                     "url": "https://www.sumoscheduler.com/"
+                },
+                {
+                    "name": "Azimuth DS LLC",
+                    "id": "azimuthds",
+                    "description": "<p>Azimuth DS LLC empowers businesses with Salesforce expertise, enhancing CRM efficiency and cost-effectiveness. Our services include System Administration, Custom App Development, and innovative tools like Telescope for data capture. Streamline rental sales with our upcoming Rental App. Navigate Salesforce with Azimuth DS!</p>",
+                    "logo": "/img/sponsors/2023/azimuthds.png",
+                    "url": "http://azimuthds.com"
                 }
             ]
         },
@@ -101,9 +108,16 @@
                 {
                     "name": "Provar",
                     "id": "provar",
-                    "description": "Provar offers solutions to support you on your expedition to quality. We provide integrated quality management, maintainable test automation, release governance, and outstanding support to teams using complex systems like Salesforce. Our suite of low-code products improve release agility, reduce system defects, and advance innovation. Visit us at www.provar.com",
+                    "description": "<p>Provar offers solutions to support you on your expedition to quality. We provide integrated quality management, maintainable test automation, release governance, and outstanding support to teams using complex systems like Salesforce. Our suite of low-code products improve release agility, reduce system defects, and advance innovation. Visit us at www.provar.com</p>",
                     "logo": "/img/sponsors/2023/provar.png",
                     "url": "https://provar.com"
+                },
+                {
+                    "name": "Growth Heroes",
+                    "id": "growthheroes",
+                    "description": "<p>As a boutique Salesforce consulting firm, Growth Heroes partners with companies to optimize processes and integrate systems through digital transformation to help them scale and grow earnings. Our areas of expertise include sales, marketing, app development, analytics, community building, and service. With employees across the country, our team is ready to take on your next project, no matter where you might be located.</p>",
+                    "logo": "/img/sponsors/2023/growthheroes.png",
+                    "url": "https://growthheroes.com/"
                 }
             ]
         },

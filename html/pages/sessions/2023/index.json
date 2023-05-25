@@ -342,7 +342,7 @@
         },
         "fields": {
             "bio": "",
-            "company": "Kicksaw",
+            "company": "Sfields Consulting",
             "first_name": "Shaniqua",
             "first_sed": false,
             "first_talk": false,
@@ -351,7 +351,7 @@
             "last_name": "Fields",
             "mvp": false,
             "pronouns": "She / Her",
-            "title": "Salesforce Consultant: Strategists & Project Manager"
+            "title": "Independent Consultant"
         },
         "forte": {
             "bio": "",
@@ -404,19 +404,6 @@
             "mvp": false,
             "pronouns": "She / Her",
             "title": "Principal"
-        },
-        "hatch": {
-            "bio": "",
-            "company": "Salesforce",
-            "first_name": "Mike",
-            "first_sed": true,
-            "first_talk": false,
-            "id": "hatch",
-            "image": "/img/sessions/2023/speakers/hatch.jpg",
-            "last_name": "Hatch",
-            "mvp": false,
-            "pronouns": "He / Him",
-            "title": "Certified Principal Enterprise Architect"
         },
         "jaeger": {
             "bio": "",
@@ -482,6 +469,19 @@
             "mvp": false,
             "pronouns": "She / Her",
             "title": "Senior Developer Advocate"
+        },
+        "lee": {
+            "first_name": "Jennifer",
+            "last_name": "Lee",
+            "id": "lee",
+            "pronouns": "She / Her",
+            "title": "Senior Admin Evangelist",
+            "company": "Salesforce",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/lee.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
         },
         "liddell": {
             "bio": "",
@@ -971,14 +971,14 @@
             "speakers": ["erstelle", "catalano"]
         },
         {
-            "title": "How Salesforce does Enterprise Architecture",
-            "abstract": "<p>As Salesforce has grown in capabilities, it is more important than ever to understand how to best fit its functionality into the entire enterprise's business and technical architecture. Learn the methodology that we use at Salesforce as Enterprise Architects to assess business and technical architecture to build a Salesforce roadmap. This methodology can be used with any size or type of organization.</p>",
-            "id": "how-salesforce-does-enterprise-architecture",
+            "title": "Session Title TBA",
+            "abstract": "<p>Session Abstract TBA</p>",
+            "id": "lee-upcoming",
             "year": "2023",
-            "track": "exec",
+            "track": "admin",
             "room": "conference4",
             "slot": "slot2",
-            "speakers": ["hatch"]
+            "speakers": ["lee"]
         },
         {
             "title": "BA Where You Are",
@@ -1224,7 +1224,7 @@
         },
         {
             "title": "Optimize Campaign Influence with 3 Salesforce Flows",
-            "abstract": "<p>Are the out-of-the-box Campaign Influence models not a great fit for your reporting? Join this session to learn how to create your own model, including requirements, custom development, and the gotchas and lessons learned from our previous projects.</p>",
+            "abstract": "<p>Accurate Campaign Influence reporting relies heavily on Opportunity Contact Roles and well organized campaigns. Stop worrying if your users are capturing the right info and instead automate it with Salesforce Flows!</p>",
             "id": "optimize-campaign-influence",
             "year": "2023",
             "track": "marketing",
