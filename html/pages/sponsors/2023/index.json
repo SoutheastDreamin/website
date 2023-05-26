@@ -87,7 +87,15 @@
                     "description": "<p>Azimuth DS LLC empowers businesses with Salesforce expertise, enhancing CRM efficiency and cost-effectiveness. Our services include System Administration, Custom App Development, and innovative tools like Telescope for data capture. Streamline rental sales with our upcoming Rental App. Navigate Salesforce with Azimuth DS!</p>",
                     "logo": "/img/sponsors/2023/azimuthds.png",
                     "url": "http://azimuthds.com"
+                },
+                {
+                    "name": "Tricentis",
+                    "id": "tricentis",
+                    "description": "<p>Tricentis is a global leader in continuous testing and quality engineering. The Tricentis AI-powered, continuous testing platform provides a new and fundamentally different way to perform software testing. An approach that’s totally automated, fully codeless, and intelligently driven by AI. It addresses both agile development and complex enterprise apps, enabling enterprises to accelerate their digital transformation by dramatically increasing software release speed, reducing costs, and improving software quality. Widely credited for reinventing software testing for DevOps, cloud, and enterprise applications, Tricentis has been recognized as a leader by major industry analysts, including Forrester, Gartner, and IDC. Tricentis has more than 2,500 customers, including the largest brands in the world, such as McKesson, Accenture, Allianz, Telstra, Dolby, and Vodafone.</p>",
+                    "logo": "/img/sponsors/2023/tricentis.png",
+                    "url": "https://www.tricentis.com/"
                 }
+
             ]
         },
         {
@@ -118,6 +126,13 @@
                     "description": "<p>As a boutique Salesforce consulting firm, Growth Heroes partners with companies to optimize processes and integrate systems through digital transformation to help them scale and grow earnings. Our areas of expertise include sales, marketing, app development, analytics, community building, and service. With employees across the country, our team is ready to take on your next project, no matter where you might be located.</p>",
                     "logo": "/img/sponsors/2023/growthheroes.png",
                     "url": "https://growthheroes.com/"
+                },
+                {
+                    "name": "DataGroomr",
+                    "id": "datagroomr",
+                    "description": "<p>With DataGroomr's AI algorithms, identifying and eliminating duplicates within Salesforce and during imports has never been easier. Plus, it includes verification and transformation tools to help you achieve data clarity effortlessly.</p>",
+                    "logo": "/img/sponsors/2023/datagroomr.png",
+                    "url": "https://datagroomr.com/"
                 }
             ]
         },
