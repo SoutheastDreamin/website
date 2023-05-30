@@ -401,7 +401,7 @@
             "id": "hansen",
             "image": "/img/sessions/2023/speakers/hansen.jpg",
             "last_name": "Hansen",
-            "mvp": false,
+            "mvp": true,
             "pronouns": "She / Her",
             "title": "Principal"
         },
@@ -440,7 +440,7 @@
             "id": "jzaa",
             "image": "/img/sessions/2023/speakers/jzaa.jpg",
             "last_name": "Zaa",
-            "mvp": false,
+            "mvp": true,
             "pronouns": "",
             "title": "Associate Partner"
         },
@@ -492,7 +492,7 @@
             "id": "liddell",
             "image": "/img/sessions/2023/speakers/liddell.jpg",
             "last_name": "Liddell",
-            "mvp": false,
+            "mvp": true,
             "pronouns": "He / Him",
             "title": "CEO"
         },
@@ -726,7 +726,7 @@
             "id": "thayer",
             "image": "/img/sessions/2023/speakers/thayer.jpg",
             "last_name": "Thayer",
-            "mvp": false,
+            "mvp": true,
             "pronouns": "She / Her",
             "title": "Director"
         },
@@ -752,7 +752,7 @@
             "id": "utkan",
             "image": "/img/sessions/2023/speakers/utkan.jpg",
             "last_name": "Utkan",
-            "mvp": false,
+            "mvp": true,
             "pronouns": "He / Him",
             "title": "Principal Consultant of Process Automation"
         },
@@ -791,7 +791,7 @@
             "id": "zellner",
             "image": "/img/sessions/2023/speakers/zellner.jpg",
             "last_name": "Zellner",
-            "mvp": false,
+            "mvp": true,
             "pronouns": "She / Her",
             "title": "Founder and Lead Architect"
         },
