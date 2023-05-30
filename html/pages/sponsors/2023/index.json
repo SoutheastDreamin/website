@@ -119,6 +119,13 @@
                     "description": "<p>With DataGroomr's AI algorithms, identifying and eliminating duplicates within Salesforce and during imports has never been easier. Plus, it includes verification and transformation tools to help you achieve data clarity effortlessly.</p>",
                     "logo": "/img/sponsors/2023/datagroomr.png",
                     "url": "https://datagroomr.com/"
+                },
+                {
+                    "name": "Prodly",
+                    "id": "prodly",
+                    "description": "<p>Prodly enables Salesforce teams to increase productivity by 80 percent with 30 percent less risk by putting next-gen DevOps into the hands of admins and citizen developers. By automating modern Salesforce DevOps, data migration, sandbox seeding, and SOX compliance, the Prodly DevOps suite delivers business agility and governance without straining IT.</p>",
+                    "logo": "/img/sponsors/2023/prodly.png",
+                    "url": "https://prodly.co"
                 }
             ]
         },
