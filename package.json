@@ -8,7 +8,8 @@
     "lint-js": "./node_modules/.bin/eslint gulpfile.js gulp/**/*.js js/*.js tools/*.js",
     "lint-style": "./node_modules/.bin/stylelint sass/*.scss css/*.css",
     "lint-yaml": "./node_modules/.bin/yamllint .github/**/*.yml",
-    "lint": "npm run lint-js && npm run lint-style && npm run lint-yaml",
+    "lint-json": "./node_modules/.bin/jsonlint -q html/pages/sessions/2022/index.json html/pages/sessions/2023/index.json html/pages/sponsors/2022/index.json html/pages/sponsors/2023/index.json html/pages/faq/index.json html/pages/schedule/2022/index.json html/pages/schedule/2023/index.json html/pages/volunteer/index.json html/pages/team/2022/index.json html/pages/team/2023/index.json",
+    "lint": "npm run lint-json && npm run lint-js && npm run lint-style && npm run lint-yaml",
     "watch": "./node_modules/.bin/gulp watch"
   },
   "repository": {
@@ -42,6 +43,7 @@
     "gulp-sitemap": "^8.0.0",
     "json-2-csv": "^3.17.1",
     "jsonfile": "^6.1.0",
+    "jsonlint": "^1.6.3",
     "lodash": "^4.17.21",
     "node-sass": "^8.0.0",
     "string-strip-html": "^8.3.0",
