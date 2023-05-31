@@ -726,7 +726,7 @@
             "id": "thayer",
             "image": "/img/sessions/2023/speakers/thayer.jpg",
             "last_name": "Thayer",
-            "mvp": truez,
+            "mvp": true,
             "pronouns": "She / Her",
             "title": "Director"
         },
