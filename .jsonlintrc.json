@@ -1,0 +1,10 @@
+{
+    "comments": false,
+    "trailing-commas": false,
+    "duplicate-keys": false,
+    "quiet": true,
+    "patterns": [
+        "**/*.json",
+        "!**/node_modules"
+    ]
+}
