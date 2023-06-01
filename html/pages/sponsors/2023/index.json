@@ -160,7 +160,15 @@
                     "type": "Lanyard",
                     "logo": "/img/sponsors/2023/sonar.png",
                     "url": "https://www.sonarsoftware.com"
-                }
+                },
+                {
+                    "name": "Hike2",
+                    "id": "hike2",
+                    "description": "<p>We are a digital solutions consultancy focused on helping our clients become better companies for their customers. We help our customers unlock the potential of their organization, through technology, and all along their customers’ journey.  We help you create an integrated customer experience while producing a speedy and tangible return on your Salesforce investment.</p>",
+                    "type": "Reception",
+                    "logo": "/img/sponsors/2023/hike2.png",
+                    "url": "https://hike2.com/"
+                },
             ]
         }
     ]
