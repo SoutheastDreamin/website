@@ -1,5 +1,8 @@
 {
-    "map_url": "/img/marriot_map.svg",
+    "map": {
+        "url": "/img/marriott_map.svg",
+        "height": 902
+    },
     "general_schedule": [
         {
             "date": "Monday June 20th, 2022",

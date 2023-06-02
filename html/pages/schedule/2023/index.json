@@ -1,5 +1,8 @@
 {
-    "map_url": "/img/gatech_map.png",
+    "map": {
+        "url": "/img/gatech_map.svg",
+        "height": 2906
+    },
     "general_schedule": [
         {
             "date": "Thursday June 29th, 2023",

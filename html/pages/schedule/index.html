@@ -5,7 +5,10 @@
 {%- set time_slots = merge(data.hot_time_slots, data.session_time_slots) %}
 
 {% block content %}
-    <script>window.HOTEL_MAP = '{{ data.map_url }}';</script>
+    <script>
+        window.HOTEL_MAP = '{{ data.map.url }}';
+        window.HOTEL_MAP_HEIGHT = '{{ data.map.height }}';
+        </script>
     <link rel="stylesheet" href="/css/leaflet.css">
     <div class="container mx-4">
         <h1 class="title is-1">Schedule</h1>
