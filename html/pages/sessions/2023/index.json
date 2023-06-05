@@ -121,7 +121,7 @@
     "speakers": {
         "amos": {
             "bio": "",
-            "company": "Cloudforia",
+            "company": "PMO Partners LLC",
             "first_name": "William",
             "first_sed": true,
             "first_talk": true,
@@ -130,7 +130,7 @@
             "last_name": "Amos",
             "mvp": false,
             "pronouns": "",
-            "title": "Project Implementation Manager"
+            "title": "Salesforce Implementation Project Manager"
         },
         "bartek": {
             "bio": "",
@@ -607,11 +607,11 @@
             "first_sed": true,
             "first_talk": false,
             "id": "park",
-            "image": "/img/sessions/2023/speakers/placeholder.jpg",
+            "image": "/img/sessions/2023/speakers/park.jpg",
             "last_name": "Park",
             "mvp": false,
-            "pronouns": "",
-            "title": ""
+            "pronouns": "She / Her",
+            "title": "Certified Principal Enterprise Architect"
         },
         "robertson": {
             "bio": "",
