@@ -822,7 +822,7 @@
         },
         {
             "title": "Coding for Clicks",
-            "abstract": "<p>\"Coding for Clicks\" is the art of intentionally designing your code to be modified by configuration. As Salesforce developers, we spend most of our time squarely placed in the \"pro-code\" realm. While a solution might require code, we can still enable our low-code and no-code colleagues by designing our solutions giving them levers to control our code's behavior via clicks. This presentation will focus on using tools such as custom metadata, custom settings, and custom objects to expose your code to configuration. Examples as well as recommended best practices will be discussed to provide guidelines and techniques. As a result, developers will be equipped with tools to enable their low-code/no-code colleagues, admins will be equipped with a framework for requesting configurable code from developers, and architects will be equipped with patterns for implementing configurable pro-code development.</p>",
+            "abstract": "<p>'Coding for Clicks' is the art of intentionally designing your code to be modified by configuration. As Salesforce developers, we spend most of our time squarely placed in the 'pro-code' realm. While a solution might require code, we can still enable our low-code and no-code colleagues by designing our solutions giving them levers to control our code's behavior via clicks. This presentation will focus on using tools such as custom metadata, custom settings, and custom objects to expose your code to configuration. Examples as well as recommended best practices will be discussed to provide guidelines and techniques. As a result, developers will be equipped with tools to enable their low-code/no-code colleagues, admins will be equipped with a framework for requesting configurable code from developers, and architects will be equipped with patterns for implementing configurable pro-code development.</p>",
             "id": "coding-for-clicks",
             "year": "2023",
             "track": "dev",
@@ -842,7 +842,7 @@
         },
         {
             "title": "Marketing Cloud Journey Builder: Design And Build Custom Journeys",
-            "abstract": "<p>Working session to build out a lead nurture journey that ranks and sorts leads into easy to understand buckets, nurtures leads in a automated omni channel journey and notifies sales of \"hot leads\" to follow up immediately.  Overview will include SF CRM set up, cross cloud integration and the building of a custom marketing automation solution in Marketing Cloud.</p>",
+            "abstract": "<p>Working session to build out a lead nurture journey that ranks and sorts leads into easy to understand buckets, nurtures leads in a automated omni channel journey and notifies sales of 'hot leads' to follow up immediately.  Overview will include SF CRM set up, cross cloud integration and the building of a custom marketing automation solution in Marketing Cloud.</p>",
             "id": "marketing-cloud-journey-builder",
             "year": "2023",
             "track": "marketing",
@@ -872,7 +872,7 @@
         },
         {
             "title": "No Fault Flows: Elegant Error Handling Solutions in Flow Builder",
-            "abstract": "<p>Learn how to avoid the dreaded \"An unhandled Fault has occurred in this Flow\" red text of doom and to reduce the time it takes to troubleshoot flow errors. In this session, we will demonstrate a few different techniques for declarative error handling that will either stop errors before they happen or elegantly deal with them when they do occur. While designed primarily for intermediate Admins who are familiar with Flow Builder, anyone who attends will take away important concepts such as using decision elements to validate data entry and setting up custom notifications to replace the standard Flow error emails. Leave this session equipped with ideas for improving the entire flow error experience for both your users and yourself.</p>",
+            "abstract": "<p>Learn how to avoid the dreaded 'An unhandled Fault has occurred in this Flow' red text of doom and to reduce the time it takes to troubleshoot flow errors. In this session, we will demonstrate a few different techniques for declarative error handling that will either stop errors before they happen or elegantly deal with them when they do occur. While designed primarily for intermediate Admins who are familiar with Flow Builder, anyone who attends will take away important concepts such as using decision elements to validate data entry and setting up custom notifications to replace the standard Flow error emails. Leave this session equipped with ideas for improving the entire flow error experience for both your users and yourself.</p>",
             "id": "no-fault-flows",
             "year": "2023",
             "track": "admin",
@@ -962,7 +962,7 @@
         },
         {
             "title": "How To Bring Account Engagement Capabilities Into Salesforce Flow",
-            "abstract": "<p>Account Engagement's new V5 API allows external systems to work with Pardot data, but what if that \"external system\" is actually our Sales Cloud instance? Currently, we are limited to the native Salesforce Connector to get things done. With “Flow Actions for Pardot” we can bring a range of Account Engagement capabilities right into our Flow Designer.</p>",
+            "abstract": "<p>Account Engagement's new V5 API allows external systems to work with Pardot data, but what if that 'external system' is actually our Sales Cloud instance? Currently, we are limited to the native Salesforce Connector to get things done. With “Flow Actions for Pardot” we can bring a range of Account Engagement capabilities right into our Flow Designer.</p>",
             "id": "how-to-bring-account-engagement-capabilities-into-salesforce-flow",
             "year": "2023",
             "track": "marketing",
@@ -1102,7 +1102,7 @@
         },
         {
             "title": "Help me Help you: The role of a Project Manager ",
-            "abstract": "<p>Are you a \"title\" who assumes the role of a Project Manager on projects by default? Are you lost and frustrated by wearing multiple hats? Do you want to learn more about how successful Project Managers manage their time? In this session, we will share how to effectively manage your projects including how to avoid scope creep, manage client expectations, communicate and delegate effectively, and still deliver on time. If you have been in this role and want to learn how to navigate this rough terrain better, then this session is definitely for you. Join us and bring all your questions because we've got the answers! </p>",
+            "abstract": "<p>Are you a 'title' who assumes the role of a Project Manager on projects by default? Are you lost and frustrated by wearing multiple hats? Do you want to learn more about how successful Project Managers manage their time? In this session, we will share how to effectively manage your projects including how to avoid scope creep, manage client expectations, communicate and delegate effectively, and still deliver on time. If you have been in this role and want to learn how to navigate this rough terrain better, then this session is definitely for you. Join us and bring all your questions because we've got the answers! </p>",
             "id": "help-me-help-you",
             "year": "2023",
             "track": "exec",
@@ -1131,8 +1131,8 @@
             "speakers": ["jaeger"]
         },
         {
-            "title": "DLRS (\"Dolores\") - Rollup Anything! How To and Roadmap from the Project Manager",
-            "abstract": "<p>DLRS (\"Dolores\") is one of the most installed Salesforce add-ons in over 20,000 Production Orgs!  It is built by volunteers and recently joined the Salesforce Open Source Commons.  The Project Manager will provide a demo of the latest release including the new Wizard and performance improvements. The product roadmap will also be discussed along with advanced use case Q&amp;A. This talk is suitable for both new and advanced users of DLRS.</p>",
+            "title": "DLRS ('Dolores') - Rollup Anything! How To and Roadmap from the Project Manager",
+            "abstract": "<p>DLRS ('Dolores') is one of the most installed Salesforce add-ons in over 20,000 Production Orgs!  It is built by volunteers and recently joined the Salesforce Open Source Commons.  The Project Manager will provide a demo of the latest release including the new Wizard and performance improvements. The product roadmap will also be discussed along with advanced use case Q&amp;A. This talk is suitable for both new and advanced users of DLRS.</p>",
             "id": "dlrs",
             "year": "2023",
             "track": "admin",
@@ -1164,7 +1164,7 @@
     "hots": [
         {
             "title": "Intermediate Flow",
-            "abstract": "<p>If you've dipped your toes in the the \"Flowcean\" but aren't quite sure you're ready to brave the tides yet, this session is for you! In this Intermediate-level Hands-On Training, we'll cover several topics while building out real-life scenarios. We'll start by explaining what a subflow is and leverage a common \"Utility\" subflow use case: Error handling. After that, we'll jump on the exhilarating ride of populating a sandbox with some test data; this ride will take you through a couple of loops as well as plunge into a pool of formulas and variables. Our third use case introduces Scheduled Path on Record-Triggered flows when we will automate notifications to a Support Manager if a New case isn't assigned within 10 minutes. Finally, we'll bust out our Collection Sort & Filter skills to slice and dice Opportunity information in six different ways, all with a single Get Records--creating a recap email with valuable data that can be sent to anyone on or off the platform. This Intermediate Flow HOT is gonna be LIT!</p><p>Intended Audience: Attendees are expected to have a basic understanding of Flow and its various parts (elements, resources, etc.) and have built at least 1-2 basic Flows.</p><p>Prework: Please arrive for the session with a brand new Trailhead Playground. A Developer Edition org is not an acceptable substitute as several exercises rely on pre-populated data available in the Playground.</p>",
+            "abstract": "<p>If you've dipped your toes in the 'Flowcean' but aren't quite sure you're ready to brave the tides yet, this session is for you! In this Intermediate-level Hands-On Training, we'll cover several topics while building out real-life scenarios. We'll start by explaining what a subflow is and leverage a common 'Utility' subflow use case: Error handling. After that, we'll jump on the exhilarating ride of populating a sandbox with some test data; this ride will take you through a couple of loops as well as plunge into a pool of formulas and variables. Our third use case introduces Scheduled Path on Record-Triggered flows when we will automate notifications to a Support Manager if a New case isn't assigned within 10 minutes. Finally, we'll bust out our Collection Sort & Filter skills to slice and dice Opportunity information in six different ways, all with a single Get Records--creating a recap email with valuable data that can be sent to anyone on or off the platform. This Intermediate Flow HOT is gonna be LIT!</p><p>Intended Audience: Attendees are expected to have a basic understanding of Flow and its various parts (elements, resources, etc.) and have built at least 1-2 basic Flows.</p><p>Prework: Please arrive for the session with a brand new Trailhead Playground. A Developer Edition org is not an acceptable substitute as several exercises rely on pre-populated data available in the Playground.</p>",
             "id": "intermediate-flow",
             "year": "2023",
             "track": "admin",
@@ -1184,7 +1184,7 @@
         },
         {
             "title": "Advanced Apex Unit Testing Techniques",
-            "abstract": "<p>When you have complex applications with custom logic, ensuring that the codebase has sufficient test coverage can be tricky.  Come learn some of the advanced techniques that will help you organize your test code coverage and make it far easier to maintain.</p><p>The learning objectives include:</p><ul><li>learn to identify ways to refactor your code to be provide opportunities for modularize your code</li><li>learn how the technique of \"mocking\" certain elements can save you time and headaches and help you bring clarity to your unit test.</li><li>learn how centralizing common elements into test data factories can improve reuse of code</li><li>learn on various open source mocking frameworks available in the community</li></ul>",
+            "abstract": "<p>When you have complex applications with custom logic, ensuring that the codebase has sufficient test coverage can be tricky.  Come learn some of the advanced techniques that will help you organize your test code coverage and make it far easier to maintain.</p><p>The learning objectives include:</p><ul><li>learn to identify ways to refactor your code to be provide opportunities for modularize your code</li><li>learn how the technique of 'mocking' certain elements can save you time and headaches and help you bring clarity to your unit test.</li><li>learn how centralizing common elements into test data factories can improve reuse of code</li><li>learn on various open source mocking frameworks available in the community</li></ul>",
             "id": "advanced-apex-unit-testing-techniques",
             "year": "2023",
             "track": "dev",

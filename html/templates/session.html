@@ -6,6 +6,7 @@
 
 {% set opengraph_title = "Southeast Dreamin' " + session.year + " &mdash; " + session.title | escape %}
 {% set subtitle = session.title %}
+{% set opengraph_description = session.abstract | striptags | escape | truncate(130, false) %}
 
 {% extends "layout.html" %}
 {% import "partials/helpers.html" as helpers %}

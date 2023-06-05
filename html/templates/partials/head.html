@@ -22,7 +22,9 @@
 {% set page_opengraph_title = "Southeast Dreamin' &mdash; " + globals.event_date %}
 {% endif %}
 
-{% if opengraph_description %}
+{% if data.opengraph_description %}
+{% set page_opengraph_title = data.opengraph_description %}
+{% elif opengraph_description %}
 {% set page_opengraph_description = opengraph_description %}
 {% else %}
 {% set page_opengraph_description = "Join us for a community lead Salesforce conference with sessions by community members like you!" %}
