@@ -10,7 +10,7 @@
                 },
                 {
                     "question": "How can I get my ticket?",
-                    "answer": "Tickets are available on our <a href=\"{{ globals.registration_url }}\">registration page</a>."
+                    "answer": "Tickets are available on our <a href=\"{{ globals.registration_url }}\">registration page</a>. Once tickets are sold out we will not have a waitlist. Any available tickets will be released every Tuesday before the event at 6pm ET. There will be no onsite ticket sales."
                 },
                 {
                     "question": "Are meals included?",
@@ -26,7 +26,7 @@
                 },
                 {
                     "question": "What is your ticket refund policy?",
-                    "answer": "<ul><li>All registration cancellation requests or registration transfer requests must be received via email. Please send your cancellation notice to: <a href=\"mailto:registration@sedreamin.com\">registration@sedreamin.com</a>.</li><li>For a full refund, the registration cancellation request must be received by {{ globals.full_refund_date }}. Please allow 5 business days for refund requests to be processed.</li><li>No refunds will be given after {{ globals.full_refund_date }}.</li><li>If you are unable to attend Southeast Dreamin’, you may transfer your registration to another person. Requests for registration transfers must be received via email no later than {{ globals.transfer_date }}. Please email your transfer request, along with the name and email address of the person to whom you are transferring your registration to: <a href=\"mailto:registration@sedreamin.com\">registration@sedreamin.com</a>.</li></ul><br />For Hotel Reservation Cancellations, please contact your hotel directly, as they have differing cancellation policies."
+                    "answer": "<ul><li>All registration cancellation requests or registration transfer requests must be received via email. Please send your cancellation notice to: <a href=\"mailto:registration@sedreamin.com\">registration@sedreamin.com</a>.</li><li>For a full refund, the registration cancellation request must be received by noon ET {{ globals.full_refund_date }}. Please allow 5 business days for refund requests to be processed.</li><li>No refunds will be given after noon ET {{ globals.full_refund_date }}.</li><li>If you are unable to attend Southeast Dreamin’, you may transfer your registration to another person. Requests for registration transfers must be received via email no later than noon ET {{ globals.transfer_date }}. Please email your transfer request, along with the name and email address of the person to whom you are transferring your registration to: <a href=\"mailto:registration@sedreamin.com\">registration@sedreamin.com</a>.</li></ul><br />For Hotel Reservation Cancellations, please contact your hotel directly, as they have differing cancellation policies."
                 }
             ]
         },
