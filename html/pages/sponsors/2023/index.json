@@ -94,8 +94,14 @@
                     "description": "<p>Tricentis is a global leader in continuous testing and quality engineering. The Tricentis AI-powered, continuous testing platform provides a new and fundamentally different way to perform software testing. An approach that’s totally automated, fully codeless, and intelligently driven by AI. It addresses both agile development and complex enterprise apps, enabling enterprises to accelerate their digital transformation by dramatically increasing software release speed, reducing costs, and improving software quality. Widely credited for reinventing software testing for DevOps, cloud, and enterprise applications, Tricentis has been recognized as a leader by major industry analysts, including Forrester, Gartner, and IDC. Tricentis has more than 2,500 customers, including the largest brands in the world, such as McKesson, Accenture, Allianz, Telstra, Dolby, and Vodafone.</p>",
                     "logo": "/img/sponsors/2023/tricentis.png",
                     "url": "https://www.tricentis.com/"
+                },
+                {
+                    "name": "Revenue Grid",
+                    "id": "revenuegrid",
+                    "description": "<p>Revenue Grid is the Revenue Intelligence platform that allows sales teams to grow on their own terms — using Salesforce.  What can you do with Revenue Grid? Capture sales activity to Salesforce without compromises. With category-leading activity capture and system-native functionality, Revenue Grid syncs with how you sell.</p>",
+                    "logo": "/img/sponsors/2023/revenuegrid.png",
+                    "url": "https://revenuegrid.com"
                 }
-
             ]
         },
         {
