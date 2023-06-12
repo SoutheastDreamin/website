@@ -132,6 +132,13 @@
                     "description": "<p>Prodly enables Salesforce teams to increase productivity by 80 percent with 30 percent less risk by putting next-gen DevOps into the hands of admins and citizen developers. By automating modern Salesforce DevOps, data migration, sandbox seeding, and SOX compliance, the Prodly DevOps suite delivers business agility and governance without straining IT.</p>",
                     "logo": "/img/sponsors/2023/prodly.png",
                     "url": "https://prodly.co"
+                },
+                {
+                    "name": "App Associates",
+                    "id": "appassociates",
+                    "description": "<p>Apps Associates is a premier enterprise applications and technology advisor, counseling and executing across every stage of the enterprise transformation journey—not just the destination. For more than two decades, Apps Associates has closely collaborated with decision makers across nearly every industry, offering end-to-end integration, modernization, and cloud migration services. By helping to break down the silos within today’s most complex business challenges, Apps Associates is unlocking solutions and efficiencies that scale into future opportunities.</p>",
+                    "logo": "/img/sponsors/2023/appassociates.png",
+                    "url": "https://www.appsassociates.com/"
                 }
             ]
         },
