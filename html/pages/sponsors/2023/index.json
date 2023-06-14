@@ -139,6 +139,13 @@
                     "description": "<p>Apps Associates is a premier enterprise applications and technology advisor, counseling and executing across every stage of the enterprise transformation journey—not just the destination. For more than two decades, Apps Associates has closely collaborated with decision makers across nearly every industry, offering end-to-end integration, modernization, and cloud migration services. By helping to break down the silos within today’s most complex business challenges, Apps Associates is unlocking solutions and efficiencies that scale into future opportunities.</p>",
                     "logo": "/img/sponsors/2023/appassociates.png",
                     "url": "https://www.appsassociates.com/"
+                },
+                {
+                    "name": "Stony Point",
+                    "id": "stonypoint",
+                    "description": "<p>Stony Point is focused on the people who work with Salesforce.  We train technologists and end users.  Our software, Digadop, increases user adoption and productivity.  We connect Salesforce professionals with the companies who need them.</p>",
+                    "logo": "/img/sponsors/2023/stonypoint.png",
+                    "url": "https://www.stonyp.com"
                 }
             ]
         },
@@ -153,7 +160,7 @@
                 {
                     "name": "SharinPix",
                     "id": "sharinpix",
-                    "description": "<p>SharinPix apps make it possible to create and configure your own optimized use of images and PDFs in all your Salesforce business processes, without code!</p>",
+                    "description": "<p>Using Photos in Salesforce? It should be simple… SharinPix makes it easy!</p>",
                     "type": "Photo Booth",
                     "logo": "/img/sponsors/2023/sharinpix.png",
                     "url": "https://sharinpix.com"
