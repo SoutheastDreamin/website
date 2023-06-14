@@ -31,6 +31,28 @@
             ]
         },
         {
+            "title": "Whova",
+            "id": "whova",
+            "questions": [
+                {
+                    "question": "Where do I get Whova?",
+                    "answer": "Whova can be found in whatever app store you use for your mobile device.  You can access the app from <a href=\"{{ globals.whova_url }}\">your browser</a> but the native app is recommended."
+                },
+                {
+                    "question": "What invitation code do I use for Whova?",
+                    "answer": "An invitation code for Whova is not needed.  When you launch Whova app choose \"Sign Up / Sign In\" and enter the email address you registered with and press \"continue\".  This will start the login process and then you'll be presented with your active conferences.  If you are using the web application and have not generated a password, click \"Sign up here\" and create a password using the email address you used to register for the event"
+                },
+                {
+                    "question": "Why should I use Whova?",
+                    "answer": "Whova provides a place for you to build your conference schedule, connect with other conference attendees and get announcements from conference organizers."
+                },
+                {
+                    "question": "What if my email has changed or I can't use the email I registered with?",
+                    "answer": "If you are having issues logging into Whova please email <a href\"mailto:{{ globals.info_email }}\">{{ globals.info_email }}</a> with your full name and the email address you registered with.  Someone from the conference team will assist you."
+                }
+            ]
+        },
+        {
             "title": "Sessions & Hands-on Trainings",
             "id": "sessions",
             "questions": [
