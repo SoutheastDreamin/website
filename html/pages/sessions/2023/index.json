@@ -239,15 +239,28 @@
         "crear": {
             "bio": "",
             "company": "Hat-Trick Consulting",
-            "first_name": "Crear",
+            "first_name": "Aaron",
             "first_sed": false,
             "first_talk": false,
             "id": "crear",
             "image": "/img/sessions/2023/speakers/crear.jpg",
-            "last_name": "Aaron",
+            "last_name": "Crear",
             "mvp": false,
             "pronouns": "",
             "title": "Founder"
+        },
+        "pope": {
+            "first_name": "Cara",
+            "last_name": "Clanton Pope",
+            "id": "pope",
+            "pronouns": "She / Her",
+            "title": "CRM Analytics Program Manager",
+            "company": "Sercante",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/pope.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
         },
         "daniel": {
             "bio": "",
@@ -638,6 +651,19 @@
             "mvp": false,
             "pronouns": "She / Her",
             "title": "Director, Salesforce Marketing Cloud Practice Lead"
+        },
+        "norman": {
+            "first_name": "Zachary",
+            "last_name": "Norman",
+            "id": "norman",
+            "pronouns": "He / Him",
+            "title": "Marketing Cloud Developer",
+            "company": "Sercante",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/norman.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
         },
         "shanks": {
             "bio": "",
@@ -1148,7 +1174,7 @@
             "track": "marketing",
             "room": "conferencee",
             "slot": "slot5",
-            "speakers": ["stayman"]
+            "speakers": ["stayman", "pope"]
         },
         {
             "title": "LWCs, DevOps Center, and cMDTs walk into a bar, and it's not what UXpected",
@@ -1240,7 +1266,7 @@
             "track": "marketing",
             "room": "salon5and6",
             "slot": "hotslot2",
-            "speakers": ["schlau"]
+            "speakers": ["schlau", "norman"]
         },
         {
             "title": "Git-dy Up! And Let's Learn Git for Salesforce",
