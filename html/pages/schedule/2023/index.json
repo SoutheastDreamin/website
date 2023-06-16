@@ -14,6 +14,12 @@
                     "location": "Hallway"
                 },
                 {
+                    "start": "10:00 AM",
+                    "end": "7:00 PM",
+                    "title": "Expo",
+                    "location": "Conference A"
+                },
+                {
                     "start": "12:00 PM",
                     "end": "1:00 PM",
                     "title": "Kickoff & Demo Jam",
@@ -24,12 +30,6 @@
                     "end": "2:00 PM",
                     "title": "Lunch",
                     "location": ""
-                },
-                {
-                    "start": "10:00 AM",
-                    "end": "7:00 PM",
-                    "title": "Expo",
-                    "location": "Conference A"
                 },
                 {
                     "title": "Hands-on Training Session #1",
