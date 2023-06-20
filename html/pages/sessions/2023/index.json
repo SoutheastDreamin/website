@@ -833,6 +833,19 @@
             "mvp": false,
             "pronouns": "",
             "title": "Manager"
+        },
+        "degree": {
+            "first_name": "Django",
+            "last_name": "De Gree",
+            "id": "degree",
+            "pronouns": "",
+            "title": "SVP Public Sector AMER/APAC ECS",
+            "company": "Salesforce",
+            "bio": "",
+            "image": "/img/sessions/2023/speakers/degree.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
         }
     },
     "sessions": [
@@ -1333,6 +1346,6 @@
         "title": "Keynote",
         "abstract": "",
         "takeaway": "",
-        "speakers": []
+        "speakers": ["degree"]
     }
 }
