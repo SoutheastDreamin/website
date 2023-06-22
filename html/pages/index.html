@@ -22,6 +22,10 @@
                         <span class="">Mailing List</span>
                     </button>
                 </div>
+                {% if globals.display_volunteer_form %}
+                    {{ helpers.homepage_button(globals.volunteer_form, "fa-hands-helping", "Volunteer", globals.style_homepage_button) }}
+                {% endif %}
+
                 {% if globals.registration_open %}
                     {{ helpers.homepage_button(globals.registration_url, "fa-user-plus", "Register", globals.style_homepage_button) }}
                 {% endif %}

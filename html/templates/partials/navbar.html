@@ -24,6 +24,15 @@
         </div>
     </div>
     <div class="navbar-end">
+        {% if globals.display_volunteer_form %}
+        <div class="navbar-item">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a href="{{ globals.volunteer_form }}" class="button is-link">Volunteer</a>
+                </div>
+            </div>
+        </div>
+        {% endif %}
         {% if globals.display_sponsor_form %}
         <div class="navbar-item">
             <div class="navbar-item">
