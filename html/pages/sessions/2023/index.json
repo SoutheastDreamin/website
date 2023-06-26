@@ -678,18 +678,18 @@
             "pronouns": "He / Him",
             "title": "Salesforce Admin"
         },
-        "shepard": {
+        "boaz": {
             "bio": "",
-            "company": "Lizztech Consulting",
-            "first_name": "Melissa",
-            "first_sed": true,
+            "company": "Cloud Giants",
+            "first_name": "Amber",
+            "first_sed": false,
             "first_talk": false,
             "id": "shepard",
-            "image": "/img/sessions/2023/speakers/shepard.jpg",
+            "image": "/img/sessions/2023/speakers/boaz.jpg",
             "last_name": "Shepard",
-            "mvp": false,
-            "pronouns": "",
-            "title": "CEO & Principal Architect"
+            "mvp": true,
+            "pronouns": "She / Her",
+            "title": "Principal Salesforce Consulting Manager"
         },
         "sherman": {
             "bio": "",
@@ -1110,14 +1110,14 @@
             "speakers": ["thayer"]
         },
         {
-            "title": "Go with the Asynchronous Flow",
-            "abstract": "<p>There are multiple ways to create asynchronous automations using Flow. There are benefits to using asynchronous in certain scenarios such as for outbound integrations or on-platform processing where there’s heavy logic or large data volumes. In this session we will review the different ways to use Flow asynchronously and some common use cases. Participants will leave knowing how to create asynchronous automations using Flow and when they would want to use each method.</p>",
-            "id": "go-with-the-asynchronous-flow",
+            "title": "Ten ways to replace ineffective meetings with Slack",
+            "abstract": "<p>Meetings are often the figurative ball and chain that dictate schedules. Even worse, a lot of these meetings aren’t that productive or efficient.</p><p>If that sounds like your organization, join us as we talk about how Slack can help you to replace inefficient meetings with flexible alternatives through platform features.</p>",
+            "id": "ten-ways-to-replace-meetings-with-slack",
             "year": "2023",
-            "track": "admin",
+            "track": "exec",
             "room": "conferenceb",
             "slot": "slot4",
-            "speakers": ["shepard"]
+            "speakers": ["boaz"]
         },
         {
             "title": "Save the Day with Unit Tests",
