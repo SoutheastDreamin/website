@@ -48,7 +48,7 @@
     "lodash": "^4.17.21",
     "node-sass": "^8.0.0",
     "string-strip-html": "^8.3.0",
-    "stylelint": "^15.6.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-standard-scss": "^9.0.0",
     "yaml-lint": "^1.2.4"
   },
