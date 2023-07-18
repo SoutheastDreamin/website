@@ -29,9 +29,9 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v4
         if: github.ref == 'refs/heads/main'
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: dist
+          token: ${{ secrets.ACCESS_TOKEN }}
+          branch: gh-pages
+          folder: dist
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
         if: github.ref == 'refs/heads/main'
