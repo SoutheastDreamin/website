@@ -1,10 +1,2 @@
 {% set subtitle = "2022 Sponsors" %}
-{% extends "layout.html" %}
-{% import "partials/helpers.html" as helpers %}
-
-{% block content %}
-<h1>{{ data.sponsor_year }} Sponsors</h1>
-{% for level in data.sponsor_types %}
-    {{ helpers.sponsor_level(level, data.sponsor_year) }}
-{% endfor %}
-{% endblock %}
+{% include "sponsor_list.html" %}

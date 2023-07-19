@@ -1,0 +1,28 @@
+{% macro homepage_callout(icon, text) -%}
+    <div class="column is-3">
+        <div class="notification">
+            <i class="fas {{ icon }}"></i>
+            {{ text }}
+        </div>
+    </div>
+{%- endmacro %}
+
+{% macro homepage_button(url, icon, text, style) -%}
+    <div class="column is-4">
+        <a href="{{ url }}" class="{{ style }}">
+            <span class="icon">
+                <i class="fas {{ icon }}"></i>
+            </span>
+            <span class="pl-2">{{ text }}</span>
+        </a>
+    </div>
+{%- endmacro %}
+
+{% macro homepage_stat(heading, title) -%}
+    <div class="level-item has-text-centered">
+        <div>
+            <p class="heading">{{ heading }}</p>
+            <p class="title">{{ title }}</p>
+        </div>
+    </div>
+{%- endmacro %}

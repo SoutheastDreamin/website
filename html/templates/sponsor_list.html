@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% import "macros/sponsor.njk" as helpers %}
+
+{% block content %}
+    <div class="container mx-4">
+        {% if globals.display_sponsor_form %}<a class="button is-primary is-light is-small is-pulled-right" href="/sponsors/new/">Become a Sponsor</a>{% endif %}
+        <h1 class="title is-1">{{ data.sponsor_year }} Sponsors</h1>
+        {% for level in data.sponsor_types %}
+            {{ helpers.sponsor_level(level, data.sponsor_year) }}
+        {% endfor %}
+    </div>
+{% endblock %}

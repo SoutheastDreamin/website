@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% import "macros/staff.njk" as helpers %}
+
+{% block content %}
+    <div class="container px-4">
+        <section class="hero">
+            <p class="title">Team</h1>
+            <p class="subtitle">Our team works hard to bring the best event we can to you!</p>
+        </section>
+        <div class="columns is-multiline mt-6 is-hidden-mobile">
+            {% for m in data.team | sort(false, true, 'lastname') %}
+                {{ helpers.staffbio(m.firstname + ' ' + m.lastname, m.title, m.bio, m.image, m.links) }}
+            {% endfor %}
+        </div>
+        <div class="columns is-multiline mt-2 is-hidden-tablet">
+            {% set cls = cycler("left", "right") %}
+            {% for m in data.team | sort(false, true, 'lastname') %}
+                {{ helpers.staffbiomobile(m.firstname + ' ' + m.lastname, m.title, m.bio, m.image, m.links, cls.next()) }}
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

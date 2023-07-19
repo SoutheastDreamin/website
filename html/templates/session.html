@@ -9,7 +9,7 @@
 {% set opengraph_description = session.abstract | striptags | escape | truncate(130, false) %}
 
 {% extends "layout.html" %}
-{% import "partials/helpers.html" as helpers %}
+{% import "macros/session.njk" as helpers %}
 {% block content %}
     <div class="container mx-4">
         {{ helpers.session_display(session, speakers, rooms[session.room], tracks[session.track], time_slots[session.slot], true) }}

@@ -1,0 +1,28 @@
+{% import "macros/session.njk" as helpers_session %}
+
+{% macro keynote_block(keynote, speakers) %}
+    {% if keynote.abstract %}
+    <a id="keynote"></a>
+    <section class="hero mb-6">
+        <div class="hero-body pl-0">
+            <p class="title is-capitalized is-1">{{ keynote.title }}</p>
+            <p class="subtitle">{{ keynote.abstract }}</p>
+        </div>
+        <div class="ml-4 mb-6">
+            <p class="title is-capitalized is-3">Takeaways</p>
+            <div class="content">{{ keynote.takeaway | safe }}</div>
+        </div>
+        {% for speaker_id in keynote.speakers %}
+        <div class="section keynote-speaker">
+        <div class="columns">
+            <div class="column is-one-quarter">
+                {% set speaker = speakers[speaker_id] %}
+                {{ helpers_session.session_speaker(speaker) }}
+            </div>
+            <div class="column">{{ speaker.bio | safe }}</div>
+        </div>
+        </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+{%- endmacro %}

@@ -1,0 +1,89 @@
+{% macro session_speaker(speaker) -%}
+    <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="{{ speaker.image }}" alt="Photo of {{ speaker.first_name }} {{ speaker.last_name }}" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">{{ speaker.first_name }} {{ speaker.last_name }}</h1>
+                    <strong>{{ speaker.title }}</strong>
+                    <p>{{ speaker.company }}</p>
+                    {% if speaker.pronouns %}<span class="tag is-info is-light">{{ speaker.pronouns }}</span>{% endif %}
+                    {% if speaker.first_talk %}<span class="tag is-success is-light">First Talk</span>{% endif %}
+                    {% if speaker.first_sed %}<span class="tag is-success is-light">First SED</span>{% endif %}
+                    {% if speaker.mvp %}<span class="tag is-primary is-light">MVP</span>{% endif %}
+                </div>
+            </div>
+        </div>
+    </article>
+{%- endmacro %}
+
+{% macro session_display(session, speakers, room, track, time_slot, is_individual) -%}
+    <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            {% if is_individual %}
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="{{ session.id }}"></a>{{ session.title }}</h3>
+            {% else %}
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="{{ session.id }}" href="/sessions/{{ session.year }}/{{ session.id }}">{{ session.title }}</a></h3>
+            {% endif %}
+            {% if time_slot and is_individual %}<h4 class="subtitle is-size-6 has-text-weight-bold">{{ time_slot.start }} - {{ time_slot.end }}</h4>{% endif %}
+            {% if room %}<h4 class="subtitle is-size-6 has-text-weight-bold">{{ room.name }}</h4>{% endif %}
+            {% if track %}<span class="tag is-{{ session.track }} is-light">{{ track.name }}</span>{% endif %}
+            <div class="content mt-4 pl-5">{{ session.abstract | safe }}</div>
+        </div>
+        <div class="column">
+            {% for speaker in session.speakers %}
+                {{ session_speaker(speakers[speaker]) }}
+            {% endfor %}
+        </div>
+    </div>
+{%- endmacro %}
+
+{% macro sessions(slots, rooms, tracks, speakers, sessions) -%}
+    {% for name, slot in slots %}
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="{{ name }}"></a>{{ slot.name }}</h2>
+        <h3 class="subtitle is-size-4">{{ slot.start }} - {{ slot.end }}</h3>
+        {% for session in sessions | where("slot", name) %}
+            {{ session_display(session, speakers, rooms[session.room], tracks[session.track]) }}
+        {% endfor %}
+    {% endfor %}
+{%- endmacro %}
+
+{% macro session_image(session) -%}
+    {% if session.speakers | length == 1 %}
+        <a href="/img/sessions/{{ session.year }}/{{ session.id }}.png"><object data="/img/sessions/{{ session.year }}/{{ session.id }}.png" type="image/png" title="Social image for session"></object></a>
+    {% else %}
+        {% for speaker in session.speakers %}
+            <a href="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker }}.png"><object data="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker }}.png" type="image/png" title="Social image for session branded for {{ speaker }}"></object></a>
+        {% endfor %}
+    {% endif %}
+{%- endmacro %}
+
+{% macro room_table(slots, rooms, tracks, sessions) %}
+    {% set room_list = sessions | map("room") | uniq | sort %}
+
+    <table class="table is-fullwidth is-hidden-mobile is-bordered">
+        <thead>
+            <tr>
+                <th></th>
+                {% for room in room_list %}
+                    <th class="has-text-centered">{{ rooms[room].name }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for slot_name, slot in slots %}
+                <tr>
+                    <td class="has-text-centered is-vcentered has-text-weight-bold">{{ slot.name }}</td>
+                    {% for room in room_list %}
+                        {% set row_sessions = sessions | where("slot", slot_name) | where("room", room) %}
+                        <td class="has-background-{{ row_sessions[0].track }} has-text-centered is-vcentered"><a href="#{{ row_sessions[0].id }}" class="has-text-dark">{{ row_sessions[0].title }}</a></td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{%- endmacro %}

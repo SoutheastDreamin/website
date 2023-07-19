@@ -1,0 +1,44 @@
+{% macro scheduletable(events, slots) -%}
+    <table class="table is-striped is-fullwidth is-hidden-mobile">
+        <thead>
+            <tr>
+                <th></th>
+                <th class="has-text-centered">Location</th>
+                <th class="has-text-centered">Start Time</th>
+                <th class="has-text-centered">End Time</th>
+            <tr>
+        </thead>
+        <tbody>
+            {% for e in events %}
+            {% set start = e.start if not e.slot else slots[e.slot].start  %}
+            {% set end = e.end if not e.slot else slots[e.slot].end  %}
+            <tr>
+                {% if e.slot %}
+                    <td><a href="#{{ e.slot }}">{{ e.title }}</a></td>
+                {% elif e.anchor %}
+                    <td><a href="#{{ e.anchor }}">{{ e.title }}</a></td>
+                {% else %}
+                    <td>{{ e.title }}</td>
+                {% endif %}
+                <td class="has-text-centered">{{ e.location }}</td>
+                <td class="has-text-centered">{{ start }}</td>
+                <td class="has-text-centered">{{ end }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{%- endmacro %}
+
+{% macro schedulemobile(events, slots) -%}
+    <div class="is-hidden-tablet">
+        {% for e in events %}
+        {% set start = e.start if not e.slot else slots[e.slot].start  %}
+        {% set end = e.end if not e.slot else slots[e.slot].end  %}
+        <div class="mt-5 ">
+            <p>{{ start }} - {{ end }}</p>
+            {% if e.slot %}<p class="pl-4 is-size-4"><a href="#{{ e.slot }}">{{ e.title }}</a></p>{% else %}<p class="pl-4 is-size-4">{{ e.title }}</p>{% endif %}
+            <p class="pl-4 has-text-grey">{{ e.location }}</p>
+        </div>
+        {% endfor %}
+    </div>
+{%- endmacro %}
