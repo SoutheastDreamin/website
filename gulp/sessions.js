@@ -49,6 +49,7 @@ function find_session_dirs() {
 function handle_session(read_this, rooms, tracks, time_slots, speakers, session) {
     return new Promise(function (resolve) {
         nunjucks.configure(constants.getNunjucksConfig().path);
+
         const data = {
             session: session,
             speakers: speakers,
@@ -112,7 +113,7 @@ function handle_dirs(read_this, directories) {
             promises.push(handle_dir_bound(directory));
         });
 
-        Promise.all(promises)
+        Promise.allSettled(promises)
             .then(resolve)
             .catch(reject);
     });
@@ -123,12 +124,22 @@ function handle_dirs(read_this, directories) {
  * @returns {Object} The stream
  */
 function generate_sessions() {
+    let has_read = false;
     const stream_opts = {
         objectMode: true
     };
     const src = stream.Readable(stream_opts);
 
     src._read = function () {
+        // No clue why this needs to be here but it reads multiple times
+        // and causes it to try to push after the EOF.  Bailing early
+        // fixes it
+        if (has_read === true) {
+            return;
+        }
+
+        has_read = true;
+
         const read_this = this;
         const handle_dirs_bound = handle_dirs.bind(null, read_this);
 
