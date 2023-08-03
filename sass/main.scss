@@ -166,15 +166,19 @@ footer {
     height: 100vh;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .scrollspy__display {
     position: fixed;
     top: 0;
     display: none;
     width: 100%;
     background-color: $white;
+
+    /* stylelint-disable-next-line unit-allowed-list */
     max-width: 1314px;
 }
 
+/* stylelint-disable-next-line selector-class-pattern */
 .scrollspy__display_active {
     display: inline;
 }
