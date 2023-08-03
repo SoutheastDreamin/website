@@ -165,3 +165,16 @@ footer {
     width: 100%;
     height: 100vh;
 }
+
+.scrollspy__display {
+    position: fixed;
+    top: 0;
+    display: none;
+    width: 100%;
+    background-color: $white;
+    max-width: 1314px;
+}
+
+.scrollspy__display_active {
+    display: inline;
+}

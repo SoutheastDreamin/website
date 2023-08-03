@@ -81,11 +81,13 @@
     },
     "hot_time_slots": {
         "hotslot1": {
+            "id": "hotslot1",
             "name": "Hands-on Training Session #1",
             "start": "2:15 PM",
             "end": "3:45 PM"
         },
         "hotslot2": {
+            "id": "hotslot2",
             "name": "Hands-on Training Session #2",
             "start": "4:00 PM",
             "end": "5:30 PM"
@@ -93,26 +95,31 @@
     },
     "session_time_slots": {
         "slot1": {
+            "id": "slot1",
             "name": "Breakout Session #1",
             "start": "9:45 AM",
             "end": "10:30 AM"
         },
         "slot2": {
+            "id": "slot2",
             "name": "Breakout Session #2",
             "start": "10:45 AM",
             "end": "11:30 AM"
         },
         "slot3": {
+            "id": "slot3",
             "name": "Breakout Session #3",
             "start": "2:15 PM",
             "end": "2:40 PM"
         },
         "slot4": {
+            "id": "slot4",
             "name": "Breakout Session #4",
             "start": "2:55 PM",
             "end": "3:20 PM"
         },
         "slot5": {
+            "id": "slot5",
             "name": "Breakout Session #5",
             "start": "3:35 PM",
             "end": "4:20 PM"
