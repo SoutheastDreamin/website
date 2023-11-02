@@ -11,7 +11,7 @@
             <h2 class="title is-3"><a id="{{ section.id }}"></a>{{ section.title | safe }}</h2>
             <dl>
                 {% for question in section.questions %}
-                <dt class="title is-5 mt-4 mb-1">{{ question.question | safe }}</dt>
+                <dt class="title is-5 mt-4 mb-1">{{ question.question | replace("{{ globals.full_refund_date }}", globals.full_refund_date) | safe }}</dt>
                 <dd>{{ question.answer |
                     replace("{{ globals.cfp_notifdate }}", globals.cfp_notifdate) |
                     replace("{{ globals.cfp_enddate }}", globals.cfp_enddate) |
