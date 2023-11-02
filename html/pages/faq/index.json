@@ -6,27 +6,35 @@
             "questions": [
                 {
                     "question": "Where is Southeast Dreamin' being held?",
-                    "answer": "Southeast Dreamin’ will be held at the <a href=\"https://www.gatechhotel.com/\">Georgia Tech Hotel and Conference Center</a> in Atlanta Georgia. Discounted <a href=\"{{ globals.hotel_url }}\">hotel rooms</a> are available."
-                },
-                {
-                    "question": "How can I get my ticket?",
-                    "answer": "Tickets are available on our <a href=\"{{ globals.registration_url }}\">registration page</a>. Once tickets are sold out we will not have a waitlist. Any available tickets will be released every Tuesday before the event at 6pm ET. There will be no onsite ticket sales."
-                },
-                {
-                    "question": "Are meals included?",
-                    "answer": "Lunch as well as all day snacks and beverages will be available on the first day, {{ globals.event_day_one_number }}. Food and beverage will be available at the networking reception that evening. The second day, {{ globals.event_day_two_number }}, will include breakfast and lunch as well as all day snacks (including coffee, tea, water, and sodas)."
-                },
-                {
-                    "question": "How can I volunteer at the event?",
-                    "answer": "Throughout the event we will have opportunities for members of the community to volunteer their time and energy. Currently we do not have any specific opportunities, but we will announce some on our social media channels soon."
+                    "answer": "Southeast Dreamin’ will be held at the <a href=\"https://www.gatechhotel.com/\">Georgia Tech Hotel and Conference Center</a> in Atlanta Georgia on Thursday, June 27th - Friday, June 28th, 2024. Discounted <a href=\"{{ globals.hotel_url }}\">hotel rooms</a> are available. And any changes or cancellations with the hotel should be done with the hotel directly."
                 },
                 {
                     "question": "What is the closest airport to the event?",
                     "answer": "The closest airport is Hartsfield-Jackson Atlanta International Airport (ATL) located 19mi from the event venue."
                 },
                 {
+                    "question": "How can I get my ticket?",
+                    "answer": "250 tickets are available on our <a href=\"{{ globals.registration_url }}\">registration page. </a>Once tickets are sold out, no additional tickets will be released and there will be <b>NO ONSITE TICKET SALES</b>."
+                },
+                {
                     "question": "What is your ticket refund policy?",
-                    "answer": "<ul><li>All registration cancellation requests or registration transfer requests must be received via email. Please send your cancellation notice to: <a href=\"mailto:{{ globals.registration_email }}\">{{ globals.registration_email }}</a>.</li><li>For a full refund, the registration cancellation request must be received by noon ET {{ globals.full_refund_date }}. Please allow 5 business days for refund requests to be processed.</li><li>No refunds will be given after noon ET {{ globals.full_refund_date }}.</li><li>If you are unable to attend Southeast Dreamin’, you may transfer your registration to another person. Requests for registration transfers must be received via email no later than noon ET {{ globals.transfer_date }}. Please email your transfer request, along with the name and email address of the person to whom you are transferring your registration to: <a href=\"mailto:{{ globals.registration_email }}\">{{ globals.registration_email }}</a>.</li></ul><br />For Hotel Reservation Cancellations, please contact your hotel directly, as they have differing cancellation policies."
+                    "answer": "Ticket registration cancellation requests must be received via email to <a href=\"mailto:{{ globals.registration_email }}\">{{ globals.registration_email }}</a>. For a full refund, the registration cancellation request must be received by <b>11:59 pm ET {{ globals.full_refund_date }}</b>. Please allow 5 business days for refund requests to be processed. No refunds will be given after <b>11:59 pm ET {{ globals.full_refund_date }}</b> for any reason."
+                },
+                {
+                    "question": "Can I transfer my ticket?",
+                    "answer": "<p>Yes, but the request must be received via email by <b>11:59 pm ET {{ globals.full_refund_date }}</b>. Requests received after that date will be rejected.</p><p>Please email <a href=\"mailto:{{ globals.registration_email }}\">{{ globals.registration_email }}</a> with the subject line <i>SED24 Ticket Transfer</i> and the additional information below. If the email does not contain the below information, the request will not be processed.</p><ul><li>Original attendee's confirmation </li><li>New attendee's First and Last Name</li><li>New attendee's email address</li><li>New Attendee's Title</li><li>New Attendee's company</li><li>New Attendee's dietary restrictions or accommodations</li></ul>"
+                },
+                {
+                    "question": "Why am I not able to cancel or transfer my ticket after {{ globals.full_refund_date }}?",
+                    "answer": "The Southeast Dreamin team fully recognizes that life happens and plans change. Unfortunately, we cannot honor processing requests after this date to ensure a high quality experience. Following that date, all conference materials are printed and the team is not able to accommodate changes. "
+                },
+                {
+                    "question": "Are meals included?",
+                    "answer": "Lunch as well as all day snacks and beverages will be available on the first day, Thursday {{ globals.event_day_one_number }}. Food and beverage will be available at the networking reception the evening of {{ globals.event_day_one_number }}. The second day, Friday, {{ globals.event_day_two_number }}, will include breakfast and lunch as well as all day snacks (including coffee, tea, water, and sodas)."
+                },
+                {
+                    "question": "How can I volunteer at the event?",
+                    "answer": "If you are interested in volunteering at the conference, please review our Volunteer FAQ page to learn more about available roles and responsibilities before submitting a volunteer application. Applications will not be accepted after Friday, {{ globals.volunteer_deadline }}."
                 }
             ]
         },
@@ -44,7 +52,7 @@
                 },
                 {
                     "question": "Why should I use Whova?",
-                    "answer": "Whova provides a place for you to build your conference schedule, connect with other conference attendees and get announcements from conference organizers."
+                    "answer": "Whova provides a place for you to build your conference schedule, connect with other conference attendees and get announcements from conference organizers.</p><p>After Friday, {{ globals.whova_comms_date }}, all communication from the organizers will be sent via Whova.</p>"
                 },
                 {
                     "question": "What if my email has changed or I can't use the email I registered with?",
@@ -57,12 +65,16 @@
             "id": "sessions",
             "questions": [
                 {
+                    "question": "How long are submissions for sessions and hands-on training open?",
+                    "answer": "Submissions will be open from Friday, {{ globals.cfp_startdate }} - Friday,  {{ globals.cfp_enddate }}.</p><p>The link for submission will become available in December 2023.</p>"
+                },
+                {
                     "question": "How are sessions selected?",
                     "answer": "After {{ globals.cfp_enddate }} a group of Southeast Dreamin’ team members will be sent an anonymized list of session titles, abstracts and session tracks.  The members will then assign a score from 1 to 5, with 5 being the highest, to each session.  These votes will then be averaged together and applied to the session information.  The session selection team will then pick from the highest rated sessions to build a rounded schedule that provides enough sessions for each track.  After the sessions have been selected, we will review the session speakers to try to ensure that we give community members the most opportunities to present."
                 },
                 {
                     "question": "When will sessions be announced?",
-                    "answer": "Sessions will be posted to the schedule page after {{ globals.cfp_notifdate }} and after all speakers have been confirmed."
+                    "answer": "Sessions will be posted to the schedule page after {{ globals.cfp_postdate }} and after all speakers have been confirmed."
                 },
                 {
                     "question": "How will sessions be announced?",
@@ -79,16 +91,20 @@
             "id": "hotel",
             "questions": [
                 {
+                    "question": "What is the hotel address?",
+                    "answer": "800 Spring St. NW, Atlanta, GA 30308 ​"
+                },
+                {
                     "question": "Is there parking at the hotel?",
                     "answer": "Daily self parking is covered for the days of the event. For attendees not staying overnight, a sticker voucher will be provided at conference registration. For overnight attendees booked through the conference's room block, parking will be discounted to $10 per night and will be handled at the hotel check-in.  The garage is accessible near the hotel's main entrance at Spring St. NW and Armstead Pl NW (across from Barnes & Noble) or via the garage entrance at Spring St NW and 4th St NW."
                 },
                 {
                     "question": "How do I reserve a hotel room?",
-                    "answer": "Southeast Dreamin' has a block of <a href=\"{{ globals.hotel_url }}\">hotel rooms</a> provided by the venue for a discounted rate."
+                    "answer": "Southeast Dreamin' has a block of <a href=\"{{ globals.hotel_url }}\">hotel rooms</a> provided by the venue for a discounted rate. Rooms are available on a first come, first serve basis. The link expires Friday, {{ globals.hotel_expiredate }}."
                 },
                 {
                     "question": "What's the best way to get to the hotel from the airport?",
-                    "answer": "You can take a taxi or rideshare to the hotel from the airport however, traffic in the Atlanta area is notoriously bad and can be significantly longer than the advertised 40 minute drive. There is a MARTA stop located within walking distance from the hotel that should take approximately 20 minutes to take. Simply take the red or gold line from the airport to the North Avenue station. Exit the station and travel 0.5mi north along West Peachtree Street NE and turn left onto Armstead Pl NW to the hotel."
+                    "answer": "You can take a taxi or rideshare to the hotel from the airport however, traffic in the Atlanta area is notoriously bad and can be significantly longer than the advertised 40 minute drive. There is a MARTA stop located within walking distance from the hotel that should take approximately 20 minutes to take. Simply take the red or gold line from the airport to the <a href=\"https://www.google.com/maps/place/Marta+Station+North+Avenue/@33.7735833,-84.3905017,16.79z/data=!4m15!1m8!3m7!1s0x88f5045d6993098d:0x66fede2f990b630b!2sAtlanta,+GA!3b1!8m2!3d33.748752!4d-84.3876845!16zL20vMDEzeXE!3m5!1s0x88f5046ed16caebb:0x5c4640dc4e5c99d5!8m2!3d33.7717014!4d-84.3870393!16zL20vMGNrNG05?entry=ttu\">North Avenue station</a>. Exit the station and <a href=\"https://www.google.com/maps/dir/Marta+Station+North+Avenue,+713+W+Peachtree+St+NW,+Atlanta,+GA+30308/Georgia+Tech+Hotel+and+Conference+Center/@33.7742422,-84.3907344,17z/am=t/data=!3m2!4b1!5s0x88f504664a0ffa71:0xb70e3b938218bb20!4m13!4m12!1m5!1m1!1s0x88f5046ed16caebb:0x5c4640dc4e5c99d5!2m2!1d-84.3870393!2d33.7717014!1m5!1m1!1s0x88f504668dbafc53:0xac760b611b8971d2!2m2!1d-84.3892796!2d33.7763024?entry=ttu\">travel 0.5mi north</a> along West Peachtree Street NE and turn left onto Armstead Pl NW to the hotel."
                 },
                 {
                     "question": "How do I access the WiFi?",

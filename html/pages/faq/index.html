@@ -15,15 +15,23 @@
                 <dd>{{ question.answer |
                     replace("{{ globals.cfp_notifdate }}", globals.cfp_notifdate) |
                     replace("{{ globals.cfp_enddate }}", globals.cfp_enddate) |
+                    replace("{{ globals.cfp_startdate }}", globals.cfp_startdate) |
+                    replace("{{ globals.cfp_postdate }}", globals.cfp_postdate) |
+                    replace("{{ globals.hot_notifdate }}", globals.hot_notifdate) |
+                    replace("{{ globals.hot_enddate }}", globals.hot_enddate) |
+                    replace("{{ globals.hot_startdate }}", globals.hot_startdate) |
                     replace("{{ globals.event_day_one_number }}", globals.event_day_one_number) |
                     replace("{{ globals.event_day_two_number }}", globals.event_day_two_number) |
                     replace("{{ globals.hotel_url }}", globals.hotel_url) |
+                    replace("{{ globals.hotel_expiredate }}", globals.hotel_expiredate) |
                     replace("{{ globals.registration_url }}", globals.registration_url) |
                     replace("{{ globals.full_refund_date }}", globals.full_refund_date) |
                     replace("{{ globals.transfer_date }}", globals.transfer_date) |
                     replace("{{ globals.registration_email }}", globals.registration_email) |
                     replace("{{ globals.info_email }}", globals.info_email) |
                     replace("{{ globals.whova_url }}", globals.whova_url) |
+                    replace("{{ globals.volunteer_deadline }}", globals.volunteer_deadline) |
+                    replace("{{ globals.whova_comms_date }}", globals.whova_comms_date) |
                     safe
                 }}</dd>
                 {% endfor %}
