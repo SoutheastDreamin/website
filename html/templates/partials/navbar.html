@@ -24,22 +24,25 @@
         </div>
     </div>
     <div class="navbar-end">
+        {% if globals.display_header_volunteer %}
+        <div class="navbar-item">
+            <div class="buttons">
+                <a href="/volunteer" class="button is-primary">Volunteer</a>
+            </div>
+        </div>
+        {% endif %}
         {% if globals.display_sponsor_form %}
         <div class="navbar-item">
-            <div class="navbar-item">
-                <div class="buttons">
-                    <a href="/sponsors/new" class="button is-link">Become a Sponsor</a>
-                </div>
+            <div class="buttons">
+                <a href="/sponsors/new" class="button is-link">Become a Sponsor</a>
             </div>
         </div>
         {% endif %}
         {% if globals.registration_open %}
         <div class="navbar-item">
-            <div class="navbar-item">
-                <div class="buttons">
-                    <a href="{{ globals.registration_url }}" class="button is-link">Register</a>
-                    <a href="{{ globals.hotel_url }}" class="button is-light is-link">Hotel</a>
-                </div>
+            <div class="buttons">
+                <a href="{{ globals.registration_url }}" class="button is-link">Register</a>
+                <a href="{{ globals.hotel_url }}" class="button is-light is-link">Hotel</a>
             </div>
         </div>
         {% endif %}
