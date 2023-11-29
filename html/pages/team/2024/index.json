@@ -1,0 +1,125 @@
+{
+    "team": [
+        {
+            "firstname": "Kelly",
+            "lastname": "Spaulding",
+            "title": "Senior Digital Marketing Strategist and Sponsor Wrangler",
+            "bio": "<p>Trying to learn all things Salesforce and Pardot.  Fascinated by block chain technology.  Lover of yoga, coffee, and travel.</p>",
+            "image": "/img/team/kellys.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/kellyspaulding"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/kelly-spaulding-517807/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/kspaulding"
+                }
+            ]
+        },
+        {
+            "firstname": "Patrick",
+            "lastname": "Connelly",
+            "title": "Session Wrangler & Code Tamer",
+            "bio": "<p>Patrick has been writing code since he could first type (BASIC on the Commodore 64).  In 2009 Patrick was asked to \"help with this Salesforce thing since you know coding\" and the rest is history.  This set him on the track to lead the RDU Developer user group, becoming a Salesforce MVP in 2013 and speaking multiple times at Dreamforce and various Salesforce webinars.</p><p>When Patrick isn't writing code for work he's writing code for \"fun\", <a href=\"https://www.flickr.com/photos/grepsy/\">photographing things</a>, <a href=\"https://www.printables.com/@PatrickConnelly/models\">3d printing things</a>, making things of wood and building things out of electronics.</p>",
+            "image": "/img/team/pcon.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/aelst"
+                },
+                {
+                    "icon": "fas fa-blog",
+                    "link": "https://blog.deadlypenguin.com"
+                },
+                {
+                    "icon": "fas fa-globe",
+                    "link": "https://connelly.dev"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/pub/patrick-connelly/28/6b3/b56/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/pcon"
+                }
+            ]
+        },
+        {
+            "firstname": "Chris",
+            "lastname": "Zullo",
+            "title": "Bad Marketer",
+            "bio": "<p>Salesforce MVP, Marketing Champion, and Partner. Transplanted Bostonian. Family guy. Dogs > cats.</p>",
+            "image": "/img/team/chris.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/chriszullo"
+                },
+                {
+                    "icon": "fas fa-blog",
+                    "link": "https://chriszullo.wordpress.com/"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/zullochristopher/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/chriszullo"
+                }
+            ]
+        },
+        {
+            "firstname": "Karmel",
+            "lastname": "James",
+            "title": "Magic Marketer & Resident Adult",
+            "bio": "<p>A #AwesomeAdmin, Marketing Champion, and Golden Hoodie winner that listens to music constantly like a fish lives in water. Avid learner of ASL (#LearnFromDeafTeachers) and seamstress of bespoke dresses.</p>",
+            "image": "/img/team/karmel.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/armejam44"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/karmelnjames/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/karmelnjames"
+                }
+            ]
+        },
+        {
+            "firstname": "Amber",
+            "lastname": "Boaz",
+            "title": "Other duties as assigned",
+            "bio": "<p>Amber entered the Salesforce universe in late 2008 and was immediately smitten. Since then she has passed <a href=\"https://trailblazer.me/id/amberboaz\">14 certification exams</a>, founded or co-founded 5 user groups (Nonprofit UG, Dev Meetup, Architect, Women In Tech, & Slack), started a weekly <a href=\"https://www.meetup.com/RTP-Salesforce-Saturday/\">Salesforce Saturday</a> in central NC, and is a 8 time Dreamforce speaker. Amber has been a Salesforce.com MVP since 2011.</p><p>Amber is always looking for ways to help organizations streamline their processes. She has worked with Fortune 500 organizations, startups, nonprofits, and everything in between. When not Salesforce-ing, Amber enjoys walking her dog <a href=\"https://www.instagram.com/rangerboaz/\">Ranger</a> in her hometown of Durham NC, tweeting (@amber9904), community theater, and spending time with her nieces. Amber can be bribed with chocolate cake or gin.</p>",
+            "image": "/img/team/amber.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/amber9904"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/amberboaz/"
+                },
+                {
+                    "icon": "fas fa-blog",
+                    "link": "https://www.amber9904.com"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/amberboaz"
+                }
+            ]
+        }
+    ]
+}
