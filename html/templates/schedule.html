@@ -11,7 +11,7 @@
         window.HOTEL_MAP_HEIGHT = '{{ data.map.height }}';
     </script>
     <link rel="stylesheet" href="/css/leaflet.css">
-    <div class="container mx-4">
+    <div class="content mx-4">
         <h1 class="title is-1">Schedule</h1>
         {% if not globals.schedule_finalized %}<h2 class="subtitle is-6">This schedule has not been finalized and may be subject to change</h2>{% endif %}
         {% for d in data.general_schedule %}

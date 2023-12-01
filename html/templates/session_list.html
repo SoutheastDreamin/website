@@ -2,7 +2,7 @@
 {% import "macros/session.njk" as helpers %}
 
 {% block content %}
-    <div class="container mx-4">
+    <div class="content mx-4">
         <h1 class="title is-1">Sessions</h1>
         {%- set sessions = concat(data.sessions, data.hots) %}
         {%- set time_slots = merge(data.hot_time_slots, data.session_time_slots) %}
