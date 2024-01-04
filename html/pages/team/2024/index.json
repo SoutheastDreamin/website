@@ -120,6 +120,23 @@
                     "link": "https://trailblazer.me/id/amberboaz"
                 }
             ]
+        },
+        {
+            "firstname": "Dee",
+            "lastname": "Hamori",
+            "title": "Keynote Wrangler",
+            "bio": "<p>Dee is a former pharmacist turned Salesforce Architect. From the very beginning of her Salesforce journey, Dee has been captivated by the world of automation, and she continues to channel this passion into transforming businesses, one Flow at a time. She actively supports the Salesforce community by mentoring career changers and leading Salesforce Saturday meetups. Dee shares her Salesforce insights through articles and conference talks.</p><p>Beyond her professional life, she finds joy in tending to her plant collection, exploring the great outdoors in national parks, reading, and painting.</p>",
+            "image": "/img/team/dee.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/dengyue-hamori/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://www.salesforce.com/trailblazer/deehamori"
+                }
+            ]
         }
     ]
 }
