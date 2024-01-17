@@ -1,6 +1,7 @@
+{% import "_globals.html" as globals %}
 {% set subtitle = "Call for Presentations" %}
 {% set opengraph_title = "Southeast Dreamin' &mdash; Call for Presentations" %}
-{% set opengraph_description = "We're excited to see what you've got!  Submit your presentation before March 17th." %}
+{% set opengraph_description = "We're excited to see what you've got!  Submit your presentation before " + globals.cfp_enddate %}
 {% extends "layout.html" %}
 
 {% block content %}
