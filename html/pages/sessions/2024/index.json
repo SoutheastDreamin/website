@@ -1,9 +1,1202 @@
 {
-    "rooms": {},
-    "tracks": {},
-    "hot_time_slots": {},
-    "session_time_slots": {},
-    "speakers": {},
-    "sessions": [],
+    "rooms": {
+        "salon1": {
+            "name": "Salon I",
+            "occupancy": 77
+        },
+        "salon2": {
+            "name": "Salon II",
+            "occupancy": 77
+        },
+        "salon3and4": {
+            "name": "Salon III & IV",
+            "occupancy": 360
+        },
+        "salon3": {
+            "name": "Salon III",
+            "occupancy": 80
+        },
+        "salon4": {
+            "name": "Salon IV",
+            "occupancy": 80
+        },
+        "salon5": {
+            "name": "Salon V",
+            "occupancy": 77
+        },
+        "salon6": {
+            "name": "Salon VI",
+            "occupancy": 77
+        },
+        "conference2": {
+            "name": "Conference 2",
+            "occupancy": 70
+        },
+        "conference4": {
+            "name": "Conference 4",
+            "occupancy": 70
+        },
+        "conferenceb": {
+            "name": "Conference B",
+            "occupancy": 144
+        },
+        "conferencee": {
+            "name": "Conference E",
+            "occupancy": 80
+        }
+    },
+    "tracks": {
+        "admin": {
+            "name": "Administrators",
+            "type": "is-admin",
+            "background": "has-background-admin"
+        },
+        "marketing": {
+            "name": "Marketing",
+            "type": "is-marketing",
+            "background": "has-background-marketing"
+        },
+        "end-user": {
+            "name": "End Users",
+            "type": "is-end-user",
+            "background": "has-background-end-user"
+        },
+        "architect": {
+            "name": "Architects",
+            "type": "is-architect",
+            "background": "has-background-architect"
+        },
+        "dev": {
+            "name": "Developers",
+            "type": "is-dev",
+            "background": "has-background-dev"
+        },
+        "exec": {
+            "name": "Executives",
+            "type": "is-exec",
+            "background": "has-background-exec"
+        },
+        "nonprofit": {
+            "name": "Non-Profit",
+            "type": "is-nonprofit",
+            "background": "has-background-nonprofit"
+        },
+        "business": {
+            "name": "Business Analyst",
+            "type": "is-business",
+            "background": "has-background-business"
+        }
+    },
+    "hot_time_slots": {
+        "hotslot1": {
+            "id": "hotslot1",
+            "name": "Hands-on Training Session #1",
+            "start": "2:15 PM",
+            "end": "3:45 PM"
+        },
+        "hotslot2": {
+            "id": "hotslot2",
+            "name": "Hands-on Training Session #2",
+            "start": "4:00 PM",
+            "end": "5:30 PM"
+        }
+    },
+    "session_time_slots": {
+        "slot1": {
+            "id": "slot1",
+            "name": "Breakout Session #1",
+            "start": "9:45 AM",
+            "end": "10:30 AM"
+        },
+        "slot2": {
+            "id": "slot2",
+            "name": "Breakout Session #2",
+            "start": "10:45 AM",
+            "end": "11:30 AM"
+        },
+        "slot3": {
+            "id": "slot3",
+            "name": "Breakout Session #3",
+            "start": "2:15 PM",
+            "end": "2:40 PM"
+        },
+        "slot4": {
+            "id": "slot4",
+            "name": "Breakout Session #4",
+            "start": "2:55 PM",
+            "end": "3:20 PM"
+        },
+        "slot5": {
+            "id": "slot5",
+            "name": "Breakout Session #5",
+            "start": "3:35 PM",
+            "end": "4:20 PM"
+        }
+    },
+    "speakers": {
+        "acrear": {
+            "first_name": "Aaron",
+            "last_name": "Crear",
+            "id": "acrear",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "acrosman": {
+            "first_name": "Aaron",
+            "last_name": "Crosman",
+            "id": "acrosman",
+            "pronouns": "He / Him",
+            "title": "Technical Architect",
+            "company": "Costal Cloud",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/acrosman.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "aerstelle": {
+            "first_name": "Adam",
+            "last_name": "Erstelle",
+            "id": "aerstelle",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "afreund": {
+            "first_name": "Abbey",
+            "last_name": "Freund",
+            "id": "afreund",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "astyles": {
+            "first_name": "Amanda",
+            "last_name": "Styles",
+            "id": "astyles",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "awilson": {
+            "first_name": "Andrew",
+            "last_name": "Wilson",
+            "id": "awilson",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "bfanning": {
+            "first_name": "Beth",
+            "last_name": "Fanning",
+            "id": "bfanning",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "bowens": {
+            "first_name": "Brian",
+            "last_name": "Owens",
+            "id": "bowens",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "cude": {
+            "first_name": "Chris",
+            "last_name": "Ude",
+            "id": "cude",
+            "pronouns": "",
+            "title": "Director of RevOps",
+            "company": "Provisions Group",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/cude.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "cweidman": {
+            "first_name": "Connie",
+            "last_name": "Weidman",
+            "id": "cweidman",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "dpirollo": {
+            "first_name": "Debbie",
+            "last_name": "Pirollo",
+            "id": "dpirollo",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "drodriguez": {
+            "first_name": "Danny",
+            "last_name": "Rodriguez",
+            "id": "drodriguez",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "dsoileau": {
+            "first_name": "Daniel",
+            "last_name": "Soileau",
+            "id": "dsoileau",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "dyadav": {
+            "first_name": "Dinesh",
+            "last_name": "Yadav",
+            "id": "dyadav",
+            "pronouns": "He / Him",
+            "title": "Sr. Solution Architect",
+            "company": "IBM",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/dyadav.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "eduncan": {
+            "first_name": "Erin",
+            "last_name": "Duncan",
+            "id": "eduncan",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "efalk": {
+            "first_name": "Em",
+            "last_name": "Falk",
+            "id": "efalk",
+            "pronouns": "They / Them",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "egray": {
+            "first_name": "Ed",
+            "last_name": "Gray",
+            "id": "egray",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "fkleinman": {
+            "first_name": "Federico",
+            "last_name": "Kleinman",
+            "id": "fkleinman",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "gjuarez": {
+            "first_name": "Gabriel",
+            "last_name": "Juarez",
+            "id": "gjuarez",
+            "pronouns": "",
+            "title": "Salesforce Tech Lead",
+            "company": "Tero",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/gjuarez.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "jdaniel": {
+            "first_name": "John M.",
+            "last_name": "Daniel",
+            "id": "jdaniel",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "jruse": {
+            "first_name": "Joey",
+            "last_name": "Ruse",
+            "id": "jruse",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "kforte": {
+            "first_name": "Ko",
+            "last_name": "Forte",
+            "id": "kforte",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "khillyer": {
+            "first_name": "Kuldip",
+            "last_name": "Hillyer",
+            "id": "khillyer",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "kschlau": {
+            "first_name": "Kirsten",
+            "last_name": "Schlau",
+            "id": "kschlau",
+            "pronouns": "",
+            "title": "VP of Technology",
+            "company": "Sercante",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/kschlau.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "lporter": {
+            "first_name": "Liv",
+            "last_name": "Porter",
+            "id": "lporter",
+            "pronouns": "",
+            "title": "Head of Operations",
+            "company": "Cloud Adoption Solutions",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/lporter.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "lroberts": {
+            "first_name": "Leslie",
+            "last_name": "Roberts",
+            "id": "lroberts",
+            "pronouns": "She / Her",
+            "title": "Consultant",
+            "company": "LR consulting LLC",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/lroberts.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "madkins": {
+            "first_name": "Margaret",
+            "last_name": "Adkins",
+            "id": "madkins",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "mbrown": {
+            "first_name": "Mirela",
+            "last_name": "Brown",
+            "id": "mbrown",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "mdellapia": {
+            "first_name": "Marie-Angela",
+            "last_name": "Della Pia",
+            "id": "mdellapia",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "mdees": {
+            "first_name": "Melissa",
+            "last_name": "Hill Dees",
+            "id": "mdees",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "mdiegelman": {
+            "first_name": "Meagan",
+            "last_name": "Diegelman",
+            "id": "mdiegelman",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "mhansen": {
+            "first_name": "Michelle",
+            "last_name": "Hansen",
+            "id": "mhansen",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "mshepard": {
+            "first_name": "Melissa",
+            "last_name": "Shepard",
+            "id": "mshepard",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "mshrivastava": {
+            "first_name": "Mohith",
+            "last_name": "Shrivastava",
+            "id": "mshrivastava",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "rcammisa": {
+            "first_name": "Ryan",
+            "last_name": "Cammisa",
+            "id": "rcammisa",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "rdavis": {
+            "first_name": "Robert",
+            "last_name": "Davis",
+            "id": "rdavis",
+            "pronouns": "",
+            "title": "Salesforce Solution Architect",
+            "company": "Hike2",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/rdavis.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "rozimek": {
+            "first_name": "Ryan",
+            "last_name": "Ozimek",
+            "id": "rozimek",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "rsingh": {
+            "first_name": "Rubin",
+            "last_name": "Singh",
+            "id": "rsingh",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "sbaxter": {
+            "first_name": "Sarah",
+            "last_name": "Baxter",
+            "id": "sbaxter",
+            "pronouns": "She / Her",
+            "title": "Administrator",
+            "company": "Barbershop Harmony Society",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/sbaxter.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "shabib": {
+            "first_name": "Sabah",
+            "last_name": "Habib",
+            "id": "shabib",
+            "pronouns": "",
+            "title": "",
+            "company": "Slalom Consulting",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/shabib.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "ssimpson": {
+            "first_name": "Steve",
+            "last_name": "Simpson",
+            "id": "ssimpson",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "svyas": {
+            "first_name": "Sumeet",
+            "last_name": "Vyas",
+            "id": "svyas",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "swilliams": {
+            "first_name": "Sean",
+            "last_name": "Williams",
+            "id": "swilliams",
+            "pronouns": "",
+            "title": "Sr Consultant",
+            "company": "Slalom",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/swilliams.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "trucker": {
+            "first_name": "Tasha",
+            "last_name": "Rucker",
+            "id": "trucker",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
+        "tzulkarnine": {
+            "first_name": "Tahsin",
+            "last_name": "Zulkarnine",
+            "id": "tzulkarnine",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
+        "xlisinski": {
+            "first_name": "Xavery",
+            "last_name": "Lisinski",
+            "id": "xlisinski",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        },
+        "zlang": {
+            "first_name": "Zach",
+            "last_name": "Lang",
+            "id": "zlang",
+            "pronouns": "He / Him",
+            "title": "Sr. Director Technology",
+            "company": "Digital Additive",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/zlang.jpg",
+            "first_sed": true,
+            "first_talk": true,
+            "mvp": false
+        }
+    },
+    "sessions": [
+        {
+            "title": "Salesforce Careers & The Neurodivergent",
+            "abstract": "<p>While being ADHD, autistic, or dealing with other mental health disorders can be challenging there are also upsides. Let's explore how us Neurodivergents can harness our creativity, pattern recognition, empathy, and resilience to be successful in the Salesforce ecosystem.</p>",
+            "id": "salesforce-careers-and-the-neurodivergent",
+            "year": "2024",
+            "track": "marketing",
+            "room": "conference2",
+            "slot": "slot2",
+            "speakers": ["egray"]
+        },
+        {
+            "title": "Five Tips Every Admin Should Know about Visual Studio Code",
+            "abstract": "<p>Salesforce Administrators needs and tasks change quickly. Visual Studio Code can be the 'go to' tool that can make those tasks easier. You will discover five tips that will make Visual Studio Code the only tool you need to:</p><ul><li>Load data into a custom metadata</li><li>Connect to Salesforce Orgs and Moving metadata</li><li>Comparing text files for differences</li><li>Formatting JSONs</li><li>Creating SOQL Queries in a user friendly UI</li></ul>",
+            "id": "admin-visual-studio-code-tips",
+            "year": "2024",
+            "track": "admin",
+            "room": "salon3and4",
+            "slot": "slot1",
+            "speakers": ["rdavis"]
+        },
+        {
+            "title": "Why My Dog Has More Followers Than Your Process",
+            "abstract": "<p>Do you ever onboard new employees? Does one employee’s work connect to another’s? Does your work impact a customer?  If so, you are running crucial processes.  The problem is, sometimes people don’t actually follow the process that’s outlined – OR those processes aren’t outlined in the first place.</p><p>No matter the situation, we’ll workshop how to map your process, and identify 3 ways to maximize process adoption.</p><p>By the end of this workshop, you’ll have to tools to:</p><ul><li>Map your process at a high level</li><li>Evaluate end user awareness of processes</li><li>Validate process gates against the customer experience</li><li>Measures inputs vital to your buyer’s journey</li></ul>",
+            "id": "why-my-dog-has-more-followers-then-your-process",
+            "year": "2024",
+            "track": "business",
+            "room": "salon2",
+            "slot": "slot5",
+            "speakers": ["lporter"]
+        },
+        {
+            "title": "Architect’s Guide to Data Modeling in Data Cloud",
+            "abstract": "<p>Explore essential principles of data modeling in Data Cloud, empowering architects with the knowledge to design robust, scalable data solutions. It is important for architects to understand the foundational data modeling concepts when working with the new Data Cloud. It is critical to get this right when first starting with your Data Cloud design. This is a new cloud and with it comes a new architecture for architects to learn and build. Join us to learn data modeling for this modern architecture.</p>",
+            "id": "architects-guide-to-data-modeling-in-data-cloud",
+            "year": "2024",
+            "track": "marketing",
+            "room": "salon5",
+            "slot": "slot3",
+            "speakers": ["mshepard"]
+        },
+        {
+            "title": "Are you an Effective Communicator?",
+            "abstract": "<p>Is your communication effective?  Now that you have the salesforce knowledge, do your soft skills match?</p><p>When you are leading Discovery or Requirement sessions ... are you?</p><ul><li>Constantly interrupted and challenged?</li><li>Faced with a firing squad of questions?</li><li>Maybe you have participants focused on sidebar conversations about the weekend or upcoming vacation plans.</li><li>Or worse!  Attendees are quiet and don't seem to participate in discussions?</li></ul><p>I don't know about you - but these types of situations make me feel intimidated!</p><p>As an Admin, <abbr title=\"Project Manager\">PM</abbr>, <abbr title=\"Solution Architect\">SA</abbr>, a <abbr title=\"Business Analyst\">BA</abbr>, really anyone who deals with a project team, ensuring your communication is effective plays an important part in the success of a project.</p><p>In this session we will explore the four key types of Communication Styles:</p><ul><li>RED - the bullseye communicator, bottom line, cut the red tape, results driven.</li><li>YELLOW - the social butterfly, influencer, captivating story teller.</li><li>GREEN - the analytical process oriented, question asking, problem solver.</li><li>BLUE - the peacemaker, loyal, dedicated, heads down worker who avoids conflict.</li></ul><p>Discover how to effectively communicate with each style:</p><ul><li>Both verbally and in written formats</li><li>What are their strengths? weakness?</li><li>Anticipate their reactions when they are stressed or faced with a difficult situation.</li><li>Identify your own style and learn: (A) to communicate with someone that is opposite to your style. and (B) not to take their communication style personally.</li></ul><p>People often say you need to be a PROFESSIONAL Communicator. I disagree.  Being an EFFECTIVE Communicator is where the magic happens.</p>",
+            "id": "are-you-an-effective-communicator",
+            "year": "2024",
+            "track": "admin",
+            "room": "conferenceb",
+            "slot": "slot5",
+            "speakers": ["dpirollo"]
+        },
+        {
+            "title": "Holy Documentation, Batman! How a Simple Template Can Be Your Salesforce Robin",
+            "abstract": "<p>Documenting changes to your org can feel like a waste of time when you have busy days and tight deadlines. It is all too tempting to leave documentation for later...or never. This session is for solo admins or small teams that might not have the resources or time to implement a paid tool or complex process. The best documentation we can do is the kind we'll do consistently...so let's keep it simple and functional. In this session I'll share the templates that have become my favorite project sidekick. These templates are helpful from project start to finish - and best of all - the documentation gets created along the way so it's ready to roll when you are. Let's hop in the Bat Mobile and discover how documentation can be the Robin to your Salesforce Batman! </p>",
+            "id": "holy-documentation-batman",
+            "year": "2024",
+            "track": "admin",
+            "room": "salon3and4",
+            "slot": "slot3",
+            "speakers": ["mdellapia"]
+        },
+        {
+            "title": "Moving From Admin to Strategic Advisor",
+            "abstract": "<p>How do you catch the attention of your company executives quickly? In this session I’ll show you how I’ve moved my career from a behind the scenes admin to a strategic advisor to executives at some of the largest companies in the world. Here are some of the topics we’ll talk about:</p><ul><li>How to identify your executives’ goals</li><li>Tactics to align your work to their goals</li><li>Perfect your storytelling</li><li>Presentations executives care about</li><li>Creative ways to show off your accomplishments</li></ul>",
+            "id": "moving-from-admin-to-strategic-advisor",
+            "year": "2024",
+            "track": "admin",
+            "room": "conferenceb",
+            "slot": "slot2",
+            "speakers": ["mdiegelman"]
+        },
+        {
+            "title": "Plan Ahead with Salesforce: Tips for Admins",
+            "abstract": "<p>Ideal for Beginner Admins (or up to Intermediate Admins with little support) this session provides a grab bag of tips and tricks to make life as an Admin easier by showing how to plan ahead with Salesforce. There are many struggles as an Admin, including but not limited to, keeping an eye on data usage and storage, and frequently being surprised by release schedules that always seem to conflict with internal project needs. This short session includes tips on how to address issues such as: Planning for Releases efficiently, Keeping an eye on licenses and Data Storage, Planning ahead to move away from technology that will be retired (like field level permissions on profiles), Working with Stakeholders honestly and effectively on Projects, and Using Setup Audit Trail or Scheduled Exports to keep data that may need to be referenced in the future. Admins who attend this session should walk away with a better idea of how to leverage Salesforce to help them plan ahead for company needs.</p>",
+            "id": "plan-ahead-with-salesforce",
+            "year": "2024",
+            "track": "admin",
+            "room": "salon3and4",
+            "slot": "slot4",
+            "speakers": ["lroberts"]
+        },
+        {
+            "title": "Going Global: One Account Engagement Form, Multiple Languages",
+            "abstract": "<p>Multilingual Account Engagement forms improve reporting and translation. Learn how to create a single form that is displayed in multiple languages, without sacrificing reporting or ease of use.</p>",
+            "id": "going-global",
+            "year": "2024",
+            "track": "marketing",
+            "room": "salon5",
+            "slot": "slot4",
+            "speakers": ["aerstelle"]
+        },
+        {
+            "title": "Salesforce CPQ - Data Migration Challenges and Best Practices",
+            "abstract": "<p>The session will help Salesforce admins tasked with Salesforce CPQ implementation</p><ol><li>Learn common challenges encountered during data migration in a CPQ implementation.</li><li>Explore CPQ data migration approaches and methodologies.</li><li>Understand practical insights for best practices for a successful CPQ data migration.</li></ol>",
+            "id": "salesforce-cpq-data-migration-challenges-and-best-practices",
+            "year": "2024",
+            "track": "admin",
+            "room": "conferenceb",
+            "slot": "slot3",
+            "speakers": ["dyadav"]
+        },
+        {
+            "title": "What is Change Intelligence and why every Org needs one?",
+            "abstract": "<p>Everyone has heard of 'DevOps'. Salesforce platform owners universally recognize the need for robust deployment tools. However, there is another management domain that is quickly getting traction in the Salesforce ecosystem: change intelligence.</p><p>#1 Problem experienced by every Salesforce team is understanding how the system is put together, why and then applying that knowledge to implement new solutions. In this session we will discuss what Change Intelligence is and what capabilities you need to build alignment with stakeholders and bring value to your end users faster.</p>",
+            "id": "what-is-change-intelligence",
+            "year": "2024",
+            "track": "exec",
+            "room": "salon2",
+            "slot": "slot3",
+            "speakers": ["xlisinski"]
+        },
+        {
+            "title": "Dynamic Default Field Values? It's possible with CMDT & Flow",
+            "abstract": "<p>Join this session for a deep dive into how you can set dynamic default field values on records, basically creating record templates, using Custom Metadata & Flow-complete with a use case illustrating the power of this declarative pattern.</p><p>Custom metadata is a little known and rarely used tool in the declarative Admin's toolkit, but it's exceptionally versatile and powerful. By combining this powerhouse with Flow, we can both inform and inspire the audience, showing them both the flexibility and possibilities they can bring to their orgs.</p>",
+            "id": "dynamic-default-field-values",
+            "year": "2024",
+            "track": "admin",
+            "room": "salon3and4",
+            "slot": "slot2",
+            "speakers": ["mhansen"]
+        },
+        {
+            "title": "Unveiling Insights: Navigating the 'Why' in Discovery Sessions",
+            "abstract": "<p>In this session, we delve into the unique challenges and opportunities faced by Business Analysts within Salesforce projects, emphasizing the critical nature of understanding the 'Why' behind requirements, processes, and stakeholder decisions. Through real-world scenarios and practical insights, participants will gain a deep understanding of how navigating the 'Why' can enhance their role as catalysts for successful Salesforce project outcomes.</p><p>From stakeholder interviews to requirement elicitation, we explore methodologies and techniques specifically tailored for Business Analysts operating in the Salesforce ecosystem. Uncover strategies to decode the motivations behind customization requests, user adoption challenges, and business process optimizations. Learn how leveraging the 'Why' can empower Business Analysts to drive meaningful change and deliver solutions that resonate with both business objectives and end-user needs.</p><p>Whether you're a seasoned Business Analyst specializing in Salesforce or a professional eager to enhance your analytical skills within the platform, this session provides a focused exploration of the 'Why' from a Business Analyst's lens. Join us in navigating the intricacies of Salesforce discovery sessions and discover how unlocking the 'Why' can redefine the success of your Salesforce projects.</p>",
+            "id": "unveiling-insights",
+            "year": "2024",
+            "track": "business",
+            "room": "salon2",
+            "slot": "slot1",
+            "speakers": ["madkins"]
+        },
+        {
+            "title": "Building Alignment: How to craft a B2B Salesforce + Account Engagement Strategy for success",
+            "abstract": "<p>An effective B2B strategy for CRM and Marketing Automation helps create value for your current and prospective accounts.  This session will walk through everything we need with Salesforce CRM to build alignment with Marketing Cloud Account Engagement to build a winning strategy.  We will cover the How-To's and review the alignment checklist for your company's Sales and Marketing strategy in 2024.</p>",
+            "id": "building-alignment",
+            "year": "2024",
+            "track": "marketing",
+            "room": "salon5",
+            "slot": "slot2",
+            "speakers": ["rcammisa"]
+        },
+        {
+            "title": "Fire & Forget: The Power and Limitations of Streaming API",
+            "abstract": "<p>The event bus is a powerful tool for asynchronously communicating changes from one place to another, but there are some gotchas to keep in mind before planning a solution around it.</p><p>Join this session to learn:</p><ul><li>How the event bus functions</li><li>Overview of the first and second generation streaming options (generic events, push topics, change data capture, platform events)</li><li>Comparison of internal (flow/trigger), external (cometD / pubsub), and empApi (lightning) clients</li><li>Platform limits and error handling to be aware of</li><li>Live demo of publishing and consuming events through internal/external clients</li></ul>",
+            "id": "fire-and-forget",
+            "year": "2024",
+            "track": "dev",
+            "room": "conferencee",
+            "slot": "slot2",
+            "speakers": ["dsoileau"]
+        },
+        {
+            "title": "CPQ for Salesforce 101 - What Are Your Options?",
+            "abstract": "<p>CPQ for Salesforce can mean all sorts of things - from Simples Quotes to Complex Proposals.</p><p>This session is to provide a foundational understanding of all the options available for CPQ for Salesforce.</p><p>We will cover the various ways businesses do CPQ for Salesforce</p><ol><li>Basic (via Standard Salesforce objects)<ul><li>Using Salesforce Opportunities w/Opportunity Products</li><li>Using Salesforce Quotes</ul></ul></li><li>Light CPQ<ul><li>Using Standard Salesforce objects with AppExchange Apps</li></ul></li><li>External CPQ<ul><li>Using External CPQ / Quoting Apps that Integrate with Salesforce</li></ul></li><li>Native CPQ<ul><li>Using Native CPQ Apps that are Built in Salesforce</li></ul></li></ol>",
+            "id": "cpq-for-salesforce-101",
+            "year": "2024",
+            "track": "exec",
+            "room": "salon1",
+            "slot": "slot1",
+            "speakers": ["khillyer"]
+        },
+        {
+            "title": "Nonprofit Cloud: Leverage Industry Features includes in NPC",
+            "abstract": "<p>The change from Nonprofit Success Pack to Nonprofit Industry Cloud doesn't come without some growing pains, but the benefits are significant.  Get the most out of all the bells and whistles that come out of the box with Industry Clouds.   Today we will cover some of the most beneficial features: Action Plans, Actionable Relationship Center, Interaction Summaries, and Omnistudio Scrips and Document Generation.</p>",
+            "id": "nonprofit-cloud",
+            "year": "2024",
+            "track": "nonprofit",
+            "room": "conference4",
+            "slot": "slot2",
+            "speakers": ["cweidman"]
+        },
+        {
+            "title": "Getting a lot of data into Salesforce: Migrations at Scale",
+            "abstract": "<p>Data Migration is one of the most important things to get right to ensure a successful Salesforce implementation. Whether it's your initial launch, migrating in a new team, or even loading data from someone's rogue Access database, being able to add data to your org quickly is critical.</p><p>But migrating data to SF can be tough, even for seasoned pros. </p><p>We'll dive into how to create efficient processes for large data volumes. We'll talk about tools and techniques that allow you to create efficient processes for loading lots of records without days of downtime. When we're done you'll have the outline you need to create your own high speed process.</p>",
+            "id": "getting-a-lot-of-data-into-salesforce",
+            "year": "2024",
+            "track": "dev",
+            "room": "conference2",
+            "slot": "slot3",
+            "speakers": ["acrosman"]
+        },
+        {
+            "title": "Demystifying Pub/Sub API",
+            "abstract": "<p>Learn how to leverage the power of this modern infrastructure and transition to event-driven architectures building with confidence.</p><p>After more than a year of being Generally Available, Pub/Sub API has proven to be a top-notch solution for event-driven integrations in distributed architectures. Thanks to the consolidation of subscription, publishing, and description into a single interface, along with improved performance and all the other benefits, it's easier to develop scalable and real-time solutions.</p><p>We want to share our lessons learned and show the tools we've created to facilitate the adoption and simplify the implementation, deployment, and maintenance even more.</p><p>We also include benchmarking tests to demonstrate why Pub/Sub API is a real option to consider when communicating between systems.</p>",
+            "id": "demystifying-pub-sub-api",
+            "year": "2024",
+            "track": "dev",
+            "room": "conferencee",
+            "slot": "slot4",
+            "speakers": ["gjuarez", "fkleinman"]
+        },
+        {
+            "title": "Hyper Growth - Creating Structures for Scale",
+            "abstract": "<p>In this dynamic and fast-paced era of business evolution, the pursuit of hyper-growth is a common aspiration. However, the key challenge lies in not only achieving accelerated expansion but also architecting the right structures, both strategic and infrastructural, that can sustain and enhance this growth. Insert Salesforce here, your customer 360.</p><p>Jumping into an exploration of strategic planning in preparing organizations for hyper-growth, execs can produce the all essential practical guidance on aligning long-term goals with flexible and scalable frameworks.</p><p>Planning and strategy are great, but how then do you build a team and tech to support the scale you’re planning for? Harnessing the power of technology and automation to streamline operations for seamless scalability is essential. Speaking specifically to my experience, during the session we take a deep dive into the process. Starting from planning, into execution and what outcome that was, I experienced leading an Operations team heading for IPO.</p><p>It’s easy to get caught up in growth and squeeze your existing team through the escalation period. Maintaining a customer-centric approach, diligently creating a reassessment of risks, and setting strategies to ensure customer satisfaction remains a priority amid organizational expansion.</p><p>Topic Summary</p><ul><li>How do hyper-growth companies plan and execute 2x, 3x 5x growth and what does that look like?</li><li>How can I plan now for what’s to come?</li><li>Operations can often see the future, how do we do this and what can you do to set the right goals</li><li>Building flexible, indestructible frameworks that can expand with your business</li><li>What tech do you have in place, how do you manage it and what should you think about? Why do we still recommend that Salesforce be at the center of everything</li></ul><p>As execs, we sometimes forget what it was like on the front line. Setting realistic expectations for your team, leading with empathy first planning, and watching the deep impact this has on growth </p>",
+            "id": "hyper-growth",
+            "year": "2024",
+            "track": "exec",
+            "room": "conferenceb",
+            "slot": "slot1",
+            "speakers": ["efalk"]
+        },
+        {
+            "title": "Low Code/No Code Digital Transformation: Harnessing the Power of the AppExchange to Drive Innovation",
+            "abstract": "<p>This session aims to transform your perspective on digital innovation in niche industries. Learn from the remarkable transformation of a leading tree care firm, which skyrocketed its growth by 30% year-over-year through their unique Salesforce solution. This presentation will guide you through the strategic selection and integration of low/no-code tools with Salesforce, automating processes from job proposals through the full customer lifecycle.  Ideal for those in specialized sectors, this session will help attendees broaden their perspective on how best to harness the power of Salesforce for unparalleled growth and efficiency.</p><p>Learning objectives:</p><ul><li>How to find and evaluate third-party applications for unique use cases</li><li>Ensuring tools you're using are scalable and when possible, effective for more than one use case</li><li>Managing stakeholder expectations and having difficult conversations when necessary</li></ul>",
+            "id": "low-code-no-code-digital-transformation",
+            "year": "2024",
+            "track": "admin",
+            "room": "salon6",
+            "slot": "slot3",
+            "speakers": ["bfanning"]
+        },
+        {
+            "title": "System Governance With the 4-C's",
+            "abstract": "<p>Are you an Admin trying to work through a never-ending list of requests from users and executives within your organization? Do you often find yourself working on conflicting priorities that require you to either perform a delicate political dance or even create solutions you know will eventually fail? Is everything always the top priority (and therefore you don’t know what actually is?) Do you feel like you don’t have the agency or empowerment to innovate Salesforce intentionally and strategically? Well, then you will want to attend this session. During this session, we will review the 4-Cs of successful System Governance.</p><ol><li>Commitment<li>Communication<li>Collaboration<li>Consistency</li></ol><p>Attendees will learn how the 4-C’s can alleviate many organizational failures when innovating on the Salesforce platform. Understanding and incorporating the 4-C’s will not only create a clear path to success but also foster an environment where Salesforce can be responsive to the growing needs of your organization. As an added bonus, attendees will be provided with a Google folder that will include various templates and resources to help you successfully implement and maintain a Governance strategy using the 4-Cs.</p>",
+            "id": "system-gonvernance-with-the-4-cs",
+            "year": "2024",
+            "track": "admin",
+            "room": "conferenceb",
+            "slot": "slot4",
+            "speakers": ["drodriguez"]
+        },
+        {
+            "title": "Decoding BPM: From Bottlenecks to Breakthroughs",
+            "abstract": "<p>Embark on a transformative journey into the dynamic realm of Business Process Maps (BPM). Navigating the landscape of BPM is essential for organizations seeking to enhance operational efficiency, identify bottlenecks, and optimize workflows. In this session, we will demystify BPM, offering practical insights, best practices, and real-world applications to empower you in optimizing processes. This hands-on session will go beyond the basics, equipping you with the knowledge and skills to harness the full potential of Business Process Maps. Whether you're new to BPM or seeking to deepen your expertise, this session promises to be a valuable exploration into the world of process optimization.</p><p>Key Features:</p><ol><li>Distinguishing BPM from Workflow Charts: Gain an understanding of how BPM differs from traditional workflow charts. Uncover the unique capabilities of BPM in providing a holistic view of organizational processes.</li><li>Strategic Use of BPM Shapes: Navigate the nuances of BPM shapes and understand when and where to deploy them effectively. Learn how the strategic placement of shapes contributes to creating comprehensive and actionable process maps.</li><li>Process Maps as Requirement Gathering Tools: Explore the untapped potential of process maps in the requirement-gathering process. Learn how to extract valuable insights from BPM, bridging the gap between business and IT to drive successful project outcomes.</li></ol>",
+            "id": "decoding-bpm",
+            "year": "2024",
+            "track": "business",
+            "room": "salon2",
+            "slot": "slot2",
+            "speakers": ["bowens"]
+        },
+        {
+            "title": "Operationalizing Customer success using renewals and amendments",
+            "abstract": "<p>Salesforce can help operationalize the Customer Success journey during expand phase with amendments and also lead to on-time renewals resulting in increased revenue and customer loyalty.</p><p>Retaining and growing customer base is even more important today due to current economic conditions and increased competition. For a typical SaaS, company Renewal can account for upto 65%  of Revenue, while expansion can account for upto 10% of Revenue.</p><p>Salesforce can be leveraged to provide actionable prescriptive customer data during the customer success journey:</p><ol><li>Customer health scores can be deduced in Salesforce in the dimensions of adoption, engagement, and performance, which will help customer success teams to Retain/Expand customers and forecast revenue</li><li>Retain: Salesforce renewals process can be automated during the sales cycle to make it no-touch or automatic renewals for lower tier customer segments while hand hold highest tier customers and keep mid-tier as semi-automated. This way, energy and focus will be on the most valued customers. To manage contracts merge contracts, split contracts, transfer asset etc tools can make the renewals process even more efficient.</li><li>Expand: Salesforce amendments along with Customer history, buying patterns and product bundles can be used to provide actionable Upsell/Cross sell opportunities</li></ol>",
+            "id": "operationalizing-customer-success",
+            "year": "2024",
+            "track": "exec",
+            "room": "conference2",
+            "slot": "slot4",
+            "speakers": ["svyas"]
+        },
+        {
+            "title": "Congratulations, You’ve Gone Live! Now What?",
+            "abstract": "<p>After hundreds of Salesforce implementations, there’s one thing we’re sure of - the success of your rollout heavily depends on how well you prepare for post-go-live. And where many organizations think their support plan will suffice, product issues are rarely where organizations get tripped up in the first few months. So what can you do to make sure you’re still celebrating after go-live? Join us for a discussion on the crucial topic of post-implementation governance for Salesforce implementations. We'll cover practical ways to ensure your system is evolving along with your organization. By implementing effective post-implementation governance, nonprofits can maximize the impact of their Salesforce implementation and better serve their mission.</p>",
+            "id": "congratulations-youve-gone-live",
+            "year": "2024",
+            "track": "admin",
+            "room": "salon3and4",
+            "slot": "slot5",
+            "speakers": ["rsingh"]
+        },
+        {
+            "title": "Postcards from the Frontier: Practical considerations for implementing AI in the real world",
+            "abstract": "<p>Over the last year AI has taken the world by storm, including a deluge of new AI-related product announcements from Salesforce. At the same time, news headlines have been flooded with stories of 'AI gone wrong' making many reluctant to release something that may jeopardize the security of their data or betray their brand. In this session two co-presenters share practical guidance around solution design, system architecture, and delivery methodology through the demonstration of AI solutions living and breathing in the real world today. After the session, participants should feel inspired and equipped to jump in and begin safely experimenting with the power of AI for their business.</p><p>Learning Objectives:</p><li>Identify key capabilities of LLMs to supercharge your business including: summarization, translation, and sentiment analysis.</li><li>Understand the key personas to consider when designing Gen-AI solutions and how to leverage AI tools to supercharge your ability to engineer and refine persona-specific prompts.</li><li>Demonstrate how a modular, RAG-based architecture enables key benefits such as an ability to easily switch between LLMs and enhance the general knowledge of an AI-powered bot with data specific to your company and use case.</li><li>Assess the skills necessary to support an AI solution following go-live.</li><li>Discuss critical data and ethical considerations for bringing a new AI solution to market and how to build in appropriate guardrails to avoid a PR nightmare.</li></ol>",
+            "id": "postcards-from-the-frontier",
+            "year": "2024",
+            "track": "exec",
+            "room": "salon1",
+            "slot": "slot2",
+            "speakers": ["swilliams", "jruse"]
+        },
+        {
+            "title": "Boost Your Developer Productivity with Modern Developer Tools",
+            "abstract": "<p>In this hands-on session, we will explore modern Salesforce development tools that can boost your productivity. We'll learn how to use Code Builder, Salesforce's web-based IDE, to streamline writing Apex code and building applications. Einstein for Developers, an AI assistant, will be demonstrated to show how it can generate components of applications automatically. Apex Guru Insights provides intelligent Apex code analysis on demand - we'll use it to improve existing code quality and performance. Finally, Code Analyzer checks for security vulnerabilities  - we'll run it against a sample app and resolve the findings. By the end of this session, you'll be equipped to turn these tools on in your orgs and integrate them into your daily development workflows for faster delivery of higher quality code. The focus is on maximizing practical skills and use cases.</p>",
+            "id": "boost-your-developer-productivity-with-modern-developer-tools",
+            "year": "2024",
+            "track": "dev",
+            "room": "conference2",
+            "slot": "slot5",
+            "speakers": ["mshrivastava"]
+        },
+        {
+            "title": "Creative Strategies for Squeezing the Most Out of the New Nonprofit Cloud for Fundraising",
+            "abstract": "<p>With Salesforce pointing all of its energy towards the new Nonprofit Cloud, we're going to gently waive bon-voyage to the NPSP for fundraising, and squarely focus on the future of this brand new technology.  Transform your fundraising approach with creative and innovative strategies. Discover how to leverage Salesforce for engaging potential donors, managing campaigns, and creating a fun, interactive donor experience that not only raises funds but also builds lasting relationships. We'll cover an overview of Nonprofit Cloud for Fundraising module, compare it to the NPSP, talk about feature-specific insights, share benefits for fundraising and development professionals, and walk-through real-time outcome reporting for better visibility in your data.  It's an action packed session for any nonprofit leader or consultant that manages fundraising data in Salesforce.</p>",
+            "id": "creative-strategies-for-squeezing-the-most-out-of-the-new-nonprofit-cloud-for-fundraising",
+            "year": "2024",
+            "track": "nonprofit",
+            "room": "conference4",
+            "slot": "slot5",
+            "speakers": ["rozimek"]
+        },
+        {
+            "title": "RevOps: What is it? Why do I need it? and How do I start?",
+            "abstract": "<p>In an era where siloed business functions impede growth, RevOps emerges as the linchpin for organizational success. This succinct talk is designed to equip executives with a clear understanding of RevOps - what it is, why it is indispensable, and how to embark on this transformative journey.</p><p>Defining RevOps:</p><ul><li>Unpacking the concept of Revenue Operations – the integration of sales, marketing, and customer success to drive revenue maximization.</li><li>Understanding the pivotal role RevOps plays in breaking down departmental barriers for streamlined collaboration.</li></ul><p>Why RevOps Matters:</p><ul><li>Exploring the inherent challenges of disjointed operations and the financial impact on businesses.</li><li>Illustrating how RevOps acts as a catalyst for efficiency, revenue growth, and improved customer experiences.</li></ul><p>Building the Foundation:</p><ul><li>Providing actionable steps for executives to initiate the RevOps journey within their organizations.</li><li>Identifying the key components of a successful RevOps strategy and the technology infrastructure required.</li><li>Offering guidance on the immediate next steps for executives keen on implementing RevOps within their companies.</li></ul><p>Attendees can expect to leave this session with a comprehensive understanding of RevOps, armed with actionable insights to initiate strategic transformations within their organizations.</p>",
+            "id": "revops-what-is-it",
+            "year": "2024",
+            "track": "exec",
+            "room": "salon1",
+            "slot": "slot3",
+            "speakers": ["cude"]
+        },
+        {
+            "title": "Reporting Snapshots in Four Easy Steps",
+            "abstract": "<p>Being able to compare how our pipeline of Opps, Leads or Cases over differ time periods is a valuable predictive analytics tool. With standard reports we can see what records are open and what closes at different intervals, but we can't easily compare what records were open last week vs this week. These insights can provide intelligence to help plan for upticks or downticks in manufacturing, outreach and resource allocation. This session will show you how to accomplish this by building a baseline report, a custom object, a scheduled analytic snapshot and a comparison dashboard.</p>",
+            "id": "reporting-snapshots-in-four-easy-steps",
+            "year": "2024",
+            "track": "admin",
+            "room": "salon6",
+            "slot": "slot1",
+            "speakers": ["acrear"]
+        },
+        {
+            "title": "Navigating Privacy Compliance in Salesforce Marketing Cloud: A Case Study with OneTrust Integration",
+            "abstract": "<p>In this session, uncover the nuances of maintaining privacy compliance while integrating third-party platforms for enhanced data security. We’ll delve into a challenging project completed last year for a prominent media company managing several rental property listing sites with a combined monthly traffic of 16 million visitors. The core issue addressed was maintaining compliance with the California Consumer Privacy Act (CCPA) and similar privacy laws, through an innovative integration with Salesforce Marketing Cloud.</p><p>Key Points:</p><ol><li>Client Background: Introduction to the client - a major media company with significant online traffic, emphasizing the scale and relevance of the project.</li><li>Challenge Overview: Detailed explanation of the compliance challenges related to CCPA, highlighting the need for a robust solution within Salesforce Marketing Cloud.</li>zvOneTrust Integration: Overview of the OneTrust platform, explaining its role in ensuring data security and its integration with Salesforce Marketing Cloud.</li><li>Dual-Purpose Solution: Description of the two-fold solution involving CloudPages - one for handling records requests and the other for delete requests.</li><ul><li>Records Request: Explaining the script's functionality in processing JSON data, extracting information, and generating CSV reports using SSJS and AMPscript.</li><li>Delete Request: Detailing the script's role in data flow management, including extracting values from JSON, storing them in Data Extensions, and executing contact deletion operations through API authentication.</li></ul></li><li>Workflow Walkthrough: Presentation of the workflow with generic, redacted screenshots of the OneTrust system. An in-depth explanation of the code and its functionalities.</li><li>Technological Ensemble: Highlighting the comprehensive use of Salesforce Marketing Cloud features like CloudPages, SSJS, AMPscript, Data Extensions, Contact Deletion, and WSProxy for SOAP API calls.</li></ol><p>Key Takeaways:</p><ul><li>Understanding the intricacies of maintaining privacy compliance within Salesforce Marketing Cloud.</li><li>Insights into integrating third-party platforms like OneTrust for enhanced data security.</li><li>Practical knowledge on creating and implementing complex workflows using various Salesforce Marketing Cloud features.</li><li>Technical know-how on scripting and data manipulation within Salesforce Marketing Cloud for specific compliance requirements.</li></ul>",
+            "id": "navigating-privacy-compliance",
+            "year": "2024",
+            "track": "dev",
+            "room": "salon5",
+            "slot": "slot1",
+            "speakers": ["zlang"]
+        },
+        {
+            "title": "Can we automate Apex Test Class generation using Salesforce AI Tool GitHub Copilot?",
+            "abstract": "<p>Generative AI is here to change the way we work. With the release of ChatGPT, OpenAI caused a wave of new tools that are using LLMs (Large Language Models). GitHub Copilot is an AI product for developers released by GitHub to use within VS Code or IntelliJ IDEA. The main promise of GitHub Copilot is smart auto-completion. You will learn firsthand how to utilize GitHub Copilot whether the time consuming Apex test classes can be generated and if so to what extent automation might help. You will learn few advanced featues in progress including Documentation on button click, AI-generated pull requests, AI CLI assistance.</p>",
+            "id": "can-we-automate-apex-text-class-generation-using-salesforce-ai-tool-github-copilot",
+            "year": "2024",
+            "track": "dev",
+            "room": "conferencee",
+            "slot": "slot3",
+            "speakers": ["tzulkarnine"]
+        },
+        {
+            "title": "Data Cloud: What's In It for Nonprofits?",
+            "abstract": "<p>AI + CRM + Data. That has been the equation being touted with AI the biggest and loudest. But what about Data Cloud? Isn't that something we already have? As a nonprofit, you may really be wondering how Data Cloud can benefit you and your organization.  Can it increase your organization's impact? Is it expensive to implement?  Is the ROI worth it? Let's dig into the quieter part of this important equation.</p>",
+            "id": "data-cloud-nonprofits",
+            "year": "2024",
+            "track": "nonprofit",
+            "room": "conference4",
+            "slot": "slot1",
+            "speakers": ["mdees"]
+        },
+        {
+            "title": "Revitalizing Teams: Mastering Scrum Retrospectives for Salesforce Admins",
+            "abstract": "<p>Unlock the power of Scrum retrospectives!</p><p>This interactive session explores why retrospectives matter and how they can rejuvenate your team's productivity, and how you can build out a platform for these retrospectives within native Salesforce. This engaging session is dedicated to a hands-on exploration of Scrum retrospectives, specifically built and tailored for Salesforce environments. We focus on the practical implementation of retrospectives directly within Salesforce, utilizing native applications and declarative automation to enhance team productivity and project outcomes. We'll delve deeply into creating retro boards using Salesforce's Kanban List views, screen and record-triggered flows, image based formulas and static resources. A highlight of our session will be the live construction and utilization of a custom upvote feature and dynamic mood pickers, demonstrating how these tools can enrich the retrospective experience. We also briefly touch on alternative retrospective tools such as Miro and Easy Retro, and discuss how retrospectives can be utilized in code review.</p><p>Retrospectives are a crucial, yet often underutilized aspect of the Scrum framework, especially for Salesforce Admins overseeing projects or sprints. Our session emphasizes the 'how-to' aspect, providing attendees with an in-depth understanding of building and conducting effective retrospective boards within Salesforce.</p>",
+            "id": "revitalizing-teams",
+            "year": "2024",
+            "track": "admin",
+            "room": "salon6",
+            "slot": "slot5",
+            "speakers": ["awilson"]
+        },
+        {
+            "title": "5 Ways to Use Generative AI Across Marketing Cloud",
+            "abstract": "<p>Embark on the exciting journey to future of content marketing with Marketing Cloud Engagement and Account Engagement! Discover the magic of Einstein as it streamlines your content creation process, provides actionable insights and predictions, and improves your marketing interactions with prospects and customers alike. Walk away with learnings on how to tap into Salesforce AI and effortlessly craft dynamic content for forms, emails, landing pages, and beyond.</p>",
+            "id": "5-ways-to-use-generative-ai-across-marketing-cloud",
+            "year": "2024",
+            "track": "marketing",
+            "room": "salon5",
+            "slot": "slot5",
+            "speakers": ["eduncan"]
+        },
+        {
+            "title": "Consent Management’s Crucial Role in Data-Driven Marketing",
+            "abstract": "<p>Learn how to safeguard your customer privacy and ensure legal and ethical data usage. Explore the rise of Consent Management in response to diminishing data silos and evolving regulations. Walk away with the secrets to unlock the data governance powerhouse and transform your approach to responsible data management.</p>",
+            "id": "concent-management",
+            "year": "2024",
+            "track": "exec",
+            "room": "salon1",
+            "slot": "slot5",
+            "speakers": ["kschlau"]
+        },
+        {
+            "title": "The Surviving & Thriving Handbook for Accidental Admins",
+            "abstract": "<p>Discover the accidental admin's journey in nonprofits - juggling multiple roles, facing challenges, and thriving amidst the unexpected responsibilities. Gain practical tips to succeed and balance other work responsibilities effectively in this engaging presentation. Attendees will leave with 5 actionable and results driven strategies for improving their effectiveness and efficiency in their accidental adminship. The presentation mixes a personal narrative of my time as an overworked and under resourced accidental admin, a relatable position for many in the Salesforce ecosystem, with concrete solutions that are scalable to fit a variety of business needs and sizes. This session will appeal to nonprofit and for profit admins alike and will provide insight and a laugh or two to even the most seasoned admin. At its core, this session highlights how a stretched thin accidental admin can delight and engage their end users, leverage their existing resources, and kick butt and take names with less time and effort!</p>",
+            "id": "the-surviving-and-thriving-handbook",
+            "year": "2024",
+            "track": "nonprofit",
+            "room": "conference2",
+            "slot": "slot1",
+            "speakers": ["afreund"]
+        },
+        {
+            "title": "Across the APIs: A Roadmap to Salesforce APIs, Events, and Integrations",
+            "abstract": "<p>Join me on a journey across the network of Salesforce APIs and Integration options.  This session is crafted for Salesforce Architects, Developers, or anyone aiming to understand the range of APIs and when and how to use them.</p><p>Our expedition spans the variety of Salesforce APIs, each designed to cater to specific integration scenarios and requirements. From the standard REST, to the newer GraphQL, onto the capabilities of the Salesforce Event API, we break down these options to give you the knowledge to navigate and leverage the right API for your specific integration challenges.<p>At the core of secure and efficient integration lies an understanding of authentication mechanisms. We swim in the OAuth Flows, giving you an overview of your options to secure and manage access.</p><p>Platform Events are now taking center stage as we explore their role in facilitating a near-real-time, event-driven architecture, transforming the way you interact with, and respond to, data within Salesforce.</p><p>This session will provide you with a summary of options available to you as you design a system where Salesforce is not just an island of data, but seamlessly connected with your other systems and workflows.</p>",
+            "id": "across-the-apis",
+            "year": "2024",
+            "track": "dev",
+            "room": "conferencee",
+            "slot": "slot1",
+            "speakers": ["ssimpson"]
+        },
+        {
+            "title": "The native way to manage Grant Deliverables",
+            "abstract": "<p>In this session I’ll demonstrate how our organization takes advantage of out of the box Salesforce functionality to manage Grant Deliverables. How we have been able to stay on top of deadlines for proposals and reports, as well as managing the owners and teams involved in the process, all with native no code functions.</p><p>The process of applying for Grants can be a massive undertaking, where teams often resort to the familiar excel sheets or another manual variation of that. Where instead, they can take advantage of the Deliverables Object in Salesforce, and have a cumbersome process turn into easy flowing steps within the tool they are already familiar with and where they already manage donations.</p><p>The attendees will walk away with a 360-degree process of how to manage Grant proposals and reporting utilizing easily created custom fields, personal list views, scheduled reports, native Salesforce - Outlook plugin for email logging, and the difference between assigned Deliverables and Tasks.</p><p>This session will be especially helpful for small Nonprofits, that have team members wearing multiple hats and for organization that often have one person that is tracking and planning their future Grants applications all in their personal drives or even email boxes.</p>",
+            "id": "the-native-way-to-manage-grant-deliverables",
+            "year": "2024",
+            "track": "nonprofit",
+            "room": "conference4",
+            "slot": "slot3",
+            "speakers": ["mbrown"]
+        },
+        {
+            "title": "Change Agility - Putting People First for Lasting Results ",
+            "abstract": "<p>In today's rapidly evolving technological landscape, successful implementations of Salesforce require a strategic approach that prioritizes the human element. This session we'll delve into the intersection of agile methodologies, human-centered design, and change management principles to create a dynamic framework for achieving impactful outcomes.</p><p>Learning Objectives:</p><ul><li>Aligning Agile with Human-Centered Design: Explore how the marriage of agile principles and human-centered design can serve as a guiding force in change planning, ensuring that technology implementations resonate with the individuals involved.</li><li>The Change Agility Cycle: Delve into the intricacies of the change agility cycle, a methodical and iterative process that encompasses discovery, co-creation, testing, and reflection. Learn how this cyclical approach can effectively manage change, minimizing risks while maximizing precision and fostering long-lasting impact.</li></ul><p>As organizations embark on the implementation journey, the session emphasizes the critical need to prioritize people in the equation. By adopting change agility, companies can navigate the complexities of Salesforce implementations with a focus on driving behavioral outcomes. Attendees will gain insights into best practices, equipping them to leverage change agility methodologies for achieving not only technological success but also meaningful business value with people at the fore front.</p>",
+            "id": "change-agility",
+            "year": "2024",
+            "track": "exec",
+            "room": "salon1",
+            "slot": "slot4",
+            "speakers": ["shabib"]
+        },
+        {
+            "title": "NPSP vs. NPC: Head to Head",
+            "abstract": "<p>I bet you've heard about the new Nonprofit Cloud that Salesforce is talking about. Wondering how it's different from NPSP? If you want to know what the difference is and how to tell if your organization should plan a move, this session is for you.</p>",
+            "id": "npsp-vs-npc",
+            "year": "2024",
+            "track": "nonprofit",
+            "room": "conference4",
+            "slot": "slot4",
+            "speakers": ["astyles"]
+        },
+        {
+            "title": "Top Tips on Curating End-User Training for Salesforce",
+            "abstract": "<p>Salesforce is an incredibly powerful tool that can help transform your organization. However, its full potential can only be realized when your end-users know how to use it effectively. In this session, I will share my top tips on curating end-user training for Salesforce.</p><p>I will cover the importance of understanding your end-users' needs, creating engaging and interactive training materials, and leveraging the power of Trailhead to provide ongoing learning opportunities. Additionally, I will share my tips for measuring the effectiveness of your training program and continuously improving it based on feedback from your end-users.</p><p>Attendees will leave this session with a clear understanding of the key elements of a successful end-user training program for Salesforce. Whether you're just starting out or looking to improve your existing program, this session will provide practical tips and insights that you can apply in your organization.</p>",
+            "id": "top-tips-on-curating-end-user-training-for-salesforce",
+            "year": "2024",
+            "track": "admin",
+            "room": "salon6",
+            "slot": "slot4",
+            "speakers": ["trucker"]
+        },
+        {
+            "title": "Architectural Considerations and Strategies to Scale Multi-App/Multi-Org Environments",
+            "abstract": "<p>As architects of larger to enterprise-class environments evaluate how they could maximize their investment around Salesforce and still support multiple applications and/or multiple orgs, there are many things to consider along the way.  Coordination between various app teams in the organization and/or contractors is certainly a crucial element.  Having a centralized architectural strategy to help coordinate the development of the various applications is also equally important.</p><p>In this session we will explore some key elements to consider including:</p><ul><li>How and why Salesforce’s 2nd Generation Packaging plays a key role in the success.</li><li>The importance of coordination and planning amongst app teams that is required when sharing common resources in the Salesforce org and how to organize those common resources so to be available and shared by multiple app teams.</li><li>Effective strategies regarding source code management and what should be considered concerning automated DevOps pipeline tools.</li><li>The effectiveness of standardizing the basic architectural design approaches amongst your app teams.  Concepts like modularization of codebases, 'separation of concerns', 'properly layered code', and 'dependency injection' and how these help to contribute to the successful series of apps and environment management.</li></ul><p>This talk will review the above points, providing the audience with various topics to consider, further research, and key elements of an enterprise patterned-based 'implementation blueprint’.</p>",
+            "id": "architectural-considerations-and-strategies-to-scale-multi-app-multi-org-environments",
+            "year": "2024",
+            "track": "dev",
+            "room": "conferencee",
+            "slot": "slot5",
+            "speakers": ["jdaniel"]
+        },
+        {
+            "title": "You Got the Job! Now What?",
+            "abstract": "<p>Transitioning into the role of a Salesforce Administrator marks the beginning of an exciting journey filled with opportunities and challenges. In this session, we will delve into the critical steps and strategies for success once you've landed the job. From accessing valuable resources to effectively managing stakeholders, attendees will gain invaluable insights into navigating the post-hire landscape with confidence.</p><p>Learning Objectives:</p><ul><li>Discover where to find essential information and support resources crucial for excelling as a Salesforce Administrator.</li><li>Learn how to prioritize tasks and responsibilities to maximize efficiency and impact in your role.</li><li>Gain practical strategies for effectively communicating and managing stakeholders to ensure successful project outcomes.</li><li>Explore best practices for continuous learning and professional development to stay ahead in the dynamic Salesforce ecosystem.</li></ul><p>Join me for this insightful session and equip yourself with the knowledge and skills to thrive as a Salesforce Administrator beyond the initial hiring phase.</p>",
+            "id": "you-got-the-job",
+            "year": "2024",
+            "track": "admin",
+            "room": "salon6",
+            "slot": "slot2",
+            "speakers": ["sbaxter"]
+        },
+        {
+            "title": "Intro to Process Mapping for the New Salesforce BA",
+            "abstract": "<p>For individuals embarking on a Salesforce Business Analyst (BA) journey or those aspiring to excel in their roles, understanding the critical documentation and technical skills is key to success. This session is designed to empower Salesforce BAs with the essential knowledge and techniques necessary to excel in creating process maps that pave the way for successful Salesforce projects. Utilizing a real-world case study, this session will explore the fundamental aspects of process mapping and its pivotal role in achieving desirable outcomes in Salesforce projects.</p><p>Participants will gain insights into:</p><ul><li>What is Process Mapping and When/How to Create One: - Delve into the concept of process mapping, its significance in Salesforce projects, and the specific scenarios in which you should create process maps.</li> <li>Anatomy of a Process Map, Including Standard Shapes and Elements: - Explore the essential elements and standard symbols used in process maps. Learn how to structure and format your maps for clarity and comprehensibility.</li><li>Storytelling Within the Process Map: - Understand the art of storytelling within your process map. Discover how to use visuals and annotations to convey the narrative of the process effectively.</li><li>Analyzing the Process Map: - Learn how to critically analyze a process map to identify bottlenecks, inefficiencies, and opportunities for improvement. Gain insights into using your process map as a diagnostic tool.</li><li>Circulating and Communicating Your Process Map: - Explore strategies for effectively sharing and communicating your process map with stakeholders, project teams, and decision-makers. Learn to harness the map's value as a collaborative and decision-support tool.</li></ul><p>Through this engaging and interactive session, aspiring Salesforce BAs and those at the early stages of their careers will acquire the skills and knowledge needed to create impactful process maps. These maps will not only enhance their Salesforce project management but also contribute to overall business process optimization. Join us for this enlightening session and embark on your journey to becoming a Salesforce BA expert.</p>",
+            "id": "intro-to-process-mapping",
+            "year": "2024",
+            "track": "business",
+            "room": "salon2",
+            "slot": "slot4",
+            "speakers": ["kforte"]
+        }
+    ],
     "keynote": {}
 }
