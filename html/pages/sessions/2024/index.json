@@ -419,11 +419,11 @@
             "first_name": "Ko",
             "last_name": "Forte",
             "id": "kforte",
-            "pronouns": "",
-            "title": "",
-            "company": "",
+            "pronouns": "She / Her",
+            "title": "Salesforce Business Analyst",
+            "company": "RGP",
             "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "image": "/img/sessions/2024/speakers/kforte.jpg",
             "first_sed": false,
             "first_talk": false,
             "mvp": false
@@ -517,6 +517,19 @@
             "image": "/img/sessions/2024/speakers/mbrown.jpg",
             "first_sed": true,
             "first_talk": true,
+            "mvp": false
+        },
+        "mbura": {
+            "first_name": "Michelle",
+            "last_name": "Bura",
+            "id": "mbura",
+            "pronouns": "",
+            "title": "Senior Salesforce Administrator",
+            "company": "Science Exchange",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/mbura.jpg",
+            "first_sed": false,
+            "first_talk": false,
             "mvp": false
         },
         "mdellapia": {
@@ -1295,7 +1308,7 @@
             "id": "reduce-reuse-recycle",
             "year": "2024",
             "track": "dev",
-            "room": "conferenceb",
+            "room": "conference2",
             "slot": "hotslot1",
             "speakers": ["ncarpenter"]
         },
@@ -1345,7 +1358,7 @@
             "id": "how-to-create-your-very-own-salesforce-cli-custom-plugin",
             "year": "2024",
             "track": "dev",
-            "room": "conferenceb",
+            "room": "conference2",
             "slot": "hotslot2",
             "speakers": ["jdaniel"]
         },
@@ -1358,6 +1371,16 @@
             "room": "salon4",
             "slot": "hotslot1",
             "speakers": ["kgause"]
+        },
+        {
+            "title": "Mastering Record Visibility in Salesforce",
+            "abstract": "<p>Get ready for a journey into the heart of Salesforce record visibility with this comprehensive hands-on training session. Designed for Salesforce administrators and developers, this session will delve deep into the intricacies of sharing rules, roles, account teams, case teams, queues, and programmatic sharing in Flows and Apex.</p><p>Participants will gain practical insights and actionable techniques to manage record visibility within their Salesforce orgs. By understanding the nuances of each feature and learning best practices, attendees will be equipped to optimize data access and security for their users.</p><p>Whether you're an administrator looking to optimize data access or a developer seeking to enhance application functionality, this training will equip you with the knowledge and skills to feel confident managing record access in your org. Join us and take the first step towards mastering record visibility in Salesforce!</p>",
+            "id": "mastering-record-visibility-in-salesforce",
+            "year": "2023",
+            "track": "admin",
+            "room": "conference4",
+            "slot": "hotslot1",
+            "speakers": ["mbura"]
         }
     ],
     "keynote": {}
