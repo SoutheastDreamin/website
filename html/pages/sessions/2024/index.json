@@ -64,25 +64,20 @@
             "type": "is-marketing",
             "background": "has-background-marketing"
         },
-        "end-user": {
-            "name": "End Users",
-            "type": "is-end-user",
-            "background": "has-background-end-user"
-        },
         "architect": {
             "name": "Architects",
             "type": "is-architect",
             "background": "has-background-architect"
         },
-        "dev": {
-            "name": "Developers",
-            "type": "is-dev",
-            "background": "has-background-dev"
-        },
         "exec": {
             "name": "Executives",
             "type": "is-exec",
             "background": "has-background-exec"
+        },
+        "dev": {
+            "name": "Developers",
+            "type": "is-dev",
+            "background": "has-background-dev"
         },
         "nonprofit": {
             "name": "Non-Profit",
@@ -93,6 +88,11 @@
             "name": "Business Analyst",
             "type": "is-business",
             "background": "has-background-business"
+        },
+        "end-user": {
+            "name": "End Users",
+            "type": "is-end-user",
+            "background": "has-background-end-user"
         }
     },
     "hot_time_slots": {
@@ -497,11 +497,11 @@
             "first_name": "Margaret",
             "last_name": "Adkins",
             "id": "madkins",
-            "pronouns": "",
-            "title": "",
-            "company": "",
+            "pronouns": "She / Her",
+            "title": "Product Owner",
+            "company": "Innovate! Inc",
             "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "image": "/img/sessions/2024/speakers/madkins.jpg",
             "first_sed": true,
             "first_talk": false,
             "mvp": false
