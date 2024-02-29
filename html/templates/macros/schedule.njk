@@ -42,3 +42,11 @@
         {% endfor %}
     </div>
 {%- endmacro %}
+
+{% macro schedule_key(tracks) -%}
+    <div class="mb-3 is-hidden-mobile is-centered">
+    {% for key, track in tracks %}
+            <span class="mx-2 tag is-medium {{ track.background }}">{{ track.name }}</span>
+    {% endfor %}
+    </div>
+{%- endmacro %}

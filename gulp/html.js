@@ -58,7 +58,7 @@ lodash.each(list_years(), function (year) {
  * @returns {String} The HTML page file path
  */
 function page_path() {
-    return path.join(__dirname, '..', constants.HTML, constants.PAGES, '**/*.+(html|nunjucks)');
+    return path.join(__dirname, '..', constants.HTML, constants.PAGES, '**/*.+(html|nunjucks|njk|json)');
 }
 
 /**
@@ -66,7 +66,7 @@ function page_path() {
  * @returns {String} The HTML template file path
  */
 function template_path() {
-    return path.join(__dirname, '..', constants.HTML, constants.TEMPLATES, '**/*.+(html|nunjucks)');
+    return path.join(__dirname, '..', constants.HTML, constants.TEMPLATES, '**/*.+(html|nunjucks|njk|json)');
 }
 
 /**
