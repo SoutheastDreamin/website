@@ -1,712 +1,1173 @@
-{
-    "rooms": {
-        "augusta": {
-            "name": "Augusta"
-        },
-        "dahlonega": {
-            "name": "Dahlonega"
-        },
-        "marietta": {
-            "name": "Marietta"
-        },
-        "oglethorpe": {
-            "name": "Oglethorpe"
-        },
-        "suwanee": {
-            "name": "Suwanee"
+
+<!DOCTYPE html>
+<html lang="en">
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8Q8JJ5JNSQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
         }
-    },
-    "tracks": {
-        "admin": {
-            "name": "Administrators",
-            "type": "is-admin",
-            "background": "has-background-admin"
-        },
-        "marketing": {
-            "name": "Marketing",
-            "type": "is-marketing",
-            "background": "has-background-marketing"
-        },
-        "end-user": {
-            "name": "End Users",
-            "type": "is-end-user",
-            "background": "has-background-end-user"
-        },
-        "dev": {
-            "name": "Developers",
-            "type": "is-dev",
-            "background": "has-background-dev"
-        },
-        "nonprofit": {
-            "name": "Non-Profit",
-            "type": "is-nonprofit",
-            "background": "has-background-nonprofit"
-        },
-        "exec": {
-            "name": "Exec",
-            "type": "is-exec",
-            "background": "has-background-exec"
-        }
-    },
-    "hot_time_slots": {},
-    "session_time_slots": {
-        "slot1": {
-            "name": "Breakout Session #1",
-            "start": "9:30 AM",
-            "end": "10:15 AM"
-        },
-        "slot2": {
-            "name": "Breakout Session #2",
-            "start": "10:25 AM",
-            "end": "11:10 AM"
-        },
-        "slot3": {
-            "name": "Breakout Session #3",
-            "start": "1:15 PM",
-            "end": "2:00 PM"
-        },
-        "slot4": {
-            "name": "Breakout Session #4",
-            "start": "2:10 PM",
-            "end": "2:55 PM"
-        },
-        "slot5": {
-            "name": "Breakout Session #5",
-            "start": "3:15 PM",
-            "end": "4:00 PM"
-        }
-    },
-    "speakers": {
-        "nelson": {
-            "first_name": "Brett",
-            "last_name": "Nelson",
-            "id": "nelson",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/nelson.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "lockie": {
-            "first_name": "Louise",
-            "last_name": "Lockie",
-            "id": "lockie",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/lockie.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "crear": {
-            "first_name": "Aaron",
-            "last_name": "Crear",
-            "id": "crear",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/crear.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "styles": {
-            "first_name": "Amanda",
-            "last_name": "Styles",
-            "id": "styles",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/styles.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "shrivastava": {
-            "first_name": "Mohith",
-            "last_name": "Shrivastava",
-            "id": "shrivastava",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/shrivastava.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "white": {
-            "first_name": "David",
-            "last_name": "White",
-            "id": "white",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/white.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "schneider": {
-            "first_name": "Jennifer Lynn",
-            "last_name": "Schneider",
-            "id": "schneider",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/schneider.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "carnes": {
-            "first_name": "David",
-            "last_name": "Carnes",
-            "id": "carnes",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/carnes.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "mudunuri": {
-            "first_name": "Rajesh Varma",
-            "last_name": "Mudunuri",
-            "id": "mudunuri",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/mudunuri.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "torcasso": {
-            "first_name": "Matt",
-            "last_name": "Torcasso",
-            "id": "torcasso",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/torcasso.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "frankfurt": {
-            "first_name": "Tal",
-            "last_name": "Frankfurt",
-            "id": "frankfurt",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/frankfurt.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "mullick": {
-            "first_name": "Samir",
-            "last_name": "Mullick",
-            "id": "mullick",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/mullick.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "creech": {
-            "first_name": "Ashley",
-            "last_name": "Creech",
-            "id": "creech",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/creech.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "dees": {
-            "first_name": "Melissa Hill Dees",
-            "last_name": "Dees",
-            "id": "dees",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/dees.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "pratt": {
-            "first_name": "Aaron",
-            "last_name": "Pratt",
-            "id": "pratt",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/pratt.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "black": {
-            "first_name": "Lara",
-            "last_name": "Black",
-            "id": "black",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/black.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "cheshire": {
-            "first_name": "Casey",
-            "last_name": "Cheshire",
-            "id": "cheshire",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/placeholder.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "dickens": {
-            "first_name": "Andre",
-            "last_name": "Dickens",
-            "id": "dickens",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/dickens.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "mackey": {
-            "first_name": "Valarie",
-            "last_name": "Mackey",
-            "id": "mackey",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/mackey.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "yermish": {
-            "first_name": "Howard",
-            "last_name": "Yermish",
-            "id": "yermish",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/yermish.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "martin": {
-            "first_name": "Mike",
-            "last_name": "Martin",
-            "id": "martin",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/martin.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "fiega": {
-            "first_name": "Joe",
-            "last_name": "Fiega",
-            "id": "fiega",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/fiega.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "amin": {
-            "first_name": "Sarah",
-            "last_name": "Amin",
-            "id": "amin",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/amin.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "cogswell": {
-            "first_name": "Stacey",
-            "last_name": "Cogswell",
-            "id": "cogswell",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/cogswell.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "zaa": {
-            "first_name": "Jitendra",
-            "last_name": "Zaa",
-            "id": "zaa",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/zaa.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "chaudhary": {
-            "first_name": "Amit",
-            "last_name": "Chaudhary",
-            "id": "chaudhary",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/chaudhary.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "belke": {
-            "first_name": "Emily",
-            "last_name": "Belke",
-            "id": "belke",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/belke.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "coelho": {
-            "first_name": "James",
-            "last_name": "Coelho",
-            "id": "coelho",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/coelho.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "connelly": {
-            "first_name": "Patrick",
-            "last_name": "Connelly",
-            "id": "connelly",
-            "pronouns": "He / Him",
-            "title": "Principal Software Engineer",
-            "company": "Red Hat",
-            "bio": "",
-            "image": "/img/sessions/2019/speakers/connelly.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": true
-        }
-    },
-    "sessions": [
-        {
-            "title": "What is Event Monitoring and Why Should I Care?",
-            "abstract": "<p>Event monitoring is a powerful tool that exposed lots of useful data about your org. Learn what event monitoring is, how to access the data and what you can do with it. Learn how to find poorly performing reports, users with old API version logins, users abusing your APIs, Visualforce page performance problems and more.</p>",
-            "id": "what-is-event-monitoring",
-            "year": "2019",
-            "track": "dev",
-            "room": "augusta",
-            "slot": "slot5",
-            "speakers": ["connelly"]
-        },
-        {
-            "title": "Transition to Lightning: Keep it Simple",
-            "abstract": "<p>Has switching to lightning been scary or a potentially large effort? As a Lightning Champion, I'm here to set the record straight that it does not need to complicated to get to lightning. And how the benefits of adopting lightning today, outweigh the cons staying in classic.</p><p>In this session, we'll talk about best practices around:</p><ul><li>The most important reasons for switching to lightning now</li><li>Where to start when planning about the migration to Lightning</li><li>Different approaches your organization can take (Phased, Big Bang, Pilot, etc.)</li><li>How to assemble your lightning adoption team</li><li>How to talk like an adoption expert in your own organization to support the migration</li><li>Places to not \"Over-think\" the configuration and set up for launch</li></ul>",
-            "id": "transition-to-lightning",
-            "year": "2019",
-            "track": "admin",
-            "room": "oglethorpe",
-            "slot": "slot4",
-            "speakers": ["coelho"]
-        },
-        {
-            "title": "The One Thing Your Employees Want More Than Casual Fridays",
-            "abstract": "<p>Ping pong tables, kegerators, and casual Fridays are great perks to boost morale. What’s one thing even more impactful than extra perks and quirks? Inclusion. Learn how adopting inclusive language makes a difference in how both your employees and customers interact with your company and why inclusivity can be key to boosting your bottom line.</p>",
-            "id": "the-one-thing-your-employees-want-more-than-casual-fridays",
-            "year": "2019",
-            "track": "exec",
-            "room": "marietta",
-            "slot": "slot1",
-            "speakers": ["belke"]
-        },
-        {
-            "title": "Set up Continuous Integration using SalesforceDX and Jenkins",
-            "abstract": "<p>SalesforceDX is new way to build and deploy Salesforce implementations. And as per google trend, Jenkins is highly searched build management tool for 2018. So, in this session, I will explain how to setup Jenkins and SalesforceDX for Continuous Integration (CI) along with branching strategy. We will also discuss what is Continuous Delivery (CD) and how it’s different compared to CI. Audience will get to know various Patterns and Anti-patterns for setting up CI CD.</p>",
-            "id": "setup-ci-using-salesforce-dx-and-jenkins",
-            "year": "2019",
-            "track": "dev",
-            "room": "augusta",
-            "slot": "slot1",
-            "speakers": ["zaa", "chaudhary"]
-        },
-        {
-            "title": "Pathway to Pardot & Roadmap to Success",
-            "abstract": "<p>Implementing Pardot is more than setting up a system. Hear from Pardot expert and Salesforce MVP best practices to putting you on the road to a successful Pardot implementation and beyond to the path of success.</p>",
-            "id": "pathway-to-pardot",
-            "year": "2019",
-            "track": "marketing",
-            "room": "dahlonega",
-            "slot": "slot2",
-            "speakers": ["cogswell"]
-        },
-        {
-            "title": "Outbound Funds: Adapt your CRM for charitable giving",
-            "abstract": "<p>Sarah Amin and the Outbound Funds Open Source Community Project team have built a package to help nonprofit and corporate organizations use Salesforce to manage charitable giving activities. In this session, we will talk about the great community need that inspired this project, the ways the package addresses these needs, and give a demo of the package for both NPSP and non-NPSP customers.</p><p>Nonprofit Salesforce users have been trying to find elegant ways to adapt the system for these needs for years, and the community team is excited to empower them with this free, easy-to-configure solution! The Outbound Funds package can be used to manage scholarship programs, internal funding requests, traditional grantmaking activities, challenge and matching grants, and more. Audience members will walk away understanding how to use Outbound Funds to serve their unique needs.</p>",
-            "id": "outbound-funds",
-            "year": "2019",
-            "track": "nonprofit",
-            "room": "oglethorpe",
-            "slot": "slot1",
-            "speakers": ["amin"]
-        },
-        {
-            "title": "Orgs Gone Wild! An Admin's Guide To Org Simplification",
-            "abstract": "<p>Have you ever opened up your org and spent hours stumbling through dozens if not hundreds of custom fields, buttons, record types, page layouts, profiles? Only to find configuration and code that is not clearly defined or being used. Join us to learn how to quickly build a solution that helps you understand what’s in your org, how those capabilities are being used, and when they were last evaluated. Don’t miss this session, you’re fellow admins will love you!</p>",
-            "id": "orgs-gone-wild",
-            "year": "2019",
-            "track": "admin",
-            "room": "suwanee",
-            "slot": "slot4",
-            "speakers": ["martin", "fiega"]
-        },
-        {
-            "title": "A Quick Intro to Lightning Web Components",
-            "abstract": "<p>Lighting Web Components are the new, standards based way to create UI elements for Lighting. We will take a quick look at the tools needed to get started and the basics of creating a Lighting Web Component.</p>",
-            "id": "a-quick-intro-to-lightning-web-components",
-            "year": "2019",
-            "track": "dev",
-            "room": "augusta",
-            "slot": "slot3",
-            "speakers": ["nelson"]
-        },
-        {
-            "title": "Learn to Leverage the Power of SOQL",
-            "abstract": "<p>SOQL queries are a great way for Admins to easily and quickly access, analyse, and manipulate their Salesforce data. Join me as I show you how to apply your knowledge of report builder filters and formulas to help you write SOQL queries. You’ll come away with a whole new way of accessing your data and an understanding of how this will save you valuable time, as well as maximising your skillset.</p>",
-            "id": "learn-to-leverage-the-power-of-soql",
-            "year": "2019",
-            "track": "admin",
-            "room": "dahlonega",
-            "slot": "slot5",
-            "speakers": ["lockie"]
-        },
-        {
-            "title": "Bon Appetit: The Recipe For Better Donor Statistics",
-            "abstract": "<p>Soft credits, hard credits, contacts, accounts.... The more you can slice and dice (and julienne?!) your data, the better your segmentation can be. Let’s talk about the improvements to roll-ups recently released in the NPSP, and a free tool that can help roll up (nearly) anything to anywhere.</p>",
-            "id": "bon-appetit",
-            "year": "2019",
-            "track": "nonprofit",
-            "room": "oglethorpe",
-            "slot": "slot2",
-            "speakers": ["styles"]
-        },
-        {
-            "title": "Build your own Dev tools with Salesforce CLI Plugin Generator",
-            "abstract": "<p>The Salesforce CLI core plug-ins provide commands and functionality to meet common needs .If you need commands for specific need (extract metadata in excel , list all the custom fields , layouts and process of an object, generate test data and so on) , one can define and build custom commands using salesforce CLI plugin generator .In this session , we will demonstrate how to design, build and release a custom cli plugin to extract metadata of an object (object model ,layouts and process info) in a readable format</p>",
-            "id": "build-your-own-dev-tools-with-salesforce-cli-plugin-generator",
-            "year": "2019",
-            "track": "dev",
-            "room": "augusta",
-            "slot": "slot4",
-            "speakers": ["shrivastava"]
-        },
-        {
-            "title": "Advanced Reporting Tips & Tricks for New Admins",
-            "abstract": "<p>Are you a new Admin struggling to create reports for your team? Do you spend way too much time racking your brain trying to get data to present properly? You're not alone. Many beginner Admins spend hours trying to develop reports that should only take minutes to finish. This session will show you real examples of advanced reporting features that will make your job easier and provide greater value to your users. During this live demo you will learn how to use: Custom Summary Formulas, Cross Filters, Power of 1, Joined Reports, Buckets, and Custom Report Types. These tips will help you easily identify and present data, enable your marketing team to see Lead conversion rates and show sales reps revenue toward goal. The presentation will help you take your reporting game to the next level.</p>",
-            "id": "advanced-reporting-tips-and-tricks-for-new-admins",
-            "year": "2019",
-            "track": "admin",
-            "room": "suwanee",
-            "slot": "slot1",
-            "speakers": ["crear"]
-        },
-        {
-            "title": "Clicks and Code: The Future of Your Admin Career",
-            "abstract": "<p>It has never been easier to become a Salesforce Admin! Between Trailhead, User Groups, conferences, and more, you have several options to kick-start your Salesforce career. But you can't do everything with clicks: complex sharing, Lightning components, and powerful integrations are just a few of the use cases for coding. The demand for Salesforce developers is also surging, providing a lucrative opportunity for those who combine their Admin proficiency with programming knowledge. In this session, we'll discuss not just why you should add coding to your Salesforce skillset, but how you can start your development journey. We will walk through a case study that highlights the need for admins who aren't afraid to get their hands dirty with code, so join us if you're feeling ambitious!</p>",
-            "id": "clicks-and-code",
-            "year": "2019",
-            "track": "admin",
-            "room": "suwanee",
-            "slot": "slot3",
-            "speakers": ["white"]
-        },
-        {
-            "title": "Connected Campaigns | The Secret Sauce to Analytics Glory",
-            "abstract": "<p>With the adoption of Einstein Analytics growing, particularly in the Salesforce Pardot space specific to B2BMA, many companies are frustrated that although beautiful, these reports are not giving them the out of the box functionality they are expecting.</p><p>This session outlines a successful approach using the Connected Campaigns Pardot feature and key strategic decisions on how you could structure campaign hierarchy in your Salesforce. We uncover the secret sauce that ties the bridge of asset engagement, prospect journey to opportunity won, all powered by the campaign.</p><p>Learn how becoming obsessed about campaigns can align all your reporting and give you a new view in regard to lead source reporting, content reporting, prospect journey visibility and attribution of the marketing team. By using this well proven methodology of asset allocation, streamlined campaign structure, we will share insights, success stories and the true functionality of the out of the box B2BM Analytics Dashboards like Engagement and Marketing Manager.</p><p>While a technical session, it also holds an overarching strategy that can be taken back to any team. This session will appeal to admins, marketers and executives looking for a holistic view of their organization and how all pieces contribute to a return on investment.</p>",
-            "id": "connected-campaigns",
-            "year": "2019",
-            "track": "marketing",
-            "room": "dahlonega",
-            "slot": "slot4",
-            "speakers": ["schneider"]
-        },
-        {
-            "title": "Embrace the Power of Lightning Report Builder",
-            "abstract": "<p>Lightning Report Builder is powerful, beautiful, and ready for use! Users can take advantage of its many features to create and share compelling Reports and Charts. In this session we'll identify data issues with Cross Filters, create a bird's eye view of data with Grouped Rows and Columns, build persuasive Charts for managing pipeline, leverage trending to understand business direction, push Charts to Dashboards, and Subscribe to Reports to keep yourself and business leaders informed.</p>",
-            "id": "embrace-the-power-of-lightning-report-builder",
-            "year": "2019",
-            "track": "admin",
-            "room": "suwanee",
-            "slot": "slot5",
-            "speakers": ["carnes"]
-        },
-        {
-            "title": "Everything's awesome with asynchronous apex",
-            "abstract": "<p>Having multiple asynchronous choice's in apex language, In this presentation I want to present,</p><ul><li>What does asynchronous mean?</li><li>Why would one want to use asynchronous apex?</li><li>What are the choices available to the developer?</li><li>How to pick the most ideal choice ?</li></ul><p>Last but not the least common pit falls one might be aware of when choosing among these options!</p>",
-            "id": "everythings-awesome-with-asynchronous-apex",
-            "year": "2019",
-            "track": "dev",
-            "room": "augusta",
-            "slot": "slot2",
-            "speakers": ["mudunuri"]
-        },
-        {
-            "title": "FSL Lessons Learned: How To Get the Most Out of Your FSL Implementation",
-            "abstract": "<p>Field Service Lightning is still the new kid on the Service Cloud block. In this session I'll share my first-hand experiences of setting up FSL. What's worked well, what didn't, and how I'd approach it next time.</p><li>How to match it to your business</li><li>Where to start/ what to focus on</li><li>Crawl, walk, run approach</li><li>Automation</li><li>Setting up teams/training</li></ul><p>This session would be a knowledge sharing / tips & tricks type of session. It could be useful for end users or admins who are trying to get a better sense of what FSL is and how it might work for them.</p>",
-            "id": "fsl-lessons-learned",
-            "year": "2019",
-            "track": "end-user",
-            "room": "marietta",
-            "slot": "slot2",
-            "speakers": ["torcasso"]
-        },
-        {
-            "title": "Fundraising Strategies with the Nonprofit Success Pack",
-            "abstract": "<p>Fundraising is all about relationships. A spreadsheet or donor database won’t cut it anymore. Your development team needs tools to truly engage supporters. From the Nonprofit Success Pack (NPSP) Engagement Plans and Levels to Salesforce Campaigns, Tal will share great tips to help your organization raise funds on the Salesforce platform.</p>",
-            "id": "fundraising-strategies-with-the-nonprofit-success-pack",
-            "year": "2019",
-            "track": "nonprofit",
-            "room": "oglethorpe",
-            "slot": "slot3",
-            "speakers": ["frankfurt", "mullick"]
-        },
-        {
-            "title": "Give Boring-Ass Chores to Bots",
-            "abstract": "<p>No one likes repeating themselves but in reality service agents spend a lot of time doing exactly that. In this session I'll be showing how to move website FAQs to chatbot functionality. Reducing the boring ass repetition for agents and delivering a faster interactive experience for your customers. </p>",
-            "id": "give-boring-ass-chores-to-bots",
-            "year": "2019",
-            "track": "admin",
-            "room": "suwanee",
-            "slot": "slot2",
-            "speakers": ["creech"]
-        },
-        {
-            "title": "How Einstein Became a Philanthropist",
-            "abstract": "<p>Nonprofit organizations strive to deliver the most impact they can, and to do this they must be able to place their resources where they can do the most good, and can make the biggest difference. It starts with people and a connected community.</p><p>A skilled volunteer can leverage their specialized skills and talents to strengthen and build their communities. Matching a skilled volunteer with a service opportunity where they will maximize their impact requires a village of technology, tools, and data architecture. Volunteers are twice as likely to donate as non-volunteers. Connecting personal interests and challenging volunteers to invest their funds where they invest their time requires connectedness. Automating all of that work so that a nonprofit staff has time to build relationships instead of building a database requires Salesforce.</p><p>Leverage all the power of the nonprofit cloud to maximize your impact, but most of all foster a connected community.</p>",
-            "id": "how-einstein-became-a-philanthropist",
-            "year": "2019",
-            "track": "nonprofit",
-            "room": "oglethorpe",
-            "slot": "slot5",
-            "speakers": ["dees"]
-        },
-        {
-            "title": "How I Built a Customer Journey That Doesn't Work",
-            "abstract": "<p>I broke Marketing Cloud so you don’t have to. Get a live demonstration of a Marketing Cloud Journey that does everything wrong, and discover straightforward changes you can make to learn from my mistakes. You’ll walk away understanding key Journey Builder concepts and how you can better market to subscribers through email</p>",
-            "id": "how-i-built-a-customer-journey-that-doesnt-work",
-            "year": "2019",
-            "track": "marketing",
-            "room": "dahlonega",
-            "slot": "slot3",
-            "speakers": ["pratt"]
-        },
-        {
-            "title": "How Pardot Connected Campaigns Will Change Your Life",
-            "abstract": "<p>The new Connected Campaigns feature brings Pardot a big step closer to the ‘one platform’ vision. Now you can show the performance of a marketing campaign directly on the Salesforce Campaign page, filter it in List Views, and show your sales teams exactly what marketing assets a Lead or Contact interacted with. All of this useful data will make more Salesforce Users (voluntarily!) switch to Salesforce Lightning.</p>",
-            "id": "how-pardot-connected-campaigns-will-change-your-life",
-            "year": "2019",
-            "track": "marketing",
-            "room": "dahlonega",
-            "slot": "slot1",
-            "speakers": ["black"]
-        },
-        {
-            "title": "How to Eat An Elephant (& Maximize Pardot)",
-            "abstract": "<p>For most marketers, there's a point almost always thirty days in to an implementation where they realize that Pardot can do everything! The joy of opportunity is quickly shadowed by massive Pardot ToDo lists that seem to grow everyday! And each item says \"complete me today!\" What is missing is a prioritized roadmap. After working with over 2,000 organizations, the common path of the most successful of them was distilled into a simple 10 step plan. By the end of this session, you will have a definitive number of where you're at, what your very next step is, and a clear understanding of how to completely maximize your Pardot org!</p>",
-            "id": "how-to-eat-an-elephant",
-            "year": "2019",
-            "track": "marketing",
-            "room": "dahlonega",
-            "slot": "slot1",
-            "speakers": ["cheshire"]
-        },
-        {
-            "title": "Innovation through Non-Traditional Talent",
-            "abstract": "<p>This session will cover the importance of integrating non-traditional technology talent with the traditional technology talent in organizations. TechBridge and Goodwill of North Georgia joined forces with leading technology companies to offer a free, innovative 16-week technology career program to train individuals in Salesforce Administration and Web Development. We will discuss how the training of this diverse set of students including recent high school graduates with limited access and opportunity to traditional universities, military veterans, and career changers has unlocked their potential and motivation providing human capital and financial value to companies.</p>",
-            "id": "innovation-through-non-traditional-talent",
-            "year": "2019",
-            "track": "exec",
-            "room": "marietta",
-            "slot": "slot3",
-            "speakers": ["dickens", "mackey"]
-        },
-        {
-            "title": "KCS is for Closers",
-            "abstract": "<p>At its core, Knowledge-Centered Service (KCS) is about demand-driven knowledge: capturing contexts and letting frequency of need drive efforts for creating and revising knowledge articles. Often times, businesses implement Service Cloud at the tactical level, without considering the philosophy behind KCS. In this session, we will link the four core pillars of KCS directly to their implementation in Salesforce. Learn why embracing KCS principles will improve case deflection metrics, improve customer & employee satisfaction, enable self-service community initiatives, all while reducing the burden (ahem... cost) of support. You'll leave this session with the tools to convince those pesky executives that investing in the technology, tactics, and training around KCS will pay dividends today and in the future.</p>",
-            "id": "kcs-is-for-closers",
-            "year": "2019",
-            "track": "exec",
-            "room": "marietta",
-            "slot": "slot5",
-            "speakers": ["yermish"]
-        }
-    ],
-    "hots": [],
-    "keynote": {}
-}
+
+        gtag('js', new Date());
+        gtag('config', 'G-8Q8JJ5JNSQ');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Join us for a community lead Salesforce conference with sessions by community members like you!">
+
+    <meta property="og:title" content="Southeast Dreamin' &mdash; June 27th - 28th 2024">
+    <meta property="og:description" content="Join us for a community lead Salesforce conference with sessions by community members like you!">
+    <meta property="og:type" content="website">
+    <meta property="og:local" content="en_US">
+    <meta property="og:image" content="/img/opengraph.png">
+    <meta property="og:url" content="https://southeastdreamin.com">
+
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:site" content="@sedreamin">
+    <meta property="twitter:creator" content="@aelst">
+    <meta property="twitter:title" content="Southeast Dreamin' &mdash; June 27th - 28th 2024">
+    <meta property="twitter:image" content="/img/opengraph.png">
+
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+    <title>Southeast Dreamin' &mdash; 2023 Sessions</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+    <body>
+        <div id="site-wrapper" class="container is-fullhd px-0">
+            <nav class="navbar px-4" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/img/logo_wide_header.png" alt="Southeast Dreamin'" width="112" height="28">
+        </a>
+        <span class="navbar-item has-text-primary">June 27th - 28th 2024</span>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="/">Home</a>
+            
+            
+            
+            <a class="navbar-item" href="/schedule">Schedule</a>
+            <a class="navbar-item" href="/sessions">Sessions</a>
+            <a class="navbar-item" href="/archive">Archive</a>
+            <a class="navbar-item" href="/team">About Us</a>
+            <a class="navbar-item" href="/faq">FAQ</a>
+        </div>
+    </div>
+    <div class="navbar-end">
+        
+        <div class="navbar-item">
+            <div class="buttons">
+                <a href="/volunteer" class="button is-primary">Volunteer</a>
+            </div>
+        </div>
+        
+        
+        <div class="navbar-item">
+            <div class="buttons">
+                <a href="/sponsors/new" class="button is-link">Become a Sponsor</a>
+            </div>
+        </div>
+        
+        
+        <div class="navbar-item">
+            <div class="buttons">
+                <a href="https://whova.com/portal/registration/south1_202407/" class="button is-link">Register</a>
+                <a href="http://bookings.ihotelier.com/bookings.jsp?groupID=4055562&amp;hotelID=75983" class="button is-light is-link">Hotel</a>
+            </div>
+        </div>
+        
+    </div>
+</nav>
+            <div class="container is-fluid px-0">
+                
+    <div class="content mx-4">
+        <h1 class="title is-1">Sessions</h1>
+        
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="hotslot1"></a>Hands-on Training Session #1</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">2:15 PM - 3:45 PM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">2:15 PM - 3:45 PM</h3>
+        
+    
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="hotslot2"></a>Hands-on Training Session #2</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">4:00 PM - 5:30 PM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">4:00 PM - 5:30 PM</h3>
+        
+    
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="slot1"></a>Breakout Session #1</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">9:30 AM - 10:15 AM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">9:30 AM - 10:15 AM</h3>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="the-one-thing-your-employees-want-more-than-casual-fridays" href="/sessions/2019/the-one-thing-your-employees-want-more-than-casual-fridays">The One Thing Your Employees Want More Than Casual Fridays</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Marietta</h4>
+            <span class="tag is-exec is-light">Exec</span>
+            <div class="content mt-4 pl-5"><p>Ping pong tables, kegerators, and casual Fridays are great perks to boost morale. What’s one thing even more impactful than extra perks and quirks? Inclusion. Learn how adopting inclusive language makes a difference in how both your employees and customers interact with your company and why inclusivity can be key to boosting your bottom line.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/belke.jpg" alt="Photo of Emily Belke" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Emily Belke</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="setup-ci-using-salesforce-dx-and-jenkins" href="/sessions/2019/setup-ci-using-salesforce-dx-and-jenkins">Set up Continuous Integration using SalesforceDX and Jenkins</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Augusta</h4>
+            <span class="tag is-dev is-light">Developers</span>
+            <div class="content mt-4 pl-5"><p>SalesforceDX is new way to build and deploy Salesforce implementations. And as per google trend, Jenkins is highly searched build management tool for 2018. So, in this session, I will explain how to setup Jenkins and SalesforceDX for Continuous Integration (CI) along with branching strategy. We will also discuss what is Continuous Delivery (CD) and how it’s different compared to CI. Audience will get to know various Patterns and Anti-patterns for setting up CI CD.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/zaa.jpg" alt="Photo of Jitendra Zaa" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Jitendra Zaa</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/chaudhary.jpg" alt="Photo of Amit Chaudhary" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Amit Chaudhary</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="outbound-funds" href="/sessions/2019/outbound-funds">Outbound Funds: Adapt your CRM for charitable giving</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Oglethorpe</h4>
+            <span class="tag is-nonprofit is-light">Non-Profit</span>
+            <div class="content mt-4 pl-5"><p>Sarah Amin and the Outbound Funds Open Source Community Project team have built a package to help nonprofit and corporate organizations use Salesforce to manage charitable giving activities. In this session, we will talk about the great community need that inspired this project, the ways the package addresses these needs, and give a demo of the package for both NPSP and non-NPSP customers.</p><p>Nonprofit Salesforce users have been trying to find elegant ways to adapt the system for these needs for years, and the community team is excited to empower them with this free, easy-to-configure solution! The Outbound Funds package can be used to manage scholarship programs, internal funding requests, traditional grantmaking activities, challenge and matching grants, and more. Audience members will walk away understanding how to use Outbound Funds to serve their unique needs.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/amin.jpg" alt="Photo of Sarah Amin" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Sarah Amin</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="advanced-reporting-tips-and-tricks-for-new-admins" href="/sessions/2019/advanced-reporting-tips-and-tricks-for-new-admins">Advanced Reporting Tips &amp; Tricks for New Admins</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Suwanee</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Are you a new Admin struggling to create reports for your team? Do you spend way too much time racking your brain trying to get data to present properly? You're not alone. Many beginner Admins spend hours trying to develop reports that should only take minutes to finish. This session will show you real examples of advanced reporting features that will make your job easier and provide greater value to your users. During this live demo you will learn how to use: Custom Summary Formulas, Cross Filters, Power of 1, Joined Reports, Buckets, and Custom Report Types. These tips will help you easily identify and present data, enable your marketing team to see Lead conversion rates and show sales reps revenue toward goal. The presentation will help you take your reporting game to the next level.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/crear.jpg" alt="Photo of Aaron Crear" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Aaron Crear</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="how-pardot-connected-campaigns-will-change-your-life" href="/sessions/2019/how-pardot-connected-campaigns-will-change-your-life">How Pardot Connected Campaigns Will Change Your Life</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-marketing is-light">Marketing</span>
+            <div class="content mt-4 pl-5"><p>The new Connected Campaigns feature brings Pardot a big step closer to the ‘one platform’ vision. Now you can show the performance of a marketing campaign directly on the Salesforce Campaign page, filter it in List Views, and show your sales teams exactly what marketing assets a Lead or Contact interacted with. All of this useful data will make more Salesforce Users (voluntarily!) switch to Salesforce Lightning.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/black.jpg" alt="Photo of Lara Black" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Lara Black</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="how-to-eat-an-elephant" href="/sessions/2019/how-to-eat-an-elephant">How to Eat An Elephant (&amp; Maximize Pardot)</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-marketing is-light">Marketing</span>
+            <div class="content mt-4 pl-5"><p>For most marketers, there's a point almost always thirty days in to an implementation where they realize that Pardot can do everything! The joy of opportunity is quickly shadowed by massive Pardot ToDo lists that seem to grow everyday! And each item says "complete me today!" What is missing is a prioritized roadmap. After working with over 2,000 organizations, the common path of the most successful of them was distilled into a simple 10 step plan. By the end of this session, you will have a definitive number of where you're at, what your very next step is, and a clear understanding of how to completely maximize your Pardot org!</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/placeholder.jpg" alt="Photo of Casey Cheshire" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Casey Cheshire</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+    
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="slot2"></a>Breakout Session #2</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">10:25 AM - 11:10 AM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">10:25 AM - 11:10 AM</h3>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="pathway-to-pardot" href="/sessions/2019/pathway-to-pardot">Pathway to Pardot &amp; Roadmap to Success</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-marketing is-light">Marketing</span>
+            <div class="content mt-4 pl-5"><p>Implementing Pardot is more than setting up a system. Hear from Pardot expert and Salesforce MVP best practices to putting you on the road to a successful Pardot implementation and beyond to the path of success.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/cogswell.jpg" alt="Photo of Stacey Cogswell" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Stacey Cogswell</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="bon-appetit" href="/sessions/2019/bon-appetit">Bon Appetit: The Recipe For Better Donor Statistics</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Oglethorpe</h4>
+            <span class="tag is-nonprofit is-light">Non-Profit</span>
+            <div class="content mt-4 pl-5"><p>Soft credits, hard credits, contacts, accounts.... The more you can slice and dice (and julienne?!) your data, the better your segmentation can be. Let’s talk about the improvements to roll-ups recently released in the NPSP, and a free tool that can help roll up (nearly) anything to anywhere.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/styles.jpg" alt="Photo of Amanda Styles" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Amanda Styles</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="everythings-awesome-with-asynchronous-apex" href="/sessions/2019/everythings-awesome-with-asynchronous-apex">Everything&#39;s awesome with asynchronous apex</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Augusta</h4>
+            <span class="tag is-dev is-light">Developers</span>
+            <div class="content mt-4 pl-5"><p>Having multiple asynchronous choice's in apex language, In this presentation I want to present,</p><ul><li>What does asynchronous mean?</li><li>Why would one want to use asynchronous apex?</li><li>What are the choices available to the developer?</li><li>How to pick the most ideal choice ?</li></ul><p>Last but not the least common pit falls one might be aware of when choosing among these options!</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/mudunuri.jpg" alt="Photo of Rajesh Varma Mudunuri" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Rajesh Varma Mudunuri</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="fsl-lessons-learned" href="/sessions/2019/fsl-lessons-learned">FSL Lessons Learned: How To Get the Most Out of Your FSL Implementation</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Marietta</h4>
+            <span class="tag is-end-user is-light">End Users</span>
+            <div class="content mt-4 pl-5"><p>Field Service Lightning is still the new kid on the Service Cloud block. In this session I'll share my first-hand experiences of setting up FSL. What's worked well, what didn't, and how I'd approach it next time.</p><li>How to match it to your business</li><li>Where to start/ what to focus on</li><li>Crawl, walk, run approach</li><li>Automation</li><li>Setting up teams/training</li></ul><p>This session would be a knowledge sharing / tips & tricks type of session. It could be useful for end users or admins who are trying to get a better sense of what FSL is and how it might work for them.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/torcasso.jpg" alt="Photo of Matt Torcasso" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Matt Torcasso</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="give-boring-ass-chores-to-bots" href="/sessions/2019/give-boring-ass-chores-to-bots">Give Boring-Ass Chores to Bots</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Suwanee</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>No one likes repeating themselves but in reality service agents spend a lot of time doing exactly that. In this session I'll be showing how to move website FAQs to chatbot functionality. Reducing the boring ass repetition for agents and delivering a faster interactive experience for your customers. </p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/creech.jpg" alt="Photo of Ashley Creech" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Ashley Creech</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+    
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="slot3"></a>Breakout Session #3</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">1:15 PM - 2:00 PM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">1:15 PM - 2:00 PM</h3>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="a-quick-intro-to-lightning-web-components" href="/sessions/2019/a-quick-intro-to-lightning-web-components">A Quick Intro to Lightning Web Components</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Augusta</h4>
+            <span class="tag is-dev is-light">Developers</span>
+            <div class="content mt-4 pl-5"><p>Lighting Web Components are the new, standards based way to create UI elements for Lighting. We will take a quick look at the tools needed to get started and the basics of creating a Lighting Web Component.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/nelson.jpg" alt="Photo of Brett Nelson" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Brett Nelson</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="clicks-and-code" href="/sessions/2019/clicks-and-code">Clicks and Code: The Future of Your Admin Career</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Suwanee</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>It has never been easier to become a Salesforce Admin! Between Trailhead, User Groups, conferences, and more, you have several options to kick-start your Salesforce career. But you can't do everything with clicks: complex sharing, Lightning components, and powerful integrations are just a few of the use cases for coding. The demand for Salesforce developers is also surging, providing a lucrative opportunity for those who combine their Admin proficiency with programming knowledge. In this session, we'll discuss not just why you should add coding to your Salesforce skillset, but how you can start your development journey. We will walk through a case study that highlights the need for admins who aren't afraid to get their hands dirty with code, so join us if you're feeling ambitious!</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/white.jpg" alt="Photo of David White" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">David White</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="fundraising-strategies-with-the-nonprofit-success-pack" href="/sessions/2019/fundraising-strategies-with-the-nonprofit-success-pack">Fundraising Strategies with the Nonprofit Success Pack</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Oglethorpe</h4>
+            <span class="tag is-nonprofit is-light">Non-Profit</span>
+            <div class="content mt-4 pl-5"><p>Fundraising is all about relationships. A spreadsheet or donor database won’t cut it anymore. Your development team needs tools to truly engage supporters. From the Nonprofit Success Pack (NPSP) Engagement Plans and Levels to Salesforce Campaigns, Tal will share great tips to help your organization raise funds on the Salesforce platform.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/frankfurt.jpg" alt="Photo of Tal Frankfurt" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Tal Frankfurt</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/mullick.jpg" alt="Photo of Samir Mullick" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Samir Mullick</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="how-i-built-a-customer-journey-that-doesnt-work" href="/sessions/2019/how-i-built-a-customer-journey-that-doesnt-work">How I Built a Customer Journey That Doesn&#39;t Work</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-marketing is-light">Marketing</span>
+            <div class="content mt-4 pl-5"><p>I broke Marketing Cloud so you don’t have to. Get a live demonstration of a Marketing Cloud Journey that does everything wrong, and discover straightforward changes you can make to learn from my mistakes. You’ll walk away understanding key Journey Builder concepts and how you can better market to subscribers through email</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/pratt.jpg" alt="Photo of Aaron Pratt" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Aaron Pratt</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="innovation-through-non-traditional-talent" href="/sessions/2019/innovation-through-non-traditional-talent">Innovation through Non-Traditional Talent</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Marietta</h4>
+            <span class="tag is-exec is-light">Exec</span>
+            <div class="content mt-4 pl-5"><p>This session will cover the importance of integrating non-traditional technology talent with the traditional technology talent in organizations. TechBridge and Goodwill of North Georgia joined forces with leading technology companies to offer a free, innovative 16-week technology career program to train individuals in Salesforce Administration and Web Development. We will discuss how the training of this diverse set of students including recent high school graduates with limited access and opportunity to traditional universities, military veterans, and career changers has unlocked their potential and motivation providing human capital and financial value to companies.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/dickens.jpg" alt="Photo of Andre Dickens" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Andre Dickens</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/mackey.jpg" alt="Photo of Valarie Mackey" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Valarie Mackey</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+    
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="slot4"></a>Breakout Session #4</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">2:10 PM - 2:55 PM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">2:10 PM - 2:55 PM</h3>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="transition-to-lightning" href="/sessions/2019/transition-to-lightning">Transition to Lightning: Keep it Simple</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Oglethorpe</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Has switching to lightning been scary or a potentially large effort? As a Lightning Champion, I'm here to set the record straight that it does not need to complicated to get to lightning. And how the benefits of adopting lightning today, outweigh the cons staying in classic.</p><p>In this session, we'll talk about best practices around:</p><ul><li>The most important reasons for switching to lightning now</li><li>Where to start when planning about the migration to Lightning</li><li>Different approaches your organization can take (Phased, Big Bang, Pilot, etc.)</li><li>How to assemble your lightning adoption team</li><li>How to talk like an adoption expert in your own organization to support the migration</li><li>Places to not "Over-think" the configuration and set up for launch</li></ul></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/coelho.jpg" alt="Photo of James Coelho" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">James Coelho</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="orgs-gone-wild" href="/sessions/2019/orgs-gone-wild">Orgs Gone Wild! An Admin&#39;s Guide To Org Simplification</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Suwanee</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Have you ever opened up your org and spent hours stumbling through dozens if not hundreds of custom fields, buttons, record types, page layouts, profiles? Only to find configuration and code that is not clearly defined or being used. Join us to learn how to quickly build a solution that helps you understand what’s in your org, how those capabilities are being used, and when they were last evaluated. Don’t miss this session, you’re fellow admins will love you!</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/martin.jpg" alt="Photo of Mike Martin" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Mike Martin</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/fiega.jpg" alt="Photo of Joe Fiega" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Joe Fiega</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="build-your-own-dev-tools-with-salesforce-cli-plugin-generator" href="/sessions/2019/build-your-own-dev-tools-with-salesforce-cli-plugin-generator">Build your own Dev tools with Salesforce CLI Plugin Generator</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Augusta</h4>
+            <span class="tag is-dev is-light">Developers</span>
+            <div class="content mt-4 pl-5"><p>The Salesforce CLI core plug-ins provide commands and functionality to meet common needs .If you need commands for specific need (extract metadata in excel , list all the custom fields , layouts and process of an object, generate test data and so on) , one can define and build custom commands using salesforce CLI plugin generator .In this session , we will demonstrate how to design, build and release a custom cli plugin to extract metadata of an object (object model ,layouts and process info) in a readable format</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/shrivastava.jpg" alt="Photo of Mohith Shrivastava" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Mohith Shrivastava</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="connected-campaigns" href="/sessions/2019/connected-campaigns">Connected Campaigns | The Secret Sauce to Analytics Glory</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-marketing is-light">Marketing</span>
+            <div class="content mt-4 pl-5"><p>With the adoption of Einstein Analytics growing, particularly in the Salesforce Pardot space specific to B2BMA, many companies are frustrated that although beautiful, these reports are not giving them the out of the box functionality they are expecting.</p><p>This session outlines a successful approach using the Connected Campaigns Pardot feature and key strategic decisions on how you could structure campaign hierarchy in your Salesforce. We uncover the secret sauce that ties the bridge of asset engagement, prospect journey to opportunity won, all powered by the campaign.</p><p>Learn how becoming obsessed about campaigns can align all your reporting and give you a new view in regard to lead source reporting, content reporting, prospect journey visibility and attribution of the marketing team. By using this well proven methodology of asset allocation, streamlined campaign structure, we will share insights, success stories and the true functionality of the out of the box B2BM Analytics Dashboards like Engagement and Marketing Manager.</p><p>While a technical session, it also holds an overarching strategy that can be taken back to any team. This session will appeal to admins, marketers and executives looking for a holistic view of their organization and how all pieces contribute to a return on investment.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/schneider.jpg" alt="Photo of Jennifer Lynn Schneider" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Jennifer Lynn Schneider</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+    
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="slot5"></a>Breakout Session #5</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">3:15 PM - 4:00 PM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">3:15 PM - 4:00 PM</h3>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="what-is-event-monitoring" href="/sessions/2019/what-is-event-monitoring">What is Event Monitoring and Why Should I Care?</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Augusta</h4>
+            <span class="tag is-dev is-light">Developers</span>
+            <div class="content mt-4 pl-5"><p>Event monitoring is a powerful tool that exposed lots of useful data about your org. Learn what event monitoring is, how to access the data and what you can do with it. Learn how to find poorly performing reports, users with old API version logins, users abusing your APIs, Visualforce page performance problems and more.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/connelly.jpg" alt="Photo of Patrick Connelly" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Patrick Connelly</h1>
+                    <strong>Principal Software Engineer</strong>
+                    <p>Red Hat</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="learn-to-leverage-the-power-of-soql" href="/sessions/2019/learn-to-leverage-the-power-of-soql">Learn to Leverage the Power of SOQL</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>SOQL queries are a great way for Admins to easily and quickly access, analyse, and manipulate their Salesforce data. Join me as I show you how to apply your knowledge of report builder filters and formulas to help you write SOQL queries. You’ll come away with a whole new way of accessing your data and an understanding of how this will save you valuable time, as well as maximising your skillset.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/lockie.jpg" alt="Photo of Louise Lockie" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Louise Lockie</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="embrace-the-power-of-lightning-report-builder" href="/sessions/2019/embrace-the-power-of-lightning-report-builder">Embrace the Power of Lightning Report Builder</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Suwanee</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Lightning Report Builder is powerful, beautiful, and ready for use! Users can take advantage of its many features to create and share compelling Reports and Charts. In this session we'll identify data issues with Cross Filters, create a bird's eye view of data with Grouped Rows and Columns, build persuasive Charts for managing pipeline, leverage trending to understand business direction, push Charts to Dashboards, and Subscribe to Reports to keep yourself and business leaders informed.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/carnes.jpg" alt="Photo of David Carnes" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">David Carnes</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="how-einstein-became-a-philanthropist" href="/sessions/2019/how-einstein-became-a-philanthropist">How Einstein Became a Philanthropist</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Oglethorpe</h4>
+            <span class="tag is-nonprofit is-light">Non-Profit</span>
+            <div class="content mt-4 pl-5"><p>Nonprofit organizations strive to deliver the most impact they can, and to do this they must be able to place their resources where they can do the most good, and can make the biggest difference. It starts with people and a connected community.</p><p>A skilled volunteer can leverage their specialized skills and talents to strengthen and build their communities. Matching a skilled volunteer with a service opportunity where they will maximize their impact requires a village of technology, tools, and data architecture. Volunteers are twice as likely to donate as non-volunteers. Connecting personal interests and challenging volunteers to invest their funds where they invest their time requires connectedness. Automating all of that work so that a nonprofit staff has time to build relationships instead of building a database requires Salesforce.</p><p>Leverage all the power of the nonprofit cloud to maximize your impact, but most of all foster a connected community.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/dees.jpg" alt="Photo of Melissa Hill Dees Dees" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Melissa Hill Dees Dees</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="kcs-is-for-closers" href="/sessions/2019/kcs-is-for-closers">KCS is for Closers</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Marietta</h4>
+            <span class="tag is-exec is-light">Exec</span>
+            <div class="content mt-4 pl-5"><p>At its core, Knowledge-Centered Service (KCS) is about demand-driven knowledge: capturing contexts and letting frequency of need drive efforts for creating and revising knowledge articles. Often times, businesses implement Service Cloud at the tactical level, without considering the philosophy behind KCS. In this session, we will link the four core pillars of KCS directly to their implementation in Salesforce. Learn why embracing KCS principles will improve case deflection metrics, improve customer & employee satisfaction, enable self-service community initiatives, all while reducing the burden (ahem... cost) of support. You'll leave this session with the tools to convince those pesky executives that investing in the technology, tactics, and training around KCS will pay dividends today and in the future.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2019/speakers/yermish.jpg" alt="Photo of Howard Yermish" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Howard Yermish</h1>
+                    <strong></strong>
+                    <p></p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+    
+    </div>
+
+            </div>
+            <footer class="footer p-6 is-hidden-mobile">
+    <div class="content is-size-7 is-pulled-left m-0">
+        Developed and designed by <a href="https://connelly.dev">Patrick Connelly</a> using <a href="https://bulma.io/">Bulma</a>, <a href="https://fontawesome.com/">Font Awesome</a>, and <a href="https://github.com/SoutheastDreamin/website">GitHub</a>
+    </div>
+    <div class="content has-text-right">
+        <a href="https://twitter.com/sedreamin" aria-label="SEDreamin Twitter account">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+</footer>
+<footer class="footer p-2 is-hidden-tablet-only is-hidden-desktop-only is-hidden-widescreen-only is-hidden-fullhd">
+    <div class="content pl-2 pr-4">
+        <a href="https://twitter.com/sedreamin"  aria-label="SEDreamin Twitter account">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+    <div class="block is-size-7">
+        Developed and designed by <a href="https://connelly.dev">Patrick Connelly</a> using <a href="https://bulma.io/">Bulma</a>, <a href="https://fontawesome.com/">Font Awesome</a>, and <a href="https://github.com/SoutheastDreamin/website">GitHub</a>
+    </div>
+</footer>
+        </div>
+        <script src="/js/main-min.js"></script>
+<script src="/js/scrollspy.js"></script>
+
+
+
+
+    </body>
+</html>

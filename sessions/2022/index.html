@@ -1,1001 +1,1859 @@
-{
-    "rooms": {
-        "augusta": {
-            "name": "Augusta",
-            "occupancy": 50
-        },
-        "dahlonega": {
-            "name": "Dahlonega",
-            "occupancy": 35
-        },
-        "marietta": {
-            "name": "Marietta",
-            "occupancy": 35
-        },
-        "oglethorpe": {
-            "name": "Oglethorpe",
-            "occupancy": 35
-        },
-        "savannah": {
-            "name": "Savannah",
-            "occupancy": 30
-        },
-        "suwannee": {
-            "name": "Suwannee",
-            "occupancy": 50
-        },
-        "buckheada": {
-            "name": "Buckhead A",
-            "occupancy": 70
-        },
-        "buckheadb": {
-            "name": "Buckhead B",
-            "occupancy": 70
-        }
-    },
-    "tracks": {
-        "admin": {
-            "name": "Administrators",
-            "type": "is-admin",
-            "background": "has-background-admin"
-        },
-        "marketing": {
-            "name": "Marketing",
-            "type": "is-marketing",
-            "background": "has-background-marketing"
-        },
-        "end-user": {
-            "name": "End Users",
-            "type": "is-enduser",
-            "background": "has-background-enduser"
-        },
-        "architect": {
-            "name": "Architects",
-            "type": "is-architect",
-            "background": "has-background-architect"
-        },
-        "dev": {
-            "name": "Developers",
-            "type": "is-dev",
-            "background": "has-background-dev"
-        },
-        "exec": {
-            "name": "Executives",
-            "type": "is-exec",
-            "background": "has-background-exec"
-        },
-        "nonprofit": {
-            "name": "Non-Profit",
-            "type": "is-nonprofit",
-            "background": "has-background-nonprofit"
-        }
-    },
-    "hot_time_slots": {
-        "hotslot1": {
-            "name": "Hands-on Training Session #1",
-            "start": "1:30 PM",
-            "end": "3:00 PM"
-        },
-        "hotslot2": {
-            "name": "Hands-on Training Session #2",
-            "start": "3:15 PM",
-            "end": "4:45 PM"
-        }
-    },
-    "session_time_slots": {
-        "slot1": {
-            "name": "Breakout Session #1",
-            "start": "9:40 AM",
-            "end": "10:25 AM"
-        },
-        "slot2": {
-            "name": "Breakout Session #2",
-            "start": "10:35 AM",
-            "end": "11:20 AM"
-        },
-        "slot3": {
-            "name": "Breakout Session #3",
-            "start": "1:35 PM",
-            "end": "2:00 PM"
-        },
-        "slot4": {
-            "name": "Breakout Session #4",
-            "start": "2:10 PM",
-            "end": "2:35 PM"
-        },
-        "slot5": {
-            "name": "Breakout Session #5",
-            "start": "3:00 PM",
-            "end": "3:45 PM"
-        }
-    },
-    "speakers": {
-        "aggarwal": {
-            "first_name": "Miraz",
-            "last_name": "Aggarwal",
-            "id": "aggarwal",
-            "pronouns": "She / Her",
-            "title": "Sr Salesforce Admin",
-            "company": "HD Supply",
-            "bio": "<p>Mom to two - a sassy gremlin highschooler and a 9 year old. Salesforce Admin, Developer, geek, avid Trailheader, Atlanta WIT Co-Lead. 3x Salesforce certified, leisure baker and soapmaker</p>",
-            "image": "/img/sessions/2022/speakers/aggarwal.jpg",
-            "first_talk": true,
-            "first_sed": true
-        },
-        "baxter": {
-            "first_name": "Sarah",
-            "last_name": "Baxter",
-            "id": "baxter",
-            "pronouns": "She / Her",
-            "title": "CRM Administrator",
-            "company": "Workwear Outfitters",
-            "image": "/img/sessions/2022/speakers/baxter.jpg",
-            "first_talk": true,
-            "first_sed": true
-        },
-        "boaz": {
-            "first_name": "Amber",
-            "last_name": "Boaz",
-            "id": "boaz",
-            "pronouns": "She / Her",
-            "company": "Red Canary",
-            "title": "Senior Manager, Business Solutions",
-            "image": "/img/sessions/2022/speakers/boaz.jpg",
-            "mvp": true
-        },
-        "booth": {
-            "first_name": "Karisa",
-            "last_name": "Booth",
-            "id": "booth",
-            "pronouns": "She / Her",
-            "title": "Sr Architect",
-            "company": "Traction on Demand, a Salesforce Company",
-            "image": "/img/sessions/2022/speakers/booth.jpg",
-            "first_sed": true
-        },
-        "bura": {
-            "first_name": "Michelle",
-            "last_name": "Bura",
-            "id": "bura",
-            "pronouns": "She / Her",
-            "title": "Senior Salesforce Administrator",
-            "company": "Science Exchange",
-            "image": "/img/sessions/2022/speakers/bura.jpg",
-            "first_sed": true
-        },
-        "callison": {
-            "first_name": "Keri",
-            "last_name": "Callison",
-            "id": "callison",
-            "pronouns": "She / Her",
-            "title": "CRM Analyst",
-            "company": "Workwear Outfitters",
-            "image": "/img/sessions/2022/speakers/callison.jpg",
-            "first_talk": true,
-            "first_sed": true
-        },
-        "cammisa": {
-            "first_name": "Ryan",
-            "last_name": "Cammisa",
-            "id": "cammisa",
-            "pronouns": "",
-            "title": "Co-Fouder",
-            "company": "Cloudtegic",
-            "image": "/img/sessions/2022/speakers/cammisa.jpg",
-            "first_talk": true,
-            "first_sed": true
-        },
-        "carlson": {
-            "first_name": "Shari",
-            "last_name": "Carlson",
-            "id": "carlson",
-            "pronouns": "",
-            "title": "Senior Consultant",
-            "company": "North Peak",
-            "bio": "",
-            "image": "/img/sessions/2022/speakers/carlson.jpg",
-            "first_sed": true,
-            "first_talk": false,
-            "mvp": false
-        },
-        "catalano": {
-            "first_name": "Jacob",
-            "last_name": "Catalano",
-            "id": "catalano",
-            "pronouns": "He / Him",
-            "title": "Product Manager",
-            "company": "Sercante",
-            "image": "/img/sessions/2022/speakers/catalano.jpg",
-            "first_set": true
-        },
-        "chaudhary": {
-            "first_name": "Amit",
-            "last_name": "Chaudhary",
-            "id": "chaudhary",
-            "pronouns": "",
-            "title": "Sr. Salesforce Technical Architect",
-            "company": "Apex Hours",
-            "bio": "",
-            "image": "/img/sessions/2022/speakers/chaudhary.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "connelly": {
-            "first_name": "Patrick",
-            "last_name": "Connelly",
-            "id": "connelly",
-            "pronouns": "He / Him",
-            "title": "Principal Software Engineer",
-            "company": "Red Hat",
-            "image": "/img/sessions/2022/speakers/connelly.jpg",
-            "mvp": true
-        },
-        "damon": {
-            "first_name": "Tyler",
-            "last_name": "Damon",
-            "id": "damon",
-            "pronouns": "He / Him",
-            "title": "DevOps Architect",
-            "company": "S&P Global",
-            "image": "/img/sessions/2022/speakers/damon.jpg",
-            "first_sed": true,
-            "first_talk": true
 
-        },
-        "daniel": {
-            "first_name": "John",
-            "last_name": "Daniel",
-            "id": "daniel",
-            "pronouns": "",
-            "title": "Senior Director of Digital Platforms",
-            "company": "Steampunk",
-            "image": "/img/sessions/2022/speakers/daniel.jpg",
-            "first_sed": true,
-            "mvp": true
-        },
-        "duncan": {
-            "first_name": "Erin",
-            "last_name": "Duncan",
-            "id": "duncan",
-            "pronouns": "She / Her",
-            "title": "Pardot Product Director",
-            "company": "Sercante",
-            "image": "/img/sessions/2022/speakers/duncan.jpg"
-        },
-        "epting": {
-            "first_name": "Sarah",
-            "last_name": "Epting",
-            "id": "epting",
-            "pronouns": "She / Her",
-            "title": "CEO/Founder",
-            "company": "Technopath",
-            "image": "/img/sessions/2022/speakers/epting.jpg",
-            "first_sed": true
-        },
-        "garcia": {
-            "first_name": "Stephan",
-            "last_name": "Chandler-Garcia",
-            "id": "garcia",
-            "pronouns": "He / Him",
-            "title": "Lead Developer Advocate",
-            "company": "Salesforce",
-            "image": "/img/sessions/2022/speakers/garcia.jpg",
-            "first_sed": true
-        },
-        "glasser": {
-            "first_name": "Brenda",
-            "last_name": "Glasser",
-            "id": "glasser",
-            "pronouns": "She / Her",
-            "title": "Salesforce Architect",
-            "company": "Ripple",
-            "image": "/img/sessions/2022/speakers/glasser.jpg",
-            "first_sed": true
-        },
-        "godley": {
-            "first_name": "Cate",
-            "last_name": "Godley",
-            "id": "godley",
-            "pronouns": "She / Her",
-            "title": "Jump Start Program Administrator",
-            "company": "Sercante",
-            "image": "/img/sessions/2022/speakers/godley.jpg",
-            "first_talk": true,
-            "first_sed": true
-        },
-        "hansen": {
-            "first_name": "Michelle",
-            "last_name": "Hansen",
-            "id": "hansen",
-            "pronouns": "She / Her",
-            "title": "Business Architect",
-            "company": "IBM",
-            "image": "/img/sessions/2022/speakers/hansen.jpg",
-            "first_sed": true,
-            "mvp": true
-        },
-        "hernandez": {
-            "first_name": "Sara",
-            "last_name": "Hernandez",
-            "id": "hernandez",
-            "pronouns": "She / Her",
-            "title": "Director of Delivery",
-            "company": "Sercante",
-            "image": "/img/sessions/2022/speakers/hernandez.jpg",
-            "first_talk": true,
-            "first_sed": true
-        },
-        "hilaire": {
-            "first_name": "Guilda",
-            "last_name": "Hilaire",
-            "id": "hilaire",
-            "pronouns": "",
-            "title": "Director, Product Marketing",
-            "company": "Salesforce",
-            "bio": "<p>Guilda Hilaire is an award-winning digital marketing thought leader and the Director of Product Marketing at Salesforce. She brings more than 20+ years in marketing technology, including roles within digital marketing operations, training, platform migration/implementation, and consulting. In her current role, she is responsible for leading global community programs, such as: The 500+ Members Global Marketing Program, which rewards and recognizes top community experts/advocates for their ongoing contributions back to the Marketing Community. She is also responsible for building global community programs that make learning soft skills and hard skills accessible to everyone; from the business executive striving for success, to the job seeker looking for a tech job, to the student fresh from graduation.</p><p class=\"pt-3\">Guilda believes in giving back to the community and is active in many organizations and a mentor. Guilda is on ANA Email Experience board and Bentley Global Alumni Board. She has volunteered for many local organizations like The Greater Boston Food Bank, Pine Street Inn and WGBH. She is a graduate Fellow of The Partnership, Inc. Leadership Development Program. She lives in Boston, MA with her beautiful daughter.</p>",
-            "image": "/img/sessions/2022/speakers/hilaire.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "hoffman": {
-            "first_name": "Tom",
-            "last_name": "Hoffman",
-            "id": "hoffman",
-            "pronouns": "He / Him",
-            "title": "Practice Lead, Salesforce",
-            "company": "Crowe",
-            "image": "/img/sessions/2022/speakers/hoffman.jpg",
-            "first_sed": true,
-            "mvp": true
-        },
-        "keitt": {
-            "first_name": "Tracey",
-            "last_name": "Keitt",
-            "id": "keitt",
-            "pronouns": "He / Him",
-            "title": "Salesforce Administrator",
-            "company": "Itential",
-            "bio": "<p>Born and raised in Charlotte, NC, Tracey spent the first decade of his career focused on education and corporate training both stateside and abroad.  After 6 years of exploring the beauty of Chile, founding a business with his wife and starting their family, they decided to move their growing family back stateside. He returned to the traditional classroom but soon felt the need to dive back into the world of data and business.</p><p class='pt-3'>Aftering being introduced to the Salesforce ecosystem and its endless opportunities to learn and develop new skills, he dedicated all of his energies to pivot into his new career. With 6 certifications and counting, he is excited to continually grow his Salesforce knowledge as he goes after new challenges everyday as the Admin at Itential, a cutting edge and rapidly growing tech startup based in Atlanta.</p><p class='pt-3'>In his free time Tracey is an avid cyclist, dedicated to the yoga mat, and loves any and all aspects of photography and videography. He is the current reigning champion of trampoline lucha libres at his homestead, where his scrappy and tenacious sons don’t stand a chance... yet.</p>",
-            "image": "/img/sessions/2022/speakers/keitt.jpg",
-            "first_sed": true,
-            "first_talk": false
-        },
-        "kingston": {
-            "first_name": "Jarrod",
-            "last_name": "Kingston",
-            "id": "kingston",
-            "pronouns": "",
-            "title": "Solution Engineering Leader",
-            "company": "IBM",
-            "image": "/img/sessions/2022/speakers/kingston.jpg",
-            "first_sed": true
-        },
-        "larregui": {
-            "first_name": "Danielle",
-            "last_name": "Larregui",
-            "id": "larregui",
-            "pronouns": "She / Her",
-            "title": "",
-            "company": "Salesforce",
-            "image": "/img/sessions/2022/speakers/larregui.jpg",
-            "first_sed": true
-        },
-        "mahle": {
-            "first_name": "Erick",
-            "last_name": "Mahle",
-            "id": "mahle",
-            "pronouns": "",
-            "title": "Co-Founder",
-            "company": "Ohanaly",
-            "image": "/img/sessions/2022/speakers/mahle.jpg",
-            "first_sed": true
-        },
-        "pawlak": {
-            "first_name": "Tara",
-            "last_name": "Pawlak",
-            "id": "pawlak",
-            "pronouns": "She / Her",
-            "title": "Head of Marketing (US)",
-            "company": "GetAccept",
-            "image": "/img/sessions/2022/speakers/pawlak.jpg",
-            "first_talk": true,
-            "first_sed": true
-        },
-        "petersen": {
-            "first_name": "Alan",
-            "last_name": "Petersen",
-            "id": "petersen",
-            "pronouns": "He / Him",
-            "title": "Senior Managing Salesforce Architect",
-            "company": "IBM",
-            "image": "/img/sessions/2022/speakers/petersen.jpg",
-            "first_sed": true
-        },
-        "pifer": {
-            "first_name": "Chris",
-            "last_name": "Pifer",
-            "id": "pifer",
-            "pronouns": "He / Him",
-            "title": "Senior Solution Architect",
-            "company": "Attain Partners",
-            "image": "/img/sessions/2022/speakers/pifer.jpg",
-            "mvp": true
-        },
-        "rebain": {
-            "first_name": "Stephanie",
-            "last_name": "Rebain",
-            "id": "rebain",
-            "pronouns": "She / Her",
-            "title": "Managed Services Consultant",
-            "company": "Cloud for Good",
-            "image": "/img/sessions/2022/speakers/rebain.jpg",
-            "first_sed": true
-        },
-        "rucker": {
-            "first_name": "Tasha",
-            "last_name": "Rucker",
-            "id": "rucker",
-            "pronouns": "She / Her",
-            "title": "Founder & Principal Consultant",
-            "company": "ReadyCRM",
-            "image": "/img/sessions/2022/speakers/rucker.jpg",
-            "first_sed": true
-        },
-        "sandberg": {
-            "first_name": "Monica",
-            "last_name": "Sandberg",
-            "id": "sandberg",
-            "pronouns": "She / Her",
-            "title": "Salesforce Architect / Admin",
-            "company": "Notisblank",
-            "image": "/img/sessions/2022/speakers/sandberg.jpg",
-            "first_sed": true,
-            "mvp": true
-        },
-        "shrivastava": {
-            "first_name": "Mohith",
-            "last_name": "Shrivastava",
-            "id": "shrivastava",
-            "pronouns": "He / Him",
-            "title": "Lead Developer Advocate",
-            "company": "Salesforce",
-            "image": "/img/sessions/2022/speakers/shrivastava.jpg"
-        },
-        "styles": {
-            "first_name": "Amanda",
-            "last_name": "Styles",
-            "id": "styles",
-            "pronouns": "She / Her",
-            "title": "Senior Solution Architect",
-            "company": "Traction on Demand, a Salesforce Company",
-            "image": "/img/sessions/2022/speakers/styles.jpg"
-        },
-        "taylor": {
-            "first_name": "Marisa",
-            "last_name": "Taylor",
-            "id": "taylor",
-            "pronouns": "She / Her",
-            "title": "Head of Salesforce Architecture & Engineering",
-            "company": "S&P Global",
-            "image": "/img/sessions/2022/speakers/taylor.jpg",
-            "first_sed": true
-        },
-        "utkan": {
-            "first_name": "Andy Engin",
-            "last_name": "Utkan",
-            "id": "utkan",
-            "pronouns": "",
-            "title": "Senior Consultant",
-            "company": "Cirrius Solutions",
-            "image": "/img/sessions/2022/speakers/utkan.jpg",
-            "first_sed": true
-        },
-        "villanueva": {
-            "first_name": "Katie",
-            "last_name": "Villanueva",
-            "id": "villanueva",
-            "pronouns": "She / Her",
-            "title": "Systems Administrator",
-            "company": "Alliant Purchasing",
-            "image": "/img/sessions/2022/speakers/villanueva.jpg",
-            "bio": "Oh goodness, I'm terrible at these. I'm a certified Salesforce Administrator and Platform builder. I love my job, my coworkers, and the company I work for. In my free time you can find me in the gym Olympic style weightlifting or doing CrossFit. I'm a yoga instructor and dog mom. I'm an all around happy human :D",
-            "first_sed": true
-        },
-        "weinmeister": {
-            "first_name": "Phil",
-            "last_name": "Weinmeister",
-            "id": "weinmeister",
-            "pronouns": "",
-            "title": "Product Leader",
-            "company": "IBM",
-            "image": "/img/sessions/2022/speakers/weinmeister.jpg",
-            "mvp": true
-        },
-        "whipple": {
-            "first_name": "Eric",
-            "last_name": "Whipple",
-            "id": "whipple",
-            "pronouns": "",
-            "title": "Founder",
-            "company": "Job Center Software",
-            "image": "/img/sessions/2022/speakers/whipple.jpg",
-            "first_sed": true
-        },
-        "whitakers": {
-            "first_name": "Stacey",
-            "last_name": "Whitaker",
-            "id": "whitakers",
-            "pronouns": "She / Her",
-            "title": "Delivery Manager",
-            "company": "Innovate",
-            "image": "/img/sessions/2022/speakers/whitakers.jpg",
-            "mvp": true
-        },
-        "whitakery": {
-            "first_name": "Yancy",
-            "last_name": "Whitaker",
-            "id": "whitakery",
-            "pronouns": "He / Him",
-            "title": "",
-            "company": "Deloitte",
-            "image": "/img/sessions/2022/speakers/whitakery.jpg",
-            "first_sed": true
-        },
-        "williams": {
-            "first_name": "Sean",
-            "last_name": "Williams",
-            "id": "williams",
-            "pronouns": "",
-            "title": "Senior Consultant",
-            "company": "Slalom",
-            "image": "/img/sessions/2022/speakers/williams.jpg",
-            "first_talk": true,
-            "first_sed": true
-        },
-        "zellner": {
-            "first_name": "Sandi",
-            "last_name": "Zellner",
-            "id": "zellner",
-            "pronouns": "She / Her",
-            "title": "Senior Solutions Architect",
-            "company": "Crowe",
-            "image": "/img/sessions/2022/speakers/zellner.jpg",
-            "first_sed": true,
-            "mvp": true
-        },
-        "zullo": {
-            "first_name": "Chris",
-            "last_name": "Zullo",
-            "id": "zullo",
-            "pronouns": "He / Him",
-            "title": "Marketing Practice Director",
-            "company": "AllCloud",
-            "image": "/img/sessions/2022/speakers/zullo.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": true
+<!DOCTYPE html>
+<html lang="en">
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8Q8JJ5JNSQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
         }
-    },
-    "sessions": [
-        {
-            "title": "So you want to be a developer?",
-            "abstract": "<p>Have you ever thought about becoming a developer but don't know where to start?  Have you started only to not get anywhere?  Then this session is for you.  In this session we'll look at what it means to be a developer, how to take that first step and how to get your development to stick and grow.  We'll talk about how developing outside of Salesforce can help you learn how to develop inside of Salesforce.  Even if you never write code, learning about development can help you grow your career and help you understand when developers on your team discuss issues they are facing.  By the end of the session, you should have an idea for at least one development project you can start right away and the tools to understand where to start.</p>",
-            "id": "so-you-want-to-be-a-developer",
-            "year": "2022",
-            "track": "admin",
-            "room": "dahlonega",
-            "slot": "slot4",
-            "speakers": ["connelly"]
-        },
-        {
-            "title": "Order Up! Pick from the Flow Type Menu",
-            "abstract": "<p>When arriving at a fine restaurant, known for its variety of decadent dishes, the first order of business is to familiarize oneself with the menu. Each time we create a new Flow, the first screen shows our menu of options (Flow types) along with a brief description. Picking the wrong dish can ruin a restaurant experience; likewise, picking the wrong Flow type can lead to frustrations and headaches and ruin an otherwise happy day of Salesforce solutioning. Just as a good waiter will talk us through our likes, dislikes, and curiosities to select the best dish; we need an understanding of the different Flow types to help guide us into selecting the best choice to meet our automation needs.</p><p>Attendees will gain a familiarity with best-practices, pros, cons, and use cases for the following Flow Types through illustrations and real-world examples drawn from my consulting experience implementing Flows for Piedmont Healthcare, Cox Automotive, and Facebook (Meta).<ol><li>Screen Flows</li><li>Record-Triggered Flows and Platform Event-Triggered Flows</li><li>Schedule-Triggered Flows</li><li>Autolaunched Flows</li></ol></p>",
-            "id": "order-up-pick-from-the-flow-type-menu",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheadb",
-            "slot": "slot1",
-            "speakers": ["williams"]
-        },
-        {
-            "title": "You might (already) be a Salesforce Architect if…",
-            "abstract": "<p>According to recent surveys, the need for persons with Salesforce Architect skills outweighs the number of available candidates by a ratio of 10 to 1. That is a lot of opportunity waiting for Trailblazers like you. Are you an architect and you don't even know it? Maybe it is a title you've never considered or a whole new lens to look at yourself through, but you may already be a Salesforce Architect.</p><p>Many people currently working as Salesforce administrators or developers have the required skills to fill a role but do not consider themselves architects. They possess the skills required, but don't identify as qualified for the job. They have the desire to become an architect but don't know how to get there. In this session, we will define key requirements, learn to identify existing strengths and lay out a plan to build a career as a Salesforce Architect.</p>",
-            "id": "you-might-already-be-a-salesforce-architect-if",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheada",
-            "slot": "slot3",
-            "speakers": ["zellner"]
-        },
-        {
-            "title": "The 5 T's of Documentation",
-            "abstract": "<p>No one LOVES documenting. Especially if you don't have a starting off point. How do you structure it? What tool(s) should you use? How do you keep track of what's useful and what's not?</p><p>In this session ☕️ will be spilled. We'll talk about the 5 T's of documentation and how you can implement them in your organization.</p>",
-            "id": "the-five-ts-of-documentation",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheadb",
-            "slot": "slot2",
-            "speakers": ["boaz"]
-        },
-        {
-            "title": "How I manage relationships with bipolar disorder",
-            "abstract": "<p>Let's talk about CRMs, by which I mean: Courage, Respect, and Mindfulness. I'll be sharing my journey navigating bipolar disorder and the relationships around me. Family, marriage, friendships, and work are all affected by my mental illness. I'll explain how CRM helps me manage my relationships. Let's #endthestigma around mental illness, let's get out there and talk about it!</p>",
-            "id": "how-i-manage-relationships-with-bipolar-disorder",
-            "year": "2022",
-            "track": "admin",
-            "room": "suwannee",
-            "slot": "slot3",
-            "speakers": ["villanueva"]
-        },
-        {
-            "title": "Flow Design Patterns: Building with Flow at Scale",
-            "abstract": "<p>Patterns are essential to how we understand and interact in daily life, providing a framework for how to interpret and respond to our world.  Flow Design Patterns, paying homage to the role patterns play in traditional software design, brings this same concept to declarative automation and establishes a flexible approach for building with flow at any size.</p><p>Starting with a review of familiar patterns in Apex design and Process Builder, this session will build on those concepts to provide admins &amp; architects with the ground rules for creating all declarative automation in flow.  The transition to flow is demonstrated through the familiar process builder layout, allowing those newer to the tool to have the confidence they can use their existing skills to champion flow.</p><p>The session will establish rules for creating a flow framework that works in large, complex environments beginning with naming conventions that are standardized to provide easy Flow List View creation, mirror development terms (Trigger, Classes), and allow for easy componentization and reusability of flows.  The focus shifts to how the 'one process per object' rule works with Flow Triggers; setting guidelines for how to keep control of your order of execution while managing increasingly complex automation needs.</p><p>The design pattern itself demonstrates how Flow Triggers, Flow 'Trigger Handles', and Flow 'Classes' work together to create an all encompassing approach to flow that is highly flexible, modular, and scalable.  Attendees will leave ready to tackle a flow-only world, allowing them to apply their flow building capabilities inside of a systematic approach to declarative automation.</p>",
-            "id": "flow-design-patterns",
-            "year": "2022",
-            "track": "admin",
-            "room": "augusta",
-            "slot": "slot2",
-            "speakers": ["hoffman"]
-        },
-        {
-            "title": "Leads in Salesforce: And why you may be doing it wrong.",
-            "abstract": "<p>It's common place for a consultant to be sought for help with Leads, and this always comes well after the implementation. The fact is that defining the Leads object as 'a place where you put people you want to do business with', or simply 'a place to put your Leads in' is misleading, if not borderline wrong. In this session, we're going to go over the proper definition for the Leads object in Salesforce, what its there for, and discuss how it aligns with Pardot and a Lead Nurturing Process (including Marketing Qualified Leads and Sales Qualified Leads).</p><p>We're also going to help validate if the Leads object is right for you and your organization (you may be surprised with the answer).</p><p>In the session, key takeaways include:<ul><li>Learn how to properly leverage the Leads object (and the Accounts/Contacts object) in Salesforce</li><li>Align the Salesforce objects and Pardot to a Lead Nurturing Process</li><li>Discover some best practices in how Pardot Prospects can be best set up to map over to Salesforce</li><li>Get a quick dive into MQL and SQL leads</li><li>Learn one simple trick for implementing MQL leads if you have not yet implemented it, and fear you may spend too much time in whiteboard sessions re-inventing the wheel to qualify your leads.</li></ul>",
-            "id": "leads-in-salesforce",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheada",
-            "slot": "slot1",
-            "speakers": ["mahle"]
-        },
-        {
-            "title": "Going from Solo Admin to an Admin Team - Tips to help with growing pains",
-            "abstract": "<p>What happens when you add a new admin to your solo org?  Join us, a former solo admin, and the newest hire, as we share an honest assessment of this workplace transition. We've broken down our journey into five phases: The Interview, Onboarding, Review of Bad Habits, Beginner's Mindset, and Playing Well Together.  This is a great session for those hiring or looking to join a small to medium sized org.</p>",
-            "id": "going-from-solo-admin-to-an-admin-team",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheada",
-            "slot": "slot2",
-            "speakers": ["callison", "baxter"]
-        },
-        {
-            "title": "Top 5 Things that Salesforce Admins should know about Marketing Automation (and vice versa!)",
-            "abstract": "<p>Ever made a mass update to a bunch of records and learned after the fact that it triggered a bunch of emails to get sent out of a marketing automation platform? Ever been expected to manage unsubscribes in Salesforce? How did these duplicate leads get here?</p><p>As a Salesforce admin - you may be asked to help your friends in marketing (and maybe even their tools), but what if you don't have a background in marketing? How can you best support that team? Or - as a Marketer - you may be asked to work with the Salesforce team to facilitate a new workflow, lead routing, reporting, etc. If you don't have a background in Salesforce, how do I know what's possible or the best way to engage with the team?</p><p>In this session, we'll look at the relationship between the marketer and the Salesforce admin and share the top 5 things that every Salesforce admin should know about marketing automation and also share the top 5 things that every marketer should know about Salesforce.</p>",
-            "id": "top-five-things-that-salesforce-admins-should-know-about-marketing-automation",
-            "year": "2022",
-            "track": "marketing",
-            "room": "augusta",
-            "slot": "slot3",
-            "speakers": ["glasser", "rucker"]
-        },
-        {
-            "title": "The Dark Side of Security",
-            "abstract": "<p>You all know about profiles/permission sets and OWD sharing for securing your records. Come here to learn about the dark side of security and some of Salesforce's newest features and when to leverage them. We'll be discussing Restriction Rules, Scoping Rules, and Muting Permission Sets, what they are, when to use them, and what are the gotchas every admin should know.</p>",
-            "id": "the-dark-side-of-security",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheada",
-            "slot": "slot4",
-            "speakers": ["booth"]
-        },
-        {
-            "title": "Flow Trigger Explorer and Orchestrator",
-            "abstract": "<p>Flow Trigger Explorer is a browser that shows all flows in Salesforce triggering on a specific object. This tool facilitates and supports multiple flow triggers running on the same object determining the order of execution.\nFlow Orchestrator, on the other hand, is the flow of flows. It supports the sequencing of flows that run in sequence or parallel.\nJoin me in this session to see real-life examples of use case implementations.</p>",
-            "id": "flow-trigger-explorer-and-orchestrator",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheada",
-            "slot": "slot5",
-            "speakers": ["utkan"]
-        },
-        {
-            "title": "Transitioning to Flow",
-            "abstract": "<p>Workflow and Process Builder are (almost) out and Flow is in! What does that mean to you and how do you prepare for the transition with success? I'll share a methodical approach, suggestions, and tools to help you achieve the transition with ease, or at least less stress.</p>",
-            "id": "transitioning-to-flow",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheadb",
-            "slot": "slot3",
-            "speakers": ["rebain"]
-        },
-        {
-            "title": "Dark Deployments & Strange Branches",
-            "abstract": "<p>Whether you are managing Salesforce and DevOps at a large and complex scale, while needing to complete and manage the release of long term, highly complex projects or dipping your toe in version control, we will provide you with tips and tricks to build your Devops program. To enable multiple teams working on numerous large projects, we've become adept at dark deployment strategies, as well as managing different, complex sandbox pipelines, including multiple QA environments merging to a single UAT environment. In this presentation we will go over dark deployment strategies, such as using 'natural' barriers / switches such as Record Type, permission sets, or other differentiators for a feature, as well as using custom metadata or labels. We use dark deployment strategies to separate the release of code from feature go-live, enabling roll back to original functionality through a change of a label, or enabling the gradual roll out of new features to subsets of users.</p><p>We've dealt with some unique DevOps challenges due to the complexity and size of our Salesforce organization. To adapt we've been through some growing pains in how to do DevOps correctly, including bringing Devs and Admins on board to better practices and dark deployments. Hopefully by sharing some of our learned best practices, other organizations can have better DevOps implementations.</p>",
-            "id": "dark-deployments-and-strange-branches",
-            "year": "2022",
-            "track": "architect",
-            "room": "dahlonega",
-            "slot": "slot5",
-            "speakers": ["taylor", "damon"]
-        },
-        {
-            "title": "Architectural Considerations to Implementing DX and 2nd Generation Packaging",
-            "abstract": "<p>As architects of larger to enterprise-class orgs evaluate how they could adopt Salesforce DX and Second Generation Packaging, there are many things to consider along the way.</p><p><ul><li>What are the things that are important to consider during the implementation?</li><li>How to understand if you really need to transition?</li><li>How do you modularize your codebase?</li><li>What supporting infrastructure might you need?\n- How to identify success?  It is not the goal to simply create a DX package... It needs to be sustainable long term</li><li>How can concepts like 'separation of concerns', 'properly layered code', and 'dependency injection' help?</li><li>How can open source frameworks like Apex Enterprise Patterns help?</li><li>What are some key tips to gaining support for the effort?</li></ul></p><p>This talk will review the above points, providing the audience with various topics to consider, further research, and key elements of a Salesforce DX 'implementation blueprint', in an effort to help make their individual implementation successful.</p>",
-            "id": "architectural-considerations-to-implementing-dx-and-second-generation-packaging",
-            "year": "2022",
-            "track": "architect",
-            "room": "dahlonega",
-            "slot": "slot1",
-            "speakers": ["daniel"]
-        },
-        {
-            "title": "Getting started with Scratch Orgs",
-            "abstract": "<p>Intro of scratch orgs and how to set up a scratch org with its configuration. Scratch orgs are now a part of the Salesforce development lifecycle which is super important for developers to get familiar with and start using it</p>",
-            "id": "getting-started-with-scratch-orgs",
-            "year": "2022",
-            "track": "dev",
-            "room": "oglethorpe",
-            "slot": "slot1",
-            "speakers": ["garcia"]
-        },
-        {
-            "title": "Code Review & Code Quality",
-            "abstract": "<p>In this session we will talk about what importance of code review and how to setup code review checklist. Best practices of Salesforce Development to create the quality of code.</p><p>This session will cover<ul><li>Why Code needed?</li><li>What is basic code review?</li><li>How to do expert level code review</li><li>Best Practiced of Code Review</li><li>How to build Code Review Checklist</li><li>Example of code review and how to improve it</li><li>Salesforce Coding Best practices.</li></ul></p>",
-            "id": "code-review-and-code-quality",
-            "year": "2022",
-            "track": "dev",
-            "room": "oglethorpe",
-            "slot": "slot2",
-            "speakers": ["chaudhary"]
-        },
-        {
-            "title": "Essential Developer Tools: Embrace the CLI",
-            "abstract": "<p>While the integrations provided for IDEs such as VS Code are great and can save a lot of time, there are still times when you want to drop into the command line and start doing some matrix-like hacking.</p><p>This session will look at<ul><li>When you really need to use the CLI</li><li>Cool things you can do with pipes</li><li>Still can't do something? Write your own extension!</li></ul></p><p>Developers will see how the command-line interface can be a powerful tool in their arsenal. Learn to embrace your inner Neo!</p>",
-            "id": "essential-developer-tools",
-            "year": "2022",
-            "track": "dev",
-            "room": "dahlonega",
-            "slot": "slot3",
-            "speakers": ["petersen"]
-        },
-        {
-            "title": "Build Engaging Slack Apps Integrated to Salesforce",
-            "abstract": "<p>Do you use Slack Apps like Google calendar, Zoom, or Workday? Have you ever wondered how these apps are built and the tools needed to build them? In this session, we will explore how to build Slack apps using Slack Bolt and integrate them into Salesforce, all live!\n\nAlso, I will give you a sneak peek of Apex SDK for building Slack apps.</p>",
-            "id": "build-engaging-slack-apps-integrated-to-salesforce",
-            "year": "2022",
-            "track": "dev",
-            "room": "buckheadb",
-            "slot": "slot5",
-            "speakers": ["shrivastava"]
-        },
-        {
-            "title": "The Rise of the Digital Sales Room",
-            "abstract": "<p>As digitalization continues, companies must evolve their digital sales processes to ensure they remain competitive and provide the best buyer experience possible.  Salesforce Customer 360 connects departments and customer data internally, but how will companies ensure deeper connectedness with external buyers/stakeholders?  Research shows the growing benefit of Deal Relationship Management or DRMs within the CRM to deliver personalized experiences and trusting relationships with buyers.  Gartner predicts that by 2025, 80% of B2B sales interactions between suppliers and buyers will occur in digital sales rooms.</p><p>In this session we will cover the following:<ul><li>what is a digital sales room?</li><li>The reasons why companies must ensure deeper connectedness with external buyers/stakeholders</li><li>How Salesforce customers use digital sales rooms inside of Salesforce</li></ul></p>",
-            "id": "the-rise-of-the-digital-sales-room",
-            "year": "2022",
-            "track": "end-user",
-            "room": "oglethorpe",
-            "slot": "slot5",
-            "speakers": ["pawlak"]
-        },
-        {
-            "title": "Blazing Trails with Salesforce Military",
-            "abstract": "<p>How do you stand out in such an outstanding ecosystem? Empowerment from the Trailblazer community and involvement with the available programs. Salesforce Military has provided myself and many other talented veterans and military spouses the tools for a transformation--from whatever we were to Awesome Admins, Developers, and beyond! I didn't even know how to spell C-R-M when I was directed to the Trailhead site, but I was soon addicted. 30 badges in 30 days. 60 in 6 weeks. Ranger status in 2 months. From there, I connected with Vetforce, completed the ADM 201 course, and got certified. I want everyone to know how a veteran or military spouse can use these tools and change their career and life!</p>",
-            "id": "blazing-trails-with-salesforce-military",
-            "year": "2022",
-            "track": "end-user",
-            "room": "suwannee",
-            "slot": "slot2",
-            "speakers": ["whitakery"]
-        },
-        {
-            "title": "Secret Weapons to Level Up Your Communication & Drive Change",
-            "abstract": "<p>Whether you're an admin, a developer, a consultant, or something in between, part of your job is driving change and influencing people.</p><p>This session will cover soft skills that make all the difference when you want to build trust and make things happen.  They're legit 'secret weapons' -- because if you leverage them effectively, your audience won't even know what hit 'em.</p><p>Topics covered:<ul><li>The 5 whys</li><li>Leveraging silence</li><li>The art of framing</li><li>Practical prompts to put it in action</li></ul></p>",
-            "id": "secret-weapons-to-level-up-your-communication-and-drive-change",
-            "year": "2022",
-            "track": "exec",
-            "room": "augusta",
-            "slot": "slot4",
-            "speakers": ["catalano"]
-        },
-        {
-            "title": "Lightning Email & Landing Page Builders",
-            "abstract": "<p>Are you curious about the new Lightning Builders? Have you deployed them but are not quite sure where to start? Then join us for a comprehensive look at the Lightning Email Builder and Lightning Landing Page Builder. We'll discuss the current features and limitations, plus what's coming down the pipeline, and what's new with the Spring ‘22 release.</p>",
-            "id": "lightning-email-and-landing-page-builders",
-            "year": "2022",
-            "track": "marketing",
-            "room": "dahlonega",
-            "slot": "slot2",
-            "speakers": ["duncan"]
-        },
-        {
-            "title": "10 steps to fully maximizing your Pardot investment",
-            "abstract": "<p>This session covers the 10 'next steps' of where you want to be with Pardot marketing automation.  Designed to help organizations identify where they are in their usage of Marketing Automation and then give them a clear road map, in order of priority, to fully maximize the system, resulting in a faster sales cycle and increased ROI.</p>",
-            "id": "ten-steps-to-fully-maximizing-your-pardot-investment",
-            "year": "2022",
-            "track": "marketing",
-            "room": "augusta",
-            "slot": "slot1",
-            "speakers": ["cammisa"]
-        },
-        {
-            "title": "Why admins need to get familiar with Marketing Cloud",
-            "abstract": "<p>Salesforce as a platform continues to evolve and enhance its capabilities. It is made up of a few clouds and the lines between them continue to blur. Marketing Cloud has traditionally been the furthest removed from its sibling “core” clouds. However, this is changing. Two of the bigger initiatives that are driving Marketing Cloud closer and closer to the other clouds are CDP and Interaction Studio. Both these tools will have large impacts on our CRM data and admins should get acquainted.</p>",
-            "id": "why-admins-need-to-get-familiar-with-marketing-cloud",
-            "year": "2022",
-            "track": "marketing",
-            "room": "oglethorpe",
-            "slot": "slot4",
-            "speakers": ["zullo"]
-        },
-        {
-            "title": "How To Capture Web Leads with CloudPages in Marketing Cloud",
-            "abstract": "<p>Did you know that you can build landing pages and microsites with Marketing Cloud? No? Then join this session to learn what it takes to create them with your custom branding. And we won't stop there. We'll wrap everything up by capturing leads, and sending them on a custom journey.</p>",
-            "id": "how-to-capture-web-leads-with-cloudpages-in-marketing-cloud",
-            "year": "2022",
-            "track": "marketing",
-            "room": "suwannee",
-            "slot": "slot5",
-            "speakers": ["larregui"]
-        },
-        {
-            "title": "How to unlock the power of the nonprofit success pack",
-            "abstract": "<p>Ever feel overwhelmed or frustrated with your nonprofit organization's computer systems?</p><p>Are you intimidated by technology that is more complex than spreadsheets and email?</p><p>Learn about the features of NPSP that you may be missing out on because you didn't realize they existed.  Those include, outlook/gmail integrations + email templates, moves management, built-in reports, and a quick-lift formula trick to help with pesky soft credits.</p>",
-            "id": "how-to-unlock-the-power-of-the-nonprofit-success-pack",
-            "year": "2022",
-            "track": "nonprofit",
-            "room": "augusta",
-            "slot": "slot5",
-            "speakers": ["epting"]
-        },
-        {
-            "title": "How Nonprofits Roll",
-            "abstract": "<p>What's the difference between regular rollups, customizable rollups, and declarative lookup rollup summaries (DLRS)? We have OPTIONS, especially now that DLRS is part of the Open Source Commons. We'll share examples you can build to help your users summarize and analyze their data for fundraising, programs, and more.</p>",
-            "id": "how-nonprofits-roll",
-            "year": "2022",
-            "track": "nonprofit",
-            "room": "suwannee",
-            "slot": "slot4",
-            "speakers": ["styles"]
-        },
-        {
-            "title": "Embracing Open Source in the Salesforce Community",
-            "abstract": "<p>For the past 7 years, a group of admins, developers, partners, ISV's and Salesforce staff have gathered a few time each year to collaborate and develop solutions for some of the biggest ongoing problems facing nonprofits and educational institutions. These Open Source Community sprints have lead to the development of a variety of free, open source products that are available for any organization. This session will provide a brief introduction to some of the projects being developed at these open source sprints, along with an introduction to the Open Source Commons program, and an overview of how you can get involved in these community efforts</p>",
-            "id": "embracing-open-source-in-the-salesforce-community",
-            "year": "2022",
-            "track": "nonprofit",
-            "room": "oglethorpe",
-            "slot": "slot3",
-            "speakers": ["pifer", "carlson"]
-        },
-        {
-            "title": "Crazy Hair? Don't Care! Owning Your Personal Brand",
-            "abstract": "<p>There's a place for everyone in the Salesforce ecosystem! And in the journey to be your true self, you'll establish a personal brand. This interactive session will look at the variety of personal brands that are thriving in the ecosystem (is blue hair really okay for a professional???) and will talk about the importance of your own brand. You'll leave with steps you can take to not only establish but OWN your personal brand.</p>",
-            "id": "crazy-hair-dont-care",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheadb",
-            "slot": "slot4",
-            "speakers": ["whitakers", "whitakery"]
-        }
-    ],
-    "hots": [
-        {
-            "title": "Creating Landing Pages using Pardot's New Enhanced Landing Page Builder",
-            "abstract": "<p>As of Winter ’22, Pardot offers users an additional experience for creating landing pages. The new enhanced landing page experiences provides users with a drag-and-drop editor to build landing pages which has many similarly to the Salesforce Lightning App Builder.</p><p>In this session, we will explore the pre-requisites of setting up the new enhanced landing page builder as well as a demonstration on how to create landing pages using the new builder.</p><p>Don’t have a Pardot org, no worries! Sign-up for <a href='https://trailhead.salesforce.com/en/promo/orgs/pardot-de'>new developer account</a> prior to the session</p>",
-            "id": "creating-landing-pages-using-pardot",
-            "year": "2022",
-            "track": "marketing",
-            "room": "suwannee",
-            "slot": "hotslot2",
-            "speakers": ["rucker"]
-        },
-        {
-            "title": "Custom Record-Triggered Flow Templates",
-            "abstract": "<p>Kick-start your Flow design process by leveraging custom-made Flow templates that will save you valuable time and effort.  In this hands-on session you will learn a simple but systematic method to building trouble-free, easy-to-maintain Templates for Record-Triggered Flows. We'll start with a fool-proof Naming Convention that will make documentation a cinch and keep all your Flows organized. Then, we will create a Flow On/Off switch using a Decision Element and Custom Settings so you can switch off all RTFs globally, by object, or individually. Next, we will add an 'Is New' Decision (using a formula and variables) so you can Trigger the Flow when: 'A record is created or updated' to consolidate the number of Flows you will need. And finally, we will create useful variables like 'varFlowON' and 'varDoNothing'. By re-using a consistent design pattern, your Flows will not only be easier to read and debug, but also make any future refactoring a piece of cake.</p>",
-            "id": "custom-record-triggered-flow-templates",
-            "year": "2022",
-            "track": "admin",
-            "room": "oglethorpe",
-            "slot": "hotslot2",
-            "speakers": ["sandberg"]
-        },
-        {
-            "title": "Getting Started with Salesforce CMS",
-            "abstract": "<p>In this session, I will get you started from scratch with Salesforce CMS. You don't need to have any prior knowledge of CMS, but you'll end our session with your very own site that features content from Salesforce CMS!</p><p>We'll start with an overview of CMS and then we'll dive into setting up a workspace and creating content. From there, we'll initiate a site (community) and build a site that using multiple content-related components. By the end, you'll be well on your way to using CMS in your every day job!</p>",
-            "id": "getting-started-with-salesforce-cms",
-            "year": "2022",
-            "track": "admin",
-            "room": "oglethorpe",
-            "slot": "hotslot1",
-            "speakers": ["weinmeister", "kingston"]
-        },
-        {
-            "title": "A Deep Dive on Salesforce Functions",
-            "abstract": "<p>Salesforce Functions are a way to get more out of your Salesforce implementation. They help us overcome some of the limitations of development in Salesforce, unlocking unlimited (ok with some limits!) potential.</p><p>This workshop will provide a guided interactive tour of Salesforce Functions including:<ul><li>Getting things set up</li><li>Developing a function</li><li>Running things locally</li><li>Unit tests</li><li>Deploying functions</li><li>Calling functions from Salesforce</li><li>Monitoring logs</li><li>Practical function examples / ideas</li></ul></p>",
-            "id": "a-deep-dive-on-salesforce-functions",
-            "year": "2022",
-            "track": "dev",
-            "room": "augusta",
-            "slot": "hotslot1",
-            "speakers": ["petersen"]
-        },
-        {
-            "title": "Getting Started with Tableau CRM",
-            "abstract": "<p>Einstein Analytics, now called Tableau CRM, offers a powerful platform to reveal insights and create predictions.This workshop introduces new users to the Analytics Studio where they can explore datasets, build dashboards and apps, and use pre-built templates to tell stories with data.</p><p>In this workshop, you’ll be introduced to creating widgets, combining them into dashboards, and how to adjust chart properties to best convey the stories in the data.</p><p>Please have a new Analytics Developer Org created and ready to get hands on for this workshop (this is different from a standard Salesforce Developer Org). Create your <a href='https://sfdc.co/EADevOrg'>Analytics Developer Org</a>.</p>",
-            "id": "getting-started-with-tableau-crm",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheadb",
-            "slot": "hotslot2",
-            "speakers": ["whitakers"]
-        },
-        {
-            "title": "Intermediate Flow",
-            "abstract": "<p>If you have built some simple flows that update records, or send email alerts, etc. but want to understand more about what flow builder can do, then this is the session for you! We'll dip our toes into subflows, go round-and-around a loop to gather data from multiple child records, perform some wizardry to sort and filter records multiple ways with a single Get Records element, and finish off by vanquishing those awful Mixed DML errors with a Platform Event-triggered flow--all you need is a clean Trailhead Playground!</p>",
-            "id": "intermediate-flow",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheadb",
-            "slot": "hotslot1",
-            "speakers": ["hansen"]
-        },
-        {
-            "title": "Breaking the Ice with Flows: An Intro to Flow",
-            "abstract": "<p>Let's break the ice and flow with the Flow.  We will begin with chipping away at the ice with a presentation explaining the basic concepts of Flow such as types, elements, resources etc. Then using what we've learned, we'll get hands-on going click-by-click to build a flow.</p>",
-            "id": "breaking-the-ice-with-flows",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheada",
-            "slot": "hotslot1",
-            "speakers": ["bura", "aggarwal"]
-        },
-        {
-            "title": "Braving the waters of Apex: An intro to Apex for Admins",
-            "abstract": "<p>Come join us to dive into the seemingly intimidating world of Apex. We will begin with a presentation that covers the basics you will need to know to get started understanding apex such as Classes, Triggers, Collections, Variables, Loops etc. We will then walk you through line by line as you create your first apex trigger and class.</p>",
-            "id": "braving-the-waters-of-apex",
-            "year": "2022",
-            "track": "dev",
-            "room": "augusta",
-            "slot": "hotslot2",
-            "speakers": ["aggarwal", "bura"]
-        },
-        {
-            "title": "Demystifying Flows, lets build a flow together and learn my top 5 tricks",
-            "abstract": "<p>This session is for the people newer to flows that may need to learn it as Salesforce is deprecating Process Builder and eventually Workflow Rules. Flows are a powerful tool every admin should know, but they have some important gotchas to learn as well. In this session we'll learn the following:<ul><li>Flow basics</li><li>Let's build a record trigger flow</li><li>Let's build a screen pop flow</li><li>Top 5 tricks you need to know about flows (cool use cases and how to go with the flow)</li><li>Gotchas with Flows</li><li>Gotchas with Salesforce Workflow-Rule to Flow Importer tool</li></ul></p>",
-            "id": "demystifying-flows",
-            "year": "2022",
-            "track": "admin",
-            "room": "buckheada",
-            "slot": "hotslot2",
-            "speakers": ["booth"]
-        },
-        {
-            "title": "Pardot Hands-On Training: Building a Post Tradeshow Engagement Program",
-            "abstract": "<p>Join us for an interactive, hands-on training where we will walk through one of the most common use cases we see on Pardot: building a post tradeshow engagement program for your prospects.  We’ll present a real-life scenario & discuss how to amplify lead generation & nurturing efforts using the platform.</p><p>Last but not least, you’ll have the opportunity to walk through a live example in your own Pardot instance & get 1-on-1 guidance along the way!</p><p>Topics Covered:<ul><li>Common roadblocks in implementing marketing automation</li><li>Sales &amp; marketing processes you can automate</li><li>Hands-on example of how to use Pardot to build a post tradeshow engagement program</li><li>How to build a roadmap to leverage Pardot to its fullest potential</li></ul></p>",
-            "id": "pardot-building-a-post-tradeshow-engagement-program",
-            "year": "2022",
-            "track": "marketing",
-            "room": "suwannee",
-            "slot": "hotslot1",
-            "speakers": ["hernandez", "godley"]
-        },
-        {
-            "title": "Build Your Own Automation Monitors and Save Yourself from Run-Time Errors",
-            "abstract": "<p>Are you an admin, developer, or product manager that needs better visibility into Salesforce automations?  Do you hate blind spots in your org?  Us too!  This session will briefly review Salesforce blind spots and then show you how to eliminate them, using 5 simple configuration techniques, including platform events, flows, and custom objects.  In this session, we will create a working automation monitor that:<ul><li>Can be created with no code</li><li>Can be utilized from code OR from Salesforce Flows</li><li>Handles escalation and communications automatically (including integration with Slack!)</li><li>Cleans up after itself (so you don't have log storage issues)</li></ul></p><p>If you want to get 'under the covers' of your Salesforce automations and lose less time, chasing run-time bugs, this hands-on training is for you!</p>",
-            "id": "build-your-own-automation-monitors",
-            "year": "2022",
-            "track": "admin",
-            "room": "dahlonega",
-            "slot": "hotslot1",
-            "speakers": ["whipple"]
-        },
-        {
-            "title": "Get hands on with the Apex SDK for Slack",
-            "abstract": "<p>At this years TrailblazerDX Salesforce announced the Apex SDK for Slack that helps you build Slack Apps right inside of your org! Join us to be some of the first customers to get your hands on the SDK and build a Slack App from scratch! You will learn how to create your first app, link it to Salesforce, and explore the possibilities of Slack + Salesforce.</p>",
-            "id": "get-hands-on-with-the-apex-sdk-for-slack",
-            "year": "2022",
-            "track": "admin",
-            "room": "dahlonega",
-            "slot": "hotslot2",
-            "speakers": ["garcia"]
-        }
-    ],
-    "keynote": {
-        "title": "Keynote",
-        "abstract": "The Southeast Dreamin’ team is putting together a different kind of keynote this year. After two years of being at home, interacting with the Trailblazer community, we want to celebrate the reason we come together. Dreamin’ conferences provide space for seasoned Trailblazers to share knowledge but also create opportunities for new Trailblazers to make their mark - to find their path and go on to become the teachers for the next generation. The three trailblazers highlighted here represent the hope, change, and future of the Salesforce ecosystem.",
-        "takeaway": "<dl><dt>Lessons and Laughs</dt><dd>Inspiring Career Journeys of three Trailblazers</dd><dt>Tips and Tricks</dt><dd>How Trailblazers find Success</dd><dt>The Power of Community</dt><dd>Benefits of User Groups, Community Conferences, and Salesforce Saturdays</dd></dl>",
-        "speakers": ["hilaire", "aggarwal", "keitt", "villanueva"]
-    }
-}
+
+        gtag('js', new Date());
+        gtag('config', 'G-8Q8JJ5JNSQ');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Join us for a community lead Salesforce conference with sessions by community members like you!">
+
+    <meta property="og:title" content="Southeast Dreamin' &mdash; June 27th - 28th 2024">
+    <meta property="og:description" content="Join us for a community lead Salesforce conference with sessions by community members like you!">
+    <meta property="og:type" content="website">
+    <meta property="og:local" content="en_US">
+    <meta property="og:image" content="/img/opengraph.png">
+    <meta property="og:url" content="https://southeastdreamin.com">
+
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:site" content="@sedreamin">
+    <meta property="twitter:creator" content="@aelst">
+    <meta property="twitter:title" content="Southeast Dreamin' &mdash; June 27th - 28th 2024">
+    <meta property="twitter:image" content="/img/opengraph.png">
+
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+    <title>Southeast Dreamin' &mdash; 2022 Sessions</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+    <body>
+        <div id="site-wrapper" class="container is-fullhd px-0">
+            <nav class="navbar px-4" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="/img/logo_wide_header.png" alt="Southeast Dreamin'" width="112" height="28">
+        </a>
+        <span class="navbar-item has-text-primary">June 27th - 28th 2024</span>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="/">Home</a>
+            
+            
+            
+            <a class="navbar-item" href="/schedule">Schedule</a>
+            <a class="navbar-item" href="/sessions">Sessions</a>
+            <a class="navbar-item" href="/archive">Archive</a>
+            <a class="navbar-item" href="/team">About Us</a>
+            <a class="navbar-item" href="/faq">FAQ</a>
+        </div>
+    </div>
+    <div class="navbar-end">
+        
+        <div class="navbar-item">
+            <div class="buttons">
+                <a href="/volunteer" class="button is-primary">Volunteer</a>
+            </div>
+        </div>
+        
+        
+        <div class="navbar-item">
+            <div class="buttons">
+                <a href="/sponsors/new" class="button is-link">Become a Sponsor</a>
+            </div>
+        </div>
+        
+        
+        <div class="navbar-item">
+            <div class="buttons">
+                <a href="https://whova.com/portal/registration/south1_202407/" class="button is-link">Register</a>
+                <a href="http://bookings.ihotelier.com/bookings.jsp?groupID=4055562&amp;hotelID=75983" class="button is-light is-link">Hotel</a>
+            </div>
+        </div>
+        
+    </div>
+</nav>
+            <div class="container is-fluid px-0">
+                
+    <div class="content mx-4">
+        <h1 class="title is-1">Sessions</h1>
+        
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="hotslot1"></a>Hands-on Training Session #1</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">1:30 PM - 3:00 PM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">1:30 PM - 3:00 PM</h3>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="getting-started-with-salesforce-cms" href="/sessions/2022/getting-started-with-salesforce-cms">Getting Started with Salesforce CMS</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Oglethorpe</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>In this session, I will get you started from scratch with Salesforce CMS. You don't need to have any prior knowledge of CMS, but you'll end our session with your very own site that features content from Salesforce CMS!</p><p>We'll start with an overview of CMS and then we'll dive into setting up a workspace and creating content. From there, we'll initiate a site (community) and build a site that using multiple content-related components. By the end, you'll be well on your way to using CMS in your every day job!</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/weinmeister.jpg" alt="Photo of Phil Weinmeister" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Phil Weinmeister</h1>
+                    <strong>Product Leader</strong>
+                    <p>IBM</p>
+                    
+                    
+                    
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/kingston.jpg" alt="Photo of Jarrod Kingston" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Jarrod Kingston</h1>
+                    <strong>Solution Engineering Leader</strong>
+                    <p>IBM</p>
+                    
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="a-deep-dive-on-salesforce-functions" href="/sessions/2022/a-deep-dive-on-salesforce-functions">A Deep Dive on Salesforce Functions</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Augusta</h4>
+            <span class="tag is-dev is-light">Developers</span>
+            <div class="content mt-4 pl-5"><p>Salesforce Functions are a way to get more out of your Salesforce implementation. They help us overcome some of the limitations of development in Salesforce, unlocking unlimited (ok with some limits!) potential.</p><p>This workshop will provide a guided interactive tour of Salesforce Functions including:<ul><li>Getting things set up</li><li>Developing a function</li><li>Running things locally</li><li>Unit tests</li><li>Deploying functions</li><li>Calling functions from Salesforce</li><li>Monitoring logs</li><li>Practical function examples / ideas</li></ul></p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/petersen.jpg" alt="Photo of Alan Petersen" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Alan Petersen</h1>
+                    <strong>Senior Managing Salesforce Architect</strong>
+                    <p>IBM</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="intermediate-flow" href="/sessions/2022/intermediate-flow">Intermediate Flow</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead B</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>If you have built some simple flows that update records, or send email alerts, etc. but want to understand more about what flow builder can do, then this is the session for you! We'll dip our toes into subflows, go round-and-around a loop to gather data from multiple child records, perform some wizardry to sort and filter records multiple ways with a single Get Records element, and finish off by vanquishing those awful Mixed DML errors with a Platform Event-triggered flow--all you need is a clean Trailhead Playground!</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/hansen.jpg" alt="Photo of Michelle Hansen" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Michelle Hansen</h1>
+                    <strong>Business Architect</strong>
+                    <p>IBM</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="breaking-the-ice-with-flows" href="/sessions/2022/breaking-the-ice-with-flows">Breaking the Ice with Flows: An Intro to Flow</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead A</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Let's break the ice and flow with the Flow.  We will begin with chipping away at the ice with a presentation explaining the basic concepts of Flow such as types, elements, resources etc. Then using what we've learned, we'll get hands-on going click-by-click to build a flow.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/bura.jpg" alt="Photo of Michelle Bura" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Michelle Bura</h1>
+                    <strong>Senior Salesforce Administrator</strong>
+                    <p>Science Exchange</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/aggarwal.jpg" alt="Photo of Miraz Aggarwal" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Miraz Aggarwal</h1>
+                    <strong>Sr Salesforce Admin</strong>
+                    <p>HD Supply</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    <span class="tag is-success is-light">First Talk</span>
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="pardot-building-a-post-tradeshow-engagement-program" href="/sessions/2022/pardot-building-a-post-tradeshow-engagement-program">Pardot Hands-On Training: Building a Post Tradeshow Engagement Program</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Suwannee</h4>
+            <span class="tag is-marketing is-light">Marketing</span>
+            <div class="content mt-4 pl-5"><p>Join us for an interactive, hands-on training where we will walk through one of the most common use cases we see on Pardot: building a post tradeshow engagement program for your prospects.  We’ll present a real-life scenario & discuss how to amplify lead generation & nurturing efforts using the platform.</p><p>Last but not least, you’ll have the opportunity to walk through a live example in your own Pardot instance & get 1-on-1 guidance along the way!</p><p>Topics Covered:<ul><li>Common roadblocks in implementing marketing automation</li><li>Sales &amp; marketing processes you can automate</li><li>Hands-on example of how to use Pardot to build a post tradeshow engagement program</li><li>How to build a roadmap to leverage Pardot to its fullest potential</li></ul></p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/hernandez.jpg" alt="Photo of Sara Hernandez" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Sara Hernandez</h1>
+                    <strong>Director of Delivery</strong>
+                    <p>Sercante</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    <span class="tag is-success is-light">First Talk</span>
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/godley.jpg" alt="Photo of Cate Godley" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Cate Godley</h1>
+                    <strong>Jump Start Program Administrator</strong>
+                    <p>Sercante</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    <span class="tag is-success is-light">First Talk</span>
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="build-your-own-automation-monitors" href="/sessions/2022/build-your-own-automation-monitors">Build Your Own Automation Monitors and Save Yourself from Run-Time Errors</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Are you an admin, developer, or product manager that needs better visibility into Salesforce automations?  Do you hate blind spots in your org?  Us too!  This session will briefly review Salesforce blind spots and then show you how to eliminate them, using 5 simple configuration techniques, including platform events, flows, and custom objects.  In this session, we will create a working automation monitor that:<ul><li>Can be created with no code</li><li>Can be utilized from code OR from Salesforce Flows</li><li>Handles escalation and communications automatically (including integration with Slack!)</li><li>Cleans up after itself (so you don't have log storage issues)</li></ul></p><p>If you want to get 'under the covers' of your Salesforce automations and lose less time, chasing run-time bugs, this hands-on training is for you!</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/whipple.jpg" alt="Photo of Eric Whipple" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Eric Whipple</h1>
+                    <strong>Founder</strong>
+                    <p>Job Center Software</p>
+                    
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+    
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="hotslot2"></a>Hands-on Training Session #2</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">3:15 PM - 4:45 PM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">3:15 PM - 4:45 PM</h3>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="creating-landing-pages-using-pardot" href="/sessions/2022/creating-landing-pages-using-pardot">Creating Landing Pages using Pardot&#39;s New Enhanced Landing Page Builder</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Suwannee</h4>
+            <span class="tag is-marketing is-light">Marketing</span>
+            <div class="content mt-4 pl-5"><p>As of Winter ’22, Pardot offers users an additional experience for creating landing pages. The new enhanced landing page experiences provides users with a drag-and-drop editor to build landing pages which has many similarly to the Salesforce Lightning App Builder.</p><p>In this session, we will explore the pre-requisites of setting up the new enhanced landing page builder as well as a demonstration on how to create landing pages using the new builder.</p><p>Don’t have a Pardot org, no worries! Sign-up for <a href='https://trailhead.salesforce.com/en/promo/orgs/pardot-de'>new developer account</a> prior to the session</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/rucker.jpg" alt="Photo of Tasha Rucker" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Tasha Rucker</h1>
+                    <strong>Founder &amp; Principal Consultant</strong>
+                    <p>ReadyCRM</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="custom-record-triggered-flow-templates" href="/sessions/2022/custom-record-triggered-flow-templates">Custom Record-Triggered Flow Templates</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Oglethorpe</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Kick-start your Flow design process by leveraging custom-made Flow templates that will save you valuable time and effort.  In this hands-on session you will learn a simple but systematic method to building trouble-free, easy-to-maintain Templates for Record-Triggered Flows. We'll start with a fool-proof Naming Convention that will make documentation a cinch and keep all your Flows organized. Then, we will create a Flow On/Off switch using a Decision Element and Custom Settings so you can switch off all RTFs globally, by object, or individually. Next, we will add an 'Is New' Decision (using a formula and variables) so you can Trigger the Flow when: 'A record is created or updated' to consolidate the number of Flows you will need. And finally, we will create useful variables like 'varFlowON' and 'varDoNothing'. By re-using a consistent design pattern, your Flows will not only be easier to read and debug, but also make any future refactoring a piece of cake.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/sandberg.jpg" alt="Photo of Monica Sandberg" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Monica Sandberg</h1>
+                    <strong>Salesforce Architect / Admin</strong>
+                    <p>Notisblank</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="getting-started-with-tableau-crm" href="/sessions/2022/getting-started-with-tableau-crm">Getting Started with Tableau CRM</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead B</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Einstein Analytics, now called Tableau CRM, offers a powerful platform to reveal insights and create predictions.This workshop introduces new users to the Analytics Studio where they can explore datasets, build dashboards and apps, and use pre-built templates to tell stories with data.</p><p>In this workshop, you’ll be introduced to creating widgets, combining them into dashboards, and how to adjust chart properties to best convey the stories in the data.</p><p>Please have a new Analytics Developer Org created and ready to get hands on for this workshop (this is different from a standard Salesforce Developer Org). Create your <a href='https://sfdc.co/EADevOrg'>Analytics Developer Org</a>.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/whitakers.jpg" alt="Photo of Stacey Whitaker" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Stacey Whitaker</h1>
+                    <strong>Delivery Manager</strong>
+                    <p>Innovate</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="braving-the-waters-of-apex" href="/sessions/2022/braving-the-waters-of-apex">Braving the waters of Apex: An intro to Apex for Admins</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Augusta</h4>
+            <span class="tag is-dev is-light">Developers</span>
+            <div class="content mt-4 pl-5"><p>Come join us to dive into the seemingly intimidating world of Apex. We will begin with a presentation that covers the basics you will need to know to get started understanding apex such as Classes, Triggers, Collections, Variables, Loops etc. We will then walk you through line by line as you create your first apex trigger and class.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/aggarwal.jpg" alt="Photo of Miraz Aggarwal" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Miraz Aggarwal</h1>
+                    <strong>Sr Salesforce Admin</strong>
+                    <p>HD Supply</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    <span class="tag is-success is-light">First Talk</span>
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/bura.jpg" alt="Photo of Michelle Bura" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Michelle Bura</h1>
+                    <strong>Senior Salesforce Administrator</strong>
+                    <p>Science Exchange</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="demystifying-flows" href="/sessions/2022/demystifying-flows">Demystifying Flows, lets build a flow together and learn my top 5 tricks</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead A</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>This session is for the people newer to flows that may need to learn it as Salesforce is deprecating Process Builder and eventually Workflow Rules. Flows are a powerful tool every admin should know, but they have some important gotchas to learn as well. In this session we'll learn the following:<ul><li>Flow basics</li><li>Let's build a record trigger flow</li><li>Let's build a screen pop flow</li><li>Top 5 tricks you need to know about flows (cool use cases and how to go with the flow)</li><li>Gotchas with Flows</li><li>Gotchas with Salesforce Workflow-Rule to Flow Importer tool</li></ul></p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/booth.jpg" alt="Photo of Karisa Booth" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Karisa Booth</h1>
+                    <strong>Sr Architect</strong>
+                    <p>Traction on Demand, a Salesforce Company</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="get-hands-on-with-the-apex-sdk-for-slack" href="/sessions/2022/get-hands-on-with-the-apex-sdk-for-slack">Get hands on with the Apex SDK for Slack</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>At this years TrailblazerDX Salesforce announced the Apex SDK for Slack that helps you build Slack Apps right inside of your org! Join us to be some of the first customers to get your hands on the SDK and build a Slack App from scratch! You will learn how to create your first app, link it to Salesforce, and explore the possibilities of Slack + Salesforce.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/garcia.jpg" alt="Photo of Stephan Chandler-Garcia" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Stephan Chandler-Garcia</h1>
+                    <strong>Lead Developer Advocate</strong>
+                    <p>Salesforce</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+    
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="slot1"></a>Breakout Session #1</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">9:40 AM - 10:25 AM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">9:40 AM - 10:25 AM</h3>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="order-up-pick-from-the-flow-type-menu" href="/sessions/2022/order-up-pick-from-the-flow-type-menu">Order Up! Pick from the Flow Type Menu</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead B</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>When arriving at a fine restaurant, known for its variety of decadent dishes, the first order of business is to familiarize oneself with the menu. Each time we create a new Flow, the first screen shows our menu of options (Flow types) along with a brief description. Picking the wrong dish can ruin a restaurant experience; likewise, picking the wrong Flow type can lead to frustrations and headaches and ruin an otherwise happy day of Salesforce solutioning. Just as a good waiter will talk us through our likes, dislikes, and curiosities to select the best dish; we need an understanding of the different Flow types to help guide us into selecting the best choice to meet our automation needs.</p><p>Attendees will gain a familiarity with best-practices, pros, cons, and use cases for the following Flow Types through illustrations and real-world examples drawn from my consulting experience implementing Flows for Piedmont Healthcare, Cox Automotive, and Facebook (Meta).<ol><li>Screen Flows</li><li>Record-Triggered Flows and Platform Event-Triggered Flows</li><li>Schedule-Triggered Flows</li><li>Autolaunched Flows</li></ol></p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/williams.jpg" alt="Photo of Sean Williams" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Sean Williams</h1>
+                    <strong>Senior Consultant</strong>
+                    <p>Slalom</p>
+                    
+                    <span class="tag is-success is-light">First Talk</span>
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="leads-in-salesforce" href="/sessions/2022/leads-in-salesforce">Leads in Salesforce: And why you may be doing it wrong.</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead A</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>It's common place for a consultant to be sought for help with Leads, and this always comes well after the implementation. The fact is that defining the Leads object as 'a place where you put people you want to do business with', or simply 'a place to put your Leads in' is misleading, if not borderline wrong. In this session, we're going to go over the proper definition for the Leads object in Salesforce, what its there for, and discuss how it aligns with Pardot and a Lead Nurturing Process (including Marketing Qualified Leads and Sales Qualified Leads).</p><p>We're also going to help validate if the Leads object is right for you and your organization (you may be surprised with the answer).</p><p>In the session, key takeaways include:<ul><li>Learn how to properly leverage the Leads object (and the Accounts/Contacts object) in Salesforce</li><li>Align the Salesforce objects and Pardot to a Lead Nurturing Process</li><li>Discover some best practices in how Pardot Prospects can be best set up to map over to Salesforce</li><li>Get a quick dive into MQL and SQL leads</li><li>Learn one simple trick for implementing MQL leads if you have not yet implemented it, and fear you may spend too much time in whiteboard sessions re-inventing the wheel to qualify your leads.</li></ul></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/mahle.jpg" alt="Photo of Erick Mahle" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Erick Mahle</h1>
+                    <strong>Co-Founder</strong>
+                    <p>Ohanaly</p>
+                    
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="architectural-considerations-to-implementing-dx-and-second-generation-packaging" href="/sessions/2022/architectural-considerations-to-implementing-dx-and-second-generation-packaging">Architectural Considerations to Implementing DX and 2nd Generation Packaging</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-architect is-light">Architects</span>
+            <div class="content mt-4 pl-5"><p>As architects of larger to enterprise-class orgs evaluate how they could adopt Salesforce DX and Second Generation Packaging, there are many things to consider along the way.</p><p><ul><li>What are the things that are important to consider during the implementation?</li><li>How to understand if you really need to transition?</li><li>How do you modularize your codebase?</li><li>What supporting infrastructure might you need?
+- How to identify success?  It is not the goal to simply create a DX package... It needs to be sustainable long term</li><li>How can concepts like 'separation of concerns', 'properly layered code', and 'dependency injection' help?</li><li>How can open source frameworks like Apex Enterprise Patterns help?</li><li>What are some key tips to gaining support for the effort?</li></ul></p><p>This talk will review the above points, providing the audience with various topics to consider, further research, and key elements of a Salesforce DX 'implementation blueprint', in an effort to help make their individual implementation successful.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/daniel.jpg" alt="Photo of John Daniel" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">John Daniel</h1>
+                    <strong>Senior Director of Digital Platforms</strong>
+                    <p>Steampunk</p>
+                    
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="getting-started-with-scratch-orgs" href="/sessions/2022/getting-started-with-scratch-orgs">Getting started with Scratch Orgs</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Oglethorpe</h4>
+            <span class="tag is-dev is-light">Developers</span>
+            <div class="content mt-4 pl-5"><p>Intro of scratch orgs and how to set up a scratch org with its configuration. Scratch orgs are now a part of the Salesforce development lifecycle which is super important for developers to get familiar with and start using it</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/garcia.jpg" alt="Photo of Stephan Chandler-Garcia" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Stephan Chandler-Garcia</h1>
+                    <strong>Lead Developer Advocate</strong>
+                    <p>Salesforce</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="ten-steps-to-fully-maximizing-your-pardot-investment" href="/sessions/2022/ten-steps-to-fully-maximizing-your-pardot-investment">10 steps to fully maximizing your Pardot investment</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Augusta</h4>
+            <span class="tag is-marketing is-light">Marketing</span>
+            <div class="content mt-4 pl-5"><p>This session covers the 10 'next steps' of where you want to be with Pardot marketing automation.  Designed to help organizations identify where they are in their usage of Marketing Automation and then give them a clear road map, in order of priority, to fully maximize the system, resulting in a faster sales cycle and increased ROI.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/cammisa.jpg" alt="Photo of Ryan Cammisa" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Ryan Cammisa</h1>
+                    <strong>Co-Fouder</strong>
+                    <p>Cloudtegic</p>
+                    
+                    <span class="tag is-success is-light">First Talk</span>
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+    
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="slot2"></a>Breakout Session #2</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">10:35 AM - 11:20 AM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">10:35 AM - 11:20 AM</h3>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="the-five-ts-of-documentation" href="/sessions/2022/the-five-ts-of-documentation">The 5 T&#39;s of Documentation</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead B</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>No one LOVES documenting. Especially if you don't have a starting off point. How do you structure it? What tool(s) should you use? How do you keep track of what's useful and what's not?</p><p>In this session ☕️ will be spilled. We'll talk about the 5 T's of documentation and how you can implement them in your organization.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/boaz.jpg" alt="Photo of Amber Boaz" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Amber Boaz</h1>
+                    <strong>Senior Manager, Business Solutions</strong>
+                    <p>Red Canary</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="flow-design-patterns" href="/sessions/2022/flow-design-patterns">Flow Design Patterns: Building with Flow at Scale</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Augusta</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Patterns are essential to how we understand and interact in daily life, providing a framework for how to interpret and respond to our world.  Flow Design Patterns, paying homage to the role patterns play in traditional software design, brings this same concept to declarative automation and establishes a flexible approach for building with flow at any size.</p><p>Starting with a review of familiar patterns in Apex design and Process Builder, this session will build on those concepts to provide admins &amp; architects with the ground rules for creating all declarative automation in flow.  The transition to flow is demonstrated through the familiar process builder layout, allowing those newer to the tool to have the confidence they can use their existing skills to champion flow.</p><p>The session will establish rules for creating a flow framework that works in large, complex environments beginning with naming conventions that are standardized to provide easy Flow List View creation, mirror development terms (Trigger, Classes), and allow for easy componentization and reusability of flows.  The focus shifts to how the 'one process per object' rule works with Flow Triggers; setting guidelines for how to keep control of your order of execution while managing increasingly complex automation needs.</p><p>The design pattern itself demonstrates how Flow Triggers, Flow 'Trigger Handles', and Flow 'Classes' work together to create an all encompassing approach to flow that is highly flexible, modular, and scalable.  Attendees will leave ready to tackle a flow-only world, allowing them to apply their flow building capabilities inside of a systematic approach to declarative automation.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/hoffman.jpg" alt="Photo of Tom Hoffman" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Tom Hoffman</h1>
+                    <strong>Practice Lead, Salesforce</strong>
+                    <p>Crowe</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="going-from-solo-admin-to-an-admin-team" href="/sessions/2022/going-from-solo-admin-to-an-admin-team">Going from Solo Admin to an Admin Team - Tips to help with growing pains</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead A</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>What happens when you add a new admin to your solo org?  Join us, a former solo admin, and the newest hire, as we share an honest assessment of this workplace transition. We've broken down our journey into five phases: The Interview, Onboarding, Review of Bad Habits, Beginner's Mindset, and Playing Well Together.  This is a great session for those hiring or looking to join a small to medium sized org.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/callison.jpg" alt="Photo of Keri Callison" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Keri Callison</h1>
+                    <strong>CRM Analyst</strong>
+                    <p>Workwear Outfitters</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    <span class="tag is-success is-light">First Talk</span>
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/baxter.jpg" alt="Photo of Sarah Baxter" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Sarah Baxter</h1>
+                    <strong>CRM Administrator</strong>
+                    <p>Workwear Outfitters</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    <span class="tag is-success is-light">First Talk</span>
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="code-review-and-code-quality" href="/sessions/2022/code-review-and-code-quality">Code Review &amp; Code Quality</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Oglethorpe</h4>
+            <span class="tag is-dev is-light">Developers</span>
+            <div class="content mt-4 pl-5"><p>In this session we will talk about what importance of code review and how to setup code review checklist. Best practices of Salesforce Development to create the quality of code.</p><p>This session will cover<ul><li>Why Code needed?</li><li>What is basic code review?</li><li>How to do expert level code review</li><li>Best Practiced of Code Review</li><li>How to build Code Review Checklist</li><li>Example of code review and how to improve it</li><li>Salesforce Coding Best practices.</li></ul></p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/chaudhary.jpg" alt="Photo of Amit Chaudhary" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Amit Chaudhary</h1>
+                    <strong>Sr. Salesforce Technical Architect</strong>
+                    <p>Apex Hours</p>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="blazing-trails-with-salesforce-military" href="/sessions/2022/blazing-trails-with-salesforce-military">Blazing Trails with Salesforce Military</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Suwannee</h4>
+            <span class="tag is-end-user is-light">End Users</span>
+            <div class="content mt-4 pl-5"><p>How do you stand out in such an outstanding ecosystem? Empowerment from the Trailblazer community and involvement with the available programs. Salesforce Military has provided myself and many other talented veterans and military spouses the tools for a transformation--from whatever we were to Awesome Admins, Developers, and beyond! I didn't even know how to spell C-R-M when I was directed to the Trailhead site, but I was soon addicted. 30 badges in 30 days. 60 in 6 weeks. Ranger status in 2 months. From there, I connected with Vetforce, completed the ADM 201 course, and got certified. I want everyone to know how a veteran or military spouse can use these tools and change their career and life!</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/whitakery.jpg" alt="Photo of Yancy Whitaker" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Yancy Whitaker</h1>
+                    <strong></strong>
+                    <p>Deloitte</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="lightning-email-and-landing-page-builders" href="/sessions/2022/lightning-email-and-landing-page-builders">Lightning Email &amp; Landing Page Builders</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-marketing is-light">Marketing</span>
+            <div class="content mt-4 pl-5"><p>Are you curious about the new Lightning Builders? Have you deployed them but are not quite sure where to start? Then join us for a comprehensive look at the Lightning Email Builder and Lightning Landing Page Builder. We'll discuss the current features and limitations, plus what's coming down the pipeline, and what's new with the Spring ‘22 release.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/duncan.jpg" alt="Photo of Erin Duncan" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Erin Duncan</h1>
+                    <strong>Pardot Product Director</strong>
+                    <p>Sercante</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+    
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="slot3"></a>Breakout Session #3</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">1:35 PM - 2:00 PM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">1:35 PM - 2:00 PM</h3>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="you-might-already-be-a-salesforce-architect-if" href="/sessions/2022/you-might-already-be-a-salesforce-architect-if">You might (already) be a Salesforce Architect if…</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead A</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>According to recent surveys, the need for persons with Salesforce Architect skills outweighs the number of available candidates by a ratio of 10 to 1. That is a lot of opportunity waiting for Trailblazers like you. Are you an architect and you don't even know it? Maybe it is a title you've never considered or a whole new lens to look at yourself through, but you may already be a Salesforce Architect.</p><p>Many people currently working as Salesforce administrators or developers have the required skills to fill a role but do not consider themselves architects. They possess the skills required, but don't identify as qualified for the job. They have the desire to become an architect but don't know how to get there. In this session, we will define key requirements, learn to identify existing strengths and lay out a plan to build a career as a Salesforce Architect.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/zellner.jpg" alt="Photo of Sandi Zellner" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Sandi Zellner</h1>
+                    <strong>Senior Solutions Architect</strong>
+                    <p>Crowe</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="how-i-manage-relationships-with-bipolar-disorder" href="/sessions/2022/how-i-manage-relationships-with-bipolar-disorder">How I manage relationships with bipolar disorder</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Suwannee</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Let's talk about CRMs, by which I mean: Courage, Respect, and Mindfulness. I'll be sharing my journey navigating bipolar disorder and the relationships around me. Family, marriage, friendships, and work are all affected by my mental illness. I'll explain how CRM helps me manage my relationships. Let's #endthestigma around mental illness, let's get out there and talk about it!</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/villanueva.jpg" alt="Photo of Katie Villanueva" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Katie Villanueva</h1>
+                    <strong>Systems Administrator</strong>
+                    <p>Alliant Purchasing</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="top-five-things-that-salesforce-admins-should-know-about-marketing-automation" href="/sessions/2022/top-five-things-that-salesforce-admins-should-know-about-marketing-automation">Top 5 Things that Salesforce Admins should know about Marketing Automation (and vice versa!)</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Augusta</h4>
+            <span class="tag is-marketing is-light">Marketing</span>
+            <div class="content mt-4 pl-5"><p>Ever made a mass update to a bunch of records and learned after the fact that it triggered a bunch of emails to get sent out of a marketing automation platform? Ever been expected to manage unsubscribes in Salesforce? How did these duplicate leads get here?</p><p>As a Salesforce admin - you may be asked to help your friends in marketing (and maybe even their tools), but what if you don't have a background in marketing? How can you best support that team? Or - as a Marketer - you may be asked to work with the Salesforce team to facilitate a new workflow, lead routing, reporting, etc. If you don't have a background in Salesforce, how do I know what's possible or the best way to engage with the team?</p><p>In this session, we'll look at the relationship between the marketer and the Salesforce admin and share the top 5 things that every Salesforce admin should know about marketing automation and also share the top 5 things that every marketer should know about Salesforce.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/glasser.jpg" alt="Photo of Brenda Glasser" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Brenda Glasser</h1>
+                    <strong>Salesforce Architect</strong>
+                    <p>Ripple</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/rucker.jpg" alt="Photo of Tasha Rucker" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Tasha Rucker</h1>
+                    <strong>Founder &amp; Principal Consultant</strong>
+                    <p>ReadyCRM</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="transitioning-to-flow" href="/sessions/2022/transitioning-to-flow">Transitioning to Flow</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead B</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Workflow and Process Builder are (almost) out and Flow is in! What does that mean to you and how do you prepare for the transition with success? I'll share a methodical approach, suggestions, and tools to help you achieve the transition with ease, or at least less stress.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/rebain.jpg" alt="Photo of Stephanie Rebain" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Stephanie Rebain</h1>
+                    <strong>Managed Services Consultant</strong>
+                    <p>Cloud for Good</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="essential-developer-tools" href="/sessions/2022/essential-developer-tools">Essential Developer Tools: Embrace the CLI</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-dev is-light">Developers</span>
+            <div class="content mt-4 pl-5"><p>While the integrations provided for IDEs such as VS Code are great and can save a lot of time, there are still times when you want to drop into the command line and start doing some matrix-like hacking.</p><p>This session will look at<ul><li>When you really need to use the CLI</li><li>Cool things you can do with pipes</li><li>Still can't do something? Write your own extension!</li></ul></p><p>Developers will see how the command-line interface can be a powerful tool in their arsenal. Learn to embrace your inner Neo!</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/petersen.jpg" alt="Photo of Alan Petersen" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Alan Petersen</h1>
+                    <strong>Senior Managing Salesforce Architect</strong>
+                    <p>IBM</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="embracing-open-source-in-the-salesforce-community" href="/sessions/2022/embracing-open-source-in-the-salesforce-community">Embracing Open Source in the Salesforce Community</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Oglethorpe</h4>
+            <span class="tag is-nonprofit is-light">Non-Profit</span>
+            <div class="content mt-4 pl-5"><p>For the past 7 years, a group of admins, developers, partners, ISV's and Salesforce staff have gathered a few time each year to collaborate and develop solutions for some of the biggest ongoing problems facing nonprofits and educational institutions. These Open Source Community sprints have lead to the development of a variety of free, open source products that are available for any organization. This session will provide a brief introduction to some of the projects being developed at these open source sprints, along with an introduction to the Open Source Commons program, and an overview of how you can get involved in these community efforts</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/pifer.jpg" alt="Photo of Chris Pifer" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Chris Pifer</h1>
+                    <strong>Senior Solution Architect</strong>
+                    <p>Attain Partners</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/carlson.jpg" alt="Photo of Shari Carlson" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Shari Carlson</h1>
+                    <strong>Senior Consultant</strong>
+                    <p>North Peak</p>
+                    
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+    
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="slot4"></a>Breakout Session #4</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">2:10 PM - 2:35 PM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">2:10 PM - 2:35 PM</h3>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="so-you-want-to-be-a-developer" href="/sessions/2022/so-you-want-to-be-a-developer">So you want to be a developer?</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Have you ever thought about becoming a developer but don't know where to start?  Have you started only to not get anywhere?  Then this session is for you.  In this session we'll look at what it means to be a developer, how to take that first step and how to get your development to stick and grow.  We'll talk about how developing outside of Salesforce can help you learn how to develop inside of Salesforce.  Even if you never write code, learning about development can help you grow your career and help you understand when developers on your team discuss issues they are facing.  By the end of the session, you should have an idea for at least one development project you can start right away and the tools to understand where to start.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/connelly.jpg" alt="Photo of Patrick Connelly" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Patrick Connelly</h1>
+                    <strong>Principal Software Engineer</strong>
+                    <p>Red Hat</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="the-dark-side-of-security" href="/sessions/2022/the-dark-side-of-security">The Dark Side of Security</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead A</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>You all know about profiles/permission sets and OWD sharing for securing your records. Come here to learn about the dark side of security and some of Salesforce's newest features and when to leverage them. We'll be discussing Restriction Rules, Scoping Rules, and Muting Permission Sets, what they are, when to use them, and what are the gotchas every admin should know.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/booth.jpg" alt="Photo of Karisa Booth" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Karisa Booth</h1>
+                    <strong>Sr Architect</strong>
+                    <p>Traction on Demand, a Salesforce Company</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="secret-weapons-to-level-up-your-communication-and-drive-change" href="/sessions/2022/secret-weapons-to-level-up-your-communication-and-drive-change">Secret Weapons to Level Up Your Communication &amp; Drive Change</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Augusta</h4>
+            <span class="tag is-exec is-light">Executives</span>
+            <div class="content mt-4 pl-5"><p>Whether you're an admin, a developer, a consultant, or something in between, part of your job is driving change and influencing people.</p><p>This session will cover soft skills that make all the difference when you want to build trust and make things happen.  They're legit 'secret weapons' -- because if you leverage them effectively, your audience won't even know what hit 'em.</p><p>Topics covered:<ul><li>The 5 whys</li><li>Leveraging silence</li><li>The art of framing</li><li>Practical prompts to put it in action</li></ul></p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/catalano.jpg" alt="Photo of Jacob Catalano" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Jacob Catalano</h1>
+                    <strong>Product Manager</strong>
+                    <p>Sercante</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="why-admins-need-to-get-familiar-with-marketing-cloud" href="/sessions/2022/why-admins-need-to-get-familiar-with-marketing-cloud">Why admins need to get familiar with Marketing Cloud</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Oglethorpe</h4>
+            <span class="tag is-marketing is-light">Marketing</span>
+            <div class="content mt-4 pl-5"><p>Salesforce as a platform continues to evolve and enhance its capabilities. It is made up of a few clouds and the lines between them continue to blur. Marketing Cloud has traditionally been the furthest removed from its sibling “core” clouds. However, this is changing. Two of the bigger initiatives that are driving Marketing Cloud closer and closer to the other clouds are CDP and Interaction Studio. Both these tools will have large impacts on our CRM data and admins should get acquainted.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/zullo.jpg" alt="Photo of Chris Zullo" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Chris Zullo</h1>
+                    <strong>Marketing Practice Director</strong>
+                    <p>AllCloud</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="how-nonprofits-roll" href="/sessions/2022/how-nonprofits-roll">How Nonprofits Roll</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Suwannee</h4>
+            <span class="tag is-nonprofit is-light">Non-Profit</span>
+            <div class="content mt-4 pl-5"><p>What's the difference between regular rollups, customizable rollups, and declarative lookup rollup summaries (DLRS)? We have OPTIONS, especially now that DLRS is part of the Open Source Commons. We'll share examples you can build to help your users summarize and analyze their data for fundraising, programs, and more.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/styles.jpg" alt="Photo of Amanda Styles" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Amanda Styles</h1>
+                    <strong>Senior Solution Architect</strong>
+                    <p>Traction on Demand, a Salesforce Company</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="crazy-hair-dont-care" href="/sessions/2022/crazy-hair-dont-care">Crazy Hair? Don&#39;t Care! Owning Your Personal Brand</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead B</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>There's a place for everyone in the Salesforce ecosystem! And in the journey to be your true self, you'll establish a personal brand. This interactive session will look at the variety of personal brands that are thriving in the ecosystem (is blue hair really okay for a professional???) and will talk about the importance of your own brand. You'll leave with steps you can take to not only establish but OWN your personal brand.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/whitakers.jpg" alt="Photo of Stacey Whitaker" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Stacey Whitaker</h1>
+                    <strong>Delivery Manager</strong>
+                    <p>Innovate</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    
+                    <span class="tag is-primary is-light">MVP</span>
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/whitakery.jpg" alt="Photo of Yancy Whitaker" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Yancy Whitaker</h1>
+                    <strong></strong>
+                    <p>Deloitte</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+    
+        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="slot5"></a>Breakout Session #5</h2>
+        <h3 class="subtitle is-size-4 scrollspy__display">3:00 PM - 3:45 PM</h3>
+        <h3 class="subtitle is-size-4 scrollspy__section">3:00 PM - 3:45 PM</h3>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="flow-trigger-explorer-and-orchestrator" href="/sessions/2022/flow-trigger-explorer-and-orchestrator">Flow Trigger Explorer and Orchestrator</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead A</h4>
+            <span class="tag is-admin is-light">Administrators</span>
+            <div class="content mt-4 pl-5"><p>Flow Trigger Explorer is a browser that shows all flows in Salesforce triggering on a specific object. This tool facilitates and supports multiple flow triggers running on the same object determining the order of execution.
+Flow Orchestrator, on the other hand, is the flow of flows. It supports the sequencing of flows that run in sequence or parallel.
+Join me in this session to see real-life examples of use case implementations.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/utkan.jpg" alt="Photo of Andy Engin Utkan" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Andy Engin Utkan</h1>
+                    <strong>Senior Consultant</strong>
+                    <p>Cirrius Solutions</p>
+                    
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="dark-deployments-and-strange-branches" href="/sessions/2022/dark-deployments-and-strange-branches">Dark Deployments &amp; Strange Branches</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Dahlonega</h4>
+            <span class="tag is-architect is-light">Architects</span>
+            <div class="content mt-4 pl-5"><p>Whether you are managing Salesforce and DevOps at a large and complex scale, while needing to complete and manage the release of long term, highly complex projects or dipping your toe in version control, we will provide you with tips and tricks to build your Devops program. To enable multiple teams working on numerous large projects, we've become adept at dark deployment strategies, as well as managing different, complex sandbox pipelines, including multiple QA environments merging to a single UAT environment. In this presentation we will go over dark deployment strategies, such as using 'natural' barriers / switches such as Record Type, permission sets, or other differentiators for a feature, as well as using custom metadata or labels. We use dark deployment strategies to separate the release of code from feature go-live, enabling roll back to original functionality through a change of a label, or enabling the gradual roll out of new features to subsets of users.</p><p>We've dealt with some unique DevOps challenges due to the complexity and size of our Salesforce organization. To adapt we've been through some growing pains in how to do DevOps correctly, including bringing Devs and Admins on board to better practices and dark deployments. Hopefully by sharing some of our learned best practices, other organizations can have better DevOps implementations.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/taylor.jpg" alt="Photo of Marisa Taylor" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Marisa Taylor</h1>
+                    <strong>Head of Salesforce Architecture &amp; Engineering</strong>
+                    <p>S&amp;P Global</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/damon.jpg" alt="Photo of Tyler Damon" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Tyler Damon</h1>
+                    <strong>DevOps Architect</strong>
+                    <p>S&amp;P Global</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    <span class="tag is-success is-light">First Talk</span>
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="build-engaging-slack-apps-integrated-to-salesforce" href="/sessions/2022/build-engaging-slack-apps-integrated-to-salesforce">Build Engaging Slack Apps Integrated to Salesforce</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Buckhead B</h4>
+            <span class="tag is-dev is-light">Developers</span>
+            <div class="content mt-4 pl-5"><p>Do you use Slack Apps like Google calendar, Zoom, or Workday? Have you ever wondered how these apps are built and the tools needed to build them? In this session, we will explore how to build Slack apps using Slack Bolt and integrate them into Salesforce, all live!
+
+Also, I will give you a sneak peek of Apex SDK for building Slack apps.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/shrivastava.jpg" alt="Photo of Mohith Shrivastava" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Mohith Shrivastava</h1>
+                    <strong>Lead Developer Advocate</strong>
+                    <p>Salesforce</p>
+                    <span class="tag is-info is-light">He / Him</span>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="the-rise-of-the-digital-sales-room" href="/sessions/2022/the-rise-of-the-digital-sales-room">The Rise of the Digital Sales Room</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Oglethorpe</h4>
+            <span class="tag is-end-user is-light">End Users</span>
+            <div class="content mt-4 pl-5"><p>As digitalization continues, companies must evolve their digital sales processes to ensure they remain competitive and provide the best buyer experience possible.  Salesforce Customer 360 connects departments and customer data internally, but how will companies ensure deeper connectedness with external buyers/stakeholders?  Research shows the growing benefit of Deal Relationship Management or DRMs within the CRM to deliver personalized experiences and trusting relationships with buyers.  Gartner predicts that by 2025, 80% of B2B sales interactions between suppliers and buyers will occur in digital sales rooms.</p><p>In this session we will cover the following:<ul><li>what is a digital sales room?</li><li>The reasons why companies must ensure deeper connectedness with external buyers/stakeholders</li><li>How Salesforce customers use digital sales rooms inside of Salesforce</li></ul></p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/pawlak.jpg" alt="Photo of Tara Pawlak" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Tara Pawlak</h1>
+                    <strong>Head of Marketing (US)</strong>
+                    <p>GetAccept</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    <span class="tag is-success is-light">First Talk</span>
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="how-to-capture-web-leads-with-cloudpages-in-marketing-cloud" href="/sessions/2022/how-to-capture-web-leads-with-cloudpages-in-marketing-cloud">How To Capture Web Leads with CloudPages in Marketing Cloud</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Suwannee</h4>
+            <span class="tag is-marketing is-light">Marketing</span>
+            <div class="content mt-4 pl-5"><p>Did you know that you can build landing pages and microsites with Marketing Cloud? No? Then join this session to learn what it takes to create them with your custom branding. And we won't stop there. We'll wrap everything up by capturing leads, and sending them on a custom journey.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/larregui.jpg" alt="Photo of Danielle Larregui" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Danielle Larregui</h1>
+                    <strong></strong>
+                    <p>Salesforce</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+            <div class="columns mt-4">
+        <div class="column is-two-thirds">
+            
+            <h3 class="subtitle is-size-4 has-text-weight-bold mb-1"><a id="how-to-unlock-the-power-of-the-nonprofit-success-pack" href="/sessions/2022/how-to-unlock-the-power-of-the-nonprofit-success-pack">How to unlock the power of the nonprofit success pack</a></h3>
+            
+            
+            <h4 class="subtitle is-size-6 has-text-weight-bold">Augusta</h4>
+            <span class="tag is-nonprofit is-light">Non-Profit</span>
+            <div class="content mt-4 pl-5"><p>Ever feel overwhelmed or frustrated with your nonprofit organization's computer systems?</p><p>Are you intimidated by technology that is more complex than spreadsheets and email?</p><p>Learn about the features of NPSP that you may be missing out on because you didn't realize they existed.  Those include, outlook/gmail integrations + email templates, moves management, built-in reports, and a quick-lift formula trick to help with pesky soft credits.</p></div>
+        </div>
+        <div class="column">
+            
+                <article class="media mt-2">
+        <figure class="media-left">
+            <p class="image is-128x128">
+                <img class="is-rounded" src="/img/sessions/2022/speakers/epting.jpg" alt="Photo of Sarah Epting" width="128" height="128">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="content">
+                <div class="mb-4">
+                    <h1 class="mb-0 is-size-4">Sarah Epting</h1>
+                    <strong>CEO/Founder</strong>
+                    <p>Technopath</p>
+                    <span class="tag is-info is-light">She / Her</span>
+                    
+                    <span class="tag is-success is-light">First SED</span>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+            
+        </div>
+    </div>
+        
+    
+    </div>
+
+            </div>
+            <footer class="footer p-6 is-hidden-mobile">
+    <div class="content is-size-7 is-pulled-left m-0">
+        Developed and designed by <a href="https://connelly.dev">Patrick Connelly</a> using <a href="https://bulma.io/">Bulma</a>, <a href="https://fontawesome.com/">Font Awesome</a>, and <a href="https://github.com/SoutheastDreamin/website">GitHub</a>
+    </div>
+    <div class="content has-text-right">
+        <a href="https://twitter.com/sedreamin" aria-label="SEDreamin Twitter account">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+</footer>
+<footer class="footer p-2 is-hidden-tablet-only is-hidden-desktop-only is-hidden-widescreen-only is-hidden-fullhd">
+    <div class="content pl-2 pr-4">
+        <a href="https://twitter.com/sedreamin"  aria-label="SEDreamin Twitter account">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+    <div class="block is-size-7">
+        Developed and designed by <a href="https://connelly.dev">Patrick Connelly</a> using <a href="https://bulma.io/">Bulma</a>, <a href="https://fontawesome.com/">Font Awesome</a>, and <a href="https://github.com/SoutheastDreamin/website">GitHub</a>
+    </div>
+</footer>
+        </div>
+        <script src="/js/main-min.js"></script>
+<script src="/js/scrollspy.js"></script>
+
+
+
+
+    </body>
+</html>
