@@ -181,6 +181,19 @@
             "first_talk": false,
             "mvp": false
         },
+        "araman": {
+            "first_name": "Arvind",
+            "last_name": "Raman",
+            "id": "araman",
+            "pronouns": "",
+            "title": "",
+            "company": "Salesforce",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
         "astyles": {
             "first_name": "Amanda",
             "last_name": "Styles",
@@ -588,11 +601,11 @@
             "first_name": "Michelle",
             "last_name": "Hansen",
             "id": "mhansen",
-            "pronouns": "",
-            "title": "",
-            "company": "",
+            "pronouns": "She / Her",
+            "title": "Principal",
+            "company": "Slalom",
             "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "image": "/img/sessions/2024/speakers/mhansen.jpg",
             "first_sed": false,
             "first_talk": false,
             "mvp": false
@@ -601,11 +614,11 @@
             "first_name": "Malgie",
             "last_name": "Leszczuk",
             "id": "mleszczuk",
-            "pronouns": "",
-            "title": "",
-            "company": "",
+            "pronouns": "She / Her",
+            "title": "Salesforce Administrator",
+            "company": "Red Canary",
             "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "image": "/img/sessions/2024/speakers/mleszczuk.jpg",
             "first_sed": true,
             "first_talk": true,
             "mvp": false
@@ -949,6 +962,16 @@
             "room": "salon5",
             "slot": "slot5",
             "speakers": ["rcammisa"]
+        },
+        {
+            "title": "Data Cloud for App Builders",
+            "abstract": "<p>Learn about all the powerful no-code ways to build on Data Cloud including how to integrate CRM, build Lighting Apps, Manage via Flow, create Reports & Dashboards, use Data Cloud enrichments</p>",
+            "id": "data-cloud-for-app-builders",
+            "year": "2024",
+            "track": "admin",
+            "room": "salon2",
+            "slot": "slot3",
+            "speakers": ["araman"]
         },
         {
             "title": "Fire & Forget: The Power and Limitations of Streaming API",
