@@ -947,7 +947,7 @@
             "year": "2024",
             "track": "marketing",
             "room": "salon5",
-            "slot": "slot2",
+            "slot": "slot5",
             "speakers": ["rcammisa"]
         },
         {
@@ -1157,8 +1157,8 @@
             "year": "2024",
             "track": "marketing",
             "room": "salon5",
-            "slot": "slot5",
-            "speakers": ["eduncan"]
+            "slot": "slot2",
+            "speakers": ["eduncan", "kschlau"]
         },
         {
             "title": "Consent Management’s Crucial Role in Data-Driven Marketing",
