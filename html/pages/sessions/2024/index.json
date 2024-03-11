@@ -394,13 +394,13 @@
             "last_name": "Daniel",
             "id": "jdaniel",
             "pronouns": "",
-            "title": "",
-            "company": "",
+            "title": "Senior Director of Digital Platforms",
+            "company": "Steampunk",
             "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "image": "/img/sessions/2024/speakers/jdaniel.jpg",
             "first_sed": false,
             "first_talk": false,
-            "mvp": false
+            "mvp": true
         },
         "jruse": {
             "first_name": "Joey",
