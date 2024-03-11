@@ -58,6 +58,14 @@ lodash.each(list_years(), function (year) {
  * @returns {String} The HTML page file path
  */
 function page_path() {
+    return path.join(__dirname, '..', constants.HTML, constants.PAGES, '**/*.+(html|nunjucks|njk)');
+}
+
+/**
+ * Gets the path to the HTML page files
+ * @returns {String} The HTML page file path
+ */
+function watch_page_path() {
     return path.join(__dirname, '..', constants.HTML, constants.PAGES, '**/*.+(html|nunjucks|njk|json)');
 }
 
@@ -66,7 +74,7 @@ function page_path() {
  * @returns {String} The HTML template file path
  */
 function template_path() {
-    return path.join(__dirname, '..', constants.HTML, constants.TEMPLATES, '**/*.+(html|nunjucks|njk|json)');
+    return path.join(__dirname, '..', constants.HTML, constants.TEMPLATES, '**/*.+(html|nunjucks|njk)');
 }
 
 /**
@@ -121,7 +129,7 @@ function html() {
  * @returns {undefined}
  */
 function watch() {
-    gulp.watch(page_path(), html);
+    gulp.watch(watch_page_path(), html);
     gulp.watch(template_path(), html);
 }
 
