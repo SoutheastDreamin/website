@@ -1,0 +1,10 @@
+{% macro role_entry(role) -%}
+<li>
+    {% if role.fulfilled %}<strike>{% endif %}
+    {{ role.title }}{% if role.quantity %}({{ role.quantity }}){% endif %}
+    <ul>
+        <li>{{ role.description }}</li>
+    </ul>
+    {% if role.fulfilled %}</strike>{% endif %}
+</li>
+{%- endmacro %}

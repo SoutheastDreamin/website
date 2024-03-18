@@ -1,4 +1,79 @@
 {
-    "form_active": true,
-    "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSe6rLIVi6NluwWiHQyBlxQZ99MZgCSjaPIDsClRmwhtEzumVQ/viewform?embedded=true"
+    "year": 2024,
+    "form_active": false,
+    "form_url": "https://forms.gle/RyG2hoQSkhvHLnEE8",
+    "fully_staffed": true,
+    "times": {
+        "committee": {
+            "start": "November 2023",
+            "end": "June 2024"
+        },
+        "session": {
+            "start": "March 2024",
+            "end": "May 2024"
+        },
+        "dayof": {
+            "start": "6pm ET Wednesday, June 26, 2023",
+            "end": "5pm Friday, June 27, 2023"
+        }
+    },
+    "positions": [
+        {
+            "title": "Committee Positions",
+            "roles": [
+                {
+                    "title": "Keynote Coordinator",
+                    "quantity": 1,
+                    "fulfilled": true,
+                    "description": "Lead organizer of the conference opening session & keynote presentation(s)"
+                },
+                {
+                    "title": "Sponsor Coordinator",
+                    "quantity": 1,
+                    "fulfilled": true,
+                    "description": "Support the onboarding and support of conference sponsors"
+                },
+                {
+                    "title": "Procurement Officer",
+                    "quantity": 1,
+                    "fulfilled": true,
+                    "description": "Responsible for acquiring materials and swag to support the conference"
+                },
+                {
+                    "title": "Social Media Marketer",
+                    "quantity": 1,
+                    "fulfilled": true,
+                    "description": "Responsible for developing conference content to post on social media"
+                }
+            ]
+        },
+        {
+            "title": "Session Support",
+            "roles": [
+                {
+                    "title": "Speaker Mentors",
+                    "quantity": 5,
+                    "fulfilled": true,
+                    "description": "Individuals that guide and support speakers by reviewing session abstracts and presentations"
+                }
+            ]
+        },
+        {
+            "title": "Day-Of Support",
+            "roles": [
+                {
+                    "title": "Demo Jam Presenter",
+                    "quantity": 1,
+                    "fulfilled": true,
+                    "description": "Lead MC of the sponsors' demo jam presentations and polling of the audience to choose a demo jam winner"
+                },
+                {
+                    "title": "Onsite Coordinator",
+                    "quantity": 1,
+                    "fulfilled": true,
+                    "description": "On the ground support to ensure the conference runs smoothly and completes various tasks assigned"
+                }
+            ]
+        }
+    ]
 }
