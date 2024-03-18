@@ -9,7 +9,7 @@
             <p class="pb-4">As a community-led conference, 100% of the conference's development is organized by volunteers. Over the course of 11 months, the volunteer team dedicates over 1,440 hours to the annual 2 day conference featuring 30 sessions and 10 hands-on trainings. Funding for the conference is only possible with various sponsors comprised of Salesforce Consulting and ISV partners. The continued support of the sponsors is what makes it possible to offer afforable professional development opportunities to the community.</p>
         </section>
         <section class="hero">
-            <p class="title">Team</p>
+            <p class="title">Core Team</p>
             <p class="subtitle">Our team works hard to bring the best event we can to you!</p>
         </section>
         <div class="columns is-multiline mt-6 is-hidden-mobile">
@@ -23,5 +23,21 @@
                 {{ helpers.staffbiomobile(m.firstname + ' ' + m.lastname, m.title, m.bio, m.image, m.links, cls.next()) }}
             {% endfor %}
         </div>
+        {% if data.support is defined and data.support | length > 0 %}
+        <section class="hero">
+            <p class="title">Support Team</p>
+        </section>
+        <div class="columns is-multiline mt-6 is-hidden-mobile">
+            {% for m in data.support | sort(false, true, 'lastname') %}
+                {{ helpers.staffbio(m.firstname + ' ' + m.lastname, m.title, m.bio, m.image, m.links) }}
+            {% endfor %}
+        </div>
+        <div class="columns is-multiline mt-2 is-hidden-tablet">
+            {% set cls = cycler("left", "right") %}
+            {% for m in data.support | sort(false, true, 'lastname') %}
+                {{ helpers.staffbiomobile(m.firstname + ' ' + m.lastname, m.title, m.bio, m.image, m.links, cls.next()) }}
+            {% endfor %}
+        </div>
+        {% endif %}
     </div>
 {% endblock %}

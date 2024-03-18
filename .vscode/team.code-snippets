@@ -1,0 +1,16 @@
+{
+	"team": {
+		"scope": "json",
+		"prefix": "team",
+		"body": [
+			"{",
+			"\t\"firstname\": \"\",",
+			"\t\"lastname\": \"\",",
+			"\t\"title\": \"\",",
+            "\t\"bio\": \"<p></p>\",",
+			"\t\"image\": \"/img/team/\",",
+			"\t\"links\": []",
+			"}"
+		]
+	}
+}

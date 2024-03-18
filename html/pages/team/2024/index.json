@@ -137,6 +137,37 @@
                     "link": "https://www.salesforce.com/trailblazer/deehamori"
                 }
             ]
+        },
+        {
+            "firstname": "Steven",
+            "lastname": "Welch",
+            "title": "Marketing Wrangler",
+            "bio": "<p>A relative newbie when it comes to all things Salesforce, Steven dove right into the ecosystem back in 2022. Since then, he's been working to tell the stories and form the bigger picture for all things Salesforce data management. A native of metro Atlanta, he was looking for a way to become more engaged with the conference that's hosted in his own stomping grounds so he jumped at the chance to join the Southeast Dreamin' team.</p><p>When he's not busy working, he loves all things London, the color blue, and spending time with his pets - two cats named Winston Purrchill (no for real, he really does love London) and Emma, and his geriatric chihuahua Baron who still serves all the lewks even in his golden years.</p>",
+            "image": "/img/team/swelch.jpg",
+            "links": []
+        }
+    ],
+    "support": [
+        {
+            "firstname": "Michelle",
+            "lastname": "Bura",
+            "title": "Speaker Mentor",
+            "bio": "<p>Michelle began her Salesforce adventure in 2014 and since then has been on a whirlwind journey of growth leading to 7 Salesforce Certifications and working in multiple industries and various company sizes.</p><p>Michelle is all about bringing people together and fostering a sense of belonging. As the founder of Salesforce Saturday Atlanta and the Co-Leader of the Atlanta Admin Salesforce Community Group, she’s fostered a community where professionals can connect, learn, and thrive. As a testament to her dedication to bringing together the community to learn and grow, Salesforce recognized Michelle with a Golden Hoodie in 2019.</p><p>Michelle’s impact extends beyond Atlanta, as she’s shared her insights and experiences at major events like Dreamforce, TrailblazerDX, and Southeast Dreamin', inspiring audiences with her passion for learning and teaching.</p><p>Outside of the Salesforce world, Michelle is all about family time and embracing hobbies. Whether it's spending quality moments with loved ones or diving into puzzles, games, or woodworking projects, she finds joy in every facet of life.</p>",
+            "image": "/img/team/mbura.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/mlbura"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/mlbura"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://www.salesforce.com/trailblazer/mlbura"
+                }
+            ]
         }
     ]
 }
