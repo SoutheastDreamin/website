@@ -186,10 +186,10 @@
             "last_name": "Raman",
             "id": "araman",
             "pronouns": "",
-            "title": "",
+            "title": "Director, Partner Delivery Success",
             "company": "Salesforce",
             "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "image": "/img/sessions/2024/speakers/araman.jpg",
             "first_sed": true,
             "first_talk": false,
             "mvp": false
@@ -204,19 +204,6 @@
             "bio": "",
             "image": "/img/sessions/2024/speakers/astyles.jpg",
             "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
-        "awilson": {
-            "first_name": "Andrew",
-            "last_name": "Wilson",
-            "id": "awilson",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
-            "first_sed": true,
             "first_talk": false,
             "mvp": false
         },
@@ -280,7 +267,7 @@
             "title": "Sr Consultant",
             "company": "Costal Cloud",
             "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "image": "/img/sessions/2024/speakers/dpirollo.jpg",
             "first_sed": true,
             "first_talk": false,
             "mvp": false
@@ -354,11 +341,11 @@
             "first_name": "Ed",
             "last_name": "Gray",
             "id": "egray",
-            "pronouns": "",
-            "title": "",
-            "company": "",
+            "pronouns": "He / Him",
+            "title": "Outreach & Engagement Practice Leader",
+            "company": "Provisio Partners",
             "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "image": "/img/sessions/2024/speakers/egray.jpg",
             "first_sed": true,
             "first_talk": false,
             "mvp": false
@@ -459,10 +446,10 @@
             "last_name": "Hillyer",
             "id": "khillyer",
             "pronouns": "",
-            "title": "",
-            "company": "",
+            "title": "Founder, CEO",
+            "company": "Kugamon LLC",
             "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "image": "/img/sessions/2024/speakers/khillyer.jpg",
             "first_sed": true,
             "first_talk": false,
             "mvp": false
@@ -1162,16 +1149,6 @@
             "room": "conference4",
             "slot": "slot1",
             "speakers": ["mdees"]
-        },
-        {
-            "title": "Revitalizing Teams: Mastering Scrum Retrospectives for Salesforce Admins",
-            "abstract": "<p>Unlock the power of Scrum retrospectives!</p><p>This interactive session explores why retrospectives matter and how they can rejuvenate your team's productivity, and how you can build out a platform for these retrospectives within native Salesforce. This engaging session is dedicated to a hands-on exploration of Scrum retrospectives, specifically built and tailored for Salesforce environments. We focus on the practical implementation of retrospectives directly within Salesforce, utilizing native applications and declarative automation to enhance team productivity and project outcomes. We'll delve deeply into creating retro boards using Salesforce's Kanban List views, screen and record-triggered flows, image based formulas and static resources. A highlight of our session will be the live construction and utilization of a custom upvote feature and dynamic mood pickers, demonstrating how these tools can enrich the retrospective experience. We also briefly touch on alternative retrospective tools such as Miro and Easy Retro, and discuss how retrospectives can be utilized in code review.</p><p>Retrospectives are a crucial, yet often underutilized aspect of the Scrum framework, especially for Salesforce Admins overseeing projects or sprints. Our session emphasizes the 'how-to' aspect, providing attendees with an in-depth understanding of building and conducting effective retrospective boards within Salesforce.</p>",
-            "id": "revitalizing-teams",
-            "year": "2024",
-            "track": "admin",
-            "room": "salon6",
-            "slot": "slot5",
-            "speakers": ["awilson"]
         },
         {
             "title": "5 Ways to Use Generative AI Across Marketing Cloud",
