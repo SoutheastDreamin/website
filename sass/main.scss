@@ -193,3 +193,7 @@ div.preformatalike {
 p.preformatalike {
     margin: 0 !important;
 }
+
+.content h3:not(:first-child) {
+    margin-top: 0;
+}
