@@ -259,6 +259,19 @@
             "first_talk": true,
             "mvp": false
         },
+        "dgorton": {
+            "first_name": "Daniel",
+            "last_name": "Gorton",
+            "id": "dgorton",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
         "dpirollo": {
             "first_name": "Debbie",
             "last_name": "Pirollo",
@@ -402,6 +415,19 @@
             "first_talk": false,
             "mvp": true
         },
+        "jlay": {
+            "first_name": "John",
+            "last_name": "Lay",
+            "id": "jlay",
+            "pronouns": "",
+            "title": "Senior Solutions Architect",
+            "company": "Alternative Solutions Consulting",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/jlay.jpg",
+            "first_sed": true,
+            "first_talk": false,
+            "mvp": false
+        },
         "jruse": {
             "first_name": "Joey",
             "last_name": "Ruse",
@@ -466,6 +492,19 @@
             "first_sed": false,
             "first_talk": false,
             "mvp": false
+        },
+        "kwaterworth": {
+            "first_name": "Kathy",
+            "last_name": "Waterworth",
+            "id": "kwaterworth",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": true
         },
         "lporter": {
             "first_name": "Liv",
@@ -557,19 +596,6 @@
             "first_sed": true,
             "first_talk": true,
             "mvp": false
-        },
-        "mdees": {
-            "first_name": "Melissa",
-            "last_name": "Hill Dees",
-            "id": "mdees",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2024/speakers/mdees.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": true
         },
         "mdiegelman": {
             "first_name": "Meagan",
@@ -1148,7 +1174,7 @@
             "track": "nonprofit",
             "room": "conference4",
             "slot": "slot1",
-            "speakers": ["mdees"]
+            "speakers": ["kwaterworth", "dgorton"]
         },
         {
             "title": "5 Ways to Use Generative AI Across Marketing Cloud",
@@ -1259,6 +1285,16 @@
             "room": "salon2",
             "slot": "slot4",
             "speakers": ["kforte"]
+        },
+        {
+            "title": "Elevating User Experience: An Admins guide to Dynamic and Interactive Interfaces in Salesforce",
+            "abstract": "<p>Dynamic Interface Design: An admins guide to Elevating Salesforce User Experience</p><p>In the dynamic landscape of Salesforce, the significance of user interface design cannot be overstated. This session delves into the transformative potential of dynamic interfaces, offering a unique exploration that promises to resonate with a wide audience of Salesforce users and administrators.</p><p>Attendees will journey through the core components of dynamic interface design within Salesforce, discovering the prowess of Lightning Components and their ability to craft immersive, responsive user interfaces. From the integration of Lightning Web Components to strategies for infusing interactivity, this session aims to empower attendees with practical insights to revamp their Salesforce interfaces.</p><p>Clear objectives guide participants towards understanding the pivotal role of dynamic interfaces in enhancing user engagement and productivity within Salesforce. By attending, individuals gain actionable strategies and real-world examples that illustrate the immediate value of implementing dynamic design principles.</p><p>This session caters to a diverse audience encompassing Salesforce administrators, developers, and users seeking to revolutionize their Salesforce experience. The content delivers tangible value by imparting knowledge that can be directly applied to create interfaces that not only engage but elevate the overall user journey within Salesforce. Whether optimizing workflows or fostering a more intuitive user experience, attendees will depart with the tools and inspiration to transform their Salesforce interface design.</p>",
+            "id": "elevating-user-experience",
+            "year": "2024",
+            "track": "admin",
+            "room": "salon6",
+            "slot": "slot5",
+            "speakers": ["jlay"]
         }
     ],
     "hots": [
