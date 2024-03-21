@@ -11,7 +11,9 @@
     "lint-yaml": "./node_modules/.bin/yamllint .github/**/*.yml",
     "lint-json": "./node_modules/.bin/jsonlint",
     "lint": "npm run lint-json && npm run lint-js && npm run lint-style && npm run lint-yaml",
-    "watch": "./node_modules/.bin/gulp watch"
+    "watch": "./node_modules/.bin/gulp watch",
+    "report-speakers": "YEAR=`cat config.json | jq -r .year` && node tools/speakerReport.js --year $YEAR",
+    "report-sponsors": "YEAR=`cat config.json | jq -r .year` && node tools/sponsorReport.js --year $YEAR"
   },
   "repository": {
     "type": "git",
