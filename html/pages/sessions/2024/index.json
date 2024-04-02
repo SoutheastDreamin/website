@@ -259,19 +259,6 @@
             "first_talk": true,
             "mvp": false
         },
-        "dgorton": {
-            "first_name": "Daniel",
-            "last_name": "Gorton",
-            "id": "dgorton",
-            "pronouns": "",
-            "title": "",
-            "company": "",
-            "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
         "dpirollo": {
             "first_name": "Debbie",
             "last_name": "Pirollo",
@@ -622,6 +609,19 @@
             "first_sed": false,
             "first_talk": false,
             "mvp": false
+        },
+        "mdees": {
+            "first_name": "Melissa",
+            "last_name": "Hill Dees",
+            "id": "mdees",
+            "pronouns": "",
+            "title": "",
+            "company": "",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/mdees.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": true
         },
         "mleszczuk": {
             "first_name": "Malgie",
@@ -1174,7 +1174,7 @@
             "track": "nonprofit",
             "room": "conference4",
             "slot": "slot1",
-            "speakers": ["kwaterworth", "dgorton"]
+            "speakers": ["kwaterworth", "mdees"]
         },
         {
             "title": "5 Ways to Use Generative AI Across Marketing Cloud",
