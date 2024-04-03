@@ -168,6 +168,14 @@
                     "link": "https://www.salesforce.com/trailblazer/mlbura"
                 }
             ]
+        },
+        {
+            "firstname": "Aaron",
+            "lastname": "King",
+            "title": "Demo Jam Presenter",
+            "bio": "<p>Aaron King has been using Salesforce since 2004, pushing the platform to the limits with “creative” configuration. Since joining ISV partner nCino in 2016, Aaron has worked on the Professional Services teams of Implementation Consultants, Managed Services, and Solution Architecture, all with the goal of making happy long term customers. Holder of 16 Salesforce certifications, Aaron loves to get crazy mixing up different pieces of Salesforce functionality and features to find innovative solutions for each customer's needs, often offering a proposal so outrageous that the team then sees the beauty of the more traditional standard approaches.</p>",
+            "image": "/img/team/aking.jpg",
+            "links": []
         }
     ]
 }
