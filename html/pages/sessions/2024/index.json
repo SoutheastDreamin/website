@@ -363,19 +363,6 @@
             "first_talk": false,
             "mvp": false
         },
-        "fkleinman": {
-            "first_name": "Federico",
-            "last_name": "Kleinman",
-            "id": "fkleinman",
-            "pronouns": "",
-            "title": "Salesforce Tech Lead",
-            "company": "Altimetrik",
-            "bio": "",
-            "image": "/img/sessions/2024/speakers/fkleinman.jpg",
-            "first_sed": false,
-            "first_talk": false,
-            "mvp": false
-        },
         "gjuarez": {
             "first_name": "Gabriel",
             "last_name": "Juarez",
@@ -400,7 +387,7 @@
             "image": "/img/sessions/2024/speakers/jdaniel.jpg",
             "first_sed": false,
             "first_talk": false,
-            "mvp": true
+            "mvp": false
         },
         "jlay": {
             "first_name": "John",
@@ -1034,7 +1021,7 @@
             "track": "dev",
             "room": "conferencee",
             "slot": "slot4",
-            "speakers": ["gjuarez", "fkleinman"]
+            "speakers": ["gjuarez"]
         },
         {
             "title": "Hyper Growth - Creating Structures for Scale",
