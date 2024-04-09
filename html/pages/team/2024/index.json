@@ -176,6 +176,14 @@
             "bio": "<p>Aaron King has been using Salesforce since 2004, pushing the platform to the limits with “creative” configuration. Since joining ISV partner nCino in 2016, Aaron has worked on the Professional Services teams of Implementation Consultants, Managed Services, and Solution Architecture, all with the goal of making happy long term customers. Holder of 16 Salesforce certifications, Aaron loves to get crazy mixing up different pieces of Salesforce functionality and features to find innovative solutions for each customer's needs, often offering a proposal so outrageous that the team then sees the beauty of the more traditional standard approaches.</p>",
             "image": "/img/team/aking.jpg",
             "links": []
+        },
+        {
+            "firstname": "Travis",
+            "lastname": "Householder",
+            "title": "Procurement",
+            "bio": "<p>I have been working on Salesforce since 2017 in the Banking Industry with Commercial Loan Originations. Currently working at Truist Bank.</p><p>Born and Raised in Indiana and moved down to Ga after High School.</p><p>I recently Married my childhood sweetheart.</p><p>I have 2 Teenage Boys with my oldest heading off to College in North Georgia in the Fall</p>",
+            "image": "/img/team/thouseholder.jpg",
+            "links": []
         }
     ]
 }
