@@ -166,7 +166,7 @@
             "image": "/img/sessions/2024/speakers/acrosman.jpg",
             "first_sed": true,
             "first_talk": false,
-            "mvp": false
+            "mvp": true
         },
         "afreund": {
             "first_name": "Abbey",
@@ -476,7 +476,7 @@
             "company": "BAKwater Cloud Consulting",
             "bio": "",
             "image": "/img/sessions/2024/speakers/kwaterworth.jpg",
-            "first_sed": false,
+            "first_sed": true,
             "first_talk": false,
             "mvp": true
         },
@@ -595,7 +595,7 @@
             "image": "/img/sessions/2024/speakers/mhansen.jpg",
             "first_sed": false,
             "first_talk": false,
-            "mvp": false
+            "mvp": true
         },
         "mdees": {
             "first_name": "Melissa",
