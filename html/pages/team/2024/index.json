@@ -184,6 +184,27 @@
             "bio": "<p>I have been working on Salesforce since 2017 in the Banking Industry with Commercial Loan Originations. Currently working at Truist Bank.</p><p>Born and Raised in Indiana and moved down to Ga after High School.</p><p>I recently Married my childhood sweetheart.</p><p>I have 2 Teenage Boys with my oldest heading off to College in North Georgia in the Fall</p>",
             "image": "/img/team/thouseholder.jpg",
             "links": []
+        },
+        {
+            "firstname": "Aaron",
+            "lastname": "McGriff",
+            "title": "Closing Session Host",
+            "bio": "<p>Aaron McGriff is a Senior Administrator at IBM and has been part of the Salesforce Ecosystem for 7 years. With a passion for technology and innovation (discovered by chance) found his dream career in the Salesforce world and made his mark during his learning journey.  Aaron has spoken at several Salesforce events including Dreamforce, Dreamin’ In Color, and TDX, and even picked up a Golden Hoodie along the way.  Outside of the office, Aaron's adventurous spirit fuels his love for travel, allowing him to explore new cultures and experiences around the globe.</p>",
+            "image": "/img/team/amcgriff.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/amcgriff87"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/aaron-mcgriff"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://www.salesforce.com/trailblazer/amcgriff3"
+                }
+            ]
         }
     ]
 }
