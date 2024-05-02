@@ -153,7 +153,7 @@
             "image": "/img/sessions/2024/speakers/acrear.jpg",
             "first_sed": false,
             "first_talk": false,
-            "mvp": true
+            "mvp": false
         },
         "acrosman": {
             "first_name": "Aaron",
@@ -277,8 +277,8 @@
             "last_name": "Rodriguez",
             "id": "drodriguez",
             "pronouns": "He / Him",
-            "title": "",
-            "company": "",
+            "title": "Director of Managed Services",
+            "company": "Canvas Cloud",
             "bio": "",
             "image": "/img/sessions/2024/speakers/drodriguez.jpg",
             "first_sed": true,
@@ -631,10 +631,10 @@
             "title": "",
             "company": "",
             "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "image": "/img/sessions/2024/speakers/mshepard.jpg",
             "first_sed": true,
             "first_talk": false,
-            "mvp": false
+            "mvp": true
         },
         "mshrivastava": {
             "first_name": "Mohith",
