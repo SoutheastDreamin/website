@@ -699,7 +699,7 @@
             "image": "/img/sessions/2024/speakers/rozimek.jpg",
             "first_sed": true,
             "first_talk": false,
-            "mvp": false
+            "mvp": true
         },
         "rsingh": {
             "first_name": "Rubin",
@@ -764,7 +764,7 @@
             "image": "/img/sessions/2024/speakers/ssimpson.jpg",
             "first_sed": true,
             "first_talk": false,
-            "mvp": false
+            "mvp": true
         },
         "svyas": {
             "first_name": "Sumeet",
