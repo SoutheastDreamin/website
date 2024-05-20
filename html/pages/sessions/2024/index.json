@@ -354,11 +354,11 @@
             "first_name": "EJ",
             "last_name": "Sherman",
             "id": "esherman",
-            "pronouns": "",
-            "title": "",
-            "company": "",
+            "pronouns": "She / They",
+            "title": "Senior DevOps Consultant",
+            "company": "Palladin Techologies",
             "bio": "",
-            "image": "/img/sessions/2024/speakers/placeholder.jpg",
+            "image": "/img/sessions/2024/speakers/esherman.jpg",
             "first_sed": false,
             "first_talk": false,
             "mvp": false
@@ -1176,7 +1176,7 @@
         {
             "title": "Consent Management’s Crucial Role in Data-Driven Marketing",
             "abstract": "<p>Learn how to safeguard your customer privacy and ensure legal and ethical data usage. Explore the rise of Consent Management in response to diminishing data silos and evolving regulations. Walk away with the secrets to unlock the data governance powerhouse and transform your approach to responsible data management.</p>",
-            "id": "concent-management",
+            "id": "consent-management",
             "year": "2024",
             "track": "exec",
             "room": "salon1",
@@ -1188,7 +1188,7 @@
             "abstract": "<p>Discover the accidental admin's journey in nonprofits - juggling multiple roles, facing challenges, and thriving amidst the unexpected responsibilities. Gain practical tips to succeed and balance other work responsibilities effectively in this engaging presentation. Attendees will leave with 5 actionable and results driven strategies for improving their effectiveness and efficiency in their accidental adminship. The presentation mixes a personal narrative of my time as an overworked and under resourced accidental admin, a relatable position for many in the Salesforce ecosystem, with concrete solutions that are scalable to fit a variety of business needs and sizes. This session will appeal to nonprofit and for profit admins alike and will provide insight and a laugh or two to even the most seasoned admin. At its core, this session highlights how a stretched thin accidental admin can delight and engage their end users, leverage their existing resources, and kick butt and take names with less time and effort!</p>",
             "id": "the-surviving-and-thriving-handbook",
             "year": "2024",
-            "track": "nonprofit",
+            "track": "admin",
             "room": "conference2",
             "slot": "slot1",
             "speakers": ["afreund"]
@@ -1214,7 +1214,7 @@
             "speakers": ["mbrown"]
         },
         {
-            "title": "Change Agility - Putting People First for Lasting Results ",
+            "title": "Change Agility - Putting People First for Lasting Results",
             "abstract": "<p>In today's rapidly evolving technological landscape, successful implementations of Salesforce require a strategic approach that prioritizes the human element. This session we'll delve into the intersection of agile methodologies, human-centered design, and change management principles to create a dynamic framework for achieving impactful outcomes.</p><p>Learning Objectives:</p><ul><li>Aligning Agile with Human-Centered Design: Explore how the marriage of agile principles and human-centered design can serve as a guiding force in change planning, ensuring that technology implementations resonate with the individuals involved.</li><li>The Change Agility Cycle: Delve into the intricacies of the change agility cycle, a methodical and iterative process that encompasses discovery, co-creation, testing, and reflection. Learn how this cyclical approach can effectively manage change, minimizing risks while maximizing precision and fostering long-lasting impact.</li></ul><p>As organizations embark on the implementation journey, the session emphasizes the critical need to prioritize people in the equation. By adopting change agility, companies can navigate the complexities of Salesforce implementations with a focus on driving behavioral outcomes. Attendees will gain insights into best practices, equipping them to leverage change agility methodologies for achieving not only technological success but also meaningful business value with people at the fore front.</p>",
             "id": "change-agility",
             "year": "2024",
@@ -1389,7 +1389,7 @@
             "title": "Mastering Record Visibility in Salesforce",
             "abstract": "<p>Get ready for a journey into the heart of Salesforce record visibility with this comprehensive hands-on training session. Designed for Salesforce administrators and developers, this session will delve deep into the intricacies of sharing rules, roles, account teams, case teams, queues, and programmatic sharing in Flows and Apex.</p><p>Participants will gain practical insights and actionable techniques to manage record visibility within their Salesforce orgs. By understanding the nuances of each feature and learning best practices, attendees will be equipped to optimize data access and security for their users.</p><p>Whether you're an administrator looking to optimize data access or a developer seeking to enhance application functionality, this training will equip you with the knowledge and skills to feel confident managing record access in your org. Join us and take the first step towards mastering record visibility in Salesforce!</p>",
             "id": "mastering-record-visibility-in-salesforce",
-            "year": "2023",
+            "year": "2024",
             "track": "admin",
             "room": "conference4",
             "slot": "hotslot1",

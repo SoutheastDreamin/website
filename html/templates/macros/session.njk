@@ -55,10 +55,10 @@
 
 {% macro session_image(session) -%}
     {% if session.speakers | length == 1 %}
-        <a href="/img/sessions/{{ session.year }}/{{ session.id }}.png"><object data="/img/sessions/{{ session.year }}/{{ session.id }}.png" type="image/png" title="Social image for session"></object></a>
+        <a href="/img/sessions/{{ session.year }}/{{ session.id }}.png"><object data="/img/sessions/{{ session.year }}/{{ session.id }}.png" type="image/png" title="Social image for session" width="440"></object></a>
     {% else %}
         {% for speaker in session.speakers %}
-            <a href="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker }}.png"><object data="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker }}.png" type="image/png" title="Social image for session branded for {{ speaker }}"></object></a>
+            <a href="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker }}.png"><object data="/img/sessions/{{ session.year }}/{{ session.id }}_{{ speaker }}.png" type="image/png" title="Social image for session branded for {{ speaker }}" width="440"></object></a>
         {% endfor %}
     {% endif %}
 {%- endmacro %}
