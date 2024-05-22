@@ -1,4 +1,102 @@
 {
     "sponsor_year": "2024",
-    "sponsor_types": []
+    "sponsor_types": [
+        {
+            "type": "platinum",
+            "label": "Platinum",
+            "homepage": true,
+            "fullpage": true,
+            "size": "is-full",
+            "sponsors": [
+                {
+                    "name": "SUMO Scheduler",
+                    "id": "sumoscheduler",
+                    "description": "<p><b>SUMO Scheduler</b>, a leading Salesforce ISV partner for over 16 years, provides automated Appointment, Event, & Field (Outside) Sales scheduling tools to Salesforce users.</p><p>The all-in-one Customer Engagement Platform, built fully <b>native on Salesforce</b>, seamlessly integrates into the existing customer journey touchpoints & lets people make appointment bookings on any device at any time with the right person.</p><p>By offering cutting-edge technology and automated appointment scheduling solutions, SUMO allows enterprise-level sales and support teams to focus on what matters the most - generating new business and improving customer experience instead of managing existing appointments and routine administrative tasks.</p><p>SUMO’s omnichannel platform with powerful features such as automated reminders, customizable self-scheduling sites, and Salesforce-native analytics tools, guarantees an appointment with no overlap on any device and in any time zone. Trusted by leading organizations, including the Fortune 500, healthcare, government, and universities to deliver an exceptional customer experience, SUMO completely automates appointment scheduling and delivers simple yet effective solutions for continuous business growth.",
+                    "logo": "/img/sponsors/2023/sumoscheduler.png",
+                    "url": "https://www.sumoscheduler.com/"
+                },
+                {
+                    "name": "airSlate",
+                    "id": "airslate",
+                    "description": "<p>airSlate is a global SaaS technology company with a suite of easy-to-use and quick-to-implement solutions that empower 100+ million users to seamlessly customize, collaborate, and scale their document workflows and marketing processes through the power of automation.</p>From editing PDFs and eSigning documents to scaling landing page development and automating document workflows, airSlate helps businesses unlock new levels of productivity to hit goals faster with less effort.</p>airSlate integrates seamlessly with Salesforce to automate document creation and processing, instantly update Salesforce records, and move data across different cloud platforms, improving customer and employee satisfaction along the way.</p>",
+                    "logo": "/img/sponsors/2024/airslate.png",
+                    "url": "https://airslate.com"
+                }
+            ]
+        },
+        {
+            "type": "gold",
+            "label": "Gold",
+            "homepage": false,
+            "fullpage": false,
+            "maxwords": 250,
+            "size": "is-half",
+            "sponsors": [
+                {
+                    "name": "Platform Technologies",
+                    "id": "platformtechnologies",
+                    "description": "Platform Technologies™  is a relatively new Salesforce AppExchange (ISV Add-on) tool that enables CRM teams to implement Salesforce Best Practices with ease. Our product is called the <b>Blackbelt Toolkit™</b>.  The <b>Blackbelt Toolkit</b> currently offers 5 feature-rich tools within the toolkit:<ol><li>A <b>Trigger Framework</b> product to give you configurable control of your Apex code</li><li>An <b>Error Management</b> product to aggregate Salesforce-generated or application-generated errors, categorize, control and react to them as appropriate - including notification of administrators and/or publishing events for your enterprise integration solution</li><li>A <b>Rules Engine</b> so you can externalize application-layer business logic into declarative and configurable rules that allow you to easily change them frequently</li><li>A <b>Test Class Manager</b> product that auto-detects Test classes that no longer work as expected due to changes in your underlying data model (validation rules, required fields) or changes in related code</li><li>An <b>Approval Process simplification</b> tool to allow multiple users (e.g. managers in a list or hierarchy) to approve records prior to entering your approval process(es).  This potentially hierarchical list of users can be easily configured and changed frequently and avoids relying on highly complex approval processes or Role Hierarchy in order to determine who the approvers are (both of which are highly problematic).</li></ol><p>Our suite of Best Practice enablers for the Salesforce Platform including support for any/all applications on the Salesforce platform (e.g. Sales Cloud, Service Cloud, Data Cloud, Platform Cloud, custom Apps, etc.).  You can search for “Blackbelt Toolkit” on AppExchange or go to the following <a href=\"https://appexchange.salesforce.com/appxListingDetail?listingId=8be4fe75-ce34-48a4-94e3-3457bae50dda\">link</a></p>",
+                    "logo": "/img/sponsors/2024/platformtechnologies.png",
+                    "url": "https://platformtechnology.ai/"
+                },
+                {
+                    "name": "CalendarAnything",
+                    "id": "calendaranything",
+                    "description": "CalendarAnything helps you manage your schedule seamlessly by visualizing all your Salesforce data in one place. CalendarAnything works with any industry, allowing users and admins to create custom calendars using any Salesforce object and date field. Easily overlay business events, sales opportunities, and production schedules with your personal Outlook or Google calendar to avoid double-booking.</p><p>Plus, CalendarAnything's Availability Scheduling feature lets you and others book meetings and resources directly, making it perfect for lead generation and improving efficiency. For more information, visit <a href=\"https://silverlinecrm.com/calendaranything/\">CalendarAnything</a>.</p><p>As part of Mphasis, Silverline provides strategy, advisory, technical implementation, and ongoing managed services to enable organizations to achieve maximum value with the Salesforce platform. For more information visit: <a href=\"https://silverlinecrm.com/\">https://silverlinecrm.com/</a>",
+                    "logo": "/img/sponsors/2024/calendaranything.png",
+                    "url": "https://silverlinecrm.com/calendaranything/"
+                },
+                {
+                    "name": "OWNData",
+                    "id": "owndata",
+                    "description": "Own is the leading data platform trusted by thousands of organizations to protect and activate SaaS data to transform their businesses. Own empowers customers to ensure the availability, security, and compliance of mission-critical data, while unlocking new ways to gain deeper insights. By partnering with some of the world’s largest SaaS ecosystems such as Salesforce, ServiceNow, and Microsoft Dynamics 365, Own enables customers around the world to truly own the data that powers their business.",
+                    "logo": "/img/sponsors/2024/owndata.png",
+                    "url": "https://www.owndata.com/"
+                }
+            ]
+        },
+        {
+            "type": "silver",
+            "label": "Silver",
+            "homepage": false,
+            "fullpage": false,
+            "maxwords": 55,
+            "size": "is-one-third",
+            "sponsors": [
+                {
+                    "name": "Foxit",
+                    "id": "foxit",
+                    "description": "<p>Foxit's award-winning document generation and eSign solutions come to Salesforce. Empower your teams with dynamic tables, eSign workflows, compliance, security, Salesforce Flows, and more.</p>",
+                    "logo": "/img/sponsors/2024/foxit.png",
+                    "url": "https://www.foxit.com/"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "label": "Select Sponsors",
+            "homepage": false,
+            "fullpage": false,
+            "maxwords": 50,
+            "size": "is-one-third",
+            "sponsors": [
+                {
+                    "name": "Palladin Technologies",
+                    "id": "palladintech",
+                    "description": "",
+                    "type": "Coffee Break",
+                    "logo": "/img/sponsors/2024/palladintech.png",
+                    "url": "https://palladintech.com/"
+                },
+                {
+                    "name": "K2 Partnering Solutions",
+                    "id": "k2",
+                    "description": "<p>K2 brings over 25 years of international experience and a proven track record that showcases our ability to navigate complex project requirements, adapt to various business environments, and consistently deliver high-quality Salesforce solutions that drive operational efficiency and business transformation on a global scale.</p>",
+                    "type": "Bag",
+                    "logo": "/img/sponsors/2024/k2.png",
+                    "url": "k2partnering"
+                }
+            ]
+        }
+    ]
 }
