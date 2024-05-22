@@ -21,7 +21,7 @@
             {% endif %}
                 <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" class="mb-4" alt="{{ sponsor.name }} Logo" />
             </a>
-            <div class="content"><p class="has-text-weight-semibold">{{ sponsor.type }}</p>{{ sponsor.description | safe }}</div>
         </figure>
+        <div class="content"><p class="has-text-weight-semibold">{{ sponsor.type }}</p>{{ sponsor.description | safe }}</div>
     </div>
 {%- endmacro %}
