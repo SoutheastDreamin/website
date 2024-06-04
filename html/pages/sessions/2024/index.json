@@ -454,15 +454,15 @@
             "first_talk": false,
             "mvp": false
         },
-        "kschlau": {
-            "first_name": "Kirsten",
-            "last_name": "Schlau",
-            "id": "kschlau",
-            "pronouns": "",
-            "title": "VP of Technology",
+        "cclanton": {
+            "first_name": "Cara",
+            "last_name": "Clanton Pope",
+            "id": "cclanton",
+            "pronouns": "She / Her",
+            "title": "CRM Analytics Program Manager",
             "company": "Sercante",
             "bio": "",
-            "image": "/img/sessions/2024/speakers/kschlau.jpg",
+            "image": "/img/sessions/2024/speakers/cclanton.jpg",
             "first_sed": false,
             "first_talk": false,
             "mvp": false
@@ -1061,7 +1061,7 @@
             "track": "business",
             "room": "salon2",
             "slot": "slot2",
-            "speakers": ["bowens"]
+            "speakers": ["bowens", "srobertson"]
         },
         {
             "title": "Operationalizing Customer success using renewals and amendments",
@@ -1171,7 +1171,7 @@
             "track": "marketing",
             "room": "salon5",
             "slot": "slot2",
-            "speakers": ["eduncan", "kschlau"]
+            "speakers": ["eduncan"]
         },
         {
             "title": "Consent Management’s Crucial Role in Data-Driven Marketing",
@@ -1181,7 +1181,7 @@
             "track": "exec",
             "room": "salon1",
             "slot": "slot5",
-            "speakers": ["kschlau"]
+            "speakers": ["cclanton"]
         },
         {
             "title": "The Surviving & Thriving Handbook for Accidental Admins",
@@ -1293,7 +1293,7 @@
             "track": "business",
             "room": "salon1and2",
             "slot": "hotslot1",
-            "speakers": ["srobertson", "bowens"]
+            "speakers": ["srobertson"]
         },
         {
             "title": "Intermediate / Advanced Flow",
