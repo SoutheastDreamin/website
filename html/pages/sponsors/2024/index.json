@@ -52,6 +52,27 @@
                     "description": "Own is the leading data platform trusted by thousands of organizations to protect and activate SaaS data to transform their businesses. Own empowers customers to ensure the availability, security, and compliance of mission-critical data, while unlocking new ways to gain deeper insights. By partnering with some of the world’s largest SaaS ecosystems such as Salesforce, ServiceNow, and Microsoft Dynamics 365, Own enables customers around the world to truly own the data that powers their business.",
                     "logo": "/img/sponsors/2024/owndata.png",
                     "url": "https://www.owndata.com/"
+                },
+                {
+                    "name": "Conquer",
+                    "id": "conquer",
+                    "description": "<p>Conquer makes selling smarter by delivering intelligent sales insight, engagement, and automation. We enable you to make more connections, drive higher quality engagements, and close more deals. Conquer works natively inside of Salesforce to connect your sellers with your economic buyers faster, with less effort and better results.</p><p>Backed by over 15 years of engineering, Conquer is a trusted Independent Software Vendor (ISV) partner for Salesforce, the largest CRM ecosystem. With over 400 5-star reviews on the Salesforce AppExchange and the largest sales engagement deployments within those ecosystems, Conquer is trusted by enterprise organizations such as ADP, Waste Management, Paychex, and Houghton Mifflin Harcourt.</p>",
+                    "logo": "/img/sponsors/2024/conquer.png",
+                    "url": "https://conquer.io/"
+                },
+                {
+                    "name": "FormAssembly",
+                    "id": "formassembly",
+                    "description": "<p>FormAssembly is the data collection platform that transforms how organizations collect, connect, and protect data. The industry’s most trusted solution, FormAssembly empowers over 5,500 organizations to streamline data collection with a customizable form builder and form automation, seamless integrations with essential applications, and best-in-class security, privacy, and compliance standards.</p>",
+                    "logo": "/img/sponsors/2024/formassembly.png",
+                    "url": "https://www.formassembly.com/"
+                },
+                {
+                    "name": "Neostella",
+                    "id": "neostella",
+                    "description": "<p>Neostella is a global enterprise software and solutions company that empowers organizations with the technology resources they need to exceed goals and push the boundaries of what is possible. Offerings include Legal Solutions, Work-Relay process and workflow solutions for Salesforce, Robotic Process Automation, and Application Integration. In addition to technology solutions, Neostella provides a wide range of professional services designed to help customers reap maximum ROI from their technology investments. With offices in four countries around the globe, the Neostella team is committed to providing exceptional customer support 24/7.</p><p>Work-Relay is a Salesforce-native application that helps manage complex processes such as order fulfillment, product installation, custom manufacturing, onboarding, and franchisee management.</p><p>It ensures the right work gets to the right resources in the right sequence and timeline, and accelerates the delivery of products or services to end-customers by providing a Salesforce-native workflow solution that:</p><ul><li>Automates complex workflows</li><li>Coordinates work across individuals, teams, and systems</li><li>Provides a single system of record</li></ul>",
+                    "logo": "/img/sponsors/2024/neostella.png",
+                    "url": "https://www.neostella.com/"
                 }
             ]
         },
@@ -69,6 +90,13 @@
                     "description": "<p>Foxit's award-winning document generation and eSign solutions come to Salesforce. Empower your teams with dynamic tables, eSign workflows, compliance, security, Salesforce Flows, and more.</p>",
                     "logo": "/img/sponsors/2024/foxit.png",
                     "url": "https://www.foxit.com/"
+                },
+                {
+                    "name": "10K",
+                    "id": "10k",
+                    "description": "<p>10K is an on-demand Salesforce consultancy designed for modern business. Our global team of vetted architecture, analysis, and consulting experts can start projects 50% quicker and with less hassle than traditional firms. With no minimum spend or lengthy contracts, 10K offers a more efficient way to accelerate innovation and enhance Salesforce ROI.</p>",
+                    "logo": "/img/sponsors/2024/10k.png",
+                    "url": "https://10kview.com/"
                 }
             ]
         },
@@ -83,7 +111,7 @@
                 {
                     "name": "Palladin Technologies",
                     "id": "palladintech",
-                    "description": "",
+                    "description": "<p>As a Salesforce Crest Partner based in Atlanta, GA, we support clients across geographies, industries and market segments adapt, transform and effortlessly navigate the path to rapid scalability.</p>",
                     "type": "Coffee Break",
                     "logo": "/img/sponsors/2024/palladintech.png",
                     "url": "https://palladintech.com/"
@@ -95,6 +123,22 @@
                     "type": "Bag",
                     "logo": "/img/sponsors/2024/k2.png",
                     "url": "k2partnering"
+                },
+                {
+                    "name": "OneMerge",
+                    "id": "onemerge",
+                    "description": "<p>OneMerge is a flexible record merge solution which extends the standard Salesforce Duplicate Management features. Salesforce finds the duplicates, OneMerge automates merge to deliver standardised and compliant results.</p><p>Deduplication improves user productivity, reporting accuracy and optimises AI and Salesforce Data Cloud outcomes.</p><p>Simply defragment your Salesforce data, proactively manage data governance or implement a fully automated Single View of the Customer in Salesforce CRM.</p><p>OneMerge is low-effort to implement, scalable and secure; data never leaves Salesforce.</p><p>A Free Edition is available which supports basic use cases.</p>",
+                    "type": "Lanyard",
+                    "logo": "/img/sponsors/2024/onemerge.png",
+                    "url": "https://onemerge.co.uk/"
+                },
+                {
+                    "name": "Copado",
+                    "id": "copado",
+                    "description": "<p>Copado empowers every Salesforce development team to plan, build, test, deliver and operate business applications with speed and confidence by unifying CI/CD pipelines and automated testing on one platform — all powered by integrated AI. Across the globe, 1,500+ customers and 95,000+ Copado Community members leverage our complete and extensible DevOps solution to scale Salesforce, accelerate time-to-value and achieve career success.</p>",
+                    "type": "Reception",
+                    "logo": "/img/sponsors/2024/copado.png",
+                    "url": "https://www.copado.com/"
                 }
             ]
         }
