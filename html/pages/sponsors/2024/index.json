@@ -128,8 +128,17 @@
                     "name": "OneMerge",
                     "id": "onemerge",
                     "description": "<p>OneMerge is a flexible record merge solution which extends the standard Salesforce Duplicate Management features. Salesforce finds the duplicates, OneMerge automates merge to deliver standardised and compliant results.</p><p>Deduplication improves user productivity, reporting accuracy and optimises AI and Salesforce Data Cloud outcomes.</p><p>Simply defragment your Salesforce data, proactively manage data governance or implement a fully automated Single View of the Customer in Salesforce CRM.</p><p>OneMerge is low-effort to implement, scalable and secure; data never leaves Salesforce.</p><p>A Free Edition is available which supports basic use cases.</p>",
+                    "type": "Lanyard",
                     "logo": "/img/sponsors/2024/onemerge.png",
                     "url": "https://onemerge.co.uk/"
+                },
+                {
+                    "name": "Copado",
+                    "id": "copado",
+                    "description": "<p>Copado empowers every Salesforce development team to plan, build, test, deliver and operate business applications with speed and confidence by unifying CI/CD pipelines and automated testing on one platform — all powered by integrated AI. Across the globe, 1,500+ customers and 95,000+ Copado Community members leverage our complete and extensible DevOps solution to scale Salesforce, accelerate time-to-value and achieve career success.</p>",
+                    "type": "Reception",
+                    "logo": "/img/sponsors/2024/copado.png",
+                    "url": "https://www.copado.com/"
                 }
             ]
         }
