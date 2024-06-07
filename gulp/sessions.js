@@ -75,6 +75,9 @@ function handle_session(read_this, rooms, tracks, time_slots, speakers, session)
  */
 function handle_dir(read_this, directory) {
     return new Promise(function (resolve, reject) {
+        const do_not_hide = {
+            hide: false
+        };
         const promises = [];
         const filename = path.join(constants.getSessionsDir(), directory, 'index.json');
 
@@ -84,7 +87,7 @@ function handle_dir(read_this, directory) {
             } else {
                 const time_slots = lodash.merge(data.hot_time_slots, data.session_time_slots);
                 const handle_session_bound = handle_session.bind(null, read_this, data.rooms, data.tracks, time_slots, data.speakers);
-                const sessions = lodash.concat(data.hots, data.sessions);
+                const sessions = lodash.concat(lodash.filter(data.hots, do_not_hide), lodash.filter(data.sessions, do_not_hide));
 
                 sessions.forEach(function (session) {
                     promises.push(handle_session_bound(session));
