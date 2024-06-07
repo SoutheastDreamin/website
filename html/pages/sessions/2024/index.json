@@ -841,6 +841,7 @@
             "track": "marketing",
             "room": "conference2",
             "slot": "slot2",
+            "hide": true,
             "speakers": ["egray"]
         },
         {
@@ -851,6 +852,7 @@
             "track": "admin",
             "room": "salon3and4",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["rdavis"]
         },
         {
@@ -861,6 +863,7 @@
             "track": "business",
             "room": "salon2",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["lporter"]
         },
         {
@@ -871,6 +874,7 @@
             "track": "marketing",
             "room": "salon5",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["mshepard"]
         },
         {
@@ -881,6 +885,7 @@
             "track": "admin",
             "room": "conferenceb",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["dpirollo"]
         },
         {
@@ -891,6 +896,7 @@
             "track": "admin",
             "room": "salon3and4",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["mdellapia"]
         },
         {
@@ -901,6 +907,7 @@
             "track": "admin",
             "room": "conferenceb",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["mdiegelman"]
         },
         {
@@ -911,6 +918,7 @@
             "track": "admin",
             "room": "salon3and4",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["lroberts"]
         },
         {
@@ -921,6 +929,7 @@
             "track": "marketing",
             "room": "salon5",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["eduncan"]
         },
         {
@@ -931,6 +940,7 @@
             "track": "admin",
             "room": "conferenceb",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["dyadav"]
         },
         {
@@ -941,6 +951,7 @@
             "track": "admin",
             "room": "salon3and4",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["mhansen"]
         },
         {
@@ -951,6 +962,7 @@
             "track": "business",
             "room": "salon2",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["madkins"]
         },
         {
@@ -961,6 +973,7 @@
             "track": "marketing",
             "room": "salon5",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["rcammisa"]
         },
         {
@@ -971,6 +984,7 @@
             "track": "admin",
             "room": "salon2",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["araman"]
         },
         {
@@ -981,6 +995,7 @@
             "track": "dev",
             "room": "conferencee",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["dsoileau"]
         },
         {
@@ -991,6 +1006,7 @@
             "track": "exec",
             "room": "salon1",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["khillyer"]
         },
         {
@@ -1001,6 +1017,7 @@
             "track": "nonprofit",
             "room": "conference4",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["cweidman"]
         },
         {
@@ -1011,6 +1028,7 @@
             "track": "dev",
             "room": "conference2",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["acrosman"]
         },
         {
@@ -1021,6 +1039,7 @@
             "track": "dev",
             "room": "conferencee",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["gjuarez"]
         },
         {
@@ -1031,6 +1050,7 @@
             "track": "exec",
             "room": "conferenceb",
             "slot": "slot1",
+            "hide": true,
             "speakers": ["efalk"]
         },
         {
@@ -1041,6 +1061,7 @@
             "track": "admin",
             "room": "salon6",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["bfanning"]
         },
         {
@@ -1051,6 +1072,7 @@
             "track": "admin",
             "room": "conferenceb",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["drodriguez"]
         },
         {
@@ -1061,6 +1083,7 @@
             "track": "business",
             "room": "salon2",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["bowens", "srobertson"]
         },
         {
@@ -1071,6 +1094,7 @@
             "track": "exec",
             "room": "conference2",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["svyas"]
         },
         {
@@ -1081,6 +1105,7 @@
             "track": "admin",
             "room": "salon3and4",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["rsingh"]
         },
         {
@@ -1091,6 +1116,7 @@
             "track": "exec",
             "room": "salon1",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["swilliams", "jruse"]
         },
         {
@@ -1101,6 +1127,7 @@
             "track": "dev",
             "room": "conference2",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["mshrivastava"]
         },
         {
@@ -1111,6 +1138,7 @@
             "track": "nonprofit",
             "room": "conference4",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["rozimek"]
         },
         {
@@ -1121,6 +1149,7 @@
             "track": "exec",
             "room": "salon1",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["cude"]
         },
         {
@@ -1131,6 +1160,7 @@
             "track": "admin",
             "room": "salon6",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["acrear"]
         },
         {
@@ -1141,6 +1171,7 @@
             "track": "dev",
             "room": "salon5",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["zlang"]
         },
         {
@@ -1151,6 +1182,7 @@
             "track": "dev",
             "room": "conferencee",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["tzulkarnine"]
         },
         {
@@ -1161,6 +1193,7 @@
             "track": "nonprofit",
             "room": "conference4",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["kwaterworth", "mdees"]
         },
         {
@@ -1171,6 +1204,7 @@
             "track": "marketing",
             "room": "salon5",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["eduncan"]
         },
         {
@@ -1181,6 +1215,7 @@
             "track": "exec",
             "room": "salon1",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["cclanton"]
         },
         {
@@ -1191,6 +1226,7 @@
             "track": "admin",
             "room": "conference2",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["afreund"]
         },
         {
@@ -1201,6 +1237,7 @@
             "track": "dev",
             "room": "conferencee",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["ssimpson"]
         },
         {
@@ -1211,6 +1248,7 @@
             "track": "nonprofit",
             "room": "conference4",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["mbrown"]
         },
         {
@@ -1221,6 +1259,7 @@
             "track": "exec",
             "room": "salon1",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["shabib"]
         },
         {
@@ -1231,6 +1270,7 @@
             "track": "nonprofit",
             "room": "conference4",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["astyles"]
         },
         {
@@ -1241,6 +1281,7 @@
             "track": "admin",
             "room": "salon6",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["trucker"]
         },
         {
@@ -1251,6 +1292,7 @@
             "track": "dev",
             "room": "conferencee",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["jdaniel"]
         },
         {
@@ -1261,6 +1303,7 @@
             "track": "admin",
             "room": "salon6",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["sbaxter"]
         },
         {
@@ -1271,6 +1314,7 @@
             "track": "business",
             "room": "salon2",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["kforte"]
         },
         {
@@ -1281,6 +1325,7 @@
             "track": "admin",
             "room": "salon6",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["jlay"]
         }
     ],
@@ -1293,6 +1338,7 @@
             "track": "business",
             "room": "salon1and2",
             "slot": "hotslot1",
+            "hide": false,
             "speakers": ["srobertson"]
         },
         {
@@ -1303,6 +1349,7 @@
             "track": "admin",
             "room": "salon5and6",
             "slot": "hotslot2",
+            "hide": false,
             "speakers": ["mhansen"]
         },
         {
@@ -1313,6 +1360,7 @@
             "track": "admin",
             "room": "salon5and6",
             "slot": "hotslot1",
+            "hide": false,
             "speakers": ["dsoileau"]
         },
         {
@@ -1323,6 +1371,7 @@
             "track": "dev",
             "room": "conference2",
             "slot": "hotslot1",
+            "hide": false,
             "speakers": ["ncarpenter"]
         },
         {
@@ -1333,6 +1382,7 @@
             "track": "admin",
             "room": "salon3",
             "slot": "hotslot2",
+            "hide": false,
             "speakers": ["mleszczuk"]
         },
         {
@@ -1343,6 +1393,7 @@
             "track": "admin",
             "room": "salon1and2",
             "slot": "hotslot2",
+            "hide": false,
             "speakers": ["cude"]
         },
         {
@@ -1353,6 +1404,7 @@
             "track": "admin",
             "room": "salon3",
             "slot": "hotslot1",
+            "hide": false,
             "speakers": ["mshrivastava"]
         },
         {
@@ -1363,6 +1415,7 @@
             "track": "admin",
             "room": "salon4",
             "slot": "hotslot2",
+            "hide": false,
             "speakers": ["esherman"]
         },
         {
@@ -1373,6 +1426,7 @@
             "track": "dev",
             "room": "conference2",
             "slot": "hotslot2",
+            "hide": false,
             "speakers": ["jdaniel"]
         },
         {
@@ -1383,6 +1437,7 @@
             "track": "admin",
             "room": "salon4",
             "slot": "hotslot1",
+            "hide": false,
             "speakers": ["kgause"]
         },
         {
@@ -1393,6 +1448,7 @@
             "track": "admin",
             "room": "conference4",
             "slot": "hotslot1",
+            "hide": false,
             "speakers": ["mbura", "maggarwal"]
         }
     ],

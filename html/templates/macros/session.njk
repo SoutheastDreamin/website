@@ -47,7 +47,7 @@
         <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="{{ name }}"></a>{{ slot.name }}</h2>
         <h3 class="subtitle is-size-4 scrollspy__display">{{ slot.start }} - {{ slot.end }}</h3>
         <h3 class="subtitle is-size-4 scrollspy__section">{{ slot.start }} - {{ slot.end }}</h3>
-        {% for session in sessions | where("slot", name) %}
+        {% for session in sessions | where("hide", false) | where("slot", name) %}
             {{ session_display(session, speakers, rooms[session.room], tracks[session.track]) }}
         {% endfor %}
     {% endfor %}
@@ -80,7 +80,7 @@
                 <tr>
                     <td class="has-text-centered is-vcentered has-text-weight-bold">{{ slot.name }}</td>
                     {% for room in room_list %}
-                        {% set row_sessions = sessions | where("slot", slot_name) | where("room", room) %}
+                        {% set row_sessions = sessions | where("hide", false) | where("slot", slot_name) | where("room", room) %}
                         <td class="has-background-{{ row_sessions[0].track }} has-text-centered is-vcentered"><a href="#{{ row_sessions[0].id }}" class="has-text-dark">{{ row_sessions[0].title }}</a></td>
                     {% endfor %}
                 </tr>
