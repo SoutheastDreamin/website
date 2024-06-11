@@ -145,6 +145,14 @@
             "bio": "<p>A relative newbie when it comes to all things Salesforce, Steven dove right into the ecosystem back in 2022. Since then, he's been working to tell the stories and form the bigger picture for all things Salesforce data management. A native of metro Atlanta, he was looking for a way to become more engaged with the conference that's hosted in his own stomping grounds so he jumped at the chance to join the Southeast Dreamin' team.</p><p>When he's not busy working, he loves all things London, the color blue, and spending time with his pets - two cats named Winston Purrchill (no for real, he really does love London) and Emma, and his geriatric chihuahua Baron who still serves all the lewks even in his golden years.</p>",
             "image": "/img/team/swelch.jpg",
             "links": []
+        },
+        {
+            "firstname": "Teresa",
+            "lastname": "Aluku",
+            "title": "Sponsor Coordinator",
+            "bio": "<p>I began my adventure with Salesforce in 2015 and have been in the environment since. Born and raised in Kenya moved to the US in 2001. Predominantly worked in the not-for-profit world, however, made the transition to corporate America back in 2014. Currently working in the Sales Cloud.Besides family (husband and children) I enjoy traveling, movies and dance.</p>",
+            "image": "/img/team/taluku.jpg",
+            "links": []
         }
     ],
     "support": [
@@ -220,6 +228,22 @@
             "title": "Keynote Speaker",
             "bio": "<p>Carolyn Bathauer has been with Salesforce for 12 years holding various roles in sales and marketing. She has over 20 years in the technology space and developed a niche for creative problem solving in large organizations and building programs for scale. She's passionate about helping customers understand Salesforce, leading with authenticity and career development. She was born and raised in Chicago and now resides OTP in Marietta with her partner Vincent and her crazy french bulldog, Winnifred.</p>",
             "image": "/img/team/cbathauer.jpg",
+            "links": []
+        },
+        {
+            "firstname": "Michael",
+            "lastname": "Lyons",
+            "title": "Onsite Coordinator",
+            "bio": "<p>From the Army to the Cloud: Michael Lyons is not just a Salesforce Consultant at CGI; he's a force of innovation, driven by a passion for technology and a commitment to service. Michael's career path is a testament to resilience and determination. After proudly serving in the Army, he transitioned into the tech world through the Hiring Our Heroes program in collaboration with Salesforce Military. With his unique blend of military discipline and tech savvy, he swiftly rose as a Salesforce Consultant, bringing unparalleled dedication to every project. Before donning the Salesforce cape, Michael honed his skills as a Broadcast Cable Integration Specialist. His journey underscores his ability to seamlessly integrate diverse experiences, paving the way for innovative solutions and groundbreaking ideas.</p>",
+            "image": "/img/team/mlyons.jpg",
+            "links": []
+        },
+        {
+            "firstname": "Scott",
+            "lastname": "Reed",
+            "title": "Onsite Coordinator",
+            "bio": "<p>Scott Reed is a newcomer to Southeast Dreamin'. He has spent the last 16 months learning as much as possible about Salesforce, earning 3 certifications, while continuing to teach full-time. As a career educator and current volunteer administrator for the Friends Together cancer charity of Michigan, Scott's goal is to apply kindness, humor, and analytical precision to understanding and solving problems. When not using his free time to prepare for his next certification (Advanced Administrator by early July!), he enjoys reading, games, karaoke, and mastering his recipe for homemade salsa</p>",
+            "image": "/img/team/sreed.jpg",
             "links": []
         }
     ]
