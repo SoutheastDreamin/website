@@ -73,6 +73,27 @@
                     "description": "<p>Neostella is a global enterprise software and solutions company that empowers organizations with the technology resources they need to exceed goals and push the boundaries of what is possible. Offerings include Legal Solutions, Work-Relay process and workflow solutions for Salesforce, Robotic Process Automation, and Application Integration. In addition to technology solutions, Neostella provides a wide range of professional services designed to help customers reap maximum ROI from their technology investments. With offices in four countries around the globe, the Neostella team is committed to providing exceptional customer support 24/7.</p><p>Work-Relay is a Salesforce-native application that helps manage complex processes such as order fulfillment, product installation, custom manufacturing, onboarding, and franchisee management.</p><p>It ensures the right work gets to the right resources in the right sequence and timeline, and accelerates the delivery of products or services to end-customers by providing a Salesforce-native workflow solution that:</p><ul><li>Automates complex workflows</li><li>Coordinates work across individuals, teams, and systems</li><li>Provides a single system of record</li></ul>",
                     "logo": "/img/sponsors/2024/neostella.png",
                     "url": "https://www.neostella.com/"
+                },
+                {
+                    "name": "Peeklogic",
+                    "id": "peeklogic",
+                    "description": "<p>We are Peeklogic, a Salesforce Consulting Company.</p><p>Established in 2015, Peeklogic is a privately-held company specializing in Salesforce Consulting and extensive AppExchange Development.</p><p>With a team size of 80+ employees, Peeklogic operates from its headquarters in Austin, Texas, USA, and has an R&D locations in Ukraine and Poland</p><p>We provide tailored Salesforce solutions that streamline workflows, enhance communication, and align with your business goals.</p><ul><li>🛠 Extensive Salesforce implementation and support, including tailored services for CPQ, Pardot, Salesforce Sales and Marketing Clouds, EinsteinAnalytics.</li><li>🏭 Deep specialization in sectors like Real Estate, Ecommerce, Healthcare, IT, and Telecom.</li><li>🔗 Seamless integrations with a range of external systems.</li><li>🔍 Salesforce Health Check including financial and technical audit.</li><li>🛎 Ongoing support and development for continuous improvements through our Managed Services.</li></ul><p>Featured AppExchange Products</p><ul><li>Peeklogic Jira Connector</li><li>Peeklogic Report Sender</li><li>Smart Duplicate Manager</li><li>Peeklogic Backup Tool</li></ul><p>200+ Salesforce certificates, 200+ completed projects, 5.0 rating on Clutch and AppExchange. Interested in transforming your Salesforce experience? Contact us at info@peeklogic.com for a consultation.</p>",
+                    "logo": "/img/sponsors/2024/peeklogic.png",
+                    "url": "https://www.peeklogic.com/"
+                },
+                {
+                    "name": "DBSync",
+                    "id": "dbsync",
+                    "description": "<p>Unlock the power of your data with intelligent process automation by DBSync. Streamline operations, improve customer satisfaction, and optimize decision-making effortlessly. Our solutions offer a unique blend of robust functionality and user-friendly simplicity, earning us 5-star reviews. Partnerships with industry leaders including QuickBooks, Salesforce, Microsoft, Snowflake, and AWS ensure a seamless flow of data you can trust at a price you can afford. With a dedicated team guiding you from implementation to success, automate your business processes confidently. Experience the power of technology with a human touch and unleash the full potential of data to power your business.</p>",
+                    "logo": "/img/sponsors/2024/dbsync.png",
+                    "url": "https://www.mydbsync.com/"
+                },
+                {
+                    "name": "Digital Additive",
+                    "id": "digitaladditive",
+                    "description": "<p>Digital Additive is an Atlanta-based email and eCRM focused agency specializing in Salesforce Marketing Cloud. In a world of one-size-fits-all communication, Digital Additive delivers on the promise of one-to-one. Fluent in data and technology, we craft messages that resonate; our nimble approach meets or exceeds our clients’ goals and builds lasting customer relationships.</p><p>Meaningful digital experiences aren’t accidental; they’re smart, thoughtful, strategic conversations — and Digital Additive makes them look easy. We don’t talk at people; we engage them in genuine dialogue. Digital Additive harnesses the power of real connection, smart data, and expert execution.</p><p>Authentic connection, real relationships: that’s messaging done right. We get that. And it drives us every day, every communication, to do it smarter than everyone else.</p>",
+                    "logo": "/img/sponsors/2024/digitaladditive.jpg",
+                    "url": "https://digitaladditive.com/"
                 }
             ]
         },
@@ -139,6 +160,13 @@
                     "type": "Reception",
                     "logo": "/img/sponsors/2024/copado.png",
                     "url": "https://www.copado.com/"
+                },
+                {
+                    "name": "HIKE2",
+                    "id": "hike2",
+                    "description": "<p>HIKE2 is a leading provider of Salesforce solutions, specializing in AI, data analytics, and advisory services. We cater to a variety of industries, including law firms, financial services, insurance companies, business service providers, and high-tech SaaS companies. Our cutting-edge approach integrates AI into the Salesforce platform, providing intelligent, automated solutions that enhance decision-making and customer engagement. We offer unparalleled data analysis and interpretation, enabling businesses to harness predictive analytics, personalized customer experiences, and streamlined operations. Our robust data and analytics services extend beyond standard implementations to provide deep-dive analytics, custom reporting, and actionable insights. We guide clients through digital transformations, ensuring that their Salesforce ecosystem is optimized for both current and future needs. Our team of Salesforce experts, AI innovators, and data architects and strategists deliver technologically advanced and strategically sound solutions that drive tangible business results.</p>",
+                    "logo": "/img/sponsors/2024/hike2.png",
+                    "url": "https://hike2.com"
                 }
             ]
         }
