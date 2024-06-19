@@ -94,6 +94,13 @@
                     "description": "<p>Digital Additive is an Atlanta-based email and eCRM focused agency specializing in Salesforce Marketing Cloud. In a world of one-size-fits-all communication, Digital Additive delivers on the promise of one-to-one. Fluent in data and technology, we craft messages that resonate; our nimble approach meets or exceeds our clients’ goals and builds lasting customer relationships.</p><p>Meaningful digital experiences aren’t accidental; they’re smart, thoughtful, strategic conversations — and Digital Additive makes them look easy. We don’t talk at people; we engage them in genuine dialogue. Digital Additive harnesses the power of real connection, smart data, and expert execution.</p><p>Authentic connection, real relationships: that’s messaging done right. We get that. And it drives us every day, every communication, to do it smarter than everyone else.</p>",
                     "logo": "/img/sponsors/2024/digitaladditive.png",
                     "url": "https://digitaladditive.com/"
+                },
+                {
+                    "name": "Capstorm",
+                    "id": "capstorm",
+                    "description": "<p>CapStorm is a Salesforce data management platform that provides a pathway to ownership and control over your Salesforce data and metadata.</p><p>Whether you need better sandbox seeding, verifiable backups, more robust analytics, data migration solutions, or assistance with regulatory compliance, CapStorm has you covered!</p>",
+                    "logo": "/img/sponsors/2024/capstorm.png",
+                    "url": "https://www.capstorm.com/"
                 }
             ]
         },
