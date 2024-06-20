@@ -233,6 +233,19 @@
             "first_talk": false,
             "mvp": false
         },
+        "carmstrong": {
+            "first_name": "Chantell",
+            "last_name": "Armstrong",
+            "id": "carmstrong",
+            "pronouns": "",
+            "title": "Senior Solution Expert",
+            "company": "SUMO Scheduler",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/carmstrong.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
         "ckennedy": {
             "first_name": "Charlotte",
             "last_name": "Kennedy",
@@ -1343,6 +1356,17 @@
         }
     ],
     "hots": [
+        {
+            "title": "Become an Automated Scheduling Pro: Learn to implement SUMO Scheduler's customer engagement platform",
+            "abstract": "<div class=\"notification is-warning is-light\">This is a sponsored session</div><p>Calling all consultants and admins!  Ditch outdated scheduling links!  Salesforce native meeting schedulers offer a one-stop shop for exceptional customer experiences while automating time-consuming workflows and ensuring data accuracy, SUMO, a top customer engagement platform, integrates flawlessly with Salesforce clouds and solves scheduling use cases across all customer-facing roles.</p><p>During this training session you will learn to install, configure, and set up SUMO Scheduler’s appointment scheduling suite for your Salesforce environment. By the end of the session, participants will be able to complete pre-installation steps, install SUMO Scheduler, and perform post-installation configurations to optimize their scheduling experience.</p><p><b>So, why should you attend?</b></p><ul><li><b>Salesforce Consultants</b> - Better Salesforce native solutions will help you to win new clients and grow services with your existing accounts. Add SUMO scheduler implementation and integration as a service and boost your consulting revenue.</li><li><b>Salesforce Admins</b> - Build knowledge and value. Gain an edge over your colleagues and add new skills by learning how to implement Salesforce native scheduling tools.</li></ul><p>To maximize your learning experience, there are two quick prep steps that you will need to complete prior to the session:</p><ul><li><b>Complete SUMO Pre Install Steps</b></li><li><b>Install the SUMO App</b></li></ul><p>This <a href=\"https://docs.google.com/presentation/d/1YCYjtK1TpwNBbsgdCeVpiSdPT0Sgp9LqtkOcYLC1UnI/edit?usp=sharing\">guide</a> will walk you through these items. Have any questions? Don't hesitate to reach out to me at <a href=\"mailto:carmstrong@sumoscheduler.com\">carmstrong@sumoscheduler.com</a>.</p>",
+            "id": "become-an-automated-scheduling-pro",
+            "year": "2024",
+            "track": "admin",
+            "room": "conference4",
+            "slot": "hotslot2",
+            "hide": false,
+            "speakers": ["carmstrong"]
+        },
         {
             "title": "How to Become a User Story Master",
             "abstract": "<p>Have you ever been given the task of creating user stories or \"managing a backlog\" and you don't know where to start? Maybe you've gathered all of your requirements and you don't know how to start extracting those requirements to develop them. Imagine having a clear roadmap to turn requirements into impactful project deliveries!</p><p>There are many was to approach user story building but the goal is always to focus on the value it will produce for the stakeholders. In this workshop, you will learn how to write a user story, provide relatable and trackable acceptance criteria and best practices for maintaining your project backlog.</p><p>By the end of this workshop, you will have a blueprint on how to determine what needs to be delivered based on requirements, how to categorize your work with epics and features, and how to write user stories that will help you communicate effectively with you team(s) - paving the way for a successful project delivery!</p>",
