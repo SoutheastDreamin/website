@@ -233,6 +233,19 @@
             "first_talk": false,
             "mvp": false
         },
+        "ckennedy": {
+            "first_name": "Charlotte",
+            "last_name": "Kennedy",
+            "id": "ckennedy",
+            "pronouns": "",
+            "title": "Consultant, Nonprofit & Education",
+            "company": "Costal",
+            "bio": "",
+            "image": "/img/sessions/2024/speakers/ckennedy.jpg",
+            "first_sed": false,
+            "first_talk": false,
+            "mvp": false
+        },
         "cude": {
             "first_name": "Chris",
             "last_name": "Ude",
@@ -251,8 +264,8 @@
             "last_name": "Weidman",
             "id": "cweidman",
             "pronouns": "",
-            "title": "Salesforce Architect",
-            "company": "CentralApp",
+            "title": "Solution Architect, Financial Services",
+            "company": "coastal",
             "bio": "",
             "image": "/img/sessions/2024/speakers/cweidman.jpg",
             "first_sed": true,
@@ -1011,14 +1024,14 @@
         },
         {
             "title": "Nonprofit Cloud: Leverage Industry Features included in NPC",
-            "abstract": "<p>The change from Nonprofit Success Pack to Nonprofit Industry Cloud doesn't come without some growing pains, but the benefits are significant.  Get the most out of all the bells and whistles that come out of the box with Industry Clouds.   Today we will cover some of the most beneficial features: Action Plans, Actionable Relationship Center, Interaction Summaries, and Omnistudio Scrips and Document Generation.</p>",
+            "abstract": "<p>Salesforce's release of an industry cloud designed for Nonprofits intrigued the Salesforce/nonprofit community. Benefits are limitless with design and implementation of native Salesforce Industry features like Action Plans, Actionable Relationship Center, Interaction Summaries, and OmniStudio Scripts and Document Generation. Nonprofits on NPSP are used to gathering as a community to solution for missing gaps in relationship visualization, field accessibility, document generation, and activity tracking. With Nonprofit Cloud, NPC, these industry features and components directly benefit the end user experience and showcase deeper insights into the individual and related data points in hopes to build momentum towards the nonprofits’ mission. Explore with us these features with a consultant from the oldest Industry Cloud, Financial Services, and one from the newest Industry Cloud, Nonprofit, and dream about what they can do for your organization.</p>",
             "id": "nonprofit-cloud",
             "year": "2024",
             "track": "nonprofit",
             "room": "conference4",
             "slot": "slot2",
             "hide": false,
-            "speakers": ["cweidman"]
+            "speakers": ["cweidman", "ckennedy"]
         },
         {
             "title": "Getting a lot of data into Salesforce: Migrations at Scale",
