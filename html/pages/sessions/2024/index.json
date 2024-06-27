@@ -1131,7 +1131,7 @@
             "track": "admin",
             "room": "salon3and4",
             "slot": "slot5",
-            "hide": false,
+            "hide": true,
             "speakers": ["rsingh"]
         },
         {
