@@ -1,0 +1,14 @@
+{
+	"team": {
+		"scope": "json",
+		"prefix": "volunteer",
+		"body": [
+			"{",
+			"\t\"title\": \"\",",
+			"\t\"quantity\": 1,",
+			"\t\"fulfilled\": false,",
+            "\t\"responsibilities\": []",
+			"}"
+		]
+	}
+}

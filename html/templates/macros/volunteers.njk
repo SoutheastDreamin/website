@@ -1,9 +1,11 @@
 {% macro role_entry(role) -%}
 <li>
     {% if role.fulfilled %}<strike>{% endif %}
-    {{ role.title }}{% if role.quantity %}({{ role.quantity }}){% endif %}
+    {{ role.title }}{% if role.quantity %} ({{ role.quantity }}){% endif %}
     <ul>
-        <li>{{ role.description }}</li>
+        {% for responsibility in role.responsibilities %}
+        <li>{{ responsibility }}</li>
+        {% endfor %}
     </ul>
     {% if role.fulfilled %}</strike>{% endif %}
 </li>

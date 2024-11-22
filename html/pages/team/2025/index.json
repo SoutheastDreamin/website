@@ -8,6 +8,10 @@
             "image": "/img/team/pcon.jpg",
             "links": [
                 {
+                    "icon": "fab fa-bluesky",
+                    "link": "https://bsky.app/profile/connelly.dev"
+                },
+                {
                     "icon": "fab fa-twitter",
                     "link": "https://twitter.com/aelst"
                 },
@@ -83,8 +87,8 @@
             "image": "/img/team/amber.jpg",
             "links": [
                 {
-                    "icon": "fab fa-twitter",
-                    "link": "https://twitter.com/amber9904"
+                    "icon": "fab fa-bluesky",
+                    "link": "https://bsky.app/profile/amber9904.bsky.social"
                 },
                 {
                     "icon": "fab fa-linkedin",
