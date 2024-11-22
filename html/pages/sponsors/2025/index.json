@@ -1,0 +1,40 @@
+{
+    "sponsor_year": "2025",
+    "sponsor_types": [
+        {
+            "type": "platinum",
+            "label": "Platinum",
+            "homepage": true,
+            "fullpage": true,
+            "size": "is-full",
+            "sponsors": []
+        },
+        {
+            "type": "gold",
+            "label": "Gold",
+            "homepage": false,
+            "fullpage": false,
+            "maxwords": 250,
+            "size": "is-half",
+            "sponsors": []
+        },
+        {
+            "type": "silver",
+            "label": "Silver",
+            "homepage": false,
+            "fullpage": false,
+            "maxwords": 55,
+            "size": "is-one-third",
+            "sponsors": []
+        },
+        {
+            "type": "select",
+            "label": "Select Sponsors",
+            "homepage": false,
+            "fullpage": false,
+            "maxwords": 50,
+            "size": "is-one-third",
+            "sponsors": []
+        }
+    ]
+}
