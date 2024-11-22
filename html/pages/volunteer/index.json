@@ -1,19 +1,19 @@
 {
-    "year": 2024,
+    "year": 2025,
     "form_active": false,
     "form_url": "https://forms.gle/RyG2hoQSkhvHLnEE8",
-    "fully_staffed": true,
+    "fully_staffed": false,
     "times": {
         "committee": {
-            "start": "November 2023",
-            "end": "June 2024"
+            "start": "August 2024",
+            "end": "June 2025"
         },
         "session": {
-            "start": "March 2024",
-            "end": "May 2024"
+            "start": "March 2025",
+            "end": "May 2025"
         },
         "dayof": {
-            "start": "6pm ET Wednesday, June 26, 2023",
+            "start": "6pm ET Wednesday, June 25, 2023",
             "end": "5pm Friday, June 27, 2023"
         }
     },
@@ -22,28 +22,82 @@
             "title": "Committee Positions",
             "roles": [
                 {
-                    "title": "Keynote Coordinator",
-                    "quantity": 1,
-                    "fulfilled": true,
-                    "description": "Lead organizer of the conference opening session & keynote presentation(s)"
+                    "title": "Sponsor Coordinators",
+                    "quantity": 4,
+                    "fulfilled": false,
+                    "responsibilities": [
+                        "Lead organizer of the conference opening session & keynote presentation(s)",
+                        "Deliver sponsorship benefits to sponsors before and during the conference",
+                        "Collect marketing materials from sponsors to give to the Marketing team "
+                    ]
                 },
                 {
-                    "title": "Sponsor Coordinator",
+                    "title": "Session Associates",
                     "quantity": 1,
-                    "fulfilled": true,
-                    "description": "Support the onboarding and support of conference sponsors"
+                    "fulfilled": false,
+                    "responsibilities": [
+                        "Participate in rating sessions during the blind review",
+                        "Work with Speaker mentors to ensure session delivery is outstanding",
+                        "Collaborate with the Session Lead to strategy for session selection & delivery"
+                    ]
                 },
                 {
-                    "title": "Procurement Officer",
+                    "title": "Procurement Officer ",
                     "quantity": 1,
-                    "fulfilled": true,
-                    "description": "Responsible for acquiring materials and swag to support the conference"
+                    "fulfilled": false,
+                    "responsibilities": [
+                        "Responsible for acquiring all conference materials (marketing, sessions, sponsorships, etc)",
+                        "Attend meetings to track details needed for the conference",
+                        "Work with the Finance lead to project the costs of conference materials",
+                        "Work with Onsite Coordinators to bring stored materials to conference location"
+                    ]
                 },
                 {
-                    "title": "Social Media Marketer",
+                    "title": "Marketing Associates",
                     "quantity": 1,
-                    "fulfilled": true,
-                    "description": "Responsible for developing conference content to post on social media"
+                    "fulfilled": false,
+                    "responsibilities": [
+                        "Develop marketing content in accordance with the content schedule",
+                        "Work with Marketing Lead to develop new ideas for marketing content and provide feedback on content schedule",
+                        "Record videos and take photos during the conference to post content during the conference",
+                        "Submit all content, with the exception of day-of conference posts, to the Marketing Lead for approval"
+                    ]
+                },
+                {
+                    "title": "Swag Deliverer",
+                    "quantity": 1,
+                    "fulfilled": false,
+                    "responsibilities": [
+                        "Lead the Committee in picking the gifts for the different types of people",
+                        "Collaborate with Marketing to design in accordance to our branding",
+                        "Lead any discussions with vendors in collaboration with Procurement office",
+                        "Identify within the schedule when swag should be given out during the conference",
+                        "Identify methods of how to pick individuals to receive swag",
+                        "Check with the team on the methods to give out swag to attendees to make sure its a fair and equitable process",
+                        "Responsible for giving out gifts to Speakers, Keynote Speaker, Sponsors, and conference attendees"
+                    ]
+                },
+                {
+                    "title": "Financial Lead",
+                    "quantity": 1,
+                    "fulfilled": false,
+                    "responsibilities": [
+                        "Collaborate with different department leads to redesign the Salesforce org",
+                        "Identify tools and processes to support the business processes of Dreamin' Events",
+                        "Implement new processes, tools & applications, and train the Committee team members"
+                    ]
+                },
+                {
+                    "title": "Ticket Manager",
+                    "quantity": 1,
+                    "fulfilled": false,
+                    "responsibilities": [
+                        "Responsible for designing the check-in process",
+                        "Handles all ticket cancellations and transfers",
+                        "Answer questions via email to the registration address",
+                        "Handles all ticket questions on site",
+                        "Responsible for handing out reception tickets"
+                    ]
                 }
             ]
         },
@@ -53,8 +107,10 @@
                 {
                     "title": "Speaker Mentors",
                     "quantity": 5,
-                    "fulfilled": true,
-                    "description": "Individuals that guide and support speakers by reviewing session abstracts and presentations"
+                    "fulfilled": false,
+                    "responsibilities": [
+                        "Individuals that guide and support speakers by reviewing session abstracts and presentations"
+                    ]
                 }
             ]
         },
@@ -64,14 +120,18 @@
                 {
                     "title": "Demo Jam Presenter",
                     "quantity": 1,
-                    "fulfilled": true,
-                    "description": "Lead MC of the sponsors' demo jam presentations and polling of the audience to choose a demo jam winner"
+                    "fulfilled": false,
+                    "responsibilities": [
+                        "Lead MC of the sponsors’ demo jam presentations and polling of the audience to choose a demo jam winner"
+                    ]
                 },
                 {
                     "title": "Onsite Coordinator",
-                    "quantity": 1,
-                    "fulfilled": true,
-                    "description": "On the ground support to ensure the conference runs smoothly and completes various tasks assigned"
+                    "quantity": 2,
+                    "fulfilled": false,
+                    "responsibilities": [
+                        "On the ground support to ensure the conference runs smoothly and completes various tasks assigned"
+                    ]
                 }
             ]
         }
