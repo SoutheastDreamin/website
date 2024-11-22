@@ -18,8 +18,11 @@ function image_path() {
  */
 function img() {
     const dist_path = path.join(constants.getDistDir(), constants.IMG);
+    const config = {
+        encoding: false
+    };
 
-    return gulp.src(image_path(), { encoding: false })
+    return gulp.src(image_path(), config)
         .pipe(gulp.dest(dist_path))
         .pipe(gulp_connect.reload());
 }

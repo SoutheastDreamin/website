@@ -70,8 +70,11 @@ function hasFont() {
 function static_files(sub_directory, selector) {
     const dest_path = path.join(constants.getDistDir(), sub_directory);
     const files = buildFileList(config.get(selector));
+    const config = {
+        encoding: false
+    };
 
-    return gulp.src(files, { encoding: false }).pipe(gulp.dest(dest_path));
+    return gulp.src(files, config).pipe(gulp.dest(dest_path));
 }
 
 /**
