@@ -8,7 +8,7 @@ const constants = require('./constants');
 
 /**
  * Gets the path to the javascript files
- * @returns {String} The javascript file path
+ * @returns {string} The javascript file path
  */
 function js_path() {
     return path.join(__dirname, '..', constants.JS, '**/*.js');

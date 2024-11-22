@@ -29,6 +29,8 @@
             "deg",
             "vh"
         ],
-        "scss/dollar-variable-empty-line-before": null
+        "scss/dollar-variable-empty-line-before": null,
+        "scss/load-partial-extension": null,
+        "scss/load-no-partial-leading-underscore": null
     }
 }

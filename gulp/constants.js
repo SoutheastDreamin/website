@@ -21,7 +21,7 @@ const BLOG_TEMPLATE = config.has('build.blog_template') ? config.get('build.blog
 
 /**
  * Gets the dist directory
- * @returns {String} The dist directory path
+ * @returns {string} The dist directory path
  */
 function getDistDir() {
     return path.join(__dirname, '..', ROOT);
@@ -29,7 +29,7 @@ function getDistDir() {
 
 /**
  * Gets the sessions directory
- * @returns {String} The sessions directory path
+ * @returns {string} The sessions directory path
  */
 function getSessionsDir() {
     return path.join(__dirname, '..', SESSIONS);
@@ -37,7 +37,7 @@ function getSessionsDir() {
 
 /**
  * Gets the session template path
- * @returns {String} The path to the session template
+ * @returns {string} The path to the session template
  */
 function getSessionTemplate() {
     return path.join(__dirname, '..', SESSION_TEMPLATE);
@@ -45,7 +45,7 @@ function getSessionTemplate() {
 
 /**
  * Gets the sponsor directory
- * @returns {String} The sponsor directory path
+ * @returns {string} The sponsor directory path
  */
 function getSponsorDir() {
     return path.join(__dirname, '..', SPONSOR);
@@ -53,7 +53,7 @@ function getSponsorDir() {
 
 /**
  * Gets the sponsor template path
- * @returns {String} The path to the sponsor template
+ * @returns {string} The path to the sponsor template
  */
 function getSponsorTemplate() {
     return path.join(__dirname, '..', SPONSOR_TEMPLATE);
@@ -61,7 +61,7 @@ function getSponsorTemplate() {
 
 /**
  * Gets the blog directory
- * @returns {String} The blog directory path
+ * @returns {string} The blog directory path
  */
 function getBlogDir() {
     return path.join(__dirname, '..', BLOG);
@@ -69,7 +69,7 @@ function getBlogDir() {
 
 /**
  * Gets the blog template path
- * @returns {String} The path to the blog template
+ * @returns {string} The path to the blog template
  */
 function getBlogTemplate() {
     return path.join(__dirname, '..', BLOG_TEMPLATE);
@@ -77,10 +77,10 @@ function getBlogTemplate() {
 
 /**
  * A where filter for nunjucks
- * @param {Object} obj The object
- * @param {String} selector The selector
- * @param {String} match The match
- * @returns {Boolean} If the selector returns the match
+ * @param {object} obj The object
+ * @param {string} selector The selector
+ * @param {string} match The match
+ * @returns {boolean} If the selector returns the match
  */
 function filter_where(obj, selector, match) {
     const filter = {
@@ -91,7 +91,7 @@ function filter_where(obj, selector, match) {
 
 /**
  * Sets up custom filters in nunjucks
- * @param {Object} environment The nunjucks environment
+ * @param {object} environment The nunjucks environment
  * @returns {undefined}
  */
 const manageEnvironment = function (environment) {
@@ -106,7 +106,7 @@ const manageEnvironment = function (environment) {
 
 /**
  * Gets the Nunjucks config
- * @returns {Object} The Nunjucks config
+ * @returns {object} The Nunjucks config
  */
 function getNunjucksConfig() {
     return {

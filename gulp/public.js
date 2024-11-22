@@ -10,7 +10,7 @@ const IGNORED_FILES = [
 
 /**
  * Gets the path to the image files
- * @returns {String} The image file path
+ * @returns {string} The image file path
  */
 function public_path() {
     const paths = [

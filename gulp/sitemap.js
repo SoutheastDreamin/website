@@ -6,7 +6,7 @@ const constants = require('./constants');
 
 /**
  * Gets the path to the output files
- * @returns {String} The output file path
+ * @returns {string} The output file path
  */
 function dist_path() {
     return path.join(constants.getDistDir(), '**/*.html');

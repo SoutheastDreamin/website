@@ -38,9 +38,9 @@ const SPONSOR_METADATA = {
 
 /**
  * Checks the sponsor
- * @param {Object} level The sponsor level
- * @param {Object} sponsor The sponsor
- * @returns {Object[]} The result
+ * @param {object} level The sponsor level
+ * @param {object} sponsor The sponsor
+ * @returns {object[]} The result
  */
 function check_sponsor(level, sponsor) {
     const bad_description = lodash.isEmpty(lodash.get(sponsor, 'description'));
@@ -60,7 +60,7 @@ function check_sponsor(level, sponsor) {
 
 /**
  * Check the sponsor types
- * @param {Object} sponsor_type The sponsor type
+ * @param {object} sponsor_type The sponsor type
  * @returns {undefined}
  */
 function check_type(sponsor_type) {
@@ -85,7 +85,7 @@ function check_type(sponsor_type) {
 
 /**
  * Checks the data
- * @param {Object} data The sponsor data
+ * @param {object} data The sponsor data
  * @returns {Promise} A promise for when the data has been checked
  */
 function checkData(data) {

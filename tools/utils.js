@@ -7,7 +7,7 @@ const jsontocsv = require('json-2-csv');
 
 /**
  * Gets the data from a JSON file
- * @param {String} filename The filename
+ * @param {string} filename The filename
  * @returns {Promise} A promise for the contents of the JSON file
  */
 function loadJSONFile(filename) {
@@ -24,8 +24,8 @@ function loadJSONFile(filename) {
 
 /**
  * Gets a checkmark or an X based on the value
- * @param {Boolean} value The value
- * @return {String} The display value
+ * @param {boolean} value The value
+ * @returns {string} The display value
  */
 function checkmark(value) {
     return value ? chalk.green.bold('✔') : chalk.red.bold('✘');
@@ -33,8 +33,8 @@ function checkmark(value) {
 
 /**
  * Checks if the file exists
- * @param {String} filename The filename
- * @returns {Boolean} If the file exists
+ * @param {string} filename The filename
+ * @returns {boolean} If the file exists
  */
 function fileExists(filename) {
     return fs.existsSync(filename);
@@ -42,8 +42,8 @@ function fileExists(filename) {
 
 /**
  * Generate the display data
- * @param {Object[]} table_data The table data
- * @returns {Object[]} The display data
+ * @param {object[]} table_data The table data
+ * @returns {object[]} The display data
  */
 function generateDisplay(table_data) {
     const formatted_data = [];
@@ -67,11 +67,11 @@ function generateDisplay(table_data) {
 
 /**
  * Builds a table
- * @param {Object} table_metadata The table metadata
- * @param {Boolean} is_verbose Is the table verbose
+ * @param {object} table_metadata The table metadata
+ * @param {boolean} is_verbose Is the table verbose
  * @param {Function} checker The checker function
- * @param {Object[]} data The first string
- * @returns {Object} The table
+ * @param {object[]} data The first string
+ * @returns {object} The table
  */
 function buildTable(table_metadata, is_verbose, checker, data) {
     const table = new Table(table_metadata);
@@ -108,8 +108,8 @@ function buildTable(table_metadata, is_verbose, checker, data) {
 
 /**
  * Writes a file to disk
- * @param {String} filename The filename
- * @param {Object} data The data to write
+ * @param {string} filename The filename
+ * @param {object} data The data to write
  * @returns {Promise} A promise for when the file was written
  */
 function writeFile(filename, data) {
@@ -126,8 +126,8 @@ function writeFile(filename, data) {
 
 /**
  * Coverts an array of objects to CSV and writes it to a file
- * @param {String} filename The filename
- * @param {Object[]} data JSON data to convert to CSV
+ * @param {string} filename The filename
+ * @param {object[]} data JSON data to convert to CSV
  * @returns {Promise} A promise for when the data has been converted and written
  */
 function writeCSVFile(filename, data) {
