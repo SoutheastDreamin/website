@@ -41,7 +41,7 @@ function find_blog_posts() {
 
 /**
  * Reads the blog metadata
- * @param {String} file_name The blog file name
+ * @param {string} file_name The blog file name
  * @returns {Promise} A promise for the metadata
  */
 function readMetadata(file_name) {
@@ -61,8 +61,8 @@ function readMetadata(file_name) {
 
 /**
  * Handles an individual blog post
- * @param {Object} read_this The this from the stream read
- * @param {String} file_name The filename
+ * @param {object} read_this The this from the stream read
+ * @param {string} file_name The filename
  * @returns {Promise} A promise for when the blog post has been added
  */
 function handlePost(read_this, file_name) {
@@ -108,8 +108,8 @@ function handlePost(read_this, file_name) {
 
 /**
  * Handles an individual blog post script
- * @param {Object} read_this The this from the stream read
- * @param {String} file_name The filename
+ * @param {object} read_this The this from the stream read
+ * @param {string} file_name The filename
  * @returns {Promise} A promise for when the blog post has been added
  */
 function handleScript(read_this, file_name) {
@@ -154,8 +154,8 @@ function handleScript(read_this, file_name) {
 
 /**
  * Handles all the blog posts
- * @param {Object} read_this The this from the stream read
- * @param {String[]} file_names The blog post files
+ * @param {object} read_this The this from the stream read
+ * @param {string[]} file_names The blog post files
  * @returns {Promise} A promise for when the stream has been populated
  */
 function handlePosts(read_this, file_names) {
@@ -177,7 +177,7 @@ function handlePosts(read_this, file_names) {
 
 /**
  * Generates a stream of blog posts
- * @returns {Object} The stream
+ * @returns {object} The stream
  */
 function generate_posts() {
     const stream_opts = {

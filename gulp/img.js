@@ -6,7 +6,7 @@ const constants = require('./constants');
 
 /**
  * Gets the path to the image files
- * @returns {String} The image file path
+ * @returns {string} The image file path
  */
 function image_path() {
     return path.join(__dirname, '..', constants.IMG, '**/*.+(png|jpg|gif|svg|eps)');
@@ -19,7 +19,7 @@ function image_path() {
 function img() {
     const dist_path = path.join(constants.getDistDir(), constants.IMG);
 
-    return gulp.src(image_path())
+    return gulp.src(image_path(), { encoding: false })
         .pipe(gulp.dest(dist_path))
         .pipe(gulp_connect.reload());
 }

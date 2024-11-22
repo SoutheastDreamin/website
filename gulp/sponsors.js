@@ -37,9 +37,9 @@ function find_sponsor_dirs() {
 
 /**
  * Handles a sponsor
- * @param {Object} read_this The this from the stream read
- * @param {String} year The year
- * @param {Object} sponsor The sponsor to create
+ * @param {object} read_this The this from the stream read
+ * @param {string} year The year
+ * @param {object} sponsor The sponsor to create
  * @returns {Promise} A promise for when the sponsor has been added
  */
 function handle_sponsor(read_this, year, sponsor) {
@@ -60,8 +60,8 @@ function handle_sponsor(read_this, year, sponsor) {
 
 /**
  * Handles a single year
- * @param {Object} read_this The this from the stream read
- * @param {String} directory The directory to load
+ * @param {object} read_this The this from the stream read
+ * @param {string} directory The directory to load
  * @returns {Promise} A promise for when the stream has been populated
  */
 function handle_dir(read_this, directory) {
@@ -97,8 +97,8 @@ function handle_dir(read_this, directory) {
 
 /**
  * Handles all the years
- * @param {Object} read_this The this from the stream read
- * @param {String[]} directories The directories to load
+ * @param {object} read_this The this from the stream read
+ * @param {string[]} directories The directories to load
  * @returns {Promise} A promise for when the stream has been populated
  */
 function handle_dirs(read_this, directories) {
@@ -118,7 +118,7 @@ function handle_dirs(read_this, directories) {
 
 /**
  * Generates a stream of sponsor files
- * @returns {Object} The stream
+ * @returns {object} The stream
  */
 function generate_sponsors() {
     const stream_opts = {

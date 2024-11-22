@@ -62,9 +62,9 @@ const SESSION_METADATA = {
 
 /**
  * Checks the speaker
- * @param {Object} speaker The speaker
- * @param {String} id The id
- * @returns {Object[]} The result
+ * @param {object} speaker The speaker
+ * @param {string} id The id
+ * @returns {object[]} The result
  */
 function check_speaker(speaker, id) {
     const bad_id = lodash.isEmpty(lodash.get(speaker, 'id'));
@@ -85,12 +85,12 @@ function check_speaker(speaker, id) {
 
 /**
  * Checks a session
- * @param {Object} rooms The rooms
- * @param {Object} tracks The tracks
- * @param {Object} slots The slots
- * @param {Object} speakers The speakers
- * @param {Object} session The session
- * @returns {Object[]} The session check
+ * @param {object} rooms The rooms
+ * @param {object} tracks The tracks
+ * @param {object} slots The slots
+ * @param {object} speakers The speakers
+ * @param {object} session The session
+ * @returns {object[]} The session check
  */
 function check_session(rooms, tracks, slots, speakers, session) {
     const bad_id = lodash.isEmpty(lodash.get(session, 'id'));
@@ -147,7 +147,7 @@ function check_session(rooms, tracks, slots, speakers, session) {
 
 /**
  * Checks the speakers
- * @param {Object} session_data The session data
+ * @param {object} session_data The session data
  * @returns {Promise} A promise after the speakers have been checked
  */
 function checkSpeakers(session_data) {
@@ -167,9 +167,9 @@ function checkSpeakers(session_data) {
 
 /**
  * Checks the sessions
- * @param {Object} session_data The session data
- * @param {String} session_key The key for the sessions to use
- * @param {String} slot_key The key for what slots to use
+ * @param {object} session_data The session data
+ * @param {string} session_key The key for the sessions to use
+ * @param {string} slot_key The key for what slots to use
  * @returns {Promise} A promise for when the sessions have been checked
  */
 function checkSessionGeneric(session_data, session_key, slot_key) {
@@ -186,7 +186,7 @@ function checkSessionGeneric(session_data, session_key, slot_key) {
 
 /**
  * Checks the hots
- * @param {Object} session_data The session data
+ * @param {object} session_data The session data
  * @returns {Promise} A promise after the speakers have been checked
  */
 function checkHots(session_data) {
@@ -206,7 +206,7 @@ function checkHots(session_data) {
 
 /**
  * Checks the sessions
- * @param {Object} session_data The session data
+ * @param {object} session_data The session data
  * @returns {Promise} A promise after the speakers have been checked
  */
 function checkSessions(session_data) {

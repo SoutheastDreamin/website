@@ -6,7 +6,7 @@
   "scripts": {
     "build": "./node_modules/.bin/gulp",
     "lighthouse": "npx unlighthouse --site https://southeastdreamin.com",
-    "lint-js": "./node_modules/.bin/eslint gulpfile.js gulp/**/*.js js/*.js tools/*.js",
+    "lint-js": "./node_modules/.bin/eslint --no-warn-ignored gulpfile.js gulp/**/*.js js/*.js tools/*.js",
     "lint-style": "./node_modules/.bin/stylelint sass/*.scss css/*.css",
     "lint-yaml": "./node_modules/.bin/yamllint .github/**/*.yml",
     "lint-json": "./node_modules/.bin/jsonlint",
@@ -36,6 +36,7 @@
     "csvtojson": "^2.0.10",
     "del": "^6.1.1",
     "eslint": "^9.15.0",
+    "eslint-plugin-jsdoc": "^50.5.0",
     "gulp": "^5.0.0",
     "gulp-bro": "^2.0.0",
     "gulp-clean": "^0.4.0",

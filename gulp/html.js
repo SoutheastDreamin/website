@@ -30,7 +30,7 @@ const ADDITIONAL_DATA = {
 
 /**
  * List the years for the schedule
- * @returns {String[]} A list of years
+ * @returns {string[]} A list of years
  */
 function list_years() {
     const schedule_path = 'html/pages/schedule/';
@@ -55,7 +55,7 @@ lodash.each(list_years(), function (year) {
 
 /**
  * Gets the path to the HTML page files
- * @returns {String} The HTML page file path
+ * @returns {string} The HTML page file path
  */
 function page_path() {
     return path.join(__dirname, '..', constants.HTML, constants.PAGES, '**/*.+(html|nunjucks|njk)');
@@ -63,7 +63,7 @@ function page_path() {
 
 /**
  * Gets the path to the HTML page files
- * @returns {String} The HTML page file path
+ * @returns {string} The HTML page file path
  */
 function watch_page_path() {
     return path.join(__dirname, '..', constants.HTML, constants.PAGES, '**/*.+(html|nunjucks|njk|json)');
@@ -71,7 +71,7 @@ function watch_page_path() {
 
 /**
  * Gets the path to the HTML template files
- * @returns {String} The HTML template file path
+ * @returns {string} The HTML template file path
  */
 function template_path() {
     return path.join(__dirname, '..', constants.HTML, constants.TEMPLATES, '**/*.+(html|nunjucks|njk)');
@@ -79,8 +79,8 @@ function template_path() {
 
 /**
  * Loads the JSON data
- * @param {String} file The filename
- * @returns {String} The json data
+ * @param {string} file The filename
+ * @returns {string} The json data
  */
 function getJsonForFile(file) {
     const extension = 'html';
@@ -90,7 +90,7 @@ function getJsonForFile(file) {
 
     try {
         data.data = JSON.parse(fs.readFileSync(data_file));
-    } catch (err) {
+    } catch (err) { // eslint-disable-line
         data.data = {};
         // It's ok if we don't have supplemental data
     }
@@ -100,7 +100,7 @@ function getJsonForFile(file) {
             lodash.each(supplemental_data_paths, function (supplemental_data_path) {
                 try {
                     lodash.merge(data.data, JSON.parse(fs.readFileSync(supplemental_data_path)));
-                } catch (err) {
+                } catch (err) { // eslint-disable-line
                     // It's ok if the additional data fails too
                 }
             });

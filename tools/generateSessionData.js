@@ -33,7 +33,7 @@ function loadCsv() {
 
 /**
  * Filters out only the selected sessions
- * @param {Object[]} sessions The session data
+ * @param {object[]} sessions The session data
  * @returns {Promise} A promise for the filtered data
  */
 function filterSelected(sessions) {
@@ -44,7 +44,7 @@ function filterSelected(sessions) {
 
 /**
  * Transforms the session data for web display
- * @param {Object[]} sessions The selected sessions
+ * @param {object[]} sessions The selected sessions
  * @returns {Promise} A promise for the transformed session data
  */
 function transformSessions(sessions) {
@@ -78,7 +78,7 @@ function transformSessions(sessions) {
 
 /**
  * Writes the session data out to the schedule JSON
- * @param {Object[]} sessions The selected sessions
+ * @param {object[]} sessions The selected sessions
  * @returns {Promise} A promise for when the session data is written
  */
 function writeSessionData(sessions) {

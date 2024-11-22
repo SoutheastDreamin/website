@@ -24,9 +24,9 @@ const loadSessions = utils.loadJSONFile.bind(null, `html/pages/sessions/${year}/
 
 /**
  * Gets the speaker name
- * @param {Object} speakers A map of speakers
- * @param {String} key The speaker id
- * @returns {String} The formatted speaker name
+ * @param {object} speakers A map of speakers
+ * @param {string} key The speaker id
+ * @returns {string} The formatted speaker name
  */
 function getSpeakerName(speakers, key) {
     const speaker = speakers[key];
@@ -36,10 +36,10 @@ function getSpeakerName(speakers, key) {
 
 /**
  * Gets data from the slot
- * @param {Object} slots The slots
- * @param {String} field The field to get
- * @param {String} key The slot id
- * @returns {String} The slot data
+ * @param {object} slots The slots
+ * @param {string} field The field to get
+ * @param {string} key The slot id
+ * @returns {string} The slot data
  */
 function getSlotData(slots, field, key) {
     return lodash.get(slots[key], field);
@@ -47,9 +47,9 @@ function getSlotData(slots, field, key) {
 
 /**
  * Gets the track name
- * @param {Object} tracks The track map
- * @param {String} key The track id
- * @returns {String} The track name
+ * @param {object} tracks The track map
+ * @param {string} key The track id
+ * @returns {string} The track name
  */
 function getTrack(tracks, key) {
     return tracks[key].name;
@@ -57,9 +57,9 @@ function getTrack(tracks, key) {
 
 /**
  * Gets the room name
- * @param {Object} rooms The room map
- * @param {String} key The room id
- * @returns {String} The room name
+ * @param {object} rooms The room map
+ * @param {string} key The room id
+ * @returns {string} The room name
  */
 function getRoom(rooms, key) {
     return rooms[key].name;
@@ -67,7 +67,7 @@ function getRoom(rooms, key) {
 
 /**
  * Collates the data into a format Whova expects
- * @param {Object} data The session data
+ * @param {object} data The session data
  * @returns {Promise} A promise for the collated data
  */
 function collateData(data) {
@@ -107,7 +107,7 @@ function collateData(data) {
 
 /**
  * Writes the session data to disk
- * @param {Object[]} data The session data to write to disk
+ * @param {object[]} data The session data to write to disk
  * @returns {Promise} A promise for when the data has been written
  */
 function writeData(data) {

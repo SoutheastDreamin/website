@@ -38,12 +38,12 @@ function find_session_dirs() {
 
 /**
  * Handles a session
- * @param {Object} read_this The this from the stream read
- * @param {Object} rooms A map of rooms
- * @param {Object} tracks A map of tracks
- * @param {Object} time_slots A map of time slots
- * @param {Object} speakers The speakers
- * @param {Object} session The session to create
+ * @param {object} read_this The this from the stream read
+ * @param {object} rooms A map of rooms
+ * @param {object} tracks A map of tracks
+ * @param {object} time_slots A map of time slots
+ * @param {object} speakers The speakers
+ * @param {object} session The session to create
  * @returns {Promise} A promise for when the session has been added
  */
 function handle_session(read_this, rooms, tracks, time_slots, speakers, session) {
@@ -69,8 +69,8 @@ function handle_session(read_this, rooms, tracks, time_slots, speakers, session)
 
 /**
  * Handles a single year
- * @param {Object} read_this The this from the stream read
- * @param {String} directory The directory to load
+ * @param {object} read_this The this from the stream read
+ * @param {string} directory The directory to load
  * @returns {Promise} A promise for when the stream has been populated
  */
 function handle_dir(read_this, directory) {
@@ -103,8 +103,8 @@ function handle_dir(read_this, directory) {
 
 /**
  * Handles all the years
- * @param {Object} read_this The this from the stream read
- * @param {String[]} directories The directories to load
+ * @param {object} read_this The this from the stream read
+ * @param {string[]} directories The directories to load
  * @returns {Promise} A promise for when the stream has been populated
  */
 function handle_dirs(read_this, directories) {
@@ -124,7 +124,7 @@ function handle_dirs(read_this, directories) {
 
 /**
  * Generates a stream of session files
- * @returns {Object} The stream
+ * @returns {object} The stream
  */
 function generate_sessions() {
     let has_read = false;
