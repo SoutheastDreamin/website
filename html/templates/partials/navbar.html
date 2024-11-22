@@ -42,7 +42,9 @@
         <div class="navbar-item">
             <div class="buttons">
                 <a href="{{ globals.registration_url }}" class="button is-link">Register</a>
+                {% if globals.hotel_url %}
                 <a href="{{ globals.hotel_url }}" class="button is-light is-link">Hotel</a>
+                {% endif %}
             </div>
         </div>
         {% endif %}

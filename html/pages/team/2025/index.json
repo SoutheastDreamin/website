@@ -1,0 +1,159 @@
+{
+    "team": [
+        {
+            "firstname": "Patrick",
+            "lastname": "Connelly",
+            "title": "Session Wrangler & Code Tamer",
+            "bio": "<p>Patrick has been writing code since he could first type (BASIC on the Commodore 64).  In 2009 Patrick was asked to \"help with this Salesforce thing since you know coding\" and the rest is history.  This set him on the track to lead the RDU Developer user group, becoming a Salesforce MVP in 2013 and speaking multiple times at Dreamforce and various Salesforce webinars.</p><p>When Patrick isn't writing code for work he's writing code for \"fun\", <a href=\"https://www.flickr.com/photos/grepsy/\">photographing things</a>, <a href=\"https://www.printables.com/@PatrickConnelly/models\">3d printing things</a>, making things of wood and building things out of electronics.</p>",
+            "image": "/img/team/pcon.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/aelst"
+                },
+                {
+                    "icon": "fas fa-blog",
+                    "link": "https://blog.deadlypenguin.com"
+                },
+                {
+                    "icon": "fas fa-globe",
+                    "link": "https://connelly.dev"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/pub/patrick-connelly/28/6b3/b56/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/pcon"
+                }
+            ]
+        },
+        {
+            "firstname": "Chris",
+            "lastname": "Zullo",
+            "title": "Bad Marketer",
+            "bio": "<p>Salesforce MVP, Marketing Champion, and Partner. Transplanted Bostonian. Family guy. Dogs > cats.</p>",
+            "image": "/img/team/chris.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/chriszullo"
+                },
+                {
+                    "icon": "fas fa-blog",
+                    "link": "https://chriszullo.wordpress.com/"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/zullochristopher/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/chriszullo"
+                }
+            ]
+        },
+        {
+            "firstname": "Karmel",
+            "lastname": "James",
+            "title": "Magic Marketer & Resident Adult",
+            "bio": "<p>Karmel started her Salesforce career in 2015 after a single data migration exposed her to streamlined, consistent data quality. Applying scientific principle to complex business processes, she strives to build holistic technical solutions. Karmel has held multiple roles from in-house administration to consultancy working at over 20+ organizations in industries including healthcare, nonprofits, venture captial, and ed-tech. As a Salesforce Marketing Champion and Golden Hoodie, she's passionate in sharing innovations and best practices with the Salesforce community at user group meetings, WITness Success, and TrailheadDX.</p><p>Outside of Salesforce, Karmel is an avid learner of American Sign Language (#LearnFromDeafTeachers), a hobby seamstress, and music aficionado creating a personalized soundtrack to her life.</p>",
+            "image": "/img/team/karmel.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/armejam44"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/karmelnjames/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/karmelnjames"
+                }
+            ]
+        },
+        {
+            "firstname": "Amber",
+            "lastname": "Boaz",
+            "title": "Other duties as assigned",
+            "bio": "<p>Amber entered the Salesforce universe in late 2008 and was immediately smitten. Since then she has passed <a href=\"https://trailblazer.me/id/amberboaz\">14 certification exams</a>, founded or co-founded 5 user groups (Nonprofit UG, Dev Meetup, Architect, Women In Tech, & Slack), started a weekly <a href=\"https://www.meetup.com/RTP-Salesforce-Saturday/\">Salesforce Saturday</a> in central NC, and is a 8 time Dreamforce speaker. Amber has been a Salesforce.com MVP since 2011.</p><p>Amber is always looking for ways to help organizations streamline their processes. She has worked with Fortune 500 organizations, startups, nonprofits, and everything in between. When not Salesforce-ing, Amber enjoys walking her dog <a href=\"https://www.instagram.com/rangerboaz/\">Ranger</a> in her hometown of Durham NC, tweeting (@amber9904), community theater, and spending time with her nieces. Amber can be bribed with chocolate cake or gin.</p>",
+            "image": "/img/team/amber.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/amber9904"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/amberboaz/"
+                },
+                {
+                    "icon": "fas fa-blog",
+                    "link": "https://www.amber9904.com"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/amberboaz"
+                }
+            ]
+        },
+        {
+            "firstname": "Dee",
+            "lastname": "Hamori",
+            "title": "Keynote Wrangler",
+            "bio": "<p>Dee is a former pharmacist turned Salesforce Architect. From the very beginning of her Salesforce journey, Dee has been captivated by the world of automation, and she continues to channel this passion into transforming businesses, one Flow at a time. She actively supports the Salesforce community by mentoring career changers and leading Salesforce Saturday meetups. Dee shares her Salesforce insights through articles and conference talks.</p><p>Beyond her professional life, she finds joy in tending to her plant collection, exploring the great outdoors in national parks, reading, and painting.</p>",
+            "image": "/img/team/dee.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/dengyue-hamori/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://www.salesforce.com/trailblazer/deehamori"
+                }
+            ]
+        },
+        {
+            "firstname": "Steven",
+            "lastname": "Welch",
+            "title": "Marketing Wrangler",
+            "bio": "<p>A relative newbie when it comes to all things Salesforce, Steven dove right into the ecosystem back in 2022. Since then, he's been working to tell the stories and form the bigger picture for all things Salesforce data management. A native of metro Atlanta, he was looking for a way to become more engaged with the conference that's hosted in his own stomping grounds so he jumped at the chance to join the Southeast Dreamin' team.</p><p>When he's not busy working, he loves all things London, the color blue, and spending time with his pets - two cats named Winston Purrchill (no for real, he really does love London) and Emma, and his geriatric chihuahua Baron who still serves all the lewks even in his golden years.</p>",
+            "image": "/img/team/swelch.jpg",
+            "links": []
+        },
+        {
+            "firstname": "Teresa",
+            "lastname": "Aluku",
+            "title": "Sponsor Coordinator",
+            "bio": "<p>I began my adventure with Salesforce in 2015 and have been in the environment since. Born and raised in Kenya moved to the US in 2001. Predominantly worked in the not-for-profit world, however, made the transition to corporate America back in 2014. Currently working in the Sales Cloud.Besides family (husband and children) I enjoy traveling, movies and dance.</p>",
+            "image": "/img/team/taluku.jpg",
+            "links": []
+        },
+        {
+            "firstname": "Michelle",
+            "lastname": "Bura",
+            "title": "Session Team",
+            "bio": "<p>Michelle began her Salesforce adventure in 2014 and since then has been on a whirlwind journey of growth leading to 7 Salesforce Certifications and working in multiple industries and various company sizes.</p><p>Michelle is all about bringing people together and fostering a sense of belonging. As the founder of Salesforce Saturday Atlanta and the Co-Leader of the Atlanta Admin Salesforce Community Group, she’s fostered a community where professionals can connect, learn, and thrive. As a testament to her dedication to bringing together the community to learn and grow, Salesforce recognized Michelle with a Golden Hoodie in 2019.</p><p>Michelle’s impact extends beyond Atlanta, as she’s shared her insights and experiences at major events like Dreamforce, TrailblazerDX, and Southeast Dreamin', inspiring audiences with her passion for learning and teaching.</p><p>Outside of the Salesforce world, Michelle is all about family time and embracing hobbies. Whether it's spending quality moments with loved ones or diving into puzzles, games, or woodworking projects, she finds joy in every facet of life.</p>",
+            "image": "/img/team/mbura.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/mlbura"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/mlbura"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://www.salesforce.com/trailblazer/mlbura"
+                }
+            ]
+        }
+    ],
+    "support": []
+}

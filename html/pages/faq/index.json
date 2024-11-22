@@ -1,5 +1,5 @@
 {
-    "last_update": "2023-11-02",
+    "last_update": "2024-11-21",
     "sections": [
         {
             "title": "General",
@@ -7,7 +7,7 @@
             "questions": [
                 {
                     "question": "Where is Southeast Dreamin' being held?",
-                    "answer": "Southeast Dreamin’ will be held at the <a href=\"https://www.gatechhotel.com/\">Georgia Tech Hotel and Conference Center</a> in Atlanta Georgia on Thursday, June 27th - Friday, June 28th, 2024. Discounted <a href=\"{{ globals.hotel_url }}\">hotel rooms</a> are available. And any changes or cancellations with the hotel should be done with the hotel directly."
+                    "answer": "Southeast Dreamin’ will be held at the <a href=\"https://www.gatechhotel.com/\">Georgia Tech Hotel and Conference Center</a> in Atlanta Georgia on Thursday, June 26th - Friday, June 27th, 2025. Discounted hotel rooms are available. And any changes or cancellations with the hotel should be done with the hotel directly."
                 },
                 {
                     "question": "What is the closest airport to the event?",
@@ -23,19 +23,19 @@
                 },
                 {
                     "question": "Can I transfer my ticket?",
-                    "answer": "<p>Yes, but the request must be received via email by <b>11:59 pm ET {{ globals.full_refund_date }}</b>. Requests received after that date will be rejected.</p><p>Please email <a href=\"mailto:{{ globals.registration_email }}\">{{ globals.registration_email }}</a> with the subject line <i>SED24 Ticket Transfer</i> and the additional information below. If the email does not contain the below information, the request will not be processed.</p><ul><li>Original attendee's confirmation </li><li>New attendee's First and Last Name</li><li>New attendee's email address</li><li>New Attendee's Title</li><li>New Attendee's company</li><li>New Attendee's dietary restrictions or accommodations</li></ul>"
+                    "answer": "<p>Yes, but the request must be received via email by <b>11:59 pm ET {{ globals.full_refund_date }}</b>. Requests received after that date will be rejected.</p><p>Please email <a href=\"mailto:{{ globals.registration_email }}\">{{ globals.registration_email }}</a> with the subject line <i>SED25 Ticket Transfer</i> and the additional information below. If the email does not contain the below information, the request will not be processed.</p><ul><li>Original attendee's confirmation </li><li>New attendee's First and Last Name</li><li>New attendee's email address</li><li>New Attendee's Title</li><li>New Attendee's company</li><li>New Attendee's dietary restrictions or accommodations</li></ul>"
                 },
                 {
                     "question": "Why am I not able to cancel or transfer my ticket after {{ globals.full_refund_date }}?",
-                    "answer": "The Southeast Dreamin team fully recognizes that life happens and plans change. Unfortunately, we cannot honor processing requests after this date to ensure a high quality experience. Following that date, all conference materials are printed and the team is not able to accommodate changes. "
+                    "answer": "The Southeast Dreamin' team fully recognizes that life happens and plans change. Unfortunately, we cannot honor processing requests after this date. There are absolutely no exceptions to this policy for any reason."
                 },
                 {
                     "question": "Are meals included?",
-                    "answer": "Lunch as well as all day snacks and beverages will be available on the first day, Thursday {{ globals.event_day_one_number }}. Food and beverage will be available at the networking reception the evening of {{ globals.event_day_one_number }}. The second day, Friday, {{ globals.event_day_two_number }}, will include breakfast and lunch as well as all day snacks (including coffee, tea, water, and sodas)."
+                    "answer": "Lunch as well as all day snacks and beverages will be available on the first day, Thursday the {{ globals.event_day_one_number }}. Food and beverage will be available at the networking reception the evening of the {{ globals.event_day_one_number }}. The second day, Friday the {{ globals.event_day_two_number }}, will include breakfast and lunch as well as all day snacks (including coffee, tea, water, and sodas)."
                 },
                 {
                     "question": "How can I volunteer at the event?",
-                    "answer": "If you are interested in volunteering at the conference, please review our Volunteer FAQ page to learn more about available roles and responsibilities before submitting a volunteer application. Applications will not be accepted after Friday, {{ globals.volunteer_deadline }}."
+                    "answer": "If you are interested in volunteering at the conference, please review our <a href=\"/volunteer\">Volunteer FAQ page</a> to learn more about available roles and responsibilities before submitting a volunteer application. Applications will not be accepted after Friday, {{ globals.volunteer_deadline }}."
                 }
             ]
         },
@@ -67,11 +67,15 @@
             "questions": [
                 {
                     "question": "How long are submissions for sessions and hands-on training open?",
-                    "answer": "Submissions will be open from Friday, {{ globals.cfp_startdate }} - Friday,  {{ globals.cfp_enddate }}.</p><p>The link for submission will become available in December 2023.</p>"
+                    "answer": "Submissions will be open from Friday, {{ globals.cfp_startdate }} - Friday, {{ globals.cfp_enddate }}.</p><p>The link for submission will become available on {{ globals.cfp_startdate }}.</p>"
+                },
+                {
+                    "question": "Can I submit on behalf of my co-speaker(s)?",
+                    "answer": "<p>es, you are permitted to submit on behalf of your co-speaker. However, Southeast Dreamin' limits sessions to 2 co-speakers.</p><p>If you wish to submit a panel session, please include that detail as well as the proposed number of speakers and related roles in the session description. The session will be judged based on the content to be discussed during the presentation and considered with equal standing as other submissions do.</p>"
                 },
                 {
                     "question": "How are sessions selected?",
-                    "answer": "<p>After {{ globals.cfp_enddate }} a group of Southeast Dreamin’ team members will be sent an anonymized list of session titles, abstracts and session tracks.  The members will then assign a score from 1 to 5, with 5 being the highest, to each session.  These votes will then be averaged together and applied to the session information.  The session selection team will then pick from the highest rated sessions to build a rounded schedule that provides enough sessions for each track.  After the sessions have been selected, we will review the session speakers to try to ensure that we give community members the most opportunities to present.</p><p>To learn more about session selection, feel free to review the blog post from the <a href=\"https://southeastdreamin.com/blog/2022/11/21/session-selection/\">2023 conference</a> that includes a video presentation. Do note that the dates in the blog post are for the 2023 conference and do not apply to the 2024 conference. All content about how sessions are reviewed and analyzed is accurate.</p>"
+                    "answer": "<p>After {{ globals.cfp_enddate }} a group of Southeast Dreamin' team members will be sent an anonymized list of session titles, abstracts and session audiences.  The members will then assign a score from 1 to 5, with 5 being the highest, to each session.  These votes will then be averaged together and applied to the session information.  The session selection team will then pick from the highest rated sessions to build a rounded schedule that provides enough sessions for each audience.  After the sessions have been selected, we will review the session speakers to try to ensure that we give community members the most opportunities to present.</p><p>To learn more about session selection, feel free to review the blog post from the <a href=\"https://southeastdreamin.com/blog/2022/11/21/session-selection/\">2023 conference</a> that includes a video presentation. Do note that the dates in the blog post are for the 2023 conference and do not apply to the 2025 conference. All content about how sessions are reviewed and analyzed is accurate.</p>"
                 },
                 {
                     "question": "When will sessions be announced?",
@@ -80,6 +84,10 @@
                 {
                     "question": "How will sessions be announced?",
                     "answer": "On (or before) {{ globals.cfp_notifdate }} an email will be sent to every community member who submitted a session announcing the status of the submission.  If you are selected, we will verify your availability and finalize the schedule.  If you are not selected, we may reach out to you after the notification date if one of our selected speakers becomes unavailable."
+                },
+                {
+                    "question": "How do I accept the invitation to speak?",
+                    "answer": "<p>You will be provided a Speaker Acceptance agreement that will require your signature. The acceptance agreement will document the deadlines you are required to meet in order to speak. If any deadlines are missed, your speaker invitation can be revoked.</p><p>All speakers are provided a complimentary ticket. If you purchased one prior to your submission, you will be provided a refund. Else, a ticket will be created after your acceptance. Speaker tickets are non-transferable.</p>"
                 },
                 {
                     "question": "How are hands-on trainings selected?",
@@ -101,7 +109,7 @@
                 },
                 {
                     "question": "How do I reserve a hotel room?",
-                    "answer": "Southeast Dreamin' has a block of <a href=\"{{ globals.hotel_url }}\">hotel rooms</a> provided by the venue for a discounted rate. Rooms are available on a first come, first serve basis. The link expires Friday, {{ globals.hotel_expiredate }}."
+                    "answer": "Southeast Dreamin' has a block of hotel rooms provided by the venue for a discounted rate. Rooms are available on a first come, first serve basis. The link expires Friday, {{ globals.hotel_expiredate }}."
                 },
                 {
                     "question": "What's the best way to get to the hotel from the airport?",
@@ -109,7 +117,7 @@
                 },
                 {
                     "question": "How do I access the WiFi?",
-                    "answer": "The hotel provides an open access point named 'GTvisitor' attendees can use"
+                    "answer": "The hotel provides an open access point named 'GTvisitor' attendees can use."
                 }
             ]
         },

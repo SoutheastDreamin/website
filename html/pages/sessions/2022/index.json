@@ -587,6 +587,7 @@
             "track": "admin",
             "room": "dahlonega",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["connelly"]
         },
         {
@@ -597,6 +598,7 @@
             "track": "admin",
             "room": "buckheadb",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["williams"]
         },
         {
@@ -607,6 +609,7 @@
             "track": "admin",
             "room": "buckheada",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["zellner"]
         },
         {
@@ -617,6 +620,7 @@
             "track": "admin",
             "room": "buckheadb",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["boaz"]
         },
         {
@@ -627,6 +631,7 @@
             "track": "admin",
             "room": "suwannee",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["villanueva"]
         },
         {
@@ -637,6 +642,7 @@
             "track": "admin",
             "room": "augusta",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["hoffman"]
         },
         {
@@ -647,6 +653,7 @@
             "track": "admin",
             "room": "buckheada",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["mahle"]
         },
         {
@@ -657,6 +664,7 @@
             "track": "admin",
             "room": "buckheada",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["callison", "baxter"]
         },
         {
@@ -667,6 +675,7 @@
             "track": "marketing",
             "room": "augusta",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["glasser", "rucker"]
         },
         {
@@ -677,6 +686,7 @@
             "track": "admin",
             "room": "buckheada",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["booth"]
         },
         {
@@ -687,6 +697,7 @@
             "track": "admin",
             "room": "buckheada",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["utkan"]
         },
         {
@@ -697,6 +708,7 @@
             "track": "admin",
             "room": "buckheadb",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["rebain"]
         },
         {
@@ -707,6 +719,7 @@
             "track": "architect",
             "room": "dahlonega",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["taylor", "damon"]
         },
         {
@@ -717,6 +730,7 @@
             "track": "architect",
             "room": "dahlonega",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["daniel"]
         },
         {
@@ -727,6 +741,7 @@
             "track": "dev",
             "room": "oglethorpe",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["garcia"]
         },
         {
@@ -737,6 +752,7 @@
             "track": "dev",
             "room": "oglethorpe",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["chaudhary"]
         },
         {
@@ -747,6 +763,7 @@
             "track": "dev",
             "room": "dahlonega",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["petersen"]
         },
         {
@@ -757,6 +774,7 @@
             "track": "dev",
             "room": "buckheadb",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["shrivastava"]
         },
         {
@@ -767,6 +785,7 @@
             "track": "end-user",
             "room": "oglethorpe",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["pawlak"]
         },
         {
@@ -777,6 +796,7 @@
             "track": "end-user",
             "room": "suwannee",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["whitakery"]
         },
         {
@@ -787,6 +807,7 @@
             "track": "exec",
             "room": "augusta",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["catalano"]
         },
         {
@@ -797,6 +818,7 @@
             "track": "marketing",
             "room": "dahlonega",
             "slot": "slot2",
+            "hide": false,
             "speakers": ["duncan"]
         },
         {
@@ -807,6 +829,7 @@
             "track": "marketing",
             "room": "augusta",
             "slot": "slot1",
+            "hide": false,
             "speakers": ["cammisa"]
         },
         {
@@ -817,6 +840,7 @@
             "track": "marketing",
             "room": "oglethorpe",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["zullo"]
         },
         {
@@ -827,6 +851,7 @@
             "track": "marketing",
             "room": "suwannee",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["larregui"]
         },
         {
@@ -837,6 +862,7 @@
             "track": "nonprofit",
             "room": "augusta",
             "slot": "slot5",
+            "hide": false,
             "speakers": ["epting"]
         },
         {
@@ -847,6 +873,7 @@
             "track": "nonprofit",
             "room": "suwannee",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["styles"]
         },
         {
@@ -857,6 +884,7 @@
             "track": "nonprofit",
             "room": "oglethorpe",
             "slot": "slot3",
+            "hide": false,
             "speakers": ["pifer", "carlson"]
         },
         {
@@ -867,6 +895,7 @@
             "track": "admin",
             "room": "buckheadb",
             "slot": "slot4",
+            "hide": false,
             "speakers": ["whitakers", "whitakery"]
         }
     ],
@@ -879,6 +908,7 @@
             "track": "marketing",
             "room": "suwannee",
             "slot": "hotslot2",
+            "hide": false,
             "speakers": ["rucker"]
         },
         {
@@ -889,6 +919,7 @@
             "track": "admin",
             "room": "oglethorpe",
             "slot": "hotslot2",
+            "hide": false,
             "speakers": ["sandberg"]
         },
         {
@@ -899,6 +930,7 @@
             "track": "admin",
             "room": "oglethorpe",
             "slot": "hotslot1",
+            "hide": false,
             "speakers": ["weinmeister", "kingston"]
         },
         {
@@ -909,6 +941,7 @@
             "track": "dev",
             "room": "augusta",
             "slot": "hotslot1",
+            "hide": false,
             "speakers": ["petersen"]
         },
         {
@@ -919,6 +952,7 @@
             "track": "admin",
             "room": "buckheadb",
             "slot": "hotslot2",
+            "hide": false,
             "speakers": ["whitakers"]
         },
         {
@@ -929,6 +963,7 @@
             "track": "admin",
             "room": "buckheadb",
             "slot": "hotslot1",
+            "hide": false,
             "speakers": ["hansen"]
         },
         {
@@ -939,6 +974,7 @@
             "track": "admin",
             "room": "buckheada",
             "slot": "hotslot1",
+            "hide": false,
             "speakers": ["bura", "aggarwal"]
         },
         {
@@ -949,6 +985,7 @@
             "track": "dev",
             "room": "augusta",
             "slot": "hotslot2",
+            "hide": false,
             "speakers": ["aggarwal", "bura"]
         },
         {
@@ -959,6 +996,7 @@
             "track": "admin",
             "room": "buckheada",
             "slot": "hotslot2",
+            "hide": false,
             "speakers": ["booth"]
         },
         {
@@ -969,6 +1007,7 @@
             "track": "marketing",
             "room": "suwannee",
             "slot": "hotslot1",
+            "hide": false,
             "speakers": ["hernandez", "godley"]
         },
         {
@@ -979,6 +1018,7 @@
             "track": "admin",
             "room": "dahlonega",
             "slot": "hotslot1",
+            "hide": false,
             "speakers": ["whipple"]
         },
         {
@@ -989,6 +1029,7 @@
             "track": "admin",
             "room": "dahlonega",
             "slot": "hotslot2",
+            "hide": false,
             "speakers": ["garcia"]
         }
     ],
