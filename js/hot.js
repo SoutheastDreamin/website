@@ -24,8 +24,8 @@ const required_text_fields = [
 
 /**
  * Checks to see if an email is valid
- * @param {String} elementValue The email to validate
- * @returns {Boolean} If the email is valid
+ * @param {string} elementValue The email to validate
+ * @returns {boolean} If the email is valid
  */
 function validateEmail(elementValue) {
     var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;

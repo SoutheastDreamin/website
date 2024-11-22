@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Functions to open and close a modal
     /**
      * Opens the modal
-     * @param {Object} $el The target
+     * @param {object} $el The target
      * @returns {undefined}
      */
     function openModal($el) {
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /**
      * Closes the modal
-     * @param {Object} $el The target
+     * @param {object} $el The target
      * @returns {undefined}
      */
     function closeModal($el) {

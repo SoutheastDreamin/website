@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     /**
      * Makes a section active
-     * @param {Integer} index The index of the section header
+     * @param {number} index The index of the section header
      * @returns {undefined}
      */
     const makeActive = (index) => {
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     /**
      * Makes a section inactive
-     * @param {Integer} index The index of the section header
+     * @param {number} index The index of the section header
      * @returns {undefined}
      */
     const removeActive = (index) => headers[index].classList.remove(activeClass);
