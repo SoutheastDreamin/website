@@ -1,7 +1,7 @@
 {
     "year": 2025,
-    "form_active": false,
-    "form_url": "https://forms.gle/RyG2hoQSkhvHLnEE8",
+    "form_active": true,
+    "form_url": "https://forms.gle/myWQSk9h3PmdfXBw5",
     "fully_staffed": false,
     "times": {
         "committee": {
@@ -13,8 +13,8 @@
             "end": "May 2025"
         },
         "dayof": {
-            "start": "6pm ET Wednesday, June 25, 2023",
-            "end": "5pm Friday, June 27, 2023"
+            "start": "6pm ET Wednesday, June 25, 2025",
+            "end": "5pm Friday, June 27, 2025"
         }
     },
     "positions": [
