@@ -3,12 +3,12 @@
         {
             "level": "primary",
             "size": "",
-            "start": "2023-12-01",
-            "end": "2024-02-02",
-            "id": "2024_cfp_open",
+            "start": "2024-12-01",
+            "end": "2025-02-01",
+            "id": "2025_cfp_open",
             "sticky": true,
-            "title": "2024 Call for Papers Open",
-            "content": "We've opened our 2024 <a href=\"/cfp\">Call for Presentations</a> and <a href=\"/hot\">Hands-on Trainings</a>!  Get your session submitted today!",
+            "title": "2025 Call for Papers Open",
+            "content": "We've opened our 2025 <a href=\"/cfp\">Call for Presentations</a> and <a href=\"/hot\">Hands-on Trainings</a>!  Get your session submitted today!",
             "exclude": [
                 "^/cfp/?$",
                 "^/hot/?$"
