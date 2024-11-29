@@ -66,8 +66,8 @@
             "image": "/img/team/karmel.jpg",
             "links": [
                 {
-                    "icon": "fab fa-twitter",
-                    "link": "https://twitter.com/armejam44"
+                    "icon": "fab fa-bluesky",
+                    "link": "https://bsky.app/profile/armejam44.bsky.social"
                 },
                 {
                     "icon": "fab fa-linkedin",
