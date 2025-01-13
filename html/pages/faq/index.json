@@ -1,5 +1,5 @@
 {
-    "last_update": "2024-11-21",
+    "last_update": "2025-01-13",
     "sections": [
         {
             "title": "General",
@@ -28,6 +28,10 @@
                 {
                     "question": "Why am I not able to cancel or transfer my ticket after {{ globals.full_refund_date }}?",
                     "answer": "The Southeast Dreamin' team fully recognizes that life happens and plans change. Unfortunately, we cannot honor processing requests after this date. There are absolutely no exceptions to this policy for any reason."
+                },
+                {
+                    "question": "Is there a non-profit discount available?",
+                    "answer": "<p>Yes, we do offer non-profit discounts. Please email <a href=\"mailto:{{ globals.registration_email }}\">{{ globals.registration_email }}</a> with a copy of your non-profit’s determination letter in order to receive the code for 15% off.</p><p>This code should not be shared with anyone and only used once. If your intent is buying multiple tickets for your organization for multiple people, please provide us those names when you provide the letter so we may continue to monitor the use of the code.</p><p>Offering a non-profit code is a privilege that we extend to the community and ask for support to make sure that it is not abused. If the code is used more times than discussed, tickets will be refunded and the code disabled to prevent misuse.</p>"
                 },
                 {
                     "question": "Are meals included?",
