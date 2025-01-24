@@ -157,7 +157,38 @@
                     "link": "https://www.salesforce.com/trailblazer/mlbura"
                 }
             ]
+        },
+        {
+            "firstname": "Myra",
+            "lastname": "Wilson",
+            "title": "",
+            "bio": "<p>Myra Wilson has been in the Salesforce ecosystem for 9 years. She started her Salesforce journey in a marketing role and was given the task of administering Salesforce. She went on to become a Salesforce Administrator across multiple companies. She is now a Salesforce Solution Architect and works on digital transformation. Over her time in the ecosystem she has attended multiple conferences, participated in numerous sessions and most recently engagement was in the admin keynote during Dreamforce 23′. Myra is a Mulesoft Ambassador, mentor and she often shares her journey and passion for Mulesoft through her social posts on LinkedIn. She is very honored to be a part of the Southesast Dreamin team and looks forward to assisting in it’s success.</p>",
+            "image": "/img/team/myra.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/My_n_Tech"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/myrawilson786"
+                }
+            ]
+        },
+        {
+            "firstname": "Charisse",
+            "lastname": "Tompson",
+            "title": "Ticket Management",
+            "bio": "<p>ATL native, RevOps Analyst by day & yoga instructor 24/7</p>",
+            "image": "/img/team/charisse.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/charissethompson"
+                }
+            ]
         }
     ],
-    "support": []
+    "support": [
+    ]
 }
