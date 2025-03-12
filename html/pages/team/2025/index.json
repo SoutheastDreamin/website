@@ -187,6 +187,27 @@
                     "link": "https://www.linkedin.com/in/charissethompson"
                 }
             ]
+        },
+        {
+            "firstname": "Christy",
+            "lastname": "Johnson",
+            "title": "Marketing Geek",
+            "bio": "<p>Christy Johnson has been in the Salesforce ecosystem for 5 years. She started her Salesforce journey in marketing and continues to grow skills in UX design, AI, project management, and Pardot. Her data geek side loves Tableau for visual explanations of complex ideas. She attended her first Salesforce event in Atlanta at Southeast Dreamin' '22, and feels privileged to be a part of the Southesast Dreamin' team.</p>",
+            "image": "/img/team/cjohnson.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "http://www.linkedin.com/in/christy-johnson-13055330"
+                }
+            ]
+        },
+        {
+            "firstname": "Christopher",
+            "lastname": "Sauer",
+            "title": "",
+            "bio": "<p>Christopher Sauer (Denver, CO) is the glorified chauffeur for two girls, ages 2 and 9. He is a 2x Salesforce Certified Double Star Ranger whose hobbies include provoking his daughter's pillow fight club and writing villain arcs for artificial intelligence agents. Christopher is currently creating an app for independent music artist management.</p>",
+            "image": "/img/team/csauer.jpg",
+            "links": []
         }
     ],
     "support": [

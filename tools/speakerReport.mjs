@@ -1,10 +1,15 @@
-const commander = require('commander');
-const lodash = require('lodash');
-const chalk = require('chalk');
+import {
+    Command
+} from 'commander';
+import {
+    isEmpty, isEqual, has, get, forEach, isArray, size, includes
+} from 'lodash';
+
+import chalk from 'chalk';
 const path = require('path');
 const utils = require('./utils');
 
-const program = new commander.Command();
+const program = new Command();
 
 program
     .name('Checks Session Data')
@@ -67,10 +72,10 @@ const SESSION_METADATA = {
  * @returns {object[]} The result
  */
 function check_speaker(speaker, id) {
-    const bad_id = lodash.isEmpty(lodash.get(speaker, 'id'));
-    const id_mismatch = !lodash.isEqual(lodash.get(speaker, 'id'), id);
+    const bad_id = isEmpty(get(speaker, 'id'));
+    const id_mismatch = !isEqual(get(speaker, 'id'), id);
     const image_path = `img/sessions/${options.year}/speakers/${speaker.id}.jpg`;
-    const bad_image_path = !lodash.isEqual(lodash.get(speaker, 'image'), `/${image_path}`);
+    const bad_image_path = !isEqual(get(speaker, 'image'), `/${image_path}`);
     const image_file_path = path.join(__dirname, '..', speaker.image.substring(1));
     const bad_image = !utils.fileExists(image_file_path);
 
@@ -93,23 +98,23 @@ function check_speaker(speaker, id) {
  * @returns {object[]} The session check
  */
 function check_session(rooms, tracks, slots, speakers, session) {
-    const bad_id = lodash.isEmpty(lodash.get(session, 'id'));
+    const bad_id = isEmpty(get(session, 'id'));
     const bad_year = options.year !== session.year;
-    const bad_slot = !lodash.has(slots, session.slot);
-    const bad_room = !lodash.has(rooms, session.room);
-    const bad_track = !lodash.has(tracks, session.track);
+    const bad_slot = !has(slots, session.slot);
+    const bad_room = !has(rooms, session.room);
+    const bad_track = !has(tracks, session.track);
     let bad_speaker = false;
     let bad_speaker_image = false;
 
-    if (!lodash.isArray(session.speakers)) {
+    if (!isArray(session.speakers)) {
         bad_speaker = true;
     } else {
-        lodash.each(session.speakers, function (speaker) {
-            if (!lodash.has(speakers, speaker)) {
+        forEach(session.speakers, function (speaker) {
+            if (!has(speakers, speaker)) {
                 bad_speaker = true;
             } else {
                 const speaker_data = speakers[speaker];
-                if (lodash.includes(speaker_data.image, 'placeholder')) {
+                if (includes(speaker_data.image, 'placeholder')) {
                     bad_speaker_image = true;
                 }
             }
@@ -118,13 +123,13 @@ function check_session(rooms, tracks, slots, speakers, session) {
 
     let bad_image = false;
 
-    if (lodash.isArray(session.speakers)) {
-        if (lodash.size(session.speakers) === 1) {
+    if (isArray(session.speakers)) {
+        if (size(session.speakers) === 1) {
             if (!utils.fileExists(path.join(__dirname, `../img/sessions/${options.year}/${session.id}.png`))) {
                 bad_image = true;
             }
         } else {
-            lodash.each(session.speakers, function (speaker) {
+            forEach(session.speakers, function (speaker) {
                 if (!utils.fileExists(path.join(__dirname, `../img/sessions/${options.year}/${session.id}_${speaker}.png`))) {
                     bad_image = true;
                 }
@@ -177,11 +182,11 @@ function checkSessionGeneric(session_data, session_key, slot_key) {
         null,
         session_data.rooms,
         session_data.tracks,
-        lodash.get(session_data, slot_key),
+        get(session_data, slot_key),
         session_data.speakers
     );
 
-    return utils.buildTable(SESSION_METADATA, options.verbose, check_speaker_bound, lodash.get(session_data, session_key));
+    return utils.buildTable(SESSION_METADATA, options.verbose, check_speaker_bound, get(session_data, session_key));
 }
 
 /**

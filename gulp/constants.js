@@ -90,6 +90,19 @@ function filter_where(obj, selector, match) {
 }
 
 /**
+ * Returns if the given slot has any sessions
+ * @param {object} sessions The sessions
+ * @param {string} slot The slot id
+ * @returns {boolean} If the slot has any sessions
+ */
+function has_sessions(sessions, slot) {
+    const filter = {
+        slot: slot
+    };
+    return !lodash.isEmpty(lodash.filter(sessions, filter));
+}
+
+/**
  * Sets up custom filters in nunjucks
  * @param {object} environment The nunjucks environment
  * @returns {undefined}
@@ -102,6 +115,7 @@ const manageEnvironment = function (environment) {
     environment.addFilter('where', filter_where);
     environment.addGlobal('concat', lodash.concat);
     environment.addGlobal('merge', merge);
+    environment.addGlobal('hasSessions', has_sessions);
 };
 
 /**
