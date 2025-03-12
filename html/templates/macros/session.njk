@@ -44,12 +44,14 @@
 
 {% macro sessions(slots, rooms, tracks, speakers, sessions) -%}
     {% for name, slot in slots %}
-        <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="{{ name }}"></a>{{ slot.name }}</h2>
-        <h3 class="subtitle is-size-4 scrollspy__display">{{ slot.start }} - {{ slot.end }}</h3>
-        <h3 class="subtitle is-size-4 scrollspy__section">{{ slot.start }} - {{ slot.end }}</h3>
-        {% for session in sessions | where("hide", false) | where("slot", name) %}
-            {{ session_display(session, speakers, rooms[session.room], tracks[session.track]) }}
-        {% endfor %}
+        {% if hasSessions(sessions, slot.id) %}
+            <h2 class="subtitle is-size-3 has-text-weight-bold"><a id="{{ name }}"></a>{{ slot.name }}</h2>
+            <h3 class="subtitle is-size-4 scrollspy__display">{{ slot.start }} - {{ slot.end }}</h3>
+            <h3 class="subtitle is-size-4 scrollspy__section">{{ slot.start }} - {{ slot.end }}</h3>
+            {% for session in sessions | where("hide", false) | where("slot", name) %}
+                {{ session_display(session, speakers, rooms[session.room], tracks[session.track]) }}
+            {% endfor %}
+        {% endif %}
     {% endfor %}
 {%- endmacro %}
 

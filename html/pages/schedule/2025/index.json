@@ -5,13 +5,24 @@
     },
     "general_schedule": [
         {
+            "date": "Wednesday June 25th, 2025",
+            "events": [
+                {
+                    "start": "5:00 PM",
+                    "end": "8:00 PM",
+                    "title": "User Group Meeting",
+                    "location": "TBA"
+                }
+            ]
+        },
+        {
             "date": "Thursday June 26th, 2025",
             "events": [
                 {
                     "start": "10:00 AM",
-                    "end": "7:00 PM",
+                    "end": "2:00 PM",
                     "title": "Registration",
-                    "location": "Hallway"
+                    "location": "2nd Floor Hallway"
                 },
                 {
                     "start": "10:00 AM",
@@ -20,16 +31,28 @@
                     "location": "Conference A"
                 },
                 {
-                    "start": "11:00 PM",
-                    "end": "1:00 PM",
+                    "start": "11:00 AM",
+                    "end": "11:15 AM",
                     "title": "Kickoff",
+                    "location": "Salon III & IV"
+                },
+                {
+                    "start": "11:15 AM",
+                    "end": "12:30 PM",
+                    "title": "Demo Jam",
+                    "location": "Salon III & IV"
+                },
+                {
+                    "start": "12:30 PM",
+                    "end": "1:00 PM",
+                    "title": "Recruiting Overview",
                     "location": "Salon III & IV"
                 },
                 {
                     "start": "1:00 PM",
                     "end": "2:00 PM",
                     "title": "Lunch",
-                    "location": ""
+                    "location": "1st Floor Cafeteria"
                 },
                 {
                     "title": "Hands-on Training Session #1",
@@ -42,8 +65,8 @@
                     "slot": "hotslot2"
                 },
                 {
-                    "start": "5:00 PM",
-                    "end": "7:00 PM",
+                    "start": "5:30 PM",
+                    "end": "7:30 PM",
                     "title": "Networking Reception",
                     "location": "Expo Area"
                 }
@@ -54,18 +77,18 @@
             "events": [
                 {
                     "start": "7:00 AM",
-                    "end": "12:30 PM",
+                    "end": "12:00 PM",
                     "title": "Registration",
-                    "location": "Hallway"
+                    "location": "2nd Floor Hallway"
                 },
                 {
                     "start": "7:00 AM",
                     "end": "8:30 AM",
                     "title": "Breakfast",
-                    "location": ""
+                    "location": "2nd Floor Hallway"
                 },
                 {
-                    "start": "8:00 AM",
+                    "start": "7:00 AM",
                     "end": "3:35 PM",
                     "title": "Expo",
                     "location": "Conference A"
@@ -87,21 +110,15 @@
                     "slot": "slot2"
                 },
                 {
-                    "start": "11:45 AM",
-                    "end": "1:00 PM",
-                    "title": "Demo Jam",
-                    "location": "Salon III & IV"
-                },
-                {
-                    "start": "1:00 PM",
-                    "end": "2:00 PM",
-                    "title": "Lunch",
-                    "location": ""
-                },
-                {
                     "title": "Breakout Session #3",
                     "location": "Breakout Rooms",
                     "slot": "slot3"
+                },
+                {
+                    "start": "12:30 PM",
+                    "end": "2:00 PM",
+                    "title": "Lunch",
+                    "location": "1st Floor Cafeteria"
                 },
                 {
                     "title": "Breakout Session #4",
@@ -114,10 +131,26 @@
                     "slot": "slot5"
                 },
                 {
+                    "title": "Breakout Session #6",
+                    "location": "Breakout Rooms",
+                    "slot": "slot6"
+                },
+                {
                     "start": "4:35 PM",
                     "end": "5:15 PM",
                     "title": "Closing",
                     "location": "Salon III & IV"
+                }
+            ]
+        },
+        {
+            "date": "Saturday June 28th, 2025",
+            "events": [
+                {
+                    "start": "9:30 AM",
+                    "end": "11:30 AM",
+                    "title": "Salesforce Saturday",
+                    "location": "TBA"
                 }
             ]
         }
