@@ -23,13 +23,13 @@
         <h1 class="title is-1 is-hidden-mobile">Session overview</h1>
         {%- if data.hots | length %}
         <h2 class="title is-2 is-hidden-mobile">Hands-on Trainings</h1>
-        {{ helpers_schedule.schedule_key(data.tracks) }}
+        {{ helpers_schedule.schedule_key(data.hots, data.tracks) }}
         {{ helpers_session.room_table(data.hot_time_slots, data.rooms, data.tracks, data.hots) }}
         <h1 class="title is-1">Hands-on Trainings</h1>
         {{ helpers_session.sessions(data.hot_time_slots, data.rooms, data.tracks, data.speakers, data.hots) }}
         {% endif %}
         <h2 class="title is-2 is-hidden-mobile">Sessions</h1>
-        {{ helpers_schedule.schedule_key(data.tracks) }}
+        {{ helpers_schedule.schedule_key(data.sessions, data.tracks) }}
         {{ helpers_session.room_table(data.session_time_slots, data.rooms, data.tracks, data.sessions) }}
         <h1 class="title is-1">Sessions</h1>
         {{ helpers_session.sessions(data.session_time_slots, data.rooms, data.tracks, data.speakers, data.sessions) }}

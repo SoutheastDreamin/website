@@ -103,6 +103,19 @@ function has_sessions(sessions, slot) {
 }
 
 /**
+ * Returns if the given track has any sessions
+ * @param {object} sessions The sessions
+ * @param {string} track The track name
+ * @returns {boolean} If the track has any sessions
+ */
+function has_track(sessions, track) {
+    const filter = {
+        track: track
+    };
+    return !lodash.isEmpty(lodash.filter(sessions, filter));
+}
+
+/**
  * Sets up custom filters in nunjucks
  * @param {object} environment The nunjucks environment
  * @returns {undefined}
@@ -116,6 +129,7 @@ const manageEnvironment = function (environment) {
     environment.addGlobal('concat', lodash.concat);
     environment.addGlobal('merge', merge);
     environment.addGlobal('hasSessions', has_sessions);
+    environment.addGlobal('hasTrack', has_track);
 };
 
 /**
