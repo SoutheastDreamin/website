@@ -205,11 +205,19 @@
             "firstname": "Christopher",
             "lastname": "Sauer",
             "title": "",
-            "bio": "<p>Christopher Sauer (Denver, CO) is the glorified chauffeur for two girls, ages 2 and 9. He is a 2x Salesforce Certified Double Star Ranger whose hobbies include provoking his daughter's pillow fight club and writing villain arcs for artificial intelligence agents. Christopher is currently creating an app for independent music artist management.</p>",
+            "bio": "<p>Christopher Sauer (Denver, CO) is the glorified chauffeur for two girls, ages 2 and 9. He is a 3x Salesforce Certified Double Star Ranger whose hobbies include provoking his daughter's pillow fight club and writing villain arcs for artificial intelligence agents. Christopher is currently creating an app for independent music artist management.</p>",
             "image": "/img/team/csauer.jpg",
             "links": []
         }
     ],
     "support": [
+        {
+            "firstname": "Miraz",
+            "lastname": "Aggarwal",
+            "title": "Speaker Mentor",
+            "bio": "<p>Miraz began her career as a developer after college and has written code in C, C++ right out of the gate. From there Miraz  transitioned to Java,  it has always been in the object oriented world. Miraz took a 10 year break to care for her littles. When Miraz was ready to go back to work, a family member suggested she look at Salesforce. Miraz walked into one of the local Salesforce Saturday Meetups and the rest is history.</p><p>Miraz loves being a part of the local trailblazer Salesforce communities and contribute where she can. As a Co-lead for the Women In Tech community, Miraz  helps facilitate sessions that help women in their professional development.</p><p>When Miraz is not Salesforcing, Miraz loves baking breads and desserts,  playing board games and trying new recipes.</p>",
+            "image": "/img/team/maggarwal.jpg",
+            "links": []
+        }
     ]
 }
