@@ -200,19 +200,6 @@
       "first_talk": false,
       "mvp": false
     },
-    "abatra": {
-      "first_name": "Aman",
-      "last_name": "Batra",
-      "id": "abatra",
-      "pronouns": "",
-      "title": "",
-      "company": "",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
-      "first_talk": false,
-      "mvp": false
-    },
     "acrosman": {
       "first_name": "Aaron",
       "last_name": "Crosman",
@@ -897,17 +884,6 @@
       "speakers": ["lbeiting"]
     },
     {
-      "title": "SFMC Experts: SFMC Growth—Your Friend or Foe?",
-      "abstract": "<p>Discover how to leverage your SFMC Engagement skills to navigate the newly emerging SFMC Growth platform. Uncover the practical tactics, transferable techniques, and strategic insights necessary to scale your marketing cloud impact. Explore the advantages and potential pitfalls, and decide for yourself whether SFMC Growth is a friend or foe to your hard-earned marketing cloud skills.</p>",
-      "id": "sfmc-experts",
-      "year": "2025",
-      "audience": [],
-      "room": "conference4",
-      "slot": "slot2",
-      "hide": false,
-      "speakers": ["abatra"]
-    },
-    {
       "title": "Salesforce Data Migrations at Scale",
       "abstract": "<p>Data Migration is one of the most important things to get right to ensure a successful Salesforce implementation. Whether it's your initial launch, migrating in a new team, or even loading data from someone's rogue Access database, being able to add data to your org quickly is critical.</p><p>But migrating data to SF can be tough, even for seasoned pros.</p><p>We'll dive into how to create efficient processes for large data volumes. We'll talk about tools and techniques that allow you to create efficient processes for loading lots of records without days of downtime. When we're done you'll have the outline you need to create your own high speed process.</p>",
       "id": "salesforce-data-migrations-at-scale",
@@ -1002,7 +978,7 @@
       "year": "2025",
       "audience": [],
       "room": "conference4",
-      "slot": "slot6",
+      "slot": "slot2",
       "hide": false,
       "speakers": ["svance"]
     },
@@ -1232,8 +1208,8 @@
       "id": "progressive-formula-optimization",
       "year": "2025",
       "audience": [],
-      "room": "salon6",
-      "slot": "slot6",
+      "room": "conference4",
+      "slot": "slot3",
       "hide": false,
       "speakers": ["ahunter"]
     },
@@ -1320,7 +1296,7 @@
       "id": "communication-101-for-consultants",
       "year": "2025",
       "audience": [],
-      "room": "salon5",
+      "room": "conference4",
       "slot": "slot6",
       "hide": false,
       "speakers": ["sntuli"]
