@@ -200,19 +200,6 @@
       "first_talk": false,
       "mvp": false
     },
-    "abatra": {
-      "first_name": "Aman",
-      "last_name": "Batra",
-      "id": "abatra",
-      "pronouns": "",
-      "title": "",
-      "company": "",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
-      "first_talk": false,
-      "mvp": false
-    },
     "acrosman": {
       "first_name": "Aaron",
       "last_name": "Crosman",
@@ -295,13 +282,13 @@
       "first_name": "Alexandra",
       "last_name": "Klinger",
       "id": "aklinger",
-      "pronouns": "",
-      "title": "",
-      "company": "",
+      "pronouns": "She / Her",
+      "title": "Director of Professional Services",
+      "company": "Cloud for Good",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
-      "first_talk": false,
+      "image": "/img/sessions/2025/speakers/aklinger.jpg",
+      "first_sed": true,
+      "first_talk": true,
       "mvp": false
     },
     "kdavis": {
@@ -309,11 +296,11 @@
       "last_name": "Davis",
       "id": "kdavis",
       "pronouns": "",
-      "title": "",
-      "company": "",
+      "title": "Co-Founder",
+      "company": "Camp4",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
+      "image": "/img/sessions/2025/speakers/kdavis.jpg",
+      "first_sed": true,
       "first_talk": false,
       "mvp": false
     },
@@ -542,12 +529,12 @@
       "first_name": "Amy",
       "last_name": "Knowles",
       "id": "aknowles",
-      "pronouns": "",
-      "title": "",
-      "company": "",
+      "pronouns": "She / Her",
+      "title": "Salesforce Application Manager",
+      "company": "RxBenefits",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
+      "image": "/img/sessions/2025/speakers/aknowles.jpg",
+      "first_sed": true,
       "first_talk": false,
       "mvp": false
     },
@@ -810,6 +797,45 @@
       "first_sed": false,
       "first_talk": false,
       "mvp": false
+    },
+    "jwalker": {
+      "first_name": "Joy",
+      "last_name": "Walker",
+      "id": "jwalker",
+      "pronouns": "",
+      "title": "",
+      "company": "",
+      "bio": "",
+      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "kbentubo": {
+      "first_name": "Kelly",
+      "last_name": "Bentubo",
+      "id": "kbentubo",
+      "pronouns": "",
+      "title": "",
+      "company": "",
+      "bio": "",
+      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "msmith": {
+      "first_name": "Melinda",
+      "last_name": "Smith",
+      "id": "msmith",
+      "pronouns": "She / Her",
+      "title": "Founder & CEO",
+      "company": "Consults on Demand",
+      "bio": "<p>Solution Architect & Founder, Consult on Demand | Speaker | Salesforce MVP Alum | WITness Success Conference Board</p><p>Melinda is the kind of person who can break down complex tech challenges, build a scalable solution, and still make you laugh along the way. As the founder of Consult on Demand, she helps companies turn chaos into clarity with smart Salesforce strategies and a whole lot of heart.</p><p>A former Salesforce MVP and longtime community advocate, she serves on the board of WITness Success and is passionate about making the tech space more inclusive, human, and fun. She’s built practices from scratch, coached clients through all kinds of wild business challenges, and somehow still keeps her sense of humor intact.</p><p>Outside of work, she’s balancing remote life in Denver with a pilot husband, a theater-loving tween, and whatever creative project her family dreams up next (ask her about the Christmas cards).</p>",
+      "image": "/img/sessions/2025/speakers/msmith.jpg",
+      "first_sed": true,
+      "first_talk": false,
+      "mvp": true
     }
   },
   "sessions": [
@@ -856,17 +882,6 @@
       "slot": "slot1",
       "hide": false,
       "speakers": ["lbeiting"]
-    },
-    {
-      "title": "SFMC Experts: SFMC Growth—Your Friend or Foe?",
-      "abstract": "<p>Discover how to leverage your SFMC Engagement skills to navigate the newly emerging SFMC Growth platform. Uncover the practical tactics, transferable techniques, and strategic insights necessary to scale your marketing cloud impact. Explore the advantages and potential pitfalls, and decide for yourself whether SFMC Growth is a friend or foe to your hard-earned marketing cloud skills.</p>",
-      "id": "sfmc-experts",
-      "year": "2025",
-      "audience": [],
-      "room": "conference4",
-      "slot": "slot2",
-      "hide": false,
-      "speakers": ["abatra"]
     },
     {
       "title": "Salesforce Data Migrations at Scale",
@@ -943,7 +958,7 @@
       "room": "conference2",
       "slot": "slot2",
       "hide": false,
-      "speakers": ["aklinger"]
+      "speakers": ["aklinger", "jwalker", "kbentubo"]
     },
     {
       "title": "On the FlowGPT Train to Georgia",
@@ -963,7 +978,7 @@
       "year": "2025",
       "audience": [],
       "room": "conference4",
-      "slot": "slot6",
+      "slot": "slot2",
       "hide": false,
       "speakers": ["svance"]
     },
@@ -1106,7 +1121,7 @@
       "year": "2025",
       "audience": [],
       "room": "salon3and4",
-      "slot": "slot5",
+      "slot": "slot4",
       "hide": false,
       "speakers": ["kcastle"]
     },
@@ -1193,8 +1208,8 @@
       "id": "progressive-formula-optimization",
       "year": "2025",
       "audience": [],
-      "room": "salon6",
-      "slot": "slot6",
+      "room": "conference4",
+      "slot": "slot3",
       "hide": false,
       "speakers": ["ahunter"]
     },
@@ -1281,7 +1296,7 @@
       "id": "communication-101-for-consultants",
       "year": "2025",
       "audience": [],
-      "room": "salon5",
+      "room": "conference4",
       "slot": "slot6",
       "hide": false,
       "speakers": ["sntuli"]
@@ -1353,5 +1368,10 @@
       "speakers": ["afreund"]
     }
   ],
-  "keynote": {}
+  "keynote": {
+    "title": "",
+    "abstract": "",
+    "takeaway": "",
+    "speakers": ["msmith"]
+  }
 }

@@ -208,6 +208,14 @@
             "bio": "<p>Christopher Sauer (Denver, CO) is the glorified chauffeur for two girls, ages 2 and 9. He is a 3x Salesforce Certified Double Star Ranger whose hobbies include provoking his daughter's pillow fight club and writing villain arcs for artificial intelligence agents. Christopher is currently creating an app for independent music artist management.</p>",
             "image": "/img/team/csauer.jpg",
             "links": []
+        },
+        {
+            "firstname": "Tasha",
+            "lastname": "Rucker",
+            "title": "Session Team",
+            "bio": "<p>Tasha Rucker is the Founder, Principal Consultant and Trainer at ReadyCRM. She's been in the Salesforce ecosystem since 2018 following a 20+ year career in Higher Education. Since her transition, She's been a Solutions Architect, leading Salesforce and Account Engagement (formerly known as Pardot) projects for small-medium sized companies, non-profits and higher education institutions. She thrives in solving problems and building solutions that will help my clients get the most of their investment and help them to achieve their growth goals. Tasha has been recognized by the Salesforce Community by being awarded the highly coveted Golden Hoodie and a Salesforce Marketing Champion.</p><p>Prior to joining the Salesforce ecosystem in 2018, she was a sales and marketing executive with over 20+ years of experience in higher ed. Tasha holds a BA in English, MBA/Marketing and is a proud alumni of a Historically Black College/University.</p>",
+            "image": "/img/team/trucker.jpg",
+            "links": []
         }
     ],
     "support": [
