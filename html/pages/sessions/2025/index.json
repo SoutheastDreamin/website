@@ -169,7 +169,7 @@
       "title": "",
       "company": "",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "image": "/img/sessions/2025/speakers/aerstelle.jpg",
       "first_sed": false,
       "first_talk": false,
       "mvp": false
@@ -836,6 +836,19 @@
       "first_sed": true,
       "first_talk": false,
       "mvp": true
+    },
+    "cclanton": {
+      "first_name": "Cara",
+      "last_name": "Clanton Pope",
+      "id": "cclanton",
+      "pronouns": "",
+      "title": "CRM Analytics Program Manager",
+      "company": "Sercante",
+      "bio": "",
+      "image": "/img/sessions/2025/speakers/cclanton.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
     }
   },
   "sessions": [
@@ -859,7 +872,7 @@
       "room": "conference4",
       "slot": "slot4",
       "hide": false,
-      "speakers": ["aerstelle"]
+      "speakers": ["aerstelle", "mhansen"]
     },
     {
       "title": "Mastering Storytelling for Technical Presentations",
@@ -1310,7 +1323,7 @@
       "room": "salon5",
       "slot": "slot4",
       "hide": false,
-      "speakers": ["Karishma Lad"]
+      "speakers": ["klad"]
     },
     {
       "title": "Maximizing ROI with Salesforce: Strategies for Success",
