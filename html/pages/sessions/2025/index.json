@@ -543,12 +543,12 @@
       "last_name": "Fernandes",
       "id": "afernandes",
       "pronouns": "",
-      "title": "",
+      "title": "M&S Consulting",
       "company": "",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
-      "first_talk": false,
+      "image": "/img/sessions/2025/speakers/afernandes.jpg",
+      "first_sed": true,
+      "first_talk": true,
       "mvp": false
     },
     "sreyes": {
@@ -875,6 +875,58 @@
       "first_sed": true,
       "first_talk": true,
       "mvp": false
+    },
+    "cwalker": {
+      "first_name": "Christine",
+      "last_name": "Walker",
+      "id": "cwalker",
+      "pronouns": "She / Her",
+      "title": "Manager, Learning Experience Design",
+      "company": "Salesforce",
+      "bio": "Christine Walker has over a decade of experience in Learning and Development, impacting industries like telecom, technology, hospitality, and sales. She currently serves as the Manager of Learning Experience Design at Salesforce. Christine holds certifications from DDI (Development Dimensions International®), ATD Master Instructional Design, and ATD Consulting Skills.</p><p>Christine’s career is marked by a relentless curiosity and a commitment to continuous learning. She is known for her exceptional design skills, creativity, and positive attitude. Colleagues frequently praise her adaptability and ability to stay calm under pressure.</p><p>Beyond her professional achievements, Christine is dedicated to volunteering, especially with children. She has contributed to organizations like Save a Girl, Save a World, Junior Achievement, and hashtag#IAMRemarkable, where she proudly serves as a silver tier facilitator. Christine's pragmatic approach and her ability to find learning opportunities in every situation make her a valued and supportive team member.</p>",
+      "image": "/img/sessions/20XX/speakers/placeholder.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "ltulchin": {
+      "first_name": "Lisa",
+      "last_name": "Tulchin",
+      "id": "ltulchin",
+      "pronouns": "",
+      "title": "",
+      "company": "",
+      "bio": "",
+      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "cgodley": {
+      "first_name": "Cate",
+      "last_name": "Godley",
+      "id": "cgodley",
+      "pronouns": "She / Her",
+      "title": "Solution Engineer",
+      "company": "Sercante",
+      "bio": "",
+      "image": "/img/sessions/2025/speakers/cgodley.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "eduncan": {
+      "first_name": "Erin",
+      "last_name": "Duncan",
+      "id": "eduncan",
+      "pronouns": "",
+      "title": "",
+      "company": "",
+      "bio": "",
+      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
     }
   },
   "sessions": [
@@ -884,7 +936,7 @@
       "id": "master-form",
       "year": "2025",
       "audience": [],
-      "room": "conferenceb",
+      "room": "salon3and4",
       "slot": "slot1",
       "hide": false,
       "speakers": ["adanahy"]
@@ -906,7 +958,7 @@
       "id": "mastering-storytelling",
       "year": "2025",
       "audience": [],
-      "room": "conferenceb",
+      "room": "salon3and4",
       "slot": "slot2",
       "hide": false,
       "speakers": ["asingh"]
@@ -983,7 +1035,7 @@
       "id": "accurate-marketing-reporting",
       "year": "2025",
       "audience": [],
-      "room": "conferenceb",
+      "room": "salon3and4",
       "slot": "slot3",
       "hide": false,
       "speakers": ["mduran", "cclanton"]
@@ -1038,7 +1090,7 @@
       "id": "unleashing-the-power-of-experience-cloud",
       "year": "2025",
       "audience": [],
-      "room": "conferenceb",
+      "room": "salon3and4",
       "slot": "slot6",
       "hide": false,
       "speakers": ["choyt", "mgammon"]
@@ -1049,7 +1101,7 @@
       "id": "permissions-polka",
       "year": "2025",
       "audience": [],
-      "room": "conferenceb",
+      "room": "salon3and4",
       "slot": "slot4",
       "hide": false,
       "speakers": ["jcox"]
@@ -1104,7 +1156,7 @@
       "id": "from-fear-to-excitement",
       "year": "2025",
       "audience": [],
-      "room": "conferenceb",
+      "room": "salon3and4",
       "slot": "slot5",
       "hide": false,
       "speakers": ["sfrenkel"]
@@ -1159,7 +1211,7 @@
       "id": "how-to-execute-a-successful-crm-migration",
       "year": "2025",
       "audience": [],
-      "room": "salon3and4",
+      "room": "conferenceb",
       "slot": "slot4",
       "hide": false,
       "speakers": ["kcastle"]
@@ -1412,16 +1464,40 @@
       "id": "",
       "year": "2025",
       "track": "",
-      "room": "",
-      "slot": "",
+      "room": "conferenceb",
+      "slot": "slot3",
       "hide": false,
       "speakers": ["abatra"]
     }
   ],
+  "hots": [
+    {
+      "title": "Build Omnistudio Components with Designers on Core",
+      "abstract": "<p>As part of the evolution of the Omnistudio product, the component designers are moving to Core in 2025, launching as a pilot with Spring ‘25. This entirely new interface will allow you to create components that launch and run much more efficiently than they have in the past. We will walk through building and deploying a FlexCard and Omniscript (as well as their data sources) using the new UI. This session will jump directly into building and deploying to take best advantage of the 90 minutes. You’ll walk away with completed components and be able to see the difference in action. So, if you’re eager to test drive the new interface in a learning environment, this session is for you. (Please note, this session will not explain what Omnistudio is and what it does, it will focus on building and deploying.)</p>",
+      "id": "omnistudio-components",
+      "year": "2025",
+      "track": "",
+      "room": "salon3",
+      "slot": "hotslot1",
+      "hide": false,
+      "speakers": ["ltulchin"]
+    },
+    {
+      "title": "Unlocking Personalized Messaging in Marketing Cloud On Core using Data Graphs",
+      "abstract": "<p>Cross Object Personalization within Marketing Cloud on Core allows Marketers to personalize messages with information from any platform connected to Data Cloud. This is an exciting new capability, but is not as clear cut as adding in a merge tag or utilizing AMPscript. This Hands on Training will walk you through building a Data Graph that maps multiple objects in Data Cloud back to the Unified Individual for use in sales and marketing email templates. Participants should have access to a Data Cloud enabled org or Trailhead Playground. </p>",
+      "id": "personalized-messaging-in-marketing-cloud",
+      "year": "2025",
+      "track": "",
+      "room": "conference4",
+      "slot": "hotslot1",
+      "hide": false,
+      "speakers": ["cgodley", "eduncan"]
+    }
+  ],
   "keynote": {
-    "title": "",
-    "abstract": "",
-    "takeaway": "",
-    "speakers": ["msmith"]
+    "title": "Making an Impact Where You Are",
+    "abstract": "<p>Advocacy isn’t just for leaders—it’s for everyone. In your workplace, community, and personal life, you have the power to support others and create change. But what does advocacy really look like? How can you make a difference in ways that feel authentic to you?</p><p>This keynote will explore ways of advocacy, from everyday actions to organization wide initiatives. You’ll hear real stories of people who have stepped up, spoken out, and lifted others along the way.</p>",
+    "takeaway": "<p>The session will include a 20-minute panel discussion where our speakers will share their experiences and answer your questions. Have something on your mind? Submit your questions in advance and be part of the conversation. This is your chance to learn, engage, and walk away ready to advocate in your own way.</p>",
+    "speakers": ["msmith", "cwalker", "kcastle"]
   }
 }
