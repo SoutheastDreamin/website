@@ -3,10 +3,10 @@
 {% macro keynote_block(keynote, speakers) %}
     {% if keynote.abstract %}
     <a id="keynote"></a>
-    <section class="hero mb-6">
+    <section class="hero mb-4">
         <div class="hero-body pl-0">
-            <p class="title is-capitalized is-1">{{ keynote.title }}</p>
-            <p class="subtitle">{{ keynote.abstract }}</p>
+            <p class="title is-capitalized is-1">Keynote: {{ keynote.title }}</p>
+            <p class="subtitle">{{ keynote.abstract | safe }}</p>
         </div>
         <div class="ml-4 mb-6">
             <p class="title is-capitalized is-3">Takeaways</p>
@@ -15,7 +15,7 @@
         {% for speaker_id in keynote.speakers %}
         <div class="section keynote-speaker">
         <div class="columns">
-            <div class="column is-one-quarter">
+            <div class="column is-one-half">
                 {% set speaker = speakers[speaker_id] %}
                 {{ helpers_session.session_speaker(speaker) }}
             </div>
