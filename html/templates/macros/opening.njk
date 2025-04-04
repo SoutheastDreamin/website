@@ -1,0 +1,5 @@
+{% import "macros/session.njk" as helpers_session %}
+
+{% macro opening_block(session, speakers) %}
+    {{ helpers_session.important_session("opening", "Opening Session", session, speakers) }}
+{%- endmacro %}

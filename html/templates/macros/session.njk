@@ -90,3 +90,32 @@
         </tbody>
     </table>
 {%- endmacro %}
+
+{% macro important_session(id, prefix, session, speakers) %}
+    {% if session.abstract %}
+    <a id="{{ id }}"></a>
+    <section class="hero mb-4">
+        <div class="hero-body pl-0">
+            <p class="title is-capitalized is-1">{{ prefix }}: {{ session.title }}</p>
+            <p class="subtitle">{{ session.abstract | safe }}</p>
+        </div>
+        {% if session.takeaway %}
+        <div class="ml-4 mb-6">
+            <p class="title is-capitalized is-3">Takeaways</p>
+            <div class="content">{{ session.takeaway | safe }}</div>
+        </div>
+        {% endif %}
+        {% for speaker_id in session.speakers %}
+        <div class="section {{ id }}-speaker">
+            <div class="columns">
+                <div class="column is-one-half">
+                    {% set speaker = speakers[speaker_id] %}
+                    {{ session_speaker(speaker) }}
+                </div>
+                <div class="column">{{ speaker.bio | safe }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+{%- endmacro %}

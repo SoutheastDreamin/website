@@ -382,16 +382,16 @@
       "first_talk": false,
       "mvp": false
     },
-    "jtonn": {
-      "first_name": "Jerad",
-      "last_name": "Tonn",
-      "id": "jtonn",
+    "eeklund": {
+      "first_name": "Erik",
+      "last_name": "Eklund",
+      "id": "eeklund",
       "pronouns": "",
       "title": "",
       "company": "",
       "bio": "",
       "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
+      "first_sed": true,
       "first_talk": false,
       "mvp": false
     },
@@ -465,11 +465,11 @@
       "last_name": "Johnson",
       "id": "tjohnson",
       "pronouns": "",
-      "title": "",
-      "company": "",
+      "title": "Salesforce UX Designer / Corportate Workshop Facilitator",
+      "company": "RadiCollab Consulting",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
+      "image": "/img/sessions/2025/speakers/tjohnson.jpg",
+      "first_sed": true,
       "first_talk": false,
       "mvp": false
     },
@@ -551,16 +551,16 @@
       "first_talk": true,
       "mvp": false
     },
-    "sreyes": {
-      "first_name": "Summer",
-      "last_name": "Reyes",
-      "id": "sreyes",
+    "kcurkendall": {
+      "first_name": "Keri",
+      "last_name": "Curkendall",
+      "id": "kcurkendall",
       "pronouns": "",
       "title": "",
       "company": "",
       "bio": "",
       "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
+      "first_sed": true,
       "first_talk": false,
       "mvp": false
     },
@@ -893,11 +893,11 @@
       "first_name": "Lisa",
       "last_name": "Tulchin",
       "id": "ltulchin",
-      "pronouns": "",
-      "title": "",
-      "company": "",
+      "pronouns": "She / Her",
+      "title": "Training & Certification Portfolio Lead, Industries",
+      "company": "Salesforce",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "image": "/img/sessions/2025/speakers/ltulchin.jpg",
       "first_sed": false,
       "first_talk": false,
       "mvp": false
@@ -919,11 +919,24 @@
       "first_name": "Erin",
       "last_name": "Duncan",
       "id": "eduncan",
-      "pronouns": "",
-      "title": "",
-      "company": "",
+      "pronouns": "She / Her",
+      "title": "Product Director",
+      "company": "Sercante",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "image": "/img/sessions/2025/speakers/eduncan.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "jmatthews": {
+      "first_name": "Josh",
+      "last_name": "Matthews",
+      "id": "jmatthews",
+      "pronouns": "",
+      "title": "Founder",
+      "company": "Salesforce Staffing, LLC",
+      "bio": "<p>Josh Matthews is the founder of Salesforce Staffing, a leading recruiting firm specializing in Salesforce talent, and the host of the Salesforce Career Show and Salesforce Hiring Edge podcasts. With over two decades of experience connecting top-tier professionals with game-changing opportunities in the Salesforce ecosystem, Josh is passionate about helping people unlock career and leadership growth. Through his podcast and recruiting work, he offers no-fluff advice, insider insights, and a front-row seat to what’s happening in the Salesforce job market today. Whether you’re just getting started or scaling your Salesforce team, Josh brings real talk, real strategy, and real results.</p>",
+      "image": "/img/sessions/2025/speakers/jmatthews.jpg",
       "first_sed": false,
       "first_talk": false,
       "mvp": false
@@ -1280,7 +1293,7 @@
       "room": "conferencee",
       "slot": "slot5",
       "hide": false,
-      "speakers": ["sreyes"]
+      "speakers": ["kcurkendall"]
     },
     {
       "title": "Accessibility and Salesforce: How to design with everyone in mind",
@@ -1473,7 +1486,7 @@
   "hots": [
     {
       "title": "Build Omnistudio Components with Designers on Core",
-      "abstract": "<p>As part of the evolution of the Omnistudio product, the component designers are moving to Core in 2025, launching as a pilot with Spring ‘25. This entirely new interface will allow you to create components that launch and run much more efficiently than they have in the past. We will walk through building and deploying a FlexCard and Omniscript (as well as their data sources) using the new UI. This session will jump directly into building and deploying to take best advantage of the 90 minutes. You’ll walk away with completed components and be able to see the difference in action. So, if you’re eager to test drive the new interface in a learning environment, this session is for you. (Please note, this session will not explain what Omnistudio is and what it does, it will focus on building and deploying.)</p>",
+      "abstract": "<p>As part of the evolution of the Omnistudio product, the component designers are moving to Core in 2025, launching as a pilot with Spring ‘25. This entirely new interface will allow you to create components that launch and run much more efficiently than they have in the past. We will walk through building and deploying a Flexcard and Omniscript (as well as their data sources) using the new UI. This session will jump directly into building and deploying to take best advantage of the 90 minutes. You’ll walk away with completed components and be able to see the difference in action. So, if you’re eager to test drive the new interface in a learning environment, this session is for you. (Please note, this session will not explain what Omnistudio is and what it does, it will focus on building and deploying.)</p>",
       "id": "omnistudio-components",
       "year": "2025",
       "track": "",
@@ -1499,5 +1512,10 @@
     "abstract": "<p>Advocacy isn’t just for leaders—it’s for everyone. In your workplace, community, and personal life, you have the power to support others and create change. But what does advocacy really look like? How can you make a difference in ways that feel authentic to you?</p><p>This keynote will explore ways of advocacy, from everyday actions to organization wide initiatives. You’ll hear real stories of people who have stepped up, spoken out, and lifted others along the way.</p>",
     "takeaway": "<p>The session will include a 20-minute panel discussion where our speakers will share their experiences and answer your questions. Have something on your mind? Submit your questions in advance and be part of the conversation. This is your chance to learn, engage, and walk away ready to advocate in your own way.</p>",
     "speakers": ["msmith", "cwalker", "kcastle"]
+  },
+  "opening": {
+    "title": "State of Hiring in the Ecosystem: a panel with expert recruiters",
+    "abstract": "<p>This panel of expert recruiters will focus on the Salesforce job market and industry trends. They will share their insights and experiences. Come with questions!</p>",
+    "speakers": ["jmatthews"]
   }
 }
