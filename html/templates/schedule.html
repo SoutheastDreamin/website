@@ -1,5 +1,6 @@
 {% extends "layout.html" %}
 {% import "macros/keynote.njk" as helpers_keynote %}
+{% import "macros/opening.njk" as helpers_opening %}
 {% import "macros/schedule.njk" as helpers_schedule %}
 {% import "macros/session.njk" as helpers_session %}
 
@@ -19,6 +20,7 @@
             {{ helpers_schedule.scheduletable(d.events, time_slots) }}
             {{ helpers_schedule.schedulemobile(d.events, time_slots) }}
         {% endfor %}
+        {{ helpers_opening.opening_block(data.opening, data.speakers) }}
         {{ helpers_keynote.keynote_block(data.keynote, data.speakers) }}
         <h1 class="title is-1 is-hidden-mobile">Session overview</h1>
         {%- if data.hots | length %}
