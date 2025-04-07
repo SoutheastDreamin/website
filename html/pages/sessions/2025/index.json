@@ -388,9 +388,9 @@
       "id": "eeklund",
       "pronouns": "",
       "title": "",
-      "company": "",
+      "company": "Work-Relay",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "image": "/img/sessions/2025/speakers/eeklund.jpg",
       "first_sed": true,
       "first_talk": false,
       "mvp": false
@@ -1150,7 +1150,7 @@
       "room": "salon1",
       "slot": "slot1",
       "hide": false,
-      "speakers": ["jtonn"]
+      "speakers": ["eeklund"]
     },
     {
       "title": "The Art of Preventing Failure in Salesforce Implementations",
