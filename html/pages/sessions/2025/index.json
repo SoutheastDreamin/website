@@ -205,10 +205,10 @@
       "last_name": "Crosman",
       "id": "acrosman",
       "pronouns": "",
-      "title": "",
-      "company": "",
+      "title": "Technical Architect",
+      "company": "Coastal",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "image": "/img/sessions/2025/speakers/acrosman.jpg",
       "first_sed": false,
       "first_talk": false,
       "mvp": false
@@ -230,11 +230,11 @@
       "first_name": "Brian",
       "last_name": "Owens",
       "id": "bowens",
-      "pronouns": "",
-      "title": "",
-      "company": "",
+      "pronouns": "He / Him",
+      "title": "Product Manager",
+      "company": "NBCUniversal",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "image": "/img/sessions/2025/speakers/bowens.jpg",
       "first_sed": false,
       "first_talk": false,
       "mvp": false
@@ -363,7 +363,7 @@
       "pronouns": "She / Her",
       "title": "Strategic Sales Connector",
       "company": "Canvas Cloud",
-      "bio": "",
+      "bio": "<p>Rob O'Brien is a 3X Certified Salesforce Professional and Strategic Sales Connector at Canvas Cloud. She is deeply engaged in the Salesforce community as the Co-Lead of the Chicago Nonprofit User Group and Chicago Salesforce Saturday, as well as a Moderator for Nonprofit Ask Me Anything. With a background in HR and entrepreneurship, Rob brings a unique perspective to building strategic connections and empowering organizations to maximize their Salesforce investment. Outside of her professional and community work, she is married to Kevin and a proud mother of two outstanding young women.</p>",
       "image": "/img/sessions/2025/speakers/robrien.jpg",
       "first_sed": false,
       "first_talk": false,
@@ -662,7 +662,7 @@
       "pronouns": "She / Her",
       "title": "Talent Attraction Partner",
       "company": "Salesforce",
-      "bio": "",
+      "bio": "<p>Rochelle Rawls is a highly regarded Diversity Talent Attraction Partner at Salesforce and a community-recognized dot connector, recently named one of LinkedIn’s Top Recruiting Voices. Based in the Dallas-Fort Worth Metroplex, Rochelle brings over six years of recruitment expertise, with a strong focus on diversifying the tech and healthcare industries and creating inclusive opportunities for underrepresented communities.</p><p>Beyond her professional role, Rochelle is an active leader in multiple Business Resource Groups, including serving as the Dallas Events Chair for the Salesforce Women’s Network and the a founding member of the Dallas Impact Council. Her efforts reflect a deep commitment to fostering belonging and advancing equity within corporate culture.</p><p>She is also a sought-after speaker and thought leader, having shared her insights on podcasts such as We’re Not OK: A Community of Healing, Dope Creator, and Admins of Tomorrow with Jacob Catalano. She is a familiar face at industry events like AfroTech, Dreamin’ in Color, and We Dreamin’, where she continues to break down barriers, challenge industry norms, and inspire the next generation of tech professionals.</p>",
       "image": "/img/sessions/2025/speakers/rrawls.jpg",
       "first_sed": true,
       "first_talk": false,
@@ -682,15 +682,15 @@
       "mvp": false
     },
     "sntuli": {
-      "first_name": "Siso",
+      "first_name": "Sibusiso",
       "last_name": "Ntuli",
       "id": "sntuli",
       "pronouns": "",
-      "title": "",
-      "company": "",
+      "title": "Senior Engagement Manager",
+      "company": "Sercante",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
+      "image": "/img/sessions/2025/speakers/sntuli.jpg",
+      "first_sed": true,
       "first_talk": false,
       "mvp": false
     },
@@ -713,9 +713,9 @@
       "id": "mshepard",
       "pronouns": "",
       "title": "",
-      "company": "",
+      "company": "Maple Digital",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "image": "/img/sessions/2025/speakers/mshepard.jpg",
       "first_sed": false,
       "first_talk": false,
       "mvp": false
@@ -807,8 +807,8 @@
       "company": "Cloud for Good",
       "bio": "",
       "image": "/img/sessions/2025/speakers/jwalker.jpg",
-      "first_sed": false,
-      "first_talk": false,
+      "first_sed": true,
+      "first_talk": true,
       "mvp": false
     },
     "kbentubo": {
@@ -884,7 +884,7 @@
       "title": "Manager, Learning Experience Design",
       "company": "Salesforce",
       "bio": "Christine Walker has over a decade of experience in Learning and Development, impacting industries like telecom, technology, hospitality, and sales. She currently serves as the Manager of Learning Experience Design at Salesforce. Christine holds certifications from DDI (Development Dimensions International®), ATD Master Instructional Design, and ATD Consulting Skills.</p><p>Christine’s career is marked by a relentless curiosity and a commitment to continuous learning. She is known for her exceptional design skills, creativity, and positive attitude. Colleagues frequently praise her adaptability and ability to stay calm under pressure.</p><p>Beyond her professional achievements, Christine is dedicated to volunteering, especially with children. She has contributed to organizations like Save a Girl, Save a World, Junior Achievement, and hashtag#IAMRemarkable, where she proudly serves as a silver tier facilitator. Christine's pragmatic approach and her ability to find learning opportunities in every situation make her a valued and supportive team member.</p>",
-      "image": "/img/sessions/20XX/speakers/placeholder.jpg",
+      "image": "/img/sessions/2025/speakers/placeholder.jpg",
       "first_sed": false,
       "first_talk": false,
       "mvp": false
@@ -938,6 +938,97 @@
       "bio": "<p>Josh Matthews is the founder of Salesforce Staffing, a leading recruiting firm specializing in Salesforce talent, and the host of the Salesforce Career Show and Salesforce Hiring Edge podcasts. With over two decades of experience connecting top-tier professionals with game-changing opportunities in the Salesforce ecosystem, Josh is passionate about helping people unlock career and leadership growth. Through his podcast and recruiting work, he offers no-fluff advice, insider insights, and a front-row seat to what’s happening in the Salesforce job market today. Whether you’re just getting started or scaling your Salesforce team, Josh brings real talk, real strategy, and real results.</p>",
       "image": "/img/sessions/2025/speakers/jmatthews.jpg",
       "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "bnivens": {
+      "first_name": "Brandon",
+      "last_name": "Nivens",
+      "id": "bnivens",
+      "pronouns": "He / Him",
+      "title": "Customer Success Manager SNS",
+      "company": "Salesforce",
+      "bio": "<p>Brandon Nivens is a U.S. Navy veteran and Customer Success Manager at Salesforce, supporting National Security customers through the MuleSoft platform. As part of Salesforce’s Public Sector business, he partners with mission-driven organizations to drive integration strategy and unlock the full value of their investment.In addition to his core role, Brandon serves as the Global President of Vetforce, Salesforce’s employee resource group for veterans and allies. He leads global programming focused on visibility, support, and career advancement for military-connected talent.</p>",
+      "image": "/img/sessions/2025/speakers/bnivens.jpg",
+      "first_sed": true,
+      "first_talk": false,
+      "mvp": false
+    },
+    "jzaa": {
+      "first_name": "Jitendra",
+      "last_name": "Zaa",
+      "id": "jzaa",
+      "pronouns": "",
+      "title": "Associate Partner",
+      "company": "IBM",
+      "bio": "",
+      "image": "/img/sessions/2025/speakers/jzaa.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "maggarwal": {
+      "first_name": "Miraz",
+      "last_name": "Aggarwal",
+      "id": "maggarwal",
+      "pronouns": "She / Her",
+      "title": "Lead Salesforce Administrator",
+      "company": "HDSupply",
+      "bio": "",
+      "image": "/img/sessions/2025/speakers/maggarwal.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "nhenderson": {
+      "first_name": "Najee",
+      "last_name": "Henderson",
+      "id": "nhenderson",
+      "pronouns": "",
+      "title": "",
+      "company": "",
+      "bio": "",
+      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "hbresil": {
+      "first_name": "Henrica",
+      "last_name": "Bresil",
+      "id": "hbresil",
+      "pronouns": "",
+      "title": "",
+      "company": "",
+      "bio": "",
+      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "bglasser": {
+      "first_name": "Brenda",
+      "last_name": "Glasser",
+      "id": "bglasser",
+      "pronouns": "She / Her",
+      "title": "Director / Salesforce Architect",
+      "company": "Ripple",
+      "bio": "",
+      "image": "/img/sessions/2025/speakers/bglasser.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "chelms": {
+      "first_name": "Chris",
+      "last_name": "Helms",
+      "id": "chelms",
+      "pronouns": "He / Him",
+      "title": "Founder and Managing Partner",
+      "company": "ClearRPO",
+      "bio": "<p>Chris Helms is a 29-year veteran in the technology sector, with the last 13 providing a deep expertise in the Salesforce ecosystem. As the founder and Managing Partner of ClearRPO, Chris is globally recognized for his insights into training, management, hiring trends, and compensation negotiation that has helped shape the Salesforce landscape. A seasoned presenter and thought leader, he brings a wealth of experience to talent strategy and workforce development around all things Salesforce.</p><p>Prior to founding ClearRPO, Chris served in several leadership roles within the Salesforce ecosystem, where he specialized in delivering strategic staffing solutions, elevating candidate quality, and driving significant improvements in employee retention.</p>",
+      "image": "/img/sessions/2025/speakers/chelms.jpg",
+      "first_sed": true,
       "first_talk": false,
       "mvp": false
     }
@@ -1109,17 +1200,6 @@
       "speakers": ["choyt", "mgammon"]
     },
     {
-      "title": "Permissions Polka - Getting 400 Profiles Down to 40 Without App Exchange Apps",
-      "abstract": "<p>In highly regulated industries like healthcare, security concerns often mean strict restrictions on installing third-party apps — even those that could simplify Salesforce management. When faced with consolidating over 400 profiles without the aid of AppExchange tools, careful planning and precision were essential to avoid negatively impacting users or workflows. Learn how a small team of Salesforce Admins implemented thoughtful strategies and practical techniques can help transform overwhelming profile management into a more streamlined, manageable process.</p><p>Learning Objectives:<ul><li>Navigating Security Constraints: Understand the security considerations and limitations unique to healthcare environments and regulated industries.</li><li>Salesforce ERD Utilization: Leverage Salesforce’s phenomenal documentation to map and analyze permission structures.</li><li>Excel for Analysis: Apply advanced Excel techniques to identify similarities between profiles and permissions within specified thresholds.</li><li>Careful Change Management: Discover best practices for making incremental profile changes without disrupting user operations.</li></ul>",
-      "id": "permissions-polka",
-      "year": "2025",
-      "audience": [],
-      "room": "salon3and4",
-      "slot": "slot4",
-      "hide": false,
-      "speakers": ["jcox"]
-    },
-    {
       "title": "Be the Star of Your Job Search Journey",
       "abstract": "<p>Lights, camera, action! In today’s competitive job market, landing your dream role takes more than a polished resume—it requires star power. In this session, I’ll help you craft your job search blockbuster. From writing a resume that shines brighter than a red carpet entrance to creating cover letters that dazzle like an award-winning script, I’ll share the tools and techniques you need to steal the show. You’ll also learn how to build a professional network worthy of a Hollywood premiere and spotlight your unique value proposition. By the end, you’ll be ready to take center stage in your career and land a role that’s made for you!</p><p>Learning Objectives/Takeaways:</p><ol><li>Craft a Star-Quality Resume and Cover Letter</li><li>Leverage Technology and AI for a Smarter Job Search</li><li>Articulate Your Unique Value Proposition</li></ol>",
       "id": "be-the-star-of-your-job-search-journey",
@@ -1224,7 +1304,7 @@
       "id": "how-to-execute-a-successful-crm-migration",
       "year": "2025",
       "audience": [],
-      "room": "conferenceb",
+      "room": "salon3and4",
       "slot": "slot4",
       "hide": false,
       "speakers": ["kcastle"]
@@ -1477,8 +1557,8 @@
       "id": "",
       "year": "2025",
       "track": "",
-      "room": "conferenceb",
-      "slot": "slot3",
+      "room": "salon5",
+      "slot": "slot6",
       "hide": false,
       "speakers": ["abatra"]
     }
@@ -1505,17 +1585,72 @@
       "slot": "hotslot1",
       "hide": false,
       "speakers": ["cgodley", "eduncan"]
+    },
+    {
+      "title": "No More Merge Conflicts: Achieving Salesforce Success with Git & VS Code",
+      "abstract": "<p></p>",
+      "id": "no-more-merge-conflicts",
+      "year": "2025",
+      "track": "",
+      "room": "salon5and6",
+      "slot": "hotslot1",
+      "hide": false,
+      "speakers": ["jzaa"]
+    },
+    {
+      "title": "Messaging for In-App and Web – Ditching the Old, Embracing the Bold",
+      "abstract": "<p></p>",
+      "id": "messaging-for-inapp-and-web",
+      "year": "2025",
+      "track": "<p>If you haven’t heard, Salesforce is retiring Legacy Chat Products (LiveAgent, Salesforce Chat, Embedded Chat, Service Chat) on Feb 14, 2026.  In this hands-on session, we’re diving into Messaging for In-App and Web, Salesforce’s answer to real-time customer communication. Say goodbye to Live Agent chat and hello to flexible, scalable messaging.</p><p>What You’ll Learn</p><ul><li>What is Messaging for In-App and Web?</li><li>How to Set It Up Like a Pro – From configuration to deployment, we’ll get this bad boy running in your org faster than an agent can say, “I didn’t get the transcript.”</li><li>Routing & Automation – Because we could do everything manually, but we have better things to do (snack break anyone?).</li><li>Live Demo & Hands-On Configuration – Yes, we will build this together, not just clicking through slides like it’s 2012.</li></ul><p>Why You’ll Love This</p><ul><li>Your customers get real-time support without getting stuck in the eternal void of “Please hold.”</li><li>Your agents will get context when chatting with customers, making them look like absolute rockstars.</li><li>You get to walk away knowing you can configure this without crying (or at least, crying less).</li></ul>",
+      "room": "conference2",
+      "slot": "hotslot1",
+      "hide": false,
+      "speakers": ["maggarwal"]
+    },
+    {
+      "title": "Become a Personalization Hero with Ampscript",
+      "abstract": "<p>Learn how to improve personalisation and efficiency in marketing emails using Ampscript. This hands on workshop will give you a brief tour of Marketing Cloud's email studio and show learners how to write basic Ampscript.</p>",
+      "id": "hero-with-ampscript",
+      "year": "2025",
+      "track": "",
+      "room": "conference2",
+      "slot": "hotslot2",
+      "hide": false,
+      "speakers": ["nhenderson", "hbresil"]
+    },
+    {
+      "title": "Mastering Salesforce Architecture Diagrams",
+      "abstract": "<p></p>",
+      "id": "mastering-salesforce-architecture-diagrams",
+      "year": "2025",
+      "track": "",
+      "room": "salon5and6",
+      "slot": "hotslot2",
+      "hide": false,
+      "speakers": ["bglasser"]
+    },
+    {
+      "title": "Gets Hands On With Prompt Builder and Agentforce",
+      "abstract": "<p>Join our workshop to get hands-on with Agentforce, led by Jennifer Lee, Lead Admin Evangelist at Salesforce. You’ll discover the basics of Prompt Builder and how to set up your first agent with custom actions. You’ll also experience some of the latest features that were showcased at TDX. Requirements: Bring your own laptop, some curiosity and a good amount of energy!</p>",
+      "id": "prompt-builder-and-agentforce",
+      "year": "2025",
+      "track": "",
+      "room": "salon4",
+      "slot": "hotslot1",
+      "hide": false,
+      "speakers": ["jlee"]
     }
   ],
   "keynote": {
     "title": "Making an Impact Where You Are",
     "abstract": "<p>Advocacy isn’t just for leaders—it’s for everyone. In your workplace, community, and personal life, you have the power to support others and create change. But what does advocacy really look like? How can you make a difference in ways that feel authentic to you?</p><p>This keynote will explore ways of advocacy, from everyday actions to organization wide initiatives. You’ll hear real stories of people who have stepped up, spoken out, and lifted others along the way.</p>",
     "takeaway": "<p>The session will include a 20-minute panel discussion where our speakers will share their experiences and answer your questions. Have something on your mind? Submit your questions in advance and be part of the conversation. This is your chance to learn, engage, and walk away ready to advocate in your own way.</p>",
-    "speakers": ["msmith", "cwalker", "kcastle"]
+    "speakers": ["msmith", "cwalker", "kcastle", "bnivens"]
   },
   "opening": {
     "title": "State of Hiring in the Ecosystem: a panel with expert recruiters",
     "abstract": "<p>This panel of expert recruiters will focus on the Salesforce job market and industry trends. They will share their insights and experiences. Come with questions!</p>",
-    "speakers": ["jmatthews"]
+    "speakers": ["jmatthews", "rrawls", "chelms", "robrien"]
   }
 }
