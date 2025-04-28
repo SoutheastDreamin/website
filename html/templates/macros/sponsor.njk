@@ -2,7 +2,7 @@
     {% if (level.sponsors | length) != 0 %}
     <section class="section">
         <h1 class="title is-capitalized">{{ level.label }}</h1>
-        <div class="columns is-multiline is-vcentered">
+        <div class="columns is-multiline">
             {% for sponsor in level.sponsors | sort(false, false, 'name') %}
                 {{ sponsor_image(sponsor, level, year) }}
             {% endfor %}
