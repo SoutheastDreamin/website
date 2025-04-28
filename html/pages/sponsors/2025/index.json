@@ -7,7 +7,15 @@
             "homepage": true,
             "fullpage": true,
             "size": "is-full",
-            "sponsors": []
+            "sponsors": [
+                {
+                    "name": "airSlate",
+                    "id": "airslate",
+                    "description": "<p>airSlate is a global SaaS technology company with a suite of easy-to-use and quick-to-implement solutions that empower 100+ million users to seamlessly customize, collaborate, and scale their document workflows and marketing processes through the power of automation.</p>",
+                    "logo": "/img/sponsors/2025/airslate.png",
+                    "url": "https://airslate.com"
+                }
+            ]
         },
         {
             "type": "gold",
@@ -16,7 +24,29 @@
             "fullpage": false,
             "maxwords": 250,
             "size": "is-half",
-            "sponsors": []
+            "sponsors": [
+                {
+                    "name": "Citrin Cooperman",
+                    "id": "citrincooperman",
+                    "description": "<p>Citrin Cooperman is one of the nation’s largest and fastest-growing professional services firms. Since 1979 our daily mission has been to help middle-market companies and high net worth individuals find success in their business and personal financial lives through our proactive guidance, specialized services, and passion for excellence.</p><p>Citrin Cooperman’s Digital Services Practice helps companies implement integrated solutions to optimize technology, improve decision-making, reduce risks, and maximize business productivity while keeping costs low. Our team works with industry-leading technology partners including Salesforce and many others.  Our team can work with you to effectively plan and execute your digital transformation journey to enable you to grow your business and outpace the competition.</p><p>Rooted in our core values, we deliver a comprehensive, integrated business approach, including tailored insights throughout the lifecycle of our clients. Whether your operations and assets are located around the corner or across the globe, we provide new perspectives on strategies that help you achieve your short- and long-term goals. With over 30 offices and more than 3,500 professionals, Citrin Cooperman is included in the Top 20 Firms by Accounting Today. Learn more about Citrin Cooperman at <a href=\"https://citrincooperman.com\">citrincooperman.com</a>.</p>",
+                    "logo": "/img/sponsors/2025/citrincooperman.png",
+                    "url": "https://citrincooperman.com"
+                },
+                {
+                    "name": "DataGroomr",
+                    "id": "datagroomer",
+                    "description": "<p>DataGroomr is the modern, leading-edge solution to Salesforce data quality.</p><p>Data cleansing is critical for any organization to be successful, but it doesn’t need to be so painful. Duplicate records especially cause all sorts of problems – for sales, marketing, customer support, ops and finance.</p><p>DataGroomr uses the latest AI techniques to match most accurately, identify the most duplicates, and keep your data clean all the time. No setup or configuration is required; DataGroomr's intelligent duplicate detection algorithms handle everything – and then get even better as they learn your unique data and choices.</p><p>DataGroomr's easy-to-use apps ensure your Salesforce data is always at its best. And you can trust the DataGroomr team to support you every step of the way.</p>",
+                    "logo": "/img/sponsors/2025/datagroomr.png",
+                    "url": "https://datagroomr.com/"
+                },
+                {
+                    "name": "Pendo.io",
+                    "id": "pendo",
+                    "description": "<p>Pendo’s mission is to improve the world’s experience with software. From SaaS and mobile to AI and agentic workflows, Pendo makes software smarter, smoother, and easier to use. More than 14,000 companies use Pendo to provide better software experiences for over 800 million people every month. Pendo is headquartered in Raleigh, North Carolina and has offices around the world.</p><p>For more information, visit: <a href=\"https://www.pendo.io\">www.pendo.io</a></p>",
+                    "logo": "/img/sponsors/2025/pendo.png",
+                    "url": "https://www.pendo.io"
+                }
+            ]
         },
         {
             "type": "silver",
@@ -34,7 +64,16 @@
             "fullpage": false,
             "maxwords": 50,
             "size": "is-one-third",
-            "sponsors": []
+            "sponsors": [
+                {
+                    "name": "Plauti",
+                    "id": "plauti",
+                    "description": "<p>Plauti's mission is simple: to help organizations trust and use their CRM data to build stronger connections and achieve better outcomes. Every solution we deliver simplifies complex data challenges, enabling teams to focus on what truly matters: building relationships, driving growth, and achieving success. But Plauti is more than just a data management vendor. We are a trusted partner to 2000+ large enterprise customers worldwide, empowering them to unlock the potential of their data through a balance of human connection and AI. Through our dedication to transparency, clarity, and personalization, we bring optimism and integrity to an industry often burdened by complexity.</p>",
+                    "type": "Bag",
+                    "logo": "/img/sponsors/2025/plauti.png",
+                    "url": "https://plauti.com"
+                }
+            ]
         }
     ]
 }
