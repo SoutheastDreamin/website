@@ -1045,28 +1045,15 @@
       "first_talk": false,
       "mvp": false
     },
-    "sattar": {
-      "first_name": "Saman",
-      "last_name": "Attar",
-      "id": "sattar",
-      "pronouns": "",
-      "title": "",
-      "company": "",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
-      "first_talk": false,
-      "mvp": false
-    },
     "sbuchheit": {
       "first_name": "Sabrina",
       "last_name": "Buchheit",
       "id": "sbuchheit",
-      "pronouns": "",
-      "title": "",
+      "pronouns": "She / Her",
+      "title": "Director of Product Operations",
       "company": "",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "image": "/img/sessions/2025/speakers/sbuchheit.jpg",
       "first_sed": false,
       "first_talk": false,
       "mvp": false
@@ -1103,7 +1090,7 @@
       "audience": [],
       "room": "salon3and4",
       "slot": "slot2",
-      "hide": false,
+      "hide": true,
       "speakers": ["asingh"]
     },
     {
@@ -1334,7 +1321,7 @@
       "audience": [],
       "room": "conferencee",
       "slot": "slot2",
-      "hide": false,
+      "hide": true,
       "speakers": ["tjohnson"]
     },
     {
@@ -1542,7 +1529,7 @@
       "year": "2025",
       "audience": [],
       "room": "salon6",
-      "slot": "slot1",
+      "slot": "slot6",
       "hide": false,
       "speakers": ["mshepard"]
     },
@@ -1701,17 +1688,6 @@
       "slot": "hotslot2",
       "hide": false,
       "speakers": ["mhansen"]
-    },
-    {
-      "title": "Learn Flow Development Through Real-World Scenarios: A Hands-On Workshop",
-      "abstract": "<p>Transform theory into practical skills in this interactive workshop focused on building Record-Triggered Flows.</p><p>The session follows a three-part learning structure:</p><ul><li>Individual hands-on development time with clear user stories</li><li>Pre-built automated testing and validation of Flow solutions</li><li>Guided walkthrough of solution approaches with discussion of technical trade-offs by a Senior Software Engineer</li></ul><p>Learning Objectives:</p><ul><li>Design and implement Record-Triggered Flows that meet specific business requirements</li><li>Apply best practices for Flow development through practical exercises</li><li>Evaluate different technical approaches and their implications</li><li>Identify common pitfalls and how to avoid them</li></ul><p>This beginner-friendly workshop is ideal for administrators and developers who understand Flow basics and want to gain confidence through guided practice. Participants should bring a laptop or computer to actively participate in the hands-on portions.<p>Requirements: Laptop, Very basic understanding of Flows</p>",
-      "id": "learn-flow-development",
-      "year": "2025",
-      "track": "",
-      "room": "salon1and2",
-      "slot": "hotslot1",
-      "hide": false,
-      "speakers": ["sattar"]
     },
     {
       "title": "The Art of CPQ",
