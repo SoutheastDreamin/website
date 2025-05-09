@@ -1563,7 +1563,7 @@
       "audience": [],
       "room": "salon2",
       "slot": "slot6",
-      "hide": false,
+      "hide": true,
       "speakers": ["gbrown"]
     },
     {
