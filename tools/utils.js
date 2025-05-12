@@ -132,15 +132,14 @@ function writeFile(filename, data) {
  */
 function writeCSVFile(filename, data) {
     return new Promise(function (resolve, reject) {
-        jsontocsv.json2csv(data, function (error, csv) {
-            if (error) {
-                reject(error);
-            } else {
-                writeFile(filename, csv)
-                    .then(resolve)
-                    .catch(reject);
-            }
-        });
+        try {
+            const csv = jsontocsv.json2csv(data);
+            writeFile(filename, csv)
+                .then(resolve)
+                .catch(reject);
+        } catch (error) {
+            reject(error);
+        }
     });
 }
 
