@@ -174,25 +174,12 @@
       "first_talk": false,
       "mvp": false
     },
-    "asingh": {
-      "first_name": "Amy Oplinger",
-      "last_name": "Singh",
-      "id": "asingh",
-      "pronouns": "",
-      "title": "Head of Growth & Partnerships",
-      "company": "Dataimporter",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/asingh.jpg",
-      "first_sed": false,
-      "first_talk": false,
-      "mvp": false
-    },
     "lbeiting": {
       "first_name": "Lillie",
       "last_name": "Beiting",
       "id": "lbeiting",
       "pronouns": "She / Her",
-      "title": "Manager, Architecture ",
+      "title": "Manager, Architecture",
       "company": "Asymbl Inc",
       "bio": "",
       "image": "/img/sessions/2025/speakers/lbeiting.jpg",
@@ -343,19 +330,6 @@
       "first_talk": false,
       "mvp": false
     },
-    "jcox": {
-      "first_name": "James",
-      "last_name": "Cox",
-      "id": "jcox",
-      "pronouns": "He / Him",
-      "title": "Salesforce Administrator",
-      "company": "Purdue University - Daniels School of Business",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/jcox.jpg",
-      "first_sed": true,
-      "first_talk": false,
-      "mvp": false
-    },
     "robrien": {
       "first_name": "Rob",
       "last_name": "O'Brien",
@@ -421,19 +395,6 @@
       "first_talk": false,
       "mvp": false
     },
-    "mlavalette": {
-      "first_name": "Michelle",
-      "last_name": "Lavalette",
-      "id": "mlavalette",
-      "pronouns": "",
-      "title": "",
-      "company": "",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
-      "first_talk": false,
-      "mvp": false
-    },
     "kolney": {
       "first_name": "Kathy",
       "last_name": "Olney",
@@ -457,19 +418,6 @@
       "bio": "",
       "image": "/img/sessions/2025/speakers/rdavis.jpg",
       "first_sed": false,
-      "first_talk": false,
-      "mvp": false
-    },
-    "tjohnson": {
-      "first_name": "Talia",
-      "last_name": "Johnson",
-      "id": "tjohnson",
-      "pronouns": "",
-      "title": "Salesforce UX Designer / Corportate Workshop Facilitator",
-      "company": "RadiCollab Consulting",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/tjohnson.jpg",
-      "first_sed": true,
       "first_talk": false,
       "mvp": false
     },
@@ -746,19 +694,6 @@
       "first_talk": false,
       "mvp": false
     },
-    "gbrown": {
-      "first_name": "Griffin",
-      "last_name": "Brown",
-      "id": "gbrown",
-      "pronouns": "He / Him",
-      "title": "CEO",
-      "company": "Compliance.Rehab",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/gbrown.jpg",
-      "first_sed": true,
-      "first_talk": false,
-      "mvp": false
-    },
     "ccostoulas": {
       "first_name": "Cassi",
       "last_name": "Costoulas",
@@ -769,19 +704,6 @@
       "bio": "",
       "image": "/img/sessions/2025/speakers/ccostoulas.jpg",
       "first_sed": true,
-      "first_talk": false,
-      "mvp": false
-    },
-    "mgammon": {
-      "first_name": "Meredith",
-      "last_name": "Gammon",
-      "id": "mgammon",
-      "pronouns": "",
-      "title": "Implementation Manager",
-      "company": "",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/mgammon.jpg",
-      "first_sed": false,
       "first_talk": false,
       "mvp": false
     },
@@ -1083,17 +1005,6 @@
       "speakers": ["aerstelle", "mhansen"]
     },
     {
-      "title": "Mastering Storytelling for Technical Presentations",
-      "abstract": "<p>Speaker shares their expertise in blending storytelling with technical content to create engaging and memorable presentations. This session covers the fundamentals of storytelling, techniques for making complex information accessible, and practical tips for enhancing delivery through voice and body language. Attendees will participate in an interactive exercise and leave with actionable strategies to transform their presentations to captivate any audience.</p>",
-      "id": "mastering-storytelling",
-      "year": "2025",
-      "audience": [],
-      "room": "salon3and4",
-      "slot": "slot2",
-      "hide": true,
-      "speakers": ["asingh"]
-    },
-    {
       "title": "From Struggle to Success: Rescuing a Suboptimal Salesforce Implementation",
       "abstract": "<p>The Salesforce Ecosystem can revolutionize your business processes and client satisfaction, but many organizations struggle with suboptimal Salesforce implementations that lead to frustrated users, undesirable system behavior, missed opportunities and poor ROI. But you can absolutely turn the tide and transform a struggling Salesforce and enterprise architecture into a powerful business enabler with the right effort and approach.</p><p>In this session, you'll learn how to:</p><ul><li>diagnose a struggling enterprise application ecosystem</li><li>assess your current Salesforce architecture</li><li>refocus your goals and vision for Salesforce and your tech ecosystem at large</li><li>create a plan for course-correction</li><li>implement a world-class solution</li><li>manage your org moving forward</li></ul><p>This talk is packed with real-world insights and actionable advice that Sales and Technical Leadership, Enterprise Architects, and Salesforce Admins and Developers can immediately implement to take their current Salesforce from struggle to success.</p>",
       "id": "from-struggle-to-success",
@@ -1223,7 +1134,7 @@
       "room": "salon3and4",
       "slot": "slot6",
       "hide": false,
-      "speakers": ["choyt", "mgammon"]
+      "speakers": ["choyt"]
     },
     {
       "title": "Be the Star of Your Job Search Journey",
@@ -1281,17 +1192,6 @@
       "speakers": ["sfrenkel"]
     },
     {
-      "title": "Pop Anything - Developers and Admins Building Awesome Solutions Together",
-      "abstract": "<p>Uniting the skills of developers and admins can lead to truly innovative Salesforce solutions. In this session, we’ll demonstrate how collaboration can bring ideas to life using a practical example: a dynamic screen pop. Developers create a Lightning Web Component with an engaging and dynamic UI, while admins leverage the power of Flow to trigger and customize the experience. Whether it's a round-robin notifier for customer assignments or alerting a sales manager about a stuck opportunity, you'll learn how to combine code and declarative approaches to deliver seamless, impactful solutions. Join us to discover how teamwork can transform complex challenges into simple, elegant outcomes.</p>",
-      "id": "pop-anything",
-      "year": "2025",
-      "audience": [],
-      "room": "conferencee",
-      "slot": "slot1",
-      "hide": false,
-      "speakers": ["mlavalette"]
-    },
-    {
       "title": "Declarative Use of Platform Events",
       "abstract": "<p>As an experienced admin, chances are you’ve created plenty of flows. When you go to create a new flow, have you ever wondered what that Platform Event-Triggered option is all about? Platform Events are familiar to developers, but they can be used declaratively too. In this session, we’ll demystify Platform Events and explain how and why admins can use them.</p>",
       "id": "declarative-use-of-platform-events",
@@ -1312,17 +1212,6 @@
       "slot": "slot3",
       "hide": false,
       "speakers": ["rdavis"]
-    },
-    {
-      "title": "Boost Adoption with Better Design: UX Hacks for Admins",
-      "abstract": "<p>Struggling with low adoption and frustrated users? Good design is the missing piece! In this session, we’ll explore practical UX strategies that Salesforce Admins can use to create intuitive, user-friendly experiences—no design background required. By making small but impactful design tweaks, Admins can transform complex, cluttered, or confusing interfaces into seamless, efficient workflows that users actually enjoy.</p><p>We’ll cover:</p><ul><li>Essential UX principles that make Salesforce easier to navigate</li><li>Common usability pitfalls in Salesforce and how to fix them</li><li>Quick-win design hacks that improve adoption and reduce support tickets</li><li>Real-world examples of Admin-led UX improvements that drive engagement</li></ul><p>This session bridges the gap between design theory and Admin execution, offering actionable takeaways you can apply immediately. Whether you're looking to refine page layouts, optimize flows, or rethink record details, you'll leave with the confidence and tools to create a better Salesforce experience for your users.</p>",
-      "id": "boost-adoption-with-better-design",
-      "year": "2025",
-      "audience": [],
-      "room": "conferencee",
-      "slot": "slot2",
-      "hide": true,
-      "speakers": ["tjohnson"]
     },
     {
       "title": "How to execute a successful CRM migration - without disrupting your business or creating tech debt",
@@ -1348,7 +1237,7 @@
     },
     {
       "title": "Meet the Integration User: the hardest worker on your team",
-      "abstract": "In the past, many integrations recommended using a System Administrator user in order to gain broad access and avoid sharing and security limitations. More recently, the recommended best practice is to use a dedicated integration user account. The cost of these additional licenses was a barrier for organizations of all sizes, until Salesforce introduced free and low cost \"Salesforce Integration\" User Licenses. \n\nWe'll talk about why having a dedicated user is important, how to set up the user, and some tips to keep in mind. Whether you're migrating an existing integration from an admin profile user or setting up a brand new integration from scratch, you'll learn everything you need to know to create an integration user and get the most out of it without compromising data security.",
+      "abstract": "In the past, many integrations recommended using a System Administrator user in order to gain broad access and avoid sharing and security limitations. More recently, the recommended best practice is to use a dedicated integration user account. The cost of these additional licenses was a barrier for organizations of all sizes, until Salesforce introduced free and low cost \"Salesforce Integration\" User Licenses.<br><br>We'll talk about why having a dedicated user is important, how to set up the user, and some tips to keep in mind. Whether you're migrating an existing integration from an admin profile user or setting up a brand new integration from scratch, you'll learn everything you need to know to create an integration user and get the most out of it without compromising data security.",
       "id": "meet-the-integration-user",
       "year": "2025",
       "audience": [],
@@ -1556,17 +1445,6 @@
       "speakers": ["tjaeger"]
     },
     {
-      "title": "HIPAA 2.0 Risk Assessment for Salesforce: A Practical Guide",
-      "abstract": "<p>Bridging the gap between HIPAA compliance and Salesforce technology, this session delivers practical guidance for conducting HHS Security Risk Assessments in Salesforce environments. Drawing from real-world experience as both a compliance officer and Salesforce architect, learn how to translate abstract HIPAA requirements into concrete technical controls. Attendees will receive a comprehensive assessment framework and takeaway guide for implementing compliant solutions in their Salesforce organizations.</p>",
-      "id": "hipaa-risk-assessment-for-salesforce",
-      "year": "2025",
-      "audience": [],
-      "room": "salon2",
-      "slot": "slot6",
-      "hide": true,
-      "speakers": ["gbrown"]
-    },
-    {
       "title": "Telling an Epic Story With Analytics - The Hero... Your Data",
       "abstract": "<p>There is a story within every database, have you uncovered yours? How are you telling it? Is it compelling and does it make your work shine? In this session attendees will learn how to mine their own data for the underlying story within. How can we uncover and showcase successes in a data driven and compelling fashion. How can we uncover and showcase our untapped potential with data. Even better than that, session attendees will leave with a high level understanding of how CRMA can support them in visual storytelling with data. CRMA is a highly flexible tool that has an air of mystery and aprehension around it... you hear the big scary phrase \"data modeling\"... but what does that mean? And how can one learn to overcome that aprehension and leverage CRMA to make their work and their data shine?</p>",
       "id": "epic-story-with-analytics",
@@ -1657,7 +1535,7 @@
       "speakers": ["bglasser"]
     },
     {
-      "title": "Gets Hands On With Prompt Builder and Agentforce",
+      "title": "Get Hands On With Prompt Builder and Agentforce",
       "abstract": "<p>Join our workshop to get hands-on with Agentforce, led by Jennifer Lee, Lead Admin Evangelist at Salesforce. You’ll discover the basics of Prompt Builder and how to set up your first agent with custom actions. You’ll also experience some of the latest features that were showcased at TDX. Requirements: Bring your own laptop, some curiosity and a good amount of energy!</p>",
       "id": "prompt-builder-and-agentforce",
       "year": "2025",

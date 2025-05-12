@@ -52,7 +52,7 @@ function getSlotData(slots, field, key) {
  * @returns {string} The track name
  */
 function getTrack(tracks, key) {
-    return tracks[key].name;
+    return tracks[key]?.name;
 }
 
 /**
@@ -89,16 +89,21 @@ function collateData(data) {
 
             const abstract = stripHtml(session.abstract).result;
 
-            results.push({
+            let whova_session = {
                 date: options.date,
                 start: getStart_bound(session.slot),
                 end: getEnd_bound(session.slot),
-                track: getTrack_bound(session.track),
                 title: session.title,
                 room: getRoom_bound(session.room),
                 description: abstract,
                 speakers: lodash.join(speaker_names, ';')
-            });
+            };
+
+            const track = getTrack_bound(session.track);
+            if (track) {
+                whova_session.track = track;
+            }
+            results.push(whova_session);
         });
 
         resolve(results);
@@ -112,7 +117,6 @@ function collateData(data) {
  */
 function writeData(data) {
     const filename = path.join(__dirname, `../data/whova_schedule_${type}_${year}.csv`);
-
     return utils.writeCSVFile(filename, data);
 }
 
