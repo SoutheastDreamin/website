@@ -2,7 +2,6 @@ const commander = require('commander');
 const lodash = require('lodash');
 const path = require('path');
 const utils = require('./utils');
-const stripHtml = require('string-strip-html').stripHtml;
 
 const program = new commander.Command();
 
