@@ -356,19 +356,6 @@
       "first_talk": false,
       "mvp": false
     },
-    "eeklund": {
-      "first_name": "Erik",
-      "last_name": "Eklund",
-      "id": "eeklund",
-      "pronouns": "",
-      "title": "",
-      "company": "Work-Relay",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/eeklund.jpg",
-      "first_sed": true,
-      "first_talk": false,
-      "mvp": false
-    },
     "jcline": {
       "first_name": "Jon",
       "last_name": "Cline",
@@ -1157,17 +1144,6 @@
       "slot": "slot5",
       "hide": false,
       "speakers": ["sturcotte"]
-    },
-    {
-      "title": "Establishing Robust Data and Process Governance within Salesforce",
-      "abstract": "<p>Many industries have robust compliance requirements, whether dictated by law, or critical to quality control. These organizations rely on strict adherence to their established processes to ensure compliance and long-term success for the organization.</p><p>How do you control the chaos and ensure that the right work is being done by the right people (or agents) in the right sequences and timelines to ensure that your operations are efficient, and more importantly, COMPLIANT?</p><p>We’ll review best practices for mapping, controlling and managing these critical workflows for your organization, using Salesforce-native tools, and review the difference these techniques have made at heavily regulated companies in the real world.</p>",
-      "id": "establishing-robust-data-and-process-governance",
-      "year": "2025",
-      "audience": [],
-      "room": "salon1",
-      "slot": "slot1",
-      "hide": false,
-      "speakers": ["eeklund"]
     },
     {
       "title": "The Art of Preventing Failure in Salesforce Implementations",
