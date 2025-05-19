@@ -29,7 +29,11 @@ function public_path() {
  * @returns {Promise} A promise for when the images have been outputted
  */
 function pub() {
-    return gulp.src(public_path())
+    const gulp_opts = {
+        encoding: false
+    };
+
+    return gulp.src(public_path(), gulp_opts)
         .pipe(gulp.dest(constants.getDistDir()))
         .pipe(gulp_connect.reload());
 }
