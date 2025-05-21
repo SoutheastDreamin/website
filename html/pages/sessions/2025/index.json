@@ -906,11 +906,11 @@
       "first_name": "Henrica",
       "last_name": "Bresil",
       "id": "hbresil",
-      "pronouns": "",
-      "title": "",
+      "pronouns": "She / Her",
+      "title": "Senior Specialist, Experience Management",
       "company": "",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "image": "/img/sessions/2025/speakers/hbresil.jpg",
       "first_sed": false,
       "first_talk": false,
       "mvp": false
@@ -963,6 +963,19 @@
       "company": "",
       "bio": "",
       "image": "/img/sessions/2025/speakers/sbuchheit.jpg",
+      "first_sed": false,
+      "first_talk": false,
+      "mvp": false
+    },
+    "bhugick": {
+      "first_name": "Brad",
+      "last_name": "Hugick",
+      "id": "bhugick",
+      "pronouns": "",
+      "title": "",
+      "company": "",
+      "bio": "",
+      "image": "/img/sessions/2025/speakers/placeholder.jpg",
       "first_sed": false,
       "first_talk": false,
       "mvp": false
@@ -1530,7 +1543,7 @@
       "room": "salon4",
       "slot": "hotslot2",
       "hide": false,
-      "speakers": ["sbuchheit"]
+      "speakers": ["sbuchheit", "bhugick"]
     },
     {
       "title": "Intermediate Flow",
