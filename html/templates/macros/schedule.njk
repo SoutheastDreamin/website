@@ -17,10 +17,16 @@
                     <td><a href="#{{ e.slot }}">{{ e.title }}</a></td>
                 {% elif e.anchor %}
                     <td><a href="#{{ e.anchor }}">{{ e.title }}</a></td>
+                {% elif e.url %}
+                    <td><a href="{{ e.url }}">{{ e.title }}</a></td>
                 {% else %}
                     <td>{{ e.title }}</td>
                 {% endif %}
-                <td class="has-text-centered">{{ e.location }}</td>
+                {% if e.locurl %}
+                    <td class="has-text-centered"><a href="{{ e.locurl }}">{{ e.location }}</a></td>
+                {% else %}
+                    <td class="has-text-centered">{{ e.location }}</td>
+                {% endif %}
                 <td class="has-text-centered">{{ start }}</td>
                 <td class="has-text-centered">{{ end }}</td>
             </tr>

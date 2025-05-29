@@ -607,11 +607,11 @@
       "first_name": "Shahida",
       "last_name": "Robertson-Davis",
       "id": "srobertsondavis",
-      "pronouns": "",
-      "title": "",
+      "pronouns": "She / Her",
+      "title": "Customer Engagement Manager",
       "company": "",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "image": "/img/sessions/2025/speakers/srobertsondavis.jpg",
       "first_sed": false,
       "first_talk": false,
       "mvp": false
@@ -863,19 +863,6 @@
       "first_talk": false,
       "mvp": false
     },
-    "jzaa": {
-      "first_name": "Jitendra",
-      "last_name": "Zaa",
-      "id": "jzaa",
-      "pronouns": "",
-      "title": "Associate Partner",
-      "company": "IBM",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/jzaa.jpg",
-      "first_sed": false,
-      "first_talk": false,
-      "mvp": false
-    },
     "maggarwal": {
       "first_name": "Miraz",
       "last_name": "Aggarwal",
@@ -889,12 +876,12 @@
       "first_talk": false,
       "mvp": false
     },
-    "nhenderson": {
-      "first_name": "Najee",
-      "last_name": "Henderson",
-      "id": "nhenderson",
-      "pronouns": "She / Her",
-      "title": "crm dev",
+    "amohammed": {
+      "first_name": "Aisha",
+      "last_name": "Mohammed",
+      "id": "amohammed",
+      "pronouns": "",
+      "title": "",
       "company": "",
       "bio": "",
       "image": "/img/sessions/2025/speakers/placeholder.jpg",
@@ -972,11 +959,11 @@
       "last_name": "Hugick",
       "id": "bhugick",
       "pronouns": "",
-      "title": "",
+      "title": "Enterprise Coach",
       "company": "",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
-      "first_sed": false,
+      "image": "/img/sessions/2025/speakers/bhugick.jpg",
+      "first_sed": true,
       "first_talk": false,
       "mvp": false
     }
@@ -1480,17 +1467,6 @@
       "speakers": ["cgodley", "eduncan"]
     },
     {
-      "title": "No More Merge Conflicts: Achieving Salesforce Success with Git & VS Code",
-      "abstract": "<p>Stop wrestling with outdated tools and embrace the future of Salesforce development! This hands-on session will equip you with the essential skills to leverage VSCode and Git for efficient and collaborative Salesforce DX. We'll dive into setting up your project like a pro, implementing effective branching strategies for seamless feature development, and mastering the art of clean commits. But that's not all – discover how to supercharge your coding with cutting-edge LLM VSCode plugins. Learn how AI can assist you in writing better code faster, right within your IDE. By the end of this session, you'll be ready to streamline your workflow, improve code quality, and collaborate more effectively on your Salesforce projects.</p>",
-      "id": "no-more-merge-conflicts",
-      "year": "2025",
-      "track": "",
-      "room": "salon5and6",
-      "slot": "hotslot1",
-      "hide": false,
-      "speakers": ["jzaa"]
-    },
-    {
       "title": "Messaging for In-App and Web – Ditching the Old, Embracing the Bold",
       "abstract": "<p>If you haven’t heard, Salesforce is retiring Legacy Chat Products (LiveAgent, Salesforce Chat, Embedded Chat, Service Chat) on Feb 14, 2026.  In this hands-on session, we’re diving into Messaging for In-App and Web, Salesforce’s answer to real-time customer communication. Say goodbye to Live Agent chat and hello to flexible, scalable messaging.</p><p>What You’ll Learn</p><ul><li>What is Messaging for In-App and Web?</li><li>How to Set It Up Like a Pro – From configuration to deployment, we’ll get this bad boy running in your org faster than an agent can say, “I didn’t get the transcript.”</li><li>Routing & Automation – Because we could do everything manually, but we have better things to do (snack break anyone?).</li><li>Live Demo & Hands-On Configuration – Yes, we will build this together, not just clicking through slides like it’s 2012.</li></ul><p>Why You’ll Love This</p><ul><li>Your customers get real-time support without getting stuck in the eternal void of “Please hold.”</li><li>Your agents will get context when chatting with customers, making them look like absolute rockstars.</li><li>You get to walk away knowing you can configure this without crying (or at least, crying less).</li></ul>",
       "id": "messaging-for-inapp-and-web",
@@ -1510,7 +1486,7 @@
       "room": "conference2",
       "slot": "hotslot2",
       "hide": false,
-      "speakers": ["nhenderson", "hbresil"]
+      "speakers": ["amohammed", "hbresil"]
     },
     {
       "title": "Mastering Salesforce Architecture Diagrams",
@@ -1518,7 +1494,7 @@
       "id": "mastering-salesforce-architecture-diagrams",
       "year": "2025",
       "track": "",
-      "room": "salon4",
+      "room": "salon1and2",
       "slot": "hotslot1",
       "hide": false,
       "speakers": ["bglasser"]
@@ -1562,8 +1538,8 @@
       "id": "the-art-of-cpq",
       "year": "2025",
       "track": "",
-      "room": "salon3",
-      "slot": "hotslot2",
+      "room": "salon4",
+      "slot": "hotslot1",
       "hide": false,
       "speakers": ["kjames"]
     }
