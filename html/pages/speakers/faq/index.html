@@ -27,7 +27,11 @@
                 <dt class="title is-5 mt-4 mb-1">When are my slides due?</dt>
                 <dd>Slides are due by {{ globals.speaker_slides_due_date }}.</dd>
                 <dt class="title is-5 mt-4 mb-1">Where do I submit my slides for review?</dt>
+                {% if globals.slide_upload_url_ready %}
                 <dd>When your slides are complete <a href="{{ globals.slide_upload_url }}">upload them</a> for our team to review.</dd>
+                {% else %}
+                <dd>After the slide due date starts, come back here for a link to the upload page</dd>
+                {% endif %}
                 <dt class="title is-5 mt-4 mb-1">Where is the sponsor slide?</dt>
                 {% if globals.sponsor_slide_ready %}
                 <dd>The sponsor slide is available <a href="{{ globals.sponsor_slide_url }}">here</a>.</dd>

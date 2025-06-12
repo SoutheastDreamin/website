@@ -42,8 +42,20 @@
         {% set end = e.end if not e.slot else slots[e.slot].end  %}
         <div class="mt-5 ">
             <p>{{ start }} - {{ end }}</p>
-            {% if e.slot %}<p class="pl-4 is-size-4"><a href="#{{ e.slot }}">{{ e.title }}</a></p>{% else %}<p class="pl-4 is-size-4">{{ e.title }}</p>{% endif %}
-            <p class="pl-4 has-text-grey">{{ e.location }}</p>
+            {% if e.slot %}
+                <p class="pl-4 is-size-4"><a href="#{{ e.slot }}">{{ e.title }}</a></p>
+            {% elif e.anchor %}
+                <p class="pl-4 is-size-4"><a href="#{{ e.anchor }}">{{ e.title }}</a></p>
+            {% elif e.url %}
+                <p class="pl-4 is-size-4"><a href="{{ e.url }}">{{ e.title }}</a></p>
+            {% else %}
+                <p class="pl-4 is-size-4">{{ e.title }}</p>
+            {% endif %}
+            {% if e.locurl %}
+                <p class="pl-4 has-text-grey"><a href="{{ e.locurl }}">{{ e.location }}</a></p>
+            {% else %}
+                <p class="pl-4 has-text-grey">{{ e.location }}</p>
+            {% endif %}
         </div>
         {% endfor %}
     </div>
