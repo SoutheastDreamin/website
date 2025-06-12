@@ -971,7 +971,23 @@
   "sessions": [
     {
       "title": "How to create a Master Form in Account Engagement to gate ALL of your content",
-      "abstract": "<p>Granted, thismacro pad
+      "abstract": "<p>Granted, this topic doesn't read as sexy as something Data Cloud/Agentforce/AI but here's the deal; some of us predominantly work in Account Engagement (f.k.a Pardot) and well, as much as we'd love to talk new products and blaze trails to new frontieres, we have a more pressing problem at hand: dozens and dozens of assets and with those, as many forms, autoresponder emails and well, headaches.</p><p>What if I could show you how to gate all of your content behind one single Master Form? What if, instead of having 50 assets and 50 forms and 50 autoresponder emails, you had 50 assets, 1 form and 1 autoresponder email?</p><p>During this session we will cover:</p><ol><li>How to set up a Master Form</li><li>Leverage dynamic content</li><li>Track all engagement in Salesforce Campaigns</li></ol><p>And now with all the time you've saved, you can go out and explore those new Salesforce products!</p>",
+      "id": "master-form",
+      "year": "2025",
+      "audience": [],
+      "room": "salon6",
+      "slot": "slot1",
+      "hide": false,
+      "speakers": ["adanahy"]
+    },
+    {
+      "title": "Telling an Epic Story With Analytics - The Hero... Your Data",
+      "abstract": "<p>There is a story within every database, have you uncovered yours? How are you telling it? Is it compelling and does it make your work shine? In this session attendees will learn how to mine their own data for the underlying story within. How can we uncover and showcase successes in a data driven and compelling fashion. How can we uncover and showcase our untapped potential with data. Even better than that, session attendees will leave with a high level understanding of how CRMA can support them in visual storytelling with data. CRMA is a highly flexible tool that has an air of mystery and aprehension around it... you hear the big scary phrase \"data modeling\"... but what does that mean? And how can one learn to overcome that aprehension and leverage CRMA to make their work and their data shine?</p>",
+      "id": "epic-story-with-analytics",
+      "year": "2025",
+      "track": "",
+      "room": "salon5",
+      "slot": "slot1",
       "hide": false,
       "speakers": ["cclanton"]
     },
