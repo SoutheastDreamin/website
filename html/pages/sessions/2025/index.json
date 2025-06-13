@@ -1113,6 +1113,17 @@
       "speakers": ["jcline"]
     },
     {
+      "title": "Unleashing Visual Insights: Uncover the Power of Embedded Charts in Salesforce",
+      "abstract": "<p>Reports and dashboards are critical components of any Org. However they are often hard to find buried in folders and then require some manually filtering. Empower your Users by embedding reports and dashboards in your UI to supercharge their UX. We’ll demo several ways to bring these charts to the surface and place them where they are truly useful and actionable.</p>",
+      "id": "unleashing-visual-insights",
+      "year": "2025",
+      "track": "",
+      "room": "salon1",
+      "slot": "slot2",
+      "hide": false,
+      "speakers": ["acrear"]
+    },
+    {
       "title": "5 Tips for Accurate Marketing Reporting in Salesforce",
       "abstract": "<p>Accurate reporting is essential for measuring the success of your marketing efforts, but it’s easy to overlook key details. In this session, we’ll share five essential tips to improve your marketing reporting in Salesforce. From setting up proper data tracking to aligning metrics with business goals, we’ll guide you through the best practices for building reports that provide actionable insights. Whether you’re new to Salesforce or looking to optimize your existing reports, these strategies will help you report correctly and drive better decision-making.</p>",
       "id": "accurate-marketing-reporting",
