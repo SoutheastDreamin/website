@@ -34,7 +34,7 @@
                 },
                 {
                     "name": "DataGroomr",
-                    "id": "datagroomer",
+                    "id": "datagroomr",
                     "description": "<p>DataGroomr is the modern, leading-edge solution to Salesforce data quality.</p><p>Data cleansing is critical for any organization to be successful, but it doesn’t need to be so painful. Duplicate records especially cause all sorts of problems – for sales, marketing, customer support, ops and finance.</p><p>DataGroomr uses the latest AI techniques to match most accurately, identify the most duplicates, and keep your data clean all the time. No setup or configuration is required; DataGroomr's intelligent duplicate detection algorithms handle everything – and then get even better as they learn your unique data and choices.</p><p>DataGroomr's easy-to-use apps ensure your Salesforce data is always at its best. And you can trust the DataGroomr team to support you every step of the way.</p>",
                     "logo": "/img/sponsors/2025/datagroomr.png",
                     "url": "https://datagroomr.com/"
@@ -52,6 +52,20 @@
                     "description": "<p>Sweep is the first agentic workspace for Salesforce and HubSpot, built to keep your systems as agile as your business. It brings business and technical teams into one visual workspace, where AI agents document changes, monitor systems, and recommend improvements.</p><p>By connecting to business systems, Sweep analyzes metadata to provide teams with a new level of context and insight. This context powers real-time documentation, instantly delivering unprecedented clarity to new and existing team members. With a suite of lead routing tools, plus built-in deduplication and matching to maximize data hygiene, teams can ensure operational efficiency and accuracy. Automated Slack alerts and deal rooms provide the communication channels needed to keep the entire organization agile and up to date.</p><p>Forget optimization. Stay ahead in the agentic era with Sweep.</p>",
                     "logo": "/img/sponsors/2025/sweep.png",
                     "url": "https://sweep.io"
+                },
+                {
+                    "name": "DBSync",
+                    "id": "dbsync",
+                    "description": "DBSync is a leading provider of cloud-based integration and data replication solutions, helping businesses connect Salesforce with accounting, ERP, ecommerce, and databases. Whether you're automating workflows between Salesforce and QuickBooks, syncing orders to NetSuite, or replicating Salesforce data to a data warehouse for advanced reporting, DBSync delivers flexible, scalable solutions tailored to your needs. Trusted by thousands of companies, DBSync empowers teams to streamline operations, eliminate manual work, and gain real-time visibility across systems.",
+                    "logo": "/img/sponsors/2025/dbsync.png",
+                    "url": "https://mydbsync.com"
+                },
+                {
+                    "name": "testsigma",
+                    "id": "testsigma",
+                    "description": "Testsigma is a GenAI-powered, no-code test automation platform tailored for Salesforce developers and administrators. It enables seamless automated testing across Salesforce environments, accelerating release cycles by 3x and reducing test maintenance by up to 70%.",
+                    "logo": "/img/sponsors/2025/testsigma.png",
+                    "url": "https://testsigma.com"
                 }
             ]
         },
@@ -62,7 +76,22 @@
             "fullpage": false,
             "maxwords": 55,
             "size": "is-one-third",
-            "sponsors": []
+            "sponsors": [
+                {
+                    "name": "ScoreKeeper",
+                    "id": "scorekeeper",
+                    "description": "ScoreKeeper is a native Salesforce app that simplifies commission management with no coding or formulas required. Designed for sales organizations, it eliminates the need for manual spreadsheets by automating the entire commission process—right within Salesforce. Say goodbye to tedious workflows and streamline your operations with ScoreKeeper.",
+                    "logo": "/img/sponsors/2025/scorekeeper.jpg",
+                    "url": "https://scorekeepertech.com/"
+                },
+                {
+                    "name": "Salesforce",
+                    "id": "salesforce",
+                    "description": "Salesforce is the world’s leading customer relationship management technology, helping you build and improve your customer relationships.",
+                    "logo": "/img/sponsors/2025/salesforce.png",
+                    "url": "https://www.salesforce.com/"
+                }
+            ]
         },
         {
             "type": "select",
