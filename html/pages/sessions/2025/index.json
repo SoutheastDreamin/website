@@ -1217,7 +1217,7 @@
       "id": "salesforce-data-migrations-at-scale",
       "year": "2025",
       "audience": [],
-      "room": "conference2",
+      "room": "conference4",
       "slot": "slot4",
       "hide": false,
       "speakers": ["acrosman"]
@@ -1229,7 +1229,7 @@
       "year": "2025",
       "audience": [],
       "room": "conference4",
-      "slot": "slot4",
+      "slot": "slot6",
       "hide": false,
       "speakers": ["kcastle"]
     },
