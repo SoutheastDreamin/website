@@ -499,19 +499,6 @@
       "first_talk": false,
       "mvp": false
     },
-    "ztaylor": {
-      "first_name": "Zac",
-      "last_name": "Taylor",
-      "id": "ztaylor",
-      "pronouns": "He / Him",
-      "title": "Senior Solution Engineer",
-      "company": "Testsigma",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/ztaylor.jpg",
-      "first_sed": true,
-      "first_talk": false,
-      "mvp": false
-    },
     "ahunter": {
       "first_name": "Andy",
       "last_name": "Hunter",
@@ -613,32 +600,6 @@
       "bio": "",
       "image": "/img/sessions/2025/speakers/srobertsondavis.jpg",
       "first_sed": false,
-      "first_talk": false,
-      "mvp": false
-    },
-    "sntuli": {
-      "first_name": "Sibusiso",
-      "last_name": "Ntuli",
-      "id": "sntuli",
-      "pronouns": "",
-      "title": "Senior Engagement Manager",
-      "company": "Sercante",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/sntuli.jpg",
-      "first_sed": true,
-      "first_talk": false,
-      "mvp": false
-    },
-    "klad": {
-      "first_name": "Karishma",
-      "last_name": "Lad",
-      "id": "klad",
-      "pronouns": "",
-      "title": "Technical Architect",
-      "company": "Salesforce",
-      "bio": "",
-      "image": "/img/sessions/2025/speakers/klad.jpg",
-      "first_sed": true,
       "first_talk": false,
       "mvp": false
     },
@@ -1278,23 +1239,12 @@
       "speakers": ["agreen"]
     },
     {
-      "title": "Unified Customer Journeys with Agentforce and Salesforce Solutions",
-      "abstract": "<p>This session will showcase how the integration of Agentforce, Service Cloud, and Experience Cloud can create a truly unified and seamless omnichannel support experience. Modern customers interact with businesses through multiple touchpoints, such as chat, email, social media, phone calls, and self-service portals. Ensuring consistency and efficiency across these channels is key to building trust and loyalty.</p>",
-      "id": "unified-customer-journeys",
-      "year": "2025",
-      "audience": [],
-      "room": "salon5",
-      "slot": "slot4",
-      "hide": false,
-      "speakers": ["klad"]
-    },
-    {
       "title": "Bypass Your Automation for Data Loading",
       "abstract": "<p>Ever had a list of accounts you needed to update but knew it would trigger notifications to your Account Executives?  Or needed to close out cases without triggering a CSAT? In our wonderful world of flows and apex automation, we have a great deal of configurability at our fingertips.  However, as our orgs mature, we may inadvertently set up automation that will bog down data loads or trigger a slew of other changes you had not considered when making these changes.</p><p>In this session, we will explore why making an automation bypass makes sense to implement in your org and will even walk users through in a follow-along to set up their own Custom Setting and how to call it in a flow.</p>",
       "id": "bypass-your-automation-for-data-loading",
       "year": "2025",
       "audience": [],
-      "room": "conference2",
+      "room": "salon1",
       "slot": "slot5",
       "hide": false,
       "speakers": ["nlong"]
@@ -1342,17 +1292,6 @@
       "slot": "slot5",
       "hide": false,
       "speakers": ["kcurkendall"]
-    },
-    {
-      "title": "Accessibility and Salesforce: How to design with everyone in mind",
-      "abstract": "<p>In today’s digital world, accessibility is crucial for creating inclusive experiences for all users, including those with disabilities. This presentation explores the fundamentals of accessibility, the importance of accessibility testing, and its impact on end users. We will delve into the challenges faced by individuals with different types of disabilities and the role of accessibility guidelines such as the Americans with Disabilities Act (ADA) and Web Content Accessibility Guidelines (WCAG) in shaping digital inclusivity.</p><p>The session will provide an overview of accessibility testing methodologies, conformance levels, and tools that help organizations meet compliance standards, with a special focus on Salesforce’s approach to accessibility. We will discuss strategies for ensuring digital products are accessible, explore cutting-edge trends in accessibility testing, and provide valuable resources for further learning.</p><p>By the end of this session, attendees will have a comprehensive understanding of accessibility best practices, testing tools, and methodologies to create more inclusive digital experiences.</p>",
-      "id": "accessibility-and-salesforce",
-      "year": "2025",
-      "audience": [],
-      "room": "salon1",
-      "slot": "slot5",
-      "hide": false,
-      "speakers": ["ztaylor"]
     },
     {
       "title": "Everything, Everywhere, All at Once: A Career Talk for Those Who Want a Life With Room for It All",
@@ -1408,17 +1347,6 @@
       "slot": "slot6",
       "hide": false,
       "speakers": ["choyt"]
-    },
-    {
-      "title": "Communication 101 for Consultants",
-      "abstract": "<p>Consultants can wear multiple hats at one time, but one of the most important hats is the hat of the communicator. They have to communicate deadlines, project statuses, sync updates, delays, good news, bad news, and everything in between. This day and age with so many communication channels (Slack, email, Teams, Zoom, and other internal platforms) its important to stay consistent and ensure you're delivering the right message in the best channel. It is also important to understand the audience of your message; are you delivering an executive summary to the C-Suite or are you doing training for end-users? The way you communicate to those audiences can and should differ. In this session I provide tips and tricks to consultants on ways to communicate effectively across multiple levels of an organization. The session starts off with the classic game of telephone and is a great way to get the audience engaged and ready for the content!</p>",
-      "id": "communication-101-for-consultants",
-      "year": "2025",
-      "audience": [],
-      "room": "salon1",
-      "slot": "slot6",
-      "hide": false,
-      "speakers": ["sntuli"]
     },
     {
       "title": "Maximizing ROI with Salesforce: Strategies for Success",
