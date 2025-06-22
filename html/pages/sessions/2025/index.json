@@ -205,10 +205,10 @@
       "last_name": "Shrivastava",
       "id": "mshrivastava",
       "pronouns": "",
-      "title": "",
+      "title": "Salesforce",
       "company": "",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/placeholder.jpg",
+      "image": "/img/sessions/2025/speakers/mshrivastava.jpg",
       "first_sed": false,
       "first_talk": false,
       "mvp": false
@@ -1462,7 +1462,7 @@
     },
     {
       "title": "Intermediate Flow",
-      "abstract": "<p>There are a lot of beginning flow resources, but what then? Attendees in this session will learn how to use some of the newer and less common flow functions by building them out as use cases. We'll cover Transform, Collection Sort, Collection Filter, Data Table, Custom Error Message components, Error Handling and more!</p>",
+      "abstract": "<p>There are a lot of beginning flow resources, but what then? Attendees in this session will learn how to use some of the newer and less common flow functions by building them out as use cases. We'll cover Transform, Collection Sort, Collection Filter, Data Table, Custom Error Message components, Error Handling and more!</p><p>Prework: Please arrive for the session with a BRAND-NEW Trailhead Playground ready to go. I cannot guarantee what we build won't conflict with other customizations if you re-use an existing org. See you soon!</p>",
       "id": "intermediate-flow",
       "year": "2025",
       "track": "",
