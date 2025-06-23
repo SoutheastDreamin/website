@@ -239,16 +239,16 @@
       "first_talk": false,
       "mvp": true
     },
-    "igotts": {
-      "first_name": "Ian",
-      "last_name": "Gotts",
-      "id": "igotts",
+    "eschlesinger": {
+      "first_name": "Ed",
+      "last_name": "Schlesinger",
+      "id": "eschlesinger",
       "pronouns": "",
-      "title": "Founder & CEO",
+      "title": "",
       "company": "Elements.cloud",
       "bio": "",
-      "image": "/img/sessions/2025/speakers/igotts.jpg",
-      "first_sed": false,
+      "image": "/img/sessions/2025/speakers/eschlesinger.jpg",
+      "first_sed": true,
       "first_talk": false,
       "mvp": false
     },
@@ -1335,7 +1335,7 @@
       "room": "conferenceb",
       "slot": "slot6",
       "hide": false,
-      "speakers": ["igotts"]
+      "speakers": ["eschlesinger"]
     },
     {
       "title": "Unleashing the Power of Experience Cloud: Creative Solutions for Nonprofits",
