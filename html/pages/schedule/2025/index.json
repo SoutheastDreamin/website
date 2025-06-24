@@ -39,7 +39,7 @@
                     "location": "Salon III & IV"
                 },
                 {
-                    "start": "11:15 AM",
+                    "start": "11:45 AM",
                     "end": "12:15 PM",
                     "title": "Demo Jam",
                     "location": "Salon III & IV"
@@ -154,7 +154,9 @@
                     "start": "9:30 AM",
                     "end": "11:30 AM",
                     "title": "Salesforce Saturday",
-                    "location": "TBA"
+                    "url": "https://www.meetup.com/atlanta-salesforce-saturday-meetup/events/308541660/",
+                    "location": "ZS Associates / Digital Additive",
+                    "locurl": "https://maps.app.goo.gl/rjRy1c3QsqgwkWo57"
                 }
             ]
         }
