@@ -3,33 +3,25 @@
 {% import "macros/homepage.njk" as helpers_homepage %}
 
 {% block content %}
-    {% include "partials/mailchimp_notifications.html" %}
     <section class="hero is-large" id="hero-banner">
         <div class="hero-body pb-4 pt-6 px-4 has-text-centered">
             <div id="hero-image">
                 <img src="/img/logo_wide.png" alt="Southeast Dreamin'" height="280" width="1000">
             </div>
             <div class="columns is-multiline is-centered">
-                {{ helpers_homepage.homepage_callout("fa-calendar-alt", globals.event_date) }}
-                {{ helpers_homepage.homepage_callout("fa-map-marker-alt", "Atlanta, GA") }}
+                {{ helpers_homepage.homepage_callout("fa-calendar-alt", "2027") }}
+                {{ helpers_homepage.homepage_callout("fa-map-marker-alt", "Southern US") }}
             </div>
 
             <div class="columns is-multiline is-centered">
                 <div class="column is-4">
-                    <button class="{{ globals.style_homepage_button }} js-modal-trigger" data-target="mailchimp-modal">
+                    <a class="{{ globals.style_homepage_button }}" href="{{ globals.mailinglist_url }}">
                         <span class="icon">
                             <i class="fas fa-envelope"></i>
                         </span>
                         <span class="">Mailing List</span>
-                    </button>
+                    </a>
                 </div>
-                {% if globals.registration_open %}
-                    {{ helpers_homepage.homepage_button(globals.registration_url, "fa-user-plus", "Register", globals.style_homepage_button) }}
-                {% endif %}
-
-                {% if globals.whova_open %}
-                    {{ helpers_homepage.homepage_button(globals.whova_url, "fa-download", "Download Event App", globals.style_homepage_button) }}
-                {% endif %}
             </div>
         </div>
     </section>
@@ -46,24 +38,9 @@
                         sizes="(max-width: 400px) 300px, 800px" class="image is-5by5" alt="Photo of attendee hold plush goat">
                 </div>
                 <div class="column">
-                    <p class="mt-6">Southeast Dreamin' is a community lead multi-day conference where attendees can expand their knowledge of Salesforce and Salesforce related technologies. Located in the Atlanta area, and spanning two days,  attendees will get to experience hands-on trainings, sessions on a wide variety of Salesforce topics, key notes from exciting members of the community, and much more!</p>
-                    <p class="mt-5">The best part of any conference is the people! Join your favorite Trailblazers from Atlanta and beyond as you network, share, learn, and inspire.</p>
-                    <p class="mt-5">We are currently in the process of planning for the 2025 event so make sure you <a href="https://twitter.com/sedreamin">follow us on Twitter</a> so you'll be the first to know when registration opens and when our call for presentations opens.</p>
+                    <p class="mt-6">Big things are happening with Southeast Dreamin'!  We are taking 2026 off to plan the best event we can.  We'll update our social media pages and send out emails to everyone once we have a date and location selected for 2027.  If you want to be the first to know, join our <a href="{{ globals.mailinglist_url }}">mailing list</a> and keep your eyes peeled!</p>
                 </div>
             </div>
         </section>
-        {% if (data.sponsor_types | selectattr("homepage"))[0].sponsors | length > 0 %}
-        <section class="section">
-            <div class="container mx-4">
-                <h1 class="title is-1">{{ data.sponsor_year }} Sponsors</h1>
-                {% for level in data.sponsor_types | selectattr("homepage") %}
-                    {{ helpers_sponsor.sponsor_level(level, data.sponsor_year) }}
-                {% endfor %}
-            </div>
-        </section>
-        {% endif %}
     </div>
-
-    {% include "partials/mailchimp_modal.html" %}
-    {% include "partials/mailchimp_scripts.html" %}
 {% endblock %}

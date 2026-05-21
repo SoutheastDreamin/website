@@ -1,0 +1,131 @@
+{
+    "team": [
+        {
+            "firstname": "Patrick",
+            "lastname": "Connelly",
+            "title": "Session Wrangler & Code Tamer",
+            "bio": "<p>Patrick has been writing code since he could first type (BASIC on the Commodore 64).  In 2009 Patrick was asked to \"help with this Salesforce thing since you know coding\" and the rest is history.  This set him on the track to lead the RDU Developer user group, becoming a Salesforce MVP in 2013 and speaking multiple times at Dreamforce and various Salesforce webinars.</p><p>When Patrick isn't writing code for work he's writing code for \"fun\", <a href=\"https://www.flickr.com/photos/grepsy/\">photographing things</a>, <a href=\"https://www.printables.com/@PatrickConnelly/models\">3d printing things</a>, making things of wood and building things out of electronics.</p>",
+            "image": "/img/team/pcon.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-bluesky",
+                    "link": "https://bsky.app/profile/connelly.dev"
+                },
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/aelst"
+                },
+                {
+                    "icon": "fas fa-blog",
+                    "link": "https://blog.deadlypenguin.com"
+                },
+                {
+                    "icon": "fas fa-globe",
+                    "link": "https://connelly.dev"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/pub/patrick-connelly/28/6b3/b56/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/pcon"
+                }
+            ]
+        },
+        {
+            "firstname": "Karmel",
+            "lastname": "James",
+            "title": "Magic Marketer & Resident Adult",
+            "bio": "<p>Karmel started her Salesforce career in 2015 after a single data migration exposed her to streamlined, consistent data quality. Applying scientific principle to complex business processes, she strives to build holistic technical solutions. Karmel has held multiple roles from in-house administration to consultancy working at over 20+ organizations in industries including healthcare, nonprofits, venture captial, and ed-tech. As a Salesforce Marketing Champion and Golden Hoodie, she's passionate in sharing innovations and best practices with the Salesforce community at user group meetings, WITness Success, and TrailheadDX.</p><p>Outside of Salesforce, Karmel is an avid learner of American Sign Language (#LearnFromDeafTeachers), a hobby seamstress, and music aficionado creating a personalized soundtrack to her life.</p>",
+            "image": "/img/team/karmel.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-bluesky",
+                    "link": "https://bsky.app/profile/armejam44.bsky.social"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/karmelnjames/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://trailblazer.me/id/karmelnjames"
+                }
+            ]
+        },
+        {
+            "firstname": "Dee",
+            "lastname": "Hamori",
+            "title": "Keynote Wrangler",
+            "bio": "<p>Dee is a former pharmacist turned Salesforce Architect. From the very beginning of her Salesforce journey, Dee has been captivated by the world of automation, and she continues to channel this passion into transforming businesses, one Flow at a time. She actively supports the Salesforce community by mentoring career changers and leading Salesforce Saturday meetups. Dee shares her Salesforce insights through articles and conference talks.</p><p>Beyond her professional life, she finds joy in tending to her plant collection, exploring the great outdoors in national parks, reading, and painting.</p>",
+            "image": "/img/team/dee.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/dengyue-hamori/"
+                },
+                {
+                    "icon": "fab fa-salesforce",
+                    "link": "https://www.salesforce.com/trailblazer/deehamori"
+                }
+            ]
+        },
+        {
+            "firstname": "Steven",
+            "lastname": "Welch",
+            "title": "Marketing Wrangler",
+            "bio": "<p>A relative newbie when it comes to all things Salesforce, Steven dove right into the ecosystem back in 2022. Since then, he's been working to tell the stories and form the bigger picture for all things Salesforce data management. A native of metro Atlanta, he was looking for a way to become more engaged with the conference that's hosted in his own stomping grounds so he jumped at the chance to join the Southeast Dreamin' team.</p><p>When he's not busy working, he loves all things London, the color blue, and spending time with his pets - two cats named Winston Purrchill (no for real, he really does love London) and Emma, and his geriatric chihuahua Baron who still serves all the lewks even in his golden years.</p>",
+            "image": "/img/team/swelch.jpg",
+            "links": []
+        },
+        {
+            "firstname": "Teresa",
+            "lastname": "Aluku",
+            "title": "Sponsor Coordinator",
+            "bio": "<p>I began my adventure with Salesforce in 2015 and have been in the environment since. Born and raised in Kenya moved to the US in 2001. Predominantly worked in the not-for-profit world, however, made the transition to corporate America back in 2014. Currently working in the Sales Cloud.Besides family (husband and children) I enjoy traveling, movies and dance.</p>",
+            "image": "/img/team/taluku.jpg",
+            "links": []
+        },
+        {
+            "firstname": "Myra",
+            "lastname": "Wilson",
+            "title": "",
+            "bio": "<p>Myra Wilson has been in the Salesforce ecosystem for 9 years. She started her Salesforce journey in a marketing role and was given the task of administering Salesforce. She went on to become a Salesforce Administrator across multiple companies. She is now a Salesforce Solution Architect and works on digital transformation. Over her time in the ecosystem she has attended multiple conferences, participated in numerous sessions and most recently engagement was in the admin keynote during Dreamforce 23′. Myra is a Mulesoft Ambassador, mentor and she often shares her journey and passion for Mulesoft through her social posts on LinkedIn. She is very honored to be a part of the Southesast Dreamin team and looks forward to assisting in it’s success.</p>",
+            "image": "/img/team/myra.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-twitter",
+                    "link": "https://twitter.com/My_n_Tech"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/myrawilson786"
+                }
+            ]
+        },
+        {
+            "firstname": "Charisse",
+            "lastname": "Tompson",
+            "title": "Ticket Management",
+            "bio": "<p>ATL native, RevOps Analyst by day & yoga instructor 24/7</p>",
+            "image": "/img/team/charisse.jpg",
+            "links": [
+                {
+                    "icon": "fab fa-linkedin",
+                    "link": "https://www.linkedin.com/in/charissethompson"
+                }
+            ]
+        },
+        {
+            "firstname": "Tasha",
+            "lastname": "Rucker",
+            "title": "Session Team",
+            "bio": "<p>Tasha Rucker is the Founder, Principal Consultant and Trainer at ReadyCRM. She's been in the Salesforce ecosystem since 2018 following a 20+ year career in Higher Education. Since her transition, She's been a Solutions Architect, leading Salesforce and Account Engagement (formerly known as Pardot) projects for small-medium sized companies, non-profits and higher education institutions. She thrives in solving problems and building solutions that will help my clients get the most of their investment and help them to achieve their growth goals. Tasha has been recognized by the Salesforce Community by being awarded the highly coveted Golden Hoodie and a Salesforce Marketing Champion.</p><p>Prior to joining the Salesforce ecosystem in 2018, she was a sales and marketing executive with over 20+ years of experience in higher ed. Tasha holds a BA in English, MBA/Marketing and is a proud alumni of a Historically Black College/University.</p>",
+            "image": "/img/team/trucker.jpg",
+            "links": []
+        }
+    ],
+    "support": [
+    ]
+}
