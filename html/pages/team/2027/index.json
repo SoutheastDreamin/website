@@ -105,19 +105,6 @@
             ]
         },
         {
-            "firstname": "Charisse",
-            "lastname": "Tompson",
-            "title": "Ticket Management",
-            "bio": "<p>ATL native, RevOps Analyst by day & yoga instructor 24/7</p>",
-            "image": "/img/team/charisse.jpg",
-            "links": [
-                {
-                    "icon": "fab fa-linkedin",
-                    "link": "https://www.linkedin.com/in/charissethompson"
-                }
-            ]
-        },
-        {
             "firstname": "Tasha",
             "lastname": "Rucker",
             "title": "Session Team",
