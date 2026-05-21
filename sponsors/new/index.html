@@ -35,7 +35,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Join us for a community lead Salesforce conference with sessions by community members like you!">
 
-    <meta property="og:title" content="Southeast Dreamin' &mdash; June 26th - 27th 2025">
+    <meta property="og:title" content="Southeast Dreamin' &mdash; 2027">
     <meta property="og:description" content="Join us for a community lead Salesforce conference with sessions by community members like you!">
     <meta property="og:type" content="website">
     <meta property="og:local" content="en_US">
@@ -45,7 +45,7 @@
     <meta property="twitter:card" content="summary">
     <meta property="twitter:site" content="@sedreamin">
     <meta property="twitter:creator" content="@aelst">
-    <meta property="twitter:title" content="Southeast Dreamin' &mdash; June 26th - 27th 2025">
+    <meta property="twitter:title" content="Southeast Dreamin' &mdash; 2027">
     <meta property="twitter:image" content="/img/opengraph.png">
 
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
@@ -69,7 +69,7 @@
         <a class="navbar-item" href="/">
             <img src="/img/logo_wide_header.png" alt="Southeast Dreamin'" width="112" height="28">
         </a>
-        <span class="navbar-item has-text-primary">June 26th - 27th 2025</span>
+        <span class="navbar-item has-text-primary">2027</span>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -81,32 +81,17 @@
             <a class="navbar-item" href="/">Home</a>
             
             
-            <a class="navbar-item" href="/sponsors">Sponsors</a>
-            <a class="navbar-item" href="/schedule">Schedule</a>
-            <a class="navbar-item" href="/sessions">Sessions</a>
+            
+            
+            
             <a class="navbar-item" href="/archive">Archive</a>
             <a class="navbar-item" href="/team">About Us</a>
-            <a class="navbar-item" href="/faq">FAQ</a>
+            
         </div>
     </div>
     <div class="navbar-end">
         
         
-        <div class="navbar-item">
-            <div class="buttons">
-                <a href="/sponsors/new" class="button is-link">Become a Sponsor</a>
-            </div>
-        </div>
-        
-        
-        <div class="navbar-item">
-            <div class="buttons">
-                <a href="https://whova.com/portal/registration/UL3W9wIjSEGLAp8wGoKH/" class="button is-link">Register</a>
-                
-                <a href="http://bookings.ihotelier.com/bookings.jsp?groupID=4168767&amp;hotelID=75983" class="button is-light is-link">Hotel</a>
-                
-            </div>
-        </div>
         
     </div>
 </nav>
@@ -116,137 +101,9 @@
     <div class="container mx-4">
         <section class="hero">
             <p class="title">Sponsorship</h1>
-            <p class="subtitle">We'd love to have you sponsor our event! Please fill out the form below with your information.  Please refer to our <a href="/sponsors/faq/">FAQ page</a> for more information.</p>
         </section>
         <div class="content mt-6 is-fluid">
-            <script src="https://www.google.com/recaptcha/api.js"></script>
-            <script>
-                function timestamp() {
-                    var response = document.getElementById("g-recaptcha-response");
-                    if (response == null || response.value.trim() == "") {
-                        var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
-                        elems["ts"] = JSON.stringify(new Date().getTime());
-                        document
-                            .getElementsByName("captcha_settings")[0]
-                            .value = JSON.stringify(elems);
-                    }
-                }
-                setInterval(timestamp, 500);
-            </script>
-            <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-                <input type=hidden name='captcha_settings' value='{"keyname":"SoutheastDreamin_ReCaptcha_v2","fallback":"true","orgId":"00DHr00000DfQcF","ts":""}'>
-                <input type=hidden name="oid" value="00DHr00000DfQcF">
-                <input type="hidden" name="retURL" value="http://southeastdreamin.com/sponsors/thankyou">
-                <input type="hidden" name="lead_source" value="Website">
-
-                <div class="field is-horizontal">
-                    <div class="field-label is-normal">
-                        <label class="label">Name</label>
-                    </div>
-
-                    <div class="field-body">
-                        <div class="field">
-                            <p class="control is-expanded">
-                                <input
-                                    class="input"
-                                    placeholder="First name"
-                                    id="first_name"
-                                    maxlength="40"
-                                    name="first_name"
-                                    type="text"/>
-                            </p>
-                        </div>
-
-                        <div class="field">
-                            <p class="control is-expanded">
-                                <input
-                                    class="input"
-                                    placeholder="Last name"
-                                    id="last_name"
-                                    maxlength="80"
-                                    name="last_name"
-                                    type="text"/>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="field is-horizontal">
-                    <div class="field-label is-normal">
-                        <label class="label">Email</label>
-                    </div>
-                    <div class="field-body">
-                        <div class="field">
-                            <p class="control is-expanded">
-                                <input
-                                    class="input"
-                                    placeholder="Email"
-                                    id="email"
-                                    maxlength="80"
-                                    name="email"
-                                    size="20"
-                                    type="text"/>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="field is-horizontal">
-                    <div class="field-label is-normal">
-                        <label class="label">Company Name</label>
-                    </div>
-                    <div class="field-body">
-                        <div class="field">
-                            <p class="control is-narrow">
-                                <input
-                                    class="input"
-                                    placeholder="Company Name"
-                                    id="company"
-                                    maxlength="40"
-                                    name="company"
-                                    type="text"/>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="field is-horizontal">
-                    <div class="field-label is-normal">
-                        <label class="label">Message</label>
-                    </div>
-                    <div class="field-body">
-                        <div class="field">
-                            <div class="control">
-                                <textarea
-                                    class="textarea"
-                                    placeholder="Message"
-                                    id="description"
-                                    maxlength="32000"
-                                    name="description"
-                                ></textarea>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="field is-horizontal">
-                    <div class="field-label"></div>
-                    <div class="field-body">
-                        <div
-                            class="g-recaptcha"
-                            data-sitekey="6LeHcNgqAAAAAPOyoWWFTGfos_vxht3Qvi_wxj6R"></div>
-                    </div>
-                </div>
-
-                <div class="field is-horizontal">
-                    <div class="field-label"></div>
-                    <div class="field-body">
-                        <div class="control">
-                            <input class="button is-primary" type="submit" name="submit" value="Submit">
-                        </div>
-                    </div>
-                </div>
-            </form>
+            <p>We are working on planning our next event and are not currently accepting sponsorship applications.  Please check our social media outlets for our call for sponsors</p>
         </div>
     </div>
     
